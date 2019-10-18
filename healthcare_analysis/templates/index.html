@@ -32,81 +32,85 @@
 <body>
     
     <div class = "container">
-    <h5>Select First State</h5>
-    <select name="BarChart" id="state1"></select>
-    <br>
-    <h5>Select Second State</h5>
-    <select name="BarChart2" id="state2"></select>
-    <button id=state11>Show Data State
-    </button>
-    
-    </div>
-    <div id="bar">
-      
-    </div>
-  
-    <h5>Part D Map</h5>
-    <div id="map">
-
-
-    </div>
-    
-    
-    <h5>Bubble Chart</h5>
-    <div id="bubblePlot">
-
-
-    </div>
-
-    <h5>PartD Scatter</h5>
-    <div id="scatter">
-
-
-    </div>
-    <h5>Uninsured</h5>
-    <div id="obama">
-
-
-    </div>
-
-    <h5>Inpatient Diagnosis Table</h5>
-    <div class="col-md-12">
-            <!-- Search form -->
-              <div class="col-md-12 input-group md-form form-sm form-1 pl-0">
-                  <div class="input-group-prepend">
-                    <span class="input-group-text cyan lighten-2" id="basic-text1"><i class="fas fa-search text-white"
-                        aria-hidden="true"></i></span>
-                  </div>
-                  <input class="form-control my-0 py-1" id="myInput" onkeyup="myFunction()" type="text" placeholder="Filter Table" aria-label="Search">
-                </div>
-            <hr>
-            <div id="table-responsive" style="overflow-x: auto; overflow-y: auto; max-height:470px; max-width: auto;">
-              <table id="diagnosis-table" class="table table-striped">
-                <thead>
-                  <tr>
-                    <th class="table-head">Number of Diagnosis</th>
-                    <th class="table-head">Diagnosis Definition</th>
-                    <th class="table-head">Diagnosis Code</th>
-                    <th class="table-head">State Name</th>
-                    <th class="table-head">State Code</th>
-                    <th class="table-head">City</th>
-                    <th class="table-head">Total Payments to Provider</th>
-                    <th class="table-head">Average Diagnosis Payment</th>
-                    
-                  </tr>
-                </thead>
-                <tbody></tbody>
-              </table>
+        <div class=col>
+            <h5>Select First State</h5>
+            <select name="BarChart" id="state1"></select>
+            <br>
+            <h5>Select Second State</h5>
+            <select name="BarChart2" id="state2"></select>
+            <button id=state11>Show Data State
+            </button>
+            
             </div>
+            <div id="bar">
+              
+            </div>
+          
+        </div>
+  
+        <div class=col>
+      <h5>Part D Map</h5>
     </div>
+        <div id="map" style="width: 600px; height: 400px">
+  
+     
+          </div>
+      <h5>Bubble Chart</h5>
+      <div id="bubblePlot">
+  
+  
+      </div>
+  
+      <h5>PartD Scatter</h5>
+      <div id="scatter">
+  
+  
+      </div>
 
-    <h5>Uninsured Change</h5>
-    <div >
-            <!-- <img src="leaflet.html" alt="Cloudiness"> -->
-    </div> 
-    
-    <script src="{{ url_for('static', filename='js/partDmap.js') }}"></script>
-    <script src="{{ url_for('static', filename='js/app.js') }}"></script>
+  
+      <h5>Inpatient Diagnosis Table</h5>
+      <div class="col-md-12">
+              <!-- Search form -->
+                <div class="col-md-12 input-group md-form form-sm form-1 pl-0">
+                    <div class="input-group-prepend">
+                      <span class="input-group-text cyan lighten-2" id="basic-text1"><i class="fas fa-search text-white"
+                          aria-hidden="true"></i></span>
+                    </div>
+                    <input class="form-control my-0 py-1" id="myInput" onkeyup="myFunction()" type="text" placeholder="Filter Table" aria-label="Search">
+                  </div>
+              <hr>
+              <div id="table-responsive" style="overflow-x: auto; overflow-y: auto; max-height:470px; max-width: auto;">
+                <table id="diagnosis-table" class="table table-striped">
+                  <thead>
+                    <tr>
+                      <th class="table-head">Number of Diagnosis</th>
+                      <th class="table-head">Diagnosis Definition</th>
+                      <th class="table-head">Diagnosis Code</th>
+                      <th class="table-head">State Name</th>
+                      <th class="table-head">State Code</th>
+                      <th class="table-head">City</th>
+                      <th class="table-head">Total Payments to Provider</th>
+                      <th class="table-head">Average Diagnosis Payment</th>
+                      
+                    </tr>
+                  </thead>
+                  <tbody></tbody>
+                </table>
+              </div>
+      </div>
+  
+      <h5>Uninsured Change</h5>
+      <div >
+              <!-- <img src="leaflet.html" alt="Cloudiness"> -->
+      </div> 
+      
+
+
+
+
+    <script src="{{ url_for('static', filename='js/finalMap.js') }}"></script>
+    <!-- <script src="{{ url_for('static', filename='js/partDmap.js') }}"></script> -->
+    <script src="{{ url_for('static', filename='js/app.js') }}"></script> 
     <script src="{{ url_for('static', filename='js/appBubble.js') }}"></script>
     <script src="{{ url_for('static', filename='js/data.js') }}"></script>
     <script src="{{ url_for('static', filename='js/diagnosisData.js') }}"></script>

@@ -1,3 +1,14 @@
+/* set map, body, and html to 100% of the screen size */
+#map,
+body,
+html {
+  height: 50%;
+}
+
+h1 {
+  text-align: center;
+}
+
 .aText {
   font-family: sans-serif;
   font-size: 16px;

@@ -28,8 +28,10 @@ app.config['JSON_SORT_KEYS'] = False
 SQLALCHEMY_TRACK_MODIFICATIONS = False
 db = SQLAlchemy(app)
 
-# "sqlite:///' + os.path.join(basedir, 'medicareDB.db')"
+# dburl = "postgres://lhioaklmvlewqo:283324144b1037ce932ffd00f52a214038148e8bd444c2f2a28dc83285d69f1d@ec2-107-21-200-103.compute-1.amazonaws.com:5432/de46h2l34j43ck"
 
+
+# engine = create_engine(dburl)
 engine = create_engine("sqlite:///db/medicareDB.db")
 conn = engine.connect()
 
@@ -131,8 +133,10 @@ def partDprescriptions():
     # Use Pandas to perform the sql query or read json file
     # part_d_json_read = pd.read_json("data/CLEAN_part_d_Data.json")
     part_d = pd.read_sql(f" SELECT * FROM CLEAN_part_d_Data", engine)
-    
+    part_d = part_d.dropna()
+
     part_d_dict = part_d.to_dict()
+
     state = part_d.provider_state.tolist(),
     name = part_d.name.tolist(),
     drug_name = part_d.drug_name.tolist(),
@@ -163,9 +167,9 @@ def partDscatterplot():
     return (part_d_scatter_dict)
 
 
-@app.route("/uninsured")
+# @app.route("/uninsured")
 
-def uninsured():
+# def uninsured():
 
     # # Use Pandas to perform the sql query
     # uninsured = pd.read_sql(f" SELECT * FROM state_LatLng", engine)
@@ -177,8 +181,8 @@ def uninsured():
 
     # uninsured_dict = {"State": State, "Latitude": Latitude, "Longitude": Longitude, "change": change}
 
-    # return jsonify(uninsured_dict)
-    return render_template("leaflet.html")
+    # # return jsonify(uninsured_dict)
+    # return render_template("leaflet.html")
 
 @app.route("/diagnosisTable")
 
@@ -199,4 +203,4 @@ def diagnosisTable():
 
 
 if __name__ == '__main__':
-    app.run()  #debug = True, port = 5015
+    app.run(debug = True, port = 5016)  #

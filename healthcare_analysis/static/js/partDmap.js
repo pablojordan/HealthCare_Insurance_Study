@@ -8,7 +8,6 @@ function mapChart(){
 
         console.log(response.name);
         
-
         let partDmap = [{
             type: 'choropleth',
             locationmode: 'USA-states',

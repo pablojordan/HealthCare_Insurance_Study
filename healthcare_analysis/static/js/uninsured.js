@@ -1,6 +1,6 @@
 function uninsuredMap(){
 
-    let url="/uninsured";
+    let url="/partD";
     
     d3.json(url).then(function(data){
     
@@ -8,8 +8,8 @@ function uninsuredMap(){
       console.log("data", data);
       // Create a map object
     
-      let myMap = L.map("obama", {
-        center: [37.09, -95.71],
+      let myMap = L.map("map"), {
+        center: [37.09, -95.71]
         zoom: 4
       });
 
