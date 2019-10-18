@@ -1,1 +1,1 @@
-web: gunicorn HealthCare_Insurance_Study.app:app
+web: gunicorn healthcare_analysis.app:app

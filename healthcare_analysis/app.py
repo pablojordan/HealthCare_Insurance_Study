@@ -28,6 +28,7 @@ app.config['JSON_SORT_KEYS'] = False
 SQLALCHEMY_TRACK_MODIFICATIONS = False
 db = SQLAlchemy(app)
 
+# "sqlite:///' + os.path.join(basedir, 'medicareDB.db')"
 
 engine = create_engine("sqlite:///db/medicareDB.db")
 conn = engine.connect()
@@ -198,4 +199,4 @@ def diagnosisTable():
 
 
 if __name__ == '__main__':
-    app.run(debug = True, port = 5008)  #
+    app.run(debug = True, port = 5015)  #
