@@ -1,0 +1,44 @@
+
+/* Navigation Bar */
+.navbar{ 
+  max-height: 57px;
+  background-color: white;
+  font-size: 16px;
+  font-weight: bold;
+  }
+
+.navigation .navbar-brand{
+  color: white;
+  margin-left: 40px;
+  padding: inherit;
+  font-weight: bold;
+  background-color: rgb(11,173,166);
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.navbar{
+  background-color: white; 
+  font-size: 15px; 
+}
+.active, .dropdown-menu .dropdown-item:active a:hover{
+  background-color:rgb(231,231,231); 
+}
+.dropdown-item{ 
+  color: rgb(109,128,146);
+}
+.dropdown .dropdown-menu .dropdown-item:active, .dropdown .dropdown-menu .dropdown-item:hover{
+  background-color: rgb(231,231,231);
+}
+
+a{
+  color: rgb(109,128,146);
+  font-size: 15px;
+}
+
+.nav-link:hover{
+  background-color: rgb(231,231,231);
+}
+
+.navbar-brand:hover{
+  color: rgb(175,175,175);
+}
+
