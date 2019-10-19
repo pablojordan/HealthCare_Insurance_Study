@@ -1,6 +1,7 @@
+# Federal Healthcare Analysis - Medicare / Affordable Care Act / Medicaid
 ![](https://github.com/pablojordan/HealthCare_Insurance_Study/blob/master/healthcare_analysis/static/images/bubblePlot.png)
 
-# Federal Healthcare Analysis - Medicare - Affordable Care Act - Medicaid
+
 > Live Website:
 >* [Healthcare Analysis](https://healthcareanalysis.herokuapp.com/)
 
@@ -26,12 +27,6 @@
 >* Data source: [Medicare Data](https://www.kaggle.com/cms/cms-medicare)
 >* Data source: [Affordable Care Act & Medicaid](https://www.kaggle.com/hhs/health-insurance)
 >* Tools: Python, Postgres SQL, Flask, SQLAlchemy, R, JavaScript,
-
-
-### Optional - Dynamic Filter
-
->* Filter data table by entering any filter word. This dynamic filter will output the most common results that match your input. 
->* ![](https://github.com/pablojordan/javascript_challenge/blob/master/UFO-level-3-DynamicFilter/static/images/screen.gif)
 
 ### Files Navigation
 
