@@ -1,7 +1,68 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<meta charset="utf-8" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Federal Healthcare Analysis</title>
+
+    <!-- Boostrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <!-- D3 & Boostrap -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-tip/0.7.1/d3-tip.min.js"></script>
+    <!-- Leaflet CSS & JS-->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.3/dist/leaflet.css"
+    integrity="sha512-Rksm5RenBEKSKFjgI3a41vrjkw4EVPlJ3+OiI65vTjIdo9brlAacEuKOiQ5OFh7cOI1bkDwLqdLw3Zg0cRJAAQ=="
+    crossorigin=""/>
+    <script src="https://unpkg.com/leaflet@1.3.3/dist/leaflet.js"
+    integrity="sha512-tAGcCfR4Sc5ZP5ZoVz0quoZDYX5aCtEm/eu1KhSLj2c9eFrylXZknQYmxUssFaVJKvvc0dJQixhGjG2yXWiV9Q=="
+    crossorigin=""></script>
+    <!-- <link rel="stylesheet" href="static/css/style.css"> -->
+    <link rel="stylesheet" href="static/css/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.min.js"></script>
+       <!-- Plotly -->
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <!-- API KEY
+    <script type="text/javascript" src="static/js/config.js"></script>    -->
+   </head>
+<body>
+        <div class=container>
+
+                <div class = "navigation">
+                    <nav class="navbar navbar-expand-lg navbar-light">
+                        <a class = "navbar-brand"  href="index.html">Federal Healthcare Analysis
+                            <div id="logoContainer">
+                            </div>
+                        </a>
+                        <div class="collapse navbar-collapse" id="navbarMenuDropdown">
+                            <ul class="navbar-nav ml-auto">
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id = "navbarDropdownMenuLink" data-toggle = "dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Affordable Care Act (ACA)
+                                    </a>
+                                    <div class= "dropdown-menu" aria-labelledby = "navbarDropdownMenuLink" style="text-align:right">
+                                        <a class="dropdown-item" href = "02changes_last_version.html">Enrollment Change</a>
+                                        <a class="dropdown-item" href = "03a_top10_uninsure_graph.html">Decreasing Cities</a>
+                                        <a class="dropdown-item" href = "03b.html">Increasing Cities</a>
+                                        <a class="dropdown-item" href = "03d_correlation.html">Correlation</a>
+                                        <!-- <a class="dropdown-item" href = "indexpic.html">Uninsured Table</a> -->
+                                      </div>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href = "indexpic.html">Uninsured Table</a>
+                                </li>
+                                <!-- <li class="nav-item">
+                                    <a class="nav-link" href = "03c_top20.png">Venn Diagram</a>
+                                </li> -->
+                            </ul>
+                        </div>
+                  </nav>
+            </div>
+             </div>
 <script>(function() {
   // If window.HTMLWidgets is already defined, then use it; otherwise create a
   // new object. This allows preceding code to set options that affect the

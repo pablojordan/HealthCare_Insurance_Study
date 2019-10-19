@@ -53,6 +53,43 @@ def index():
     """Return the homepage."""
     return render_template("index.html")
 
+
+@app.route("/03a_top10_uninsure_graph.html")
+
+def uninsured():
+
+    return render_template("03a_top10_uninsure_graph.html")
+
+@app.route("/02changes_last_version.html")
+
+def changes():
+
+    return render_template("02changes_last_version.html")
+
+@app.route("/03b.html")
+
+def changes2():
+    
+    return render_template("03b.html")
+
+@app.route("/03d_correlation.html")
+
+def correlation():
+
+    return render_template("03d_correlation.html")
+
+@app.route("/indexpic.html")
+
+def final():
+
+    return render_template("indexpic.html")
+
+# @app.route("/03c_top20.png")
+
+# def venn():
+
+#     return render_template("03c_top20.png")
+
 @app.route("/states1")
 def state():
     """Return a list of states."""
