@@ -1,4 +1,4 @@
-
+![](https://github.com/pablojordan/HealthCare_Insurance_Study/blob/master/healthcare_analysis/static/images/bubblePlot.png)
 
 # Federal Healthcare Analysis - Medicare - Affordable Care Act - Medicaid
 > Live Website:
