@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Medicare</title>
+    <title>Federal Healthcare Analysis</title>
 
     <!-- Boostrap -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -22,15 +22,40 @@
     integrity="sha512-tAGcCfR4Sc5ZP5ZoVz0quoZDYX5aCtEm/eu1KhSLj2c9eFrylXZknQYmxUssFaVJKvvc0dJQixhGjG2yXWiV9Q=="
     crossorigin=""></script>
     <!-- <link rel="stylesheet" href="static/css/style.css"> -->
-    <link rel="stylesheet" href="static/css/d3Style.css">
+    <link rel="stylesheet" href="static/css/style.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.min.js"></script>
        <!-- Plotly -->
     <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
-    <!-- API KEY -->
-    <script type="text/javascript" src="static/js/config.js"></script>   
+    <!-- API KEY
+    <script type="text/javascript" src="static/js/config.js"></script>    -->
    </head>
 <body>
-   
+   <div class=container>
+
+      <div class = "navigation">
+          <nav class="navbar navbar-expand-lg navbar-light">
+              <a class = "navbar-brand"  href="index.html">Federal Healthcare Analysis
+                  <div id="logoContainer">
+                  </div>
+              </a>
+              <div class="collapse navbar-collapse" id="navbarMenuDropdown">
+                  <ul class="navbar-nav ml-auto">
+                      <li class="nav-item dropdown">
+                          <a class="nav-link dropdown-toggle" href="#" id = "navbarDropdownMenuLink" data-toggle = "dropdown" aria-haspopup="true" aria-expanded="false">
+                          Affordable Care Act (ACA)
+                          </a>
+                          <div class= "dropdown-menu" aria-labelledby = "navbarDropdownMenuLink" style="text-align:right">
+                              <a class="dropdown-item" href = "02changes_last_version.html">Enrollment Change</a>
+                              <a class="dropdown-item" href = "03a_top10_uninsure_graph.html">Decreasing Cities</a>
+                              <a class="dropdown-item" href = "03b.html">Increasing Cities</a>
+                              <a class="dropdown-item" href = "03d_correlation.html">Correlation</a>
+                            </div>
+                      </li>
+                  </ul>
+              </div>
+        </nav>
+  </div>
+   </div>
     <div class = "container">
         <div class=col>
             <h5>Select First State</h5>
@@ -38,38 +63,39 @@
             <br>
             <h5>Select Second State</h5>
             <select name="BarChart2" id="state2"></select>
-            <button id=state11>Show Data State
-            </button>
+            <button id=stateIn>Display Inpatients Data
             
             </div>
-            <div id="bar">
+            <div id="bar" style="width: 800px; height:600px" >
               
             </div>
           
         </div>
-  
-        <div class=col>
-      <h5>Part D Map</h5>
-    </div>
-        <div id="map" style="width: 600px; height: 400px">
-  
-     
-          </div>
-      <h5>Bubble Chart</h5>
-      <div id="bubblePlot">
-  
+        <div class = "container">
+            <div class=col>
+                <h5>Select First State</h5>
+                <select name="BarChart3" id="stateOut1"></select>
+                <br>
+                <h5>Select Second State</h5>
+                <select name="BarChart4" id="stateOut2"></select>
+                <button id=stateOut>Display Outpatients Data 
+                </button>
+                </div>
+                <div id="bar2"style="width: 800px; height:600px">
+                  
+                </div>
+              
+            </div>
+      
+    
+      <div id="bubblePlot" style="width: 800px; height:600px">
+        
   
       </div>
   
-      <h5>PartD Scatter</h5>
-      <div id="scatter">
-  
-  
-      </div>
-
   
       <h5>Inpatient Diagnosis Table</h5>
-      <div class="col-md-12">
+      <div class="container">
               <!-- Search form -->
                 <div class="col-md-12 input-group md-form form-sm form-1 pl-0">
                     <div class="input-group-prepend">
@@ -98,27 +124,25 @@
                 </table>
               </div>
       </div>
-  
+      <div class=container>
+          
+        
+            <div id="map" style="width: 800px; height: 600px">
+      
+         
+              </div>
+
+            </div>
 
 
 
-    <script src="{{ url_for('static', filename='js/finalMap.js') }}"></script>
-    <!-- <script src="{{ url_for('static', filename='js/partDmap.js') }}"></script> -->
-    <script src="{{ url_for('static', filename='js/app.js') }}"></script> 
+
+   
+    <script src="{{ url_for('static', filename='js/partDmap.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/appInpatients.js') }}"></script> 
+    <script src="{{ url_for('static', filename='js/appOutpatients.js') }}"></script> 
     <script src="{{ url_for('static', filename='js/appBubble.js') }}"></script>
-    <script src="{{ url_for('static', filename='js/data.js') }}"></script>
     <script src="{{ url_for('static', filename='js/diagnosisData.js') }}"></script>
-    <!-- <script src="{{ url_for('static', filename='leaflet.html') }}"></script> -->
-    <!-- <script src="{{ url_for('static', filename='js/d3partD.js') }}"></script> -->
-    <!-- <script src="{{ url_for('static', filename='js/obamacare.js') }}"></script> -->
-    <!-- <script src="{{ url_for('static', filename='js/partD.js') }}"></script> -->
-    <!-- <script src="{{ url_for('static', filename='js/uninsured.js') }}"></script> -->
-    <!-- <script type="text/html" src="leaflet.html "></script> -->
-    
-
-
-    <!-- <script src="{{ url_for('static', filename='js/obama.js') }}"></script> -->
-
 
 </body>
 </html>

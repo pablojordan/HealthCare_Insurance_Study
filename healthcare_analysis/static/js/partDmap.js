@@ -1,22 +1,60 @@
 // Map is not displayin the data in the map but it reads the data in the flask
 
-
 function mapChart(){
     let partDloc = "/partD"
     
     d3.json(partDloc).then(function(response){
 
-        console.log(response.name);
-        
+        state_abbr = []
+        drug_cost = []
+        drug_name = []
+        drug_count = []
+        nameState = []
+
+        for (var i=0; i<response.length; i++){
+            let state_name = response[i].name
+
+            nameState.push(state_name);
+        }
+
+        for (var i=0; i<response.length; i++){
+            let drug_most = response[i].total_drug_count
+
+            drug_count.push(drug_most);
+        }
+
+
+        for (var i=0; i<response.length; i++){
+            let state = response[i].provider_state
+
+            state_abbr.push(state);
+        }
+
+        for (var i=0; i<response.length; i++){
+            let drug = response[i].avg_cost_drug
+            drug_cost.push(drug);
+        }
+
+        for (var i=0; i<response.length; i++){
+            let name = response[i].drug_name
+            drug_name.push(name);
+        }
+
+         console.log("state", state_abbr)
+         console.log("drug cost", nameState)
+
+        for (var i=0; i<response.length; i++){
+
         let partDmap = [{
             type: 'choropleth',
             locationmode: 'USA-states',
-            locations: response.state,
-            z:response.avg_cost_drug,
-            text: response.state_name,
+            locations: state_abbr,
+            z:drug_cost,
+            text: nameState,
             zmin: 0,
             zmax: 1000,
-            colorscale: 'Jet',
+            colorscale: 'Bluered',
+            hovertemplate: '<br>Avg Drug Cost</b>: $%{z:,.2f}' + '<br>State Name</b>: %{text}',
             colorbar: {
                 title: 'Hundreds Count',
                 thickness: 10,
@@ -24,9 +62,10 @@ function mapChart(){
             
             marker: {
                 line:{
-                    color: 'rgb(255,255,255)',
-                    width: 10
+                    color: 'black',
+                    width: 1
                 }
+              
             }
         }];
 
@@ -41,7 +80,7 @@ function mapChart(){
         };
        
         Plotly.newPlot("map", partDmap, partDlayout, {responsive: true})
-
+    }
     });
 }
 

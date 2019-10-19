@@ -58,7 +58,7 @@ def state():
     """Return a list of states."""
 
     # Use Pandas to perform the sql query
-    states = pd.read_sql("Select name from clean_states_tables", engine)
+    states = pd.read_sql(f"Select name from clean_states_tables", engine)
     states_list = states["name"]
     
     # Return a list of the row names of states
@@ -112,6 +112,15 @@ def total_prescribedOut(state):
 
     return jsonify(prescribed_cost_out_dict)
 
+@app.route("/totalPrescribedOut2/<state2>")
+
+def total_prescribedOut2(state2):
+    # Use Pandas to perform the sql query
+    prescribed_cost_out2 = pd.read_sql(f"SELECT DISTINCT * FROM CLEAN_total_avg_cost_outpatients WHERE name = '{state2}' ORDER BY cost_per_treatment DESC", engine)
+    # prescribed_cost_inpa_dict = prescribed_cost_inpa.to_dict()
+    prescribed_cost_out_dict2 = {"state_abbr": prescribed_cost_out2.provider_state.tolist(),"city":prescribed_cost_out2.city.tolist(),"cost_per_treatment":prescribed_cost_out2.cost_per_treatment.tolist(),"avg_charges":prescribed_cost_out2.avg_charges.tolist(),"apc_total_count":prescribed_cost_out2.apc_total_count.tolist(),"state_name": prescribed_cost_out2.name.tolist(), "type":prescribed_cost_out2.type.tolist()}
+
+    return jsonify(prescribed_cost_out_dict2)
 
 @app.route("/diagnosis")
 
@@ -130,6 +139,13 @@ def mostDiagnosis():
 
 def partDprescriptions():
 
+
+    # part_d = pd.read_csv("db/CLEAN_part_d_Data.csv",sep=',', error_bad_lines=False, index_col=False, dtype='unicode')
+
+    # SITE_ROOT = os.path.realpath(os.path.dirname(__file__))
+    # json_url = os.path.join(SITE_ROOT, "db", "partD_data_Geo.geojson")
+    # data = geojson.load(open(json_url))
+    # return render_template('showjson.jade', data=data)
   
     # Use Pandas to perform the sql query or read json file
     # part_d_json_read = pd.read_json("data/CLEAN_part_d_Data.json")

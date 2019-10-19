@@ -1,0 +1,993 @@
+{
+   "type": "FeatureCollection",
+   "features": [
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -154.493062,63.588753 ]
+    },
+    "properties": {
+    "provider_state":"AK",
+    "name":"Alaska",
+    "drug_name":"HYDROCODONE-ACETAMINOPHEN",
+    "drug_count_most_consumed":678,
+    "total_drug_count":28789,
+    "specialty_description":"Rheumatology",
+    "drug_claim_count":35,
+    "drug_supply_count":1036,
+    "drug_cost":99994,
+    "avg_cost_drug":2857
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -86.902298,32.318231 ]
+    },
+    "properties": {
+    "provider_state":"AL",
+    "name":"Alabama",
+    "drug_name":"HYDROCODONE-ACETAMINOPHEN",
+    "drug_count_most_consumed":5879,
+    "total_drug_count":416414,
+    "specialty_description":"Neurosurgery",
+    "drug_claim_count":23,
+    "drug_supply_count":261,
+    "drug_cost":999,
+    "avg_cost_drug":43
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -91.831833,35.20105 ]
+    },
+    "properties": {
+    "provider_state":"AR",
+    "name":"Arkansas",
+    "drug_name":"HYDROCODONE-ACETAMINOPHEN",
+    "drug_count_most_consumed":3882,
+    "total_drug_count":270034,
+    "specialty_description":"Endocrinology",
+    "drug_claim_count":16,
+    "drug_supply_count":809,
+    "drug_cost":9993,
+    "avg_cost_drug":625
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -111.093731,34.048928 ]
+    },
+    "properties": {
+    "provider_state":"AZ",
+    "name":"Arizona",
+    "drug_name":"HYDROCODONE-ACETAMINOPHEN",
+    "drug_count_most_consumed":6950,
+    "total_drug_count":422552,
+    "specialty_description":"Family Practice",
+    "drug_claim_count":12,
+    "drug_supply_count":672,
+    "drug_cost":999,
+    "avg_cost_drug":83
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -119.417932,36.778261 ]
+    },
+    "properties": {
+    "provider_state":"CA",
+    "name":"California",
+    "drug_name":"HYDROCODONE-ACETAMINOPHEN",
+    "drug_count_most_consumed":40167,
+    "total_drug_count":2314491,
+    "specialty_description":"Pharmacist",
+    "drug_claim_count":12,
+    "drug_supply_count":360,
+    "drug_cost":9999,
+    "avg_cost_drug":833
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -105.782067,39.550051 ]
+    },
+    "properties": {
+    "provider_state":"CO",
+    "name":"Colorado",
+    "drug_name":"HYDROCODONE-ACETAMINOPHEN",
+    "drug_count_most_consumed":5979,
+    "total_drug_count":310071,
+    "specialty_description":"Family Practice",
+    "drug_claim_count":11,
+    "drug_supply_count":326,
+    "drug_cost":9990,
+    "avg_cost_drug":908
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.087749,41.603221 ]
+    },
+    "properties": {
+    "provider_state":"CT",
+    "name":"Connecticut",
+    "drug_name":"LISINOPRIL",
+    "drug_count_most_consumed":3462,
+    "total_drug_count":285153,
+    "specialty_description":"Unknown Physician Specialty Code",
+    "drug_claim_count":14,
+    "drug_supply_count":600,
+    "drug_cost":9996,
+    "avg_cost_drug":714
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -77.033418,38.905985 ]
+    },
+    "properties": {
+    "provider_state":"DC",
+    "name":"District of Columbia",
+    "drug_name":"LISINOPRIL",
+    "drug_count_most_consumed":864,
+    "total_drug_count":40964,
+    "specialty_description":"Internal Medicine",
+    "drug_claim_count":37,
+    "drug_supply_count":542,
+    "drug_cost":1000,
+    "avg_cost_drug":27
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -75.52767,38.910832 ]
+    },
+    "properties": {
+    "provider_state":"DE",
+    "name":"Delaware",
+    "drug_name":"LISINOPRIL",
+    "drug_count_most_consumed":843,
+    "total_drug_count":68643,
+    "specialty_description":"Family Practice",
+    "drug_claim_count":28,
+    "drug_supply_count":840,
+    "drug_cost":9995,
+    "avg_cost_drug":357
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -81.515754,27.664827 ]
+    },
+    "properties": {
+    "provider_state":"FL",
+    "name":"Florida",
+    "drug_name":"LISINOPRIL",
+    "drug_count_most_consumed":17115,
+    "total_drug_count":1611230,
+    "specialty_description":"Family Medicine",
+    "drug_claim_count":27,
+    "drug_supply_count":1050,
+    "drug_cost":10000,
+    "avg_cost_drug":370
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -82.907123,32.157435 ]
+    },
+    "properties": {
+    "provider_state":"GA",
+    "name":"Georgia",
+    "drug_name":"HYDROCODONE-ACETAMINOPHEN",
+    "drug_count_most_consumed":9856,
+    "total_drug_count":665123,
+    "specialty_description":"Endocrinology",
+    "drug_claim_count":39,
+    "drug_supply_count":1560,
+    "drug_cost":9991,
+    "avg_cost_drug":256
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -155.665857,19.898682 ]
+    },
+    "properties": {
+    "provider_state":"HI",
+    "name":"Hawaii",
+    "drug_name":"HYDROCODONE-ACETAMINOPHEN",
+    "drug_count_most_consumed":1085,
+    "total_drug_count":79295,
+    "specialty_description":"Optometry",
+    "drug_claim_count":13,
+    "drug_supply_count":337,
+    "drug_cost":999,
+    "avg_cost_drug":77
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -93.097702,41.878003 ]
+    },
+    "properties": {
+    "provider_state":"IA",
+    "name":"Iowa",
+    "drug_name":"HYDROCODONE-ACETAMINOPHEN",
+    "drug_count_most_consumed":3861,
+    "total_drug_count":287799,
+    "specialty_description":"Family Practice",
+    "drug_claim_count":15,
+    "drug_supply_count":155,
+    "drug_cost":9991,
+    "avg_cost_drug":666
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -114.742041,44.068202 ]
+    },
+    "properties": {
+    "provider_state":"ID",
+    "name":"Idaho",
+    "drug_name":"HYDROCODONE-ACETAMINOPHEN",
+    "drug_count_most_consumed":2312,
+    "total_drug_count":112680,
+    "specialty_description":"Family Practice",
+    "drug_claim_count":13,
+    "drug_supply_count":240,
+    "drug_cost":999,
+    "avg_cost_drug":77
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -89.398528,40.633125 ]
+    },
+    "properties": {
+    "provider_state":"IL",
+    "name":"Illinois",
+    "drug_name":"HYDROCODONE-ACETAMINOPHEN",
+    "drug_count_most_consumed":14241,
+    "total_drug_count":866555,
+    "specialty_description":"Internal Medicine",
+    "drug_claim_count":11,
+    "drug_supply_count":308,
+    "drug_cost":10000,
+    "avg_cost_drug":909
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -85.602364,40.551217 ]
+    },
+    "properties": {
+    "provider_state":"IN",
+    "name":"Indiana",
+    "drug_name":"HYDROCODONE-ACETAMINOPHEN",
+    "drug_count_most_consumed":8721,
+    "total_drug_count":536177,
+    "specialty_description":"Rheumatology",
+    "drug_claim_count":270,
+    "drug_supply_count":11370,
+    "drug_cost":9994,
+    "avg_cost_drug":37
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -98.484246,39.011902 ]
+    },
+    "properties": {
+    "provider_state":"KS",
+    "name":"Kansas",
+    "drug_name":"HYDROCODONE-ACETAMINOPHEN",
+    "drug_count_most_consumed":3912,
+    "total_drug_count":245809,
+    "specialty_description":"Geriatric Medicine",
+    "drug_claim_count":14,
+    "drug_supply_count":162,
+    "drug_cost":999,
+    "avg_cost_drug":71
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -84.270018,37.839333 ]
+    },
+    "properties": {
+    "provider_state":"KY",
+    "name":"Kentucky",
+    "drug_name":"HYDROCODONE-ACETAMINOPHEN",
+    "drug_count_most_consumed":5563,
+    "total_drug_count":451198,
+    "specialty_description":"Cardiology",
+    "drug_claim_count":28,
+    "drug_supply_count":1080,
+    "drug_cost":9995,
+    "avg_cost_drug":357
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -92.145024,31.244823 ]
+    },
+    "properties": {
+    "provider_state":"LA",
+    "name":"Louisiana",
+    "drug_name":"HYDROCODONE-ACETAMINOPHEN",
+    "drug_count_most_consumed":5880,
+    "total_drug_count":394524,
+    "specialty_description":"Nuclear Medicine",
+    "drug_claim_count":83,
+    "drug_supply_count":3951,
+    "drug_cost":10000,
+    "avg_cost_drug":120
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -71.382437,42.407211 ]
+    },
+    "properties": {
+    "provider_state":"MA",
+    "name":"Massachusetts",
+    "drug_name":"OMEPRAZOLE",
+    "drug_count_most_consumed":8158,
+    "total_drug_count":557193,
+    "specialty_description":"Pulmonary Disease",
+    "drug_claim_count":194,
+    "drug_supply_count":2718,
+    "drug_cost":9990,
+    "avg_cost_drug":51
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -76.641271,39.045755 ]
+    },
+    "properties": {
+    "provider_state":"MD",
+    "name":"Maryland",
+    "drug_name":"LISINOPRIL",
+    "drug_count_most_consumed":4788,
+    "total_drug_count":337502,
+    "specialty_description":"General Practice",
+    "drug_claim_count":12,
+    "drug_supply_count":360,
+    "drug_cost":1000,
+    "avg_cost_drug":83
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -69.445469,45.253783 ]
+    },
+    "properties": {
+    "provider_state":"ME",
+    "name":"Maine",
+    "drug_name":"HYDROCODONE-ACETAMINOPHEN",
+    "drug_count_most_consumed":2103,
+    "total_drug_count":138404,
+    "specialty_description":"Family Practice",
+    "drug_claim_count":13,
+    "drug_supply_count":130,
+    "drug_cost":999,
+    "avg_cost_drug":77
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -85.602364,44.314844 ]
+    },
+    "properties": {
+    "provider_state":"MI",
+    "name":"Michigan",
+    "drug_name":"HYDROCODONE-ACETAMINOPHEN",
+    "drug_count_most_consumed":15650,
+    "total_drug_count":824210,
+    "specialty_description":"Multispecialty Clinic/Group Practice",
+    "drug_claim_count":32,
+    "drug_supply_count":1680,
+    "drug_cost":9997,
+    "avg_cost_drug":312
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -94.6859,46.729553 ]
+    },
+    "properties": {
+    "provider_state":"MN",
+    "name":"Minnesota",
+    "drug_name":"HYDROCODONE-ACETAMINOPHEN",
+    "drug_count_most_consumed":6017,
+    "total_drug_count":401258,
+    "specialty_description":"Medical Oncology",
+    "drug_claim_count":19,
+    "drug_supply_count":1651,
+    "drug_cost":999,
+    "avg_cost_drug":53
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -91.831833,37.964253 ]
+    },
+    "properties": {
+    "provider_state":"MO",
+    "name":"Missouri",
+    "drug_name":"HYDROCODONE-ACETAMINOPHEN",
+    "drug_count_most_consumed":6925,
+    "total_drug_count":553249,
+    "specialty_description":"Plastic and Reconstructive Surgery",
+    "drug_claim_count":42,
+    "drug_supply_count":2782,
+    "drug_cost":999,
+    "avg_cost_drug":24
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -89.398528,32.354668 ]
+    },
+    "properties": {
+    "provider_state":"MS",
+    "name":"Mississippi",
+    "drug_name":"HYDROCODONE-ACETAMINOPHEN",
+    "drug_count_most_consumed":4001,
+    "total_drug_count":269114,
+    "specialty_description":"Endocrinology",
+    "drug_claim_count":76,
+    "drug_supply_count":2897,
+    "drug_cost":1000,
+    "avg_cost_drug":13
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -110.362566,46.879682 ]
+    },
+    "properties": {
+    "provider_state":"MT",
+    "name":"Montana",
+    "drug_name":"HYDROCODONE-ACETAMINOPHEN",
+    "drug_count_most_consumed":1538,
+    "total_drug_count":79659,
+    "specialty_description":"Physician Assistant",
+    "drug_claim_count":12,
+    "drug_supply_count":360,
+    "drug_cost":9986,
+    "avg_cost_drug":832
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -79.0193,35.759573 ]
+    },
+    "properties": {
+    "provider_state":"NC",
+    "name":"North Carolina",
+    "drug_name":"HYDROCODONE-ACETAMINOPHEN",
+    "drug_count_most_consumed":11982,
+    "total_drug_count":876296,
+    "specialty_description":"Rheumatology",
+    "drug_claim_count":49,
+    "drug_supply_count":1690,
+    "drug_cost":9997,
+    "avg_cost_drug":204
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -101.002012,47.551493 ]
+    },
+    "properties": {
+    "provider_state":"ND",
+    "name":"North Dakota",
+    "drug_name":"HYDROCODONE-ACETAMINOPHEN",
+    "drug_count_most_consumed":945,
+    "total_drug_count":66876,
+    "specialty_description":"Nephrology",
+    "drug_claim_count":146,
+    "drug_supply_count":7771,
+    "drug_cost":999,
+    "avg_cost_drug":7
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -99.901813,41.492537 ]
+    },
+    "properties": {
+    "provider_state":"NE",
+    "name":"Nebraska",
+    "drug_name":"HYDROCODONE-ACETAMINOPHEN",
+    "drug_count_most_consumed":2402,
+    "total_drug_count":166946,
+    "specialty_description":"Nurse Practitioner",
+    "drug_claim_count":22,
+    "drug_supply_count":285,
+    "drug_cost":9992,
+    "avg_cost_drug":454
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -71.572395,43.193852 ]
+    },
+    "properties": {
+    "provider_state":"NH",
+    "name":"New Hampshire",
+    "drug_name":"LISINOPRIL",
+    "drug_count_most_consumed":1407,
+    "total_drug_count":103139,
+    "specialty_description":"Geriatric Medicine",
+    "drug_claim_count":11,
+    "drug_supply_count":298,
+    "drug_cost":9979,
+    "avg_cost_drug":907
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -74.405661,40.058324 ]
+    },
+    "properties": {
+    "provider_state":"NJ",
+    "name":"New Jersey",
+    "drug_name":"AMLODIPINE BESYLATE",
+    "drug_count_most_consumed":7143,
+    "total_drug_count":650274,
+    "specialty_description":"General Practice",
+    "drug_claim_count":11,
+    "drug_supply_count":330,
+    "drug_cost":999,
+    "avg_cost_drug":91
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -105.032363,34.97273 ]
+    },
+    "properties": {
+    "provider_state":"NM",
+    "name":"New Mexico",
+    "drug_name":"HYDROCODONE-ACETAMINOPHEN",
+    "drug_count_most_consumed":2288,
+    "total_drug_count":131194,
+    "specialty_description":"Geriatric Medicine",
+    "drug_claim_count":61,
+    "drug_supply_count":2295,
+    "drug_cost":9996,
+    "avg_cost_drug":164
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -116.419389,38.80261 ]
+    },
+    "properties": {
+    "provider_state":"NV",
+    "name":"Nevada",
+    "drug_name":"HYDROCODONE-ACETAMINOPHEN",
+    "drug_count_most_consumed":2962,
+    "total_drug_count":149874,
+    "specialty_description":"Internal Medicine",
+    "drug_claim_count":12,
+    "drug_supply_count":360,
+    "drug_cost":999,
+    "avg_cost_drug":83
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -74.217933,43.299428 ]
+    },
+    "properties": {
+    "provider_state":"NY",
+    "name":"New York",
+    "drug_name":"AMLODIPINE BESYLATE",
+    "drug_count_most_consumed":18992,
+    "total_drug_count":1650337,
+    "specialty_description":"Orthopedic Surgery",
+    "drug_claim_count":20,
+    "drug_supply_count":600,
+    "drug_cost":10000,
+    "avg_cost_drug":500
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -82.907123,40.417287 ]
+    },
+    "properties": {
+    "provider_state":"OH",
+    "name":"Ohio",
+    "drug_name":"HYDROCODONE-ACETAMINOPHEN",
+    "drug_count_most_consumed":13404,
+    "total_drug_count":1001853,
+    "specialty_description":"Internal Medicine",
+    "drug_claim_count":12,
+    "drug_supply_count":360,
+    "drug_cost":9993,
+    "avg_cost_drug":833
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -97.092877,35.007752 ]
+    },
+    "properties": {
+    "provider_state":"OK",
+    "name":"Oklahoma",
+    "drug_name":"HYDROCODONE-ACETAMINOPHEN",
+    "drug_count_most_consumed":5072,
+    "total_drug_count":290335,
+    "specialty_description":"Dermatology",
+    "drug_claim_count":14,
+    "drug_supply_count":156,
+    "drug_cost":9987,
+    "avg_cost_drug":713
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -120.554201,43.804133 ]
+    },
+    "properties": {
+    "provider_state":"OR",
+    "name":"Oregon",
+    "drug_name":"HYDROCODONE-ACETAMINOPHEN",
+    "drug_count_most_consumed":5938,
+    "total_drug_count":317042,
+    "specialty_description":"Internal Medicine",
+    "drug_claim_count":17,
+    "drug_supply_count":482,
+    "drug_cost":999,
+    "avg_cost_drug":59
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -77.194525,41.203322 ]
+    },
+    "properties": {
+    "provider_state":"PA",
+    "name":"Pennsylvania",
+    "drug_name":"LISINOPRIL",
+    "drug_count_most_consumed":13276,
+    "total_drug_count":1229100,
+    "specialty_description":"Case Manager/Care Coordinator",
+    "drug_claim_count":242,
+    "drug_supply_count":5148,
+    "drug_cost":10000,
+    "avg_cost_drug":41
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -66.590149,18.220833 ]
+    },
+    "properties": {
+    "provider_state":"PR",
+    "name":"Puerto Rico",
+    "drug_name":"GABAPENTIN",
+    "drug_count_most_consumed":4049,
+    "total_drug_count":340193,
+    "specialty_description":"Specialist",
+    "drug_claim_count":31,
+    "drug_supply_count":1287,
+    "drug_cost":9984,
+    "avg_cost_drug":322
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -71.477429,41.580095 ]
+    },
+    "properties": {
+    "provider_state":"RI",
+    "name":"Rhode Island",
+    "drug_name":"HYDROCODONE-ACETAMINOPHEN",
+    "drug_count_most_consumed":1271,
+    "total_drug_count":100820,
+    "specialty_description":"Psychiatry",
+    "drug_claim_count":12,
+    "drug_supply_count":360,
+    "drug_cost":9983,
+    "avg_cost_drug":832
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -81.163725,33.836081 ]
+    },
+    "properties": {
+    "provider_state":"SC",
+    "name":"South Carolina",
+    "drug_name":"HYDROCODONE-ACETAMINOPHEN",
+    "drug_count_most_consumed":5993,
+    "total_drug_count":403874,
+    "specialty_description":"Nurse Practitioner",
+    "drug_claim_count":12,
+    "drug_supply_count":336,
+    "drug_cost":999,
+    "avg_cost_drug":83
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -99.901813,43.969515 ]
+    },
+    "properties": {
+    "provider_state":"SD",
+    "name":"South Dakota",
+    "drug_name":"HYDROCODONE-ACETAMINOPHEN",
+    "drug_count_most_consumed":1200,
+    "total_drug_count":75409,
+    "specialty_description":"Cardiology",
+    "drug_claim_count":12,
+    "drug_supply_count":360,
+    "drug_cost":1000,
+    "avg_cost_drug":83
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -86.580447,35.517491 ]
+    },
+    "properties": {
+    "provider_state":"TN",
+    "name":"Tennessee",
+    "drug_name":"HYDROCODONE-ACETAMINOPHEN",
+    "drug_count_most_consumed":10345,
+    "total_drug_count":634761,
+    "specialty_description":"Multispecialty Clinic/Group Practice",
+    "drug_claim_count":12,
+    "drug_supply_count":336,
+    "drug_cost":999,
+    "avg_cost_drug":83
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -99.901813,31.968599 ]
+    },
+    "properties": {
+    "provider_state":"TX",
+    "name":"Texas",
+    "drug_name":"HYDROCODONE-ACETAMINOPHEN",
+    "drug_count_most_consumed":24697,
+    "total_drug_count":1472194,
+    "specialty_description":"Cardiology",
+    "drug_claim_count":23,
+    "drug_supply_count":2070,
+    "drug_cost":999,
+    "avg_cost_drug":43
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -111.093731,39.32098 ]
+    },
+    "properties": {
+    "provider_state":"UT",
+    "name":"Utah",
+    "drug_name":"HYDROCODONE-ACETAMINOPHEN",
+    "drug_count_most_consumed":2962,
+    "total_drug_count":137461,
+    "specialty_description":"Nurse Practitioner",
+    "drug_claim_count":19,
+    "drug_supply_count":555,
+    "drug_cost":9998,
+    "avg_cost_drug":526
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -78.656894,37.431573 ]
+    },
+    "properties": {
+    "provider_state":"VA",
+    "name":"Virginia",
+    "drug_name":"HYDROCODONE-ACETAMINOPHEN",
+    "drug_count_most_consumed":7390,
+    "total_drug_count":532042,
+    "specialty_description":"Colorectal Surgery (formerly proctology)",
+    "drug_claim_count":17,
+    "drug_supply_count":459,
+    "drug_cost":999,
+    "avg_cost_drug":59
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -72.577841,44.558803 ]
+    },
+    "properties": {
+    "provider_state":"VT",
+    "name":"Vermont",
+    "drug_name":"LISINOPRIL",
+    "drug_count_most_consumed":709,
+    "total_drug_count":53720,
+    "specialty_description":"Nurse Practitioner",
+    "drug_claim_count":23,
+    "drug_supply_count":1110,
+    "drug_cost":10000,
+    "avg_cost_drug":435
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -120.740139,47.751074 ]
+    },
+    "properties": {
+    "provider_state":"WA",
+    "name":"Washington",
+    "drug_name":"HYDROCODONE-ACETAMINOPHEN",
+    "drug_count_most_consumed":8776,
+    "total_drug_count":458140,
+    "specialty_description":"Addiction Medicine",
+    "drug_claim_count":25,
+    "drug_supply_count":736,
+    "drug_cost":9999,
+    "avg_cost_drug":400
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -88.787868,43.78444 ]
+    },
+    "properties": {
+    "provider_state":"WI",
+    "name":"Wisconsin",
+    "drug_name":"HYDROCODONE-ACETAMINOPHEN",
+    "drug_count_most_consumed":7456,
+    "total_drug_count":463181,
+    "specialty_description":"Neurosurgery",
+    "drug_claim_count":18,
+    "drug_supply_count":492,
+    "drug_cost":999,
+    "avg_cost_drug":56
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -80.454903,38.597626 ]
+    },
+    "properties": {
+    "provider_state":"WV",
+    "name":"West Virginia",
+    "drug_name":"HYDROCODONE-ACETAMINOPHEN",
+    "drug_count_most_consumed":2521,
+    "total_drug_count":205148,
+    "specialty_description":"Rheumatology",
+    "drug_claim_count":22,
+    "drug_supply_count":960,
+    "drug_cost":999,
+    "avg_cost_drug":45
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -107.290284,43.075968 ]
+    },
+    "properties": {
+    "provider_state":"WY",
+    "name":"Wyoming",
+    "drug_name":"HYDROCODONE-ACETAMINOPHEN",
+    "drug_count_most_consumed":682,
+    "total_drug_count":34780,
+    "specialty_description":"Internal Medicine",
+    "drug_claim_count":14,
+    "drug_supply_count":600,
+    "drug_cost":998,
+    "avg_cost_drug":71
+    }
+  }
+]
+}
