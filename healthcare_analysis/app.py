@@ -28,11 +28,12 @@ app.config['JSON_SORT_KEYS'] = False
 SQLALCHEMY_TRACK_MODIFICATIONS = False
 db = SQLAlchemy(app)
 
-# dburl = "postgres://lhioaklmvlewqo:283324144b1037ce932ffd00f52a214038148e8bd444c2f2a28dc83285d69f1d@ec2-107-21-200-103.compute-1.amazonaws.com:5432/de46h2l34j43ck"
+dburl = "postgres://fbjfmujpfzcgig:3945cc65b940fbbe57d1f48f606e96cbfd509a2cf4a34049c4570d6d06ed4e28@ec2-107-20-198-176.compute-1.amazonaws.com:5432/da94q63g9n0rr9"
 
 
-# engine = create_engine(dburl)
-engine = create_engine("sqlite:///db/medicareDB.db")
+
+engine = create_engine(dburl)
+# engine = create_engine("sqlite:///db/medicareDB.db")
 conn = engine.connect()
 
 # reflect an existing database into a new model
@@ -57,7 +58,7 @@ def state():
     """Return a list of states."""
 
     # Use Pandas to perform the sql query
-    states = pd.read_sql("Select name from Clean_states_tables", engine)
+    states = pd.read_sql("Select name from clean_states_tables", engine)
     states_list = states["name"]
     
     # Return a list of the row names of states
@@ -68,7 +69,7 @@ def state2():
     """Return a list of states."""
 
     # Use Pandas to perform the sql query
-    states2 = pd.read_sql("Select name from Clean_states_tables", engine)
+    states2 = pd.read_sql("Select name from CLEAN_states_tables", engine)
     states_list2 = states2["name"]
     
     # Return a list of the row names of states
@@ -80,7 +81,7 @@ def state2():
 def total_prescribedIn(state):
 
     # Use Pandas to perform the sql query
-    # prescribed_cost_in = pd.read_sql(f" SELECT DISTINCT * FROM CLEAN_total_avg_cost_inpatients WHERE name = '{state}' or name = '{state2}' ORDER BY cost_per_treatment DESC", engine)
+   
     prescribed_cost_in = pd.read_sql(f" SELECT DISTINCT * FROM CLEAN_total_avg_cost_inpatients WHERE name = '{state}' ORDER BY cost_per_treatment DESC LIMIT 3", engine)
 
     # prescribed_cost_inpa_dict = prescribed_cost_inpa.to_dict()
@@ -117,8 +118,8 @@ def total_prescribedOut(state):
 def mostDiagnosis():
 
     # Use Pandas to perform the sql query
-    most_diagnosis = pd.read_sql(f" SELECT DISTINCT * FROM CLEAN_inpatients_drg_data GROUP by city, drg_definition ORDER BY drg_count DESC LIMIT 100", engine)
-    
+    most_diagnosis = pd.read_sql(f" SELECT DISTINCT * FROM clean_inpatients_drg_data ORDER BY drg_count DESC LIMIT 50", engine)
+    # " SELECT DISTINCT * FROM clean_inpatients_drg_data GROUP by city, drg_definition ORDER BY drg_count DESC LIMIT 100"
     most_diagnosis = most_diagnosis.dropna()
 
     most_diagnosis_dict = {"state_abbr": most_diagnosis.provider_state.tolist(), "city":most_diagnosis.city.tolist(), "drg_code":most_diagnosis.drg_code.tolist(),"drg_definition":most_diagnosis.drg_definition.tolist(), "drg_count":most_diagnosis.drg_count.tolist(), "drg_total_payments":most_diagnosis.drg_total_payments.tolist(), "avg_pay_drg": most_diagnosis.avg_pay_drg.tolist(), "name": most_diagnosis.name.tolist()}
@@ -135,22 +136,22 @@ def partDprescriptions():
     part_d = pd.read_sql(f" SELECT * FROM CLEAN_part_d_Data", engine)
     part_d = part_d.dropna()
 
-    part_d_dict = part_d.to_dict()
+    part_d_dict = part_d.to_dict(orient = 'record')
 
-    state = part_d.provider_state.tolist(),
-    name = part_d.name.tolist(),
-    drug_name = part_d.drug_name.tolist(),
-    drug_most_consumed = part_d.drug_count_most_consumed.tolist(),
-    total_drug_count = part_d.total_drug_count.tolist(),
-    specialty_description = part_d.specialty_description.tolist(),
-    drug_claim_count = part_d.drug_claim_count.tolist(),
-    drug_supply_count = part_d.drug_supply_count.tolist(),
-    drug_cost = part_d.drug_cost.tolist(),
-    avg_cost_drug = part_d.avg_cost_drug.tolist(),
-    latitude = part_d.latitude.tolist(),
-    longitude = part_d.longitude.tolist(),
+    # state = part_d.provider_state.tolist(),
+    # name = part_d.name.tolist(),
+    # drug_name = part_d.drug_name.tolist(),
+    # drug_most_consumed = part_d.drug_count_most_consumed.tolist(),
+    # total_drug_count = part_d.total_drug_count.tolist(),
+    # specialty_description = part_d.specialty_description.tolist(),
+    # drug_claim_count = part_d.drug_claim_count.tolist(),
+    # drug_supply_count = part_d.drug_supply_count.tolist(),
+    # drug_cost = part_d.drug_cost.tolist(),
+    # avg_cost_drug = part_d.avg_cost_drug.tolist(),
+    # latitude = part_d.latitude.tolist(),
+    # longitude = part_d.longitude.tolist(),
 
-    part_d_dict = {"state": state,"state_name":name, "drug_name": drug_name,"drug_consumed":drug_most_consumed,"total_drug_count":total_drug_count, "specialty":specialty_description, "drug_claim_count": drug_claim_count, "drug_supply_count": drug_supply_count,"drug_cost":drug_cost,"avg_cost_drug": avg_cost_drug, "latitude": latitude, "longitude": longitude}
+    # part_d_dict = {"state": state,"state_name":name, "drug_name": drug_name,"drug_consumed":drug_most_consumed,"total_drug_count":total_drug_count, "specialty":specialty_description, "drug_claim_count": drug_claim_count, "drug_supply_count": drug_supply_count,"drug_cost":drug_cost,"avg_cost_drug": avg_cost_drug, "latitude": latitude, "longitude": longitude}
 
     return jsonify(part_d_dict)
 
@@ -162,33 +163,16 @@ def partDscatterplot():
     # part_d_json_read = pd.read_json("data/CLEAN_part_d_Data.json")
     part_d_scatter = pd.read_sql(f" SELECT * FROM CLEAN_part_d_Data", engine)
 
-    part_d_scatter_dict = part_d_scatter.to_dict()
+    part_d_scatter_dict = part_d_scatter.to_dict(orient = 'record')
 
-    return (part_d_scatter_dict)
+    return jsonify(part_d_scatter_dict)
 
-
-# @app.route("/uninsured")
-
-# def uninsured():
-
-    # # Use Pandas to perform the sql query
-    # uninsured = pd.read_sql(f" SELECT * FROM state_LatLng", engine)
-    
-    # State = uninsured.State.tolist(),
-    # Latitude = uninsured.Latitude.tolist(),
-    # Longitude = uninsured.Longitude.tolist(),
-    # change = uninsured.change.tolist(),
-
-    # uninsured_dict = {"State": State, "Latitude": Latitude, "Longitude": Longitude, "change": change}
-
-    # # return jsonify(uninsured_dict)
-    # return render_template("leaflet.html")
 
 @app.route("/diagnosisTable")
 
 def diagnosisTable():
 
-    diagnosisData= pd.read_sql(f"SELECT DISTINCT * FROM CLEAN_inpatients_drg_data GROUP by city, drg_definition ORDER BY drg_count DESC LIMIT 100", engine)
+    diagnosisData= pd.read_sql(f" SELECT DISTINCT * FROM clean_inpatients_drg_data ORDER BY drg_count DESC LIMIT 200", engine)
 
     diagnosisData = diagnosisData.dropna()
     diagnosisData.drop(columns = ["latitude"], inplace = True) 
@@ -203,4 +187,4 @@ def diagnosisTable():
 
 
 if __name__ == '__main__':
-    app.run(debug = True, port = 5016)  #
+    app.run(debug = True, port = 5020)  #

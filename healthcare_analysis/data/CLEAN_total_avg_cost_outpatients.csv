@@ -1,402 +1,803 @@
 provider_state,city,avg_charges,apc_total_count,cost_per_treatment,latitude,longitude,name,type
-AK, Anchorage," $403,995.43 ",318," $1,270.43 ",63.588753,-154.493062,Alaska,outpatients
-AL, Birmingham," $3,721,993.76 ",1646," $2,261.24 ",32.318231,-86.902298,Alabama,outpatients
-AL, Columbus," $20,254.59 ",12," $1,687.88 ",32.318231,-86.902298,Alabama,outpatients
-AL, Dothan," $575,999.27 ",298," $1,932.88 ",32.318231,-86.902298,Alabama,outpatients
-AL, Huntsville," $679,135.54 ",275," $2,469.58 ",32.318231,-86.902298,Alabama,outpatients
-AL, Meridian," $1,563.95 ",3, $521.32 ,32.318231,-86.902298,Alabama,outpatients
-AL, Mobile," $709,039.40 ",464," $1,528.10 ",32.318231,-86.902298,Alabama,outpatients
-AL, Montgomery," $504,270.71 ",347," $1,453.23 ",32.318231,-86.902298,Alabama,outpatients
-AL, Pensacola," $206,276.90 ",115," $1,793.71 ",32.318231,-86.902298,Alabama,outpatients
-AL, Rome," $88,626.74 ",29," $3,056.09 ",32.318231,-86.902298,Alabama,outpatients
-AL, Tupelo," $25,197.37 ",19," $1,326.18 ",32.318231,-86.902298,Alabama,outpatients
-AL, Tuscaloosa," $168,033.46 ",159," $1,056.81 ",32.318231,-86.902298,Alabama,outpatients
-AR, Fort Smith," $354,171.49 ",234," $1,513.55 ",35.20105,-91.831833,Arkansas,outpatients
-AR, Jonesboro," $208,293.93 ",187," $1,113.87 ",35.20105,-91.831833,Arkansas,outpatients
-AR, Little Rock," $1,671,387.50 ",1305," $1,280.76 ",35.20105,-91.831833,Arkansas,outpatients
-AR, Memphis," $167,424.69 ",112," $1,494.86 ",35.20105,-91.831833,Arkansas,outpatients
-AR, Springdale," $566,054.24 ",307," $1,843.82 ",35.20105,-91.831833,Arkansas,outpatients
-AR, Springfield," $93,755.48 ",76," $1,233.62 ",35.20105,-91.831833,Arkansas,outpatients
-AR, Texarkana," $20,292.20 ",18," $1,127.34 ",35.20105,-91.831833,Arkansas,outpatients
-AZ, Las Vegas," $189,498.62 ",94," $2,015.94 ",34.048928,-111.093731,Arizona,outpatients
-AZ, Mesa," $787,175.24 ",360," $2,186.60 ",34.048928,-111.093731,Arizona,outpatients
-AZ, Phoenix," $2,570,949.14 ",1333," $1,928.69 ",34.048928,-111.093731,Arizona,outpatients
-AZ, Sun City," $221,312.90 ",109," $2,030.39 ",34.048928,-111.093731,Arizona,outpatients
-AZ, Tucson," $856,331.16 ",541," $1,582.87 ",34.048928,-111.093731,Arizona,outpatients
-CA, Alameda County," $871,323.87 ",392," $2,222.76 ",36.778261,-119.417932,California,outpatients
-CA, Bakersfield," $562,663.25 ",317," $1,774.96 ",36.778261,-119.417932,California,outpatients
-CA, Chico," $438,944.29 ",233," $1,883.88 ",36.778261,-119.417932,California,outpatients
-CA, Contra Costa County," $783,840.15 ",324," $2,419.26 ",36.778261,-119.417932,California,outpatients
-CA, Fresno," $524,533.28 ",312," $1,681.20 ",36.778261,-119.417932,California,outpatients
-CA, Los Angeles," $7,060,153.53 ",2655," $2,659.19 ",36.778261,-119.417932,California,outpatients
-CA, Medford," $63,694.53 ",42," $1,516.54 ",36.778261,-119.417932,California,outpatients
-CA, Modesto," $854,053.09 ",334," $2,557.05 ",36.778261,-119.417932,California,outpatients
-CA, Napa," $442,980.55 ",180," $2,461.00 ",36.778261,-119.417932,California,outpatients
-CA, Orange County," $1,821,878.73 ",932," $1,954.81 ",36.778261,-119.417932,California,outpatients
-CA, Palm Springs/Rancho M," $285,380.17 ",166," $1,719.16 ",36.778261,-119.417932,California,outpatients
-CA, Phoenix," $20,569.41 ",13," $1,582.26 ",36.778261,-119.417932,California,outpatients
-CA, Redding," $614,368.48 ",258," $2,381.27 ",36.778261,-119.417932,California,outpatients
-CA, Sacramento," $2,072,768.34 ",923," $2,245.69 ",36.778261,-119.417932,California,outpatients
-CA, Salinas," $338,619.16 ",199," $1,701.60 ",36.778261,-119.417932,California,outpatients
-CA, San Bernardino," $1,460,046.84 ",638," $2,288.47 ",36.778261,-119.417932,California,outpatients
-CA, San Diego," $2,008,728.81 ",1040," $1,931.47 ",36.778261,-119.417932,California,outpatients
-CA, San Francisco," $1,453,525.03 ",678," $2,143.84 ",36.778261,-119.417932,California,outpatients
-CA, San Jose," $1,059,191.53 ",402," $2,634.80 ",36.778261,-119.417932,California,outpatients
-CA, San Luis Obispo," $325,731.72 ",125," $2,605.85 ",36.778261,-119.417932,California,outpatients
-CA, San Mateo County," $846,695.72 ",330," $2,565.74 ",36.778261,-119.417932,California,outpatients
-CA, Santa Barbara," $240,353.02 ",176," $1,365.64 ",36.778261,-119.417932,California,outpatients
-CA, Santa Cruz," $336,406.86 ",99," $3,398.05 ",36.778261,-119.417932,California,outpatients
-CA, Santa Rosa," $489,310.21 ",204," $2,398.58 ",36.778261,-119.417932,California,outpatients
-CA, Stockton," $623,077.78 ",203," $3,069.35 ",36.778261,-119.417932,California,outpatients
-CA, Ventura," $779,350.19 ",300," $2,597.83 ",36.778261,-119.417932,California,outpatients
-CO, Albuquerque," $111,111.77 ",59," $1,883.25 ",39.550051,-105.782067,Colorado,outpatients
-CO, Boulder," $406,887.97 ",189," $2,152.85 ",39.550051,-105.782067,Colorado,outpatients
-CO, Colorado Springs," $410,959.69 ",291," $1,412.23 ",39.550051,-105.782067,Colorado,outpatients
-CO, Denver," $2,076,286.58 ",1068," $1,944.09 ",39.550051,-105.782067,Colorado,outpatients
-CO, Fort Collins," $116,463.46 ",78," $1,493.12 ",39.550051,-105.782067,Colorado,outpatients
-CO, Grand Junction," $372,780.26 ",265," $1,406.72 ",39.550051,-105.782067,Colorado,outpatients
-CO, Greeley," $430,573.34 ",293," $1,469.53 ",39.550051,-105.782067,Colorado,outpatients
-CO, Pueblo," $222,688.94 ",135," $1,649.55 ",39.550051,-105.782067,Colorado,outpatients
-CT, Bridgeport," $611,370.95 ",347," $1,761.88 ",41.603221,-73.087749,Connecticut,outpatients
-CT, Hartford," $1,315,820.89 ",974," $1,350.95 ",41.603221,-73.087749,Connecticut,outpatients
-CT, New Haven," $1,158,884.99 ",683," $1,696.76 ",41.603221,-73.087749,Connecticut,outpatients
-DC, Washington," $742,526.86 ",484," $1,534.15 ",38.905985,-77.033418,District of Columbia,outpatients
-DE, Salisbury," $142,893.99 ",146, $978.73 ,38.910832,-75.52767,Delaware,outpatients
-DE, Wilmington," $212,237.14 ",171," $1,241.15 ",38.910832,-75.52767,Delaware,outpatients
-FL, Bradenton," $300,713.94 ",129," $2,331.12 ",27.664827,-81.515754,Florida,outpatients
-FL, Clearwater," $579,101.96 ",310," $1,868.07 ",27.664827,-81.515754,Florida,outpatients
-FL, Dothan," $52,592.56 ",45," $1,168.72 ",27.664827,-81.515754,Florida,outpatients
-FL, Fort Lauderdale," $2,720,185.33 ",1241," $2,191.93 ",27.664827,-81.515754,Florida,outpatients
-FL, Fort Myers," $1,145,902.78 ",525," $2,182.67 ",27.664827,-81.515754,Florida,outpatients
-FL, Gainesville," $600,384.73 ",247," $2,430.71 ",27.664827,-81.515754,Florida,outpatients
-FL, Hudson," $810,155.56 ",212," $3,821.49 ",27.664827,-81.515754,Florida,outpatients
-FL, Jacksonville," $1,603,575.85 ",629," $2,549.41 ",27.664827,-81.515754,Florida,outpatients
-FL, Lakeland," $337,552.70 ",136," $2,482.01 ",27.664827,-81.515754,Florida,outpatients
-FL, Miami," $2,649,085.34 ",1026," $2,581.95 ",27.664827,-81.515754,Florida,outpatients
-FL, Ocala," $480,333.25 ",241," $1,993.08 ",27.664827,-81.515754,Florida,outpatients
-FL, Orlando," $3,486,366.32 ",1558," $2,237.72 ",27.664827,-81.515754,Florida,outpatients
-FL, Ormond Beach," $388,572.24 ",298," $1,303.93 ",27.664827,-81.515754,Florida,outpatients
-FL, Panama City," $278,311.13 ",128," $2,174.31 ",27.664827,-81.515754,Florida,outpatients
-FL, Pensacola," $1,691,673.21 ",569," $2,973.06 ",27.664827,-81.515754,Florida,outpatients
-FL, Sarasota," $700,469.60 ",303," $2,311.78 ",27.664827,-81.515754,Florida,outpatients
-FL, St. Petersburg," $573,202.13 ",275," $2,084.37 ",27.664827,-81.515754,Florida,outpatients
-FL, Tallahassee," $237,615.78 ",143," $1,661.65 ",27.664827,-81.515754,Florida,outpatients
-FL, Tampa," $1,457,728.90 ",528," $2,760.85 ",27.664827,-81.515754,Florida,outpatients
-GA, Albany," $180,834.03 ",119," $1,519.61 ",32.157435,-82.907123,Georgia,outpatients
-GA, Atlanta," $4,856,106.76 ",2623," $1,851.36 ",32.157435,-82.907123,Georgia,outpatients
-GA, Augusta," $619,221.84 ",420," $1,474.34 ",32.157435,-82.907123,Georgia,outpatients
-GA, Chattanooga," $62,209.60 ",52," $1,196.34 ",32.157435,-82.907123,Georgia,outpatients
-GA, Columbus," $229,895.88 ",185," $1,242.68 ",32.157435,-82.907123,Georgia,outpatients
-GA, Dothan," $17,167.72 ",21, $817.51 ,32.157435,-82.907123,Georgia,outpatients
-GA, Jacksonville," $257,619.96 ",205," $1,256.68 ",32.157435,-82.907123,Georgia,outpatients
-GA, Macon," $924,478.99 ",616," $1,500.78 ",32.157435,-82.907123,Georgia,outpatients
-GA, Rome," $316,454.07 ",183," $1,729.26 ",32.157435,-82.907123,Georgia,outpatients
-GA, Savannah," $648,468.44 ",385," $1,684.33 ",32.157435,-82.907123,Georgia,outpatients
-GA, Tallahassee," $429,654.19 ",372," $1,154.98 ",32.157435,-82.907123,Georgia,outpatients
-HI, Honolulu," $562,524.50 ",457," $1,230.91 ",19.898682,-155.665857,Hawaii,outpatients
-IA, Cedar Rapids," $279,973.53 ",177," $1,581.77 ",41.878003,-93.097702,Iowa,outpatients
-IA, Davenport," $292,519.24 ",274," $1,067.59 ",41.878003,-93.097702,Iowa,outpatients
-IA, Des Moines," $796,266.69 ",613," $1,298.97 ",41.878003,-93.097702,Iowa,outpatients
-IA, Dubuque," $140,401.20 ",126," $1,114.30 ",41.878003,-93.097702,Iowa,outpatients
-IA, Iowa City," $474,093.27 ",410," $1,156.33 ",41.878003,-93.097702,Iowa,outpatients
-IA, Mason City," $79,834.19 ",84, $950.41 ,41.878003,-93.097702,Iowa,outpatients
-IA, Omaha," $190,681.41 ",116," $1,643.81 ",41.878003,-93.097702,Iowa,outpatients
-IA, Sioux City," $125,153.18 ",119," $1,051.71 ",41.878003,-93.097702,Iowa,outpatients
-IA, Sioux Falls," $123,276.15 ",120," $1,027.30 ",41.878003,-93.097702,Iowa,outpatients
-IA, Waterloo," $262,315.62 ",206," $1,273.38 ",41.878003,-93.097702,Iowa,outpatients
-ID, Boise," $368,461.80 ",392, $939.95 ,44.068202,-114.742041,Idaho,outpatients
-ID, Idaho Falls," $129,619.53 ",169, $766.98 ,44.068202,-114.742041,Idaho,outpatients
-ID, Salt Lake City," $63,404.75 ",62," $1,022.66 ",44.068202,-114.742041,Idaho,outpatients
-ID, Spokane," $144,173.17 ",174, $828.58 ,44.068202,-114.742041,Idaho,outpatients
-IL, Aurora," $314,249.85 ",127," $2,474.41 ",40.633125,-89.398528,Illinois,outpatients
-IL, Bloomington," $270,341.09 ",191," $1,415.40 ",40.633125,-89.398528,Illinois,outpatients
-IL, Blue Island," $972,160.45 ",533," $1,823.94 ",40.633125,-89.398528,Illinois,outpatients
-IL, Chicago," $2,514,498.59 ",1533," $1,640.25 ",40.633125,-89.398528,Illinois,outpatients
-IL, Davenport," $155,950.10 ",141," $1,106.03 ",40.633125,-89.398528,Illinois,outpatients
-IL, Elgin," $573,524.32 ",322," $1,781.13 ",40.633125,-89.398528,Illinois,outpatients
-IL, Evanston," $810,851.17 ",476," $1,703.47 ",40.633125,-89.398528,Illinois,outpatients
-IL, Evansville," $133,434.97 ",87," $1,533.74 ",40.633125,-89.398528,Illinois,outpatients
-IL, Hinsdale," $544,319.89 ",277," $1,965.05 ",40.633125,-89.398528,Illinois,outpatients
-IL, Joliet," $659,796.90 ",349," $1,890.54 ",40.633125,-89.398528,Illinois,outpatients
-IL, Melrose Park," $1,494,633.93 ",810," $1,845.23 ",40.633125,-89.398528,Illinois,outpatients
-IL, Milwaukee," $383,251.31 ",163," $2,351.24 ",40.633125,-89.398528,Illinois,outpatients
-IL, Paducah," $169,759.91 ",51," $3,328.63 ",40.633125,-89.398528,Illinois,outpatients
-IL, Peoria," $1,217,824.13 ",694," $1,754.79 ",40.633125,-89.398528,Illinois,outpatients
-IL, Rockford," $922,454.86 ",586," $1,574.16 ",40.633125,-89.398528,Illinois,outpatients
-IL, Springfield," $1,065,203.61 ",635," $1,677.49 ",40.633125,-89.398528,Illinois,outpatients
-IL, St. Louis," $1,475,571.66 ",803," $1,837.57 ",40.633125,-89.398528,Illinois,outpatients
-IL, Urbana," $437,047.33 ",297," $1,471.54 ",40.633125,-89.398528,Illinois,outpatients
-IN, Cincinnati," $69,973.22 ",60," $1,166.22 ",40.551217,-85.602364,Indiana,outpatients
-IN, Evansville," $598,041.06 ",376," $1,590.53 ",40.551217,-85.602364,Indiana,outpatients
-IN, Fort Wayne," $914,139.47 ",504," $1,813.77 ",40.551217,-85.602364,Indiana,outpatients
-IN, Gary," $707,905.27 ",432," $1,638.67 ",40.551217,-85.602364,Indiana,outpatients
-IN, Indianapolis," $3,426,677.10 ",2221," $1,542.85 ",40.551217,-85.602364,Indiana,outpatients
-IN, Lafayette," $324,684.89 ",151," $2,150.23 ",40.551217,-85.602364,Indiana,outpatients
-IN, Louisville," $350,581.01 ",262," $1,338.10 ",40.551217,-85.602364,Indiana,outpatients
-IN, Muncie," $113,765.80 ",66," $1,723.72 ",40.551217,-85.602364,Indiana,outpatients
-IN, Munster," $518,956.24 ",299," $1,735.64 ",40.551217,-85.602364,Indiana,outpatients
-IN, South Bend," $570,728.52 ",426," $1,339.74 ",40.551217,-85.602364,Indiana,outpatients
-IN, Terre Haute," $304,127.09 ",134," $2,269.61 ",40.551217,-85.602364,Indiana,outpatients
-KS, Amarillo," $15,601.34 ",31, $503.27 ,39.011902,-98.484246,Kansas,outpatients
-KS, Joplin," $132,832.46 ",89," $1,492.50 ",39.011902,-98.484246,Kansas,outpatients
-KS, Kansas City," $1,359,429.93 ",748," $1,817.42 ",39.011902,-98.484246,Kansas,outpatients
-KS, Topeka," $503,454.93 ",394," $1,277.80 ",39.011902,-98.484246,Kansas,outpatients
-KS, Tulsa," $43,455.67 ",51, $852.07 ,39.011902,-98.484246,Kansas,outpatients
-KS, Wichita," $1,227,664.56 ",917," $1,338.78 ",39.011902,-98.484246,Kansas,outpatients
-KY, Covington," $207,950.18 ",189," $1,100.27 ",37.839333,-84.270018,Kentucky,outpatients
-KY, Evansville," $122,976.19 ",63," $1,952.00 ",37.839333,-84.270018,Kentucky,outpatients
-KY, Huntington," $452,515.38 ",211," $2,144.62 ",37.839333,-84.270018,Kentucky,outpatients
-KY, Knoxville," $77,668.98 ",79, $983.15 ,37.839333,-84.270018,Kentucky,outpatients
-KY, Lexington," $2,303,702.26 ",1384," $1,664.52 ",37.839333,-84.270018,Kentucky,outpatients
-KY, Louisville," $1,528,994.31 ",888," $1,721.84 ",37.839333,-84.270018,Kentucky,outpatients
-KY, Nashville," $416,036.54 ",265," $1,569.95 ",37.839333,-84.270018,Kentucky,outpatients
-KY, Owensboro," $101,573.18 ",82," $1,238.70 ",37.839333,-84.270018,Kentucky,outpatients
-KY, Paducah," $593,855.39 ",343," $1,731.36 ",37.839333,-84.270018,Kentucky,outpatients
-LA, Alexandria," $494,889.65 ",245," $2,019.96 ",31.244823,-92.145024,Louisiana,outpatients
-LA, Baton Rouge," $540,947.34 ",362," $1,494.33 ",31.244823,-92.145024,Louisiana,outpatients
-LA, Houma," $244,527.35 ",134," $1,824.83 ",31.244823,-92.145024,Louisiana,outpatients
-LA, Lafayette," $729,095.36 ",479," $1,522.12 ",31.244823,-92.145024,Louisiana,outpatients
-LA, Lake Charles," $398,960.05 ",251," $1,589.48 ",31.244823,-92.145024,Louisiana,outpatients
-LA, Metairie," $599,644.74 ",332," $1,806.16 ",31.244823,-92.145024,Louisiana,outpatients
-LA, Monroe," $448,918.45 ",349," $1,286.30 ",31.244823,-92.145024,Louisiana,outpatients
-LA, New Orleans," $517,467.92 ",405," $1,277.70 ",31.244823,-92.145024,Louisiana,outpatients
-LA, Shreveport," $799,141.54 ",571," $1,399.55 ",31.244823,-92.145024,Louisiana,outpatients
-LA, Slidell," $317,445.71 ",130," $2,441.89 ",31.244823,-92.145024,Louisiana,outpatients
-MA, Albany," $116,151.98 ",98," $1,185.22 ",42.407211,-71.382437,Massachusetts,outpatients
-MA, Boston," $3,647,785.88 ",3101," $1,176.33 ",42.407211,-71.382437,Massachusetts,outpatients
-MA, Providence," $77,906.16 ",78, $998.80 ,42.407211,-71.382437,Massachusetts,outpatients
-MA, Springfield," $467,361.91 ",529, $883.48 ,42.407211,-71.382437,Massachusetts,outpatients
-MA, Worcester," $501,983.17 ",447," $1,123.00 ",42.407211,-71.382437,Massachusetts,outpatients
-ME, Bangor," $347,373.81 ",452, $768.53 ,45.253783,-69.445469,Maine,outpatients
-ME, Portland," $819,801.96 ",1018, $805.31 ,45.253783,-69.445469,Maine,outpatients
-MI, Ann Arbor," $855,245.45 ",653," $1,309.72 ",44.314844,-85.602364,Michigan,outpatients
-MI, Dearborn," $426,232.68 ",273," $1,561.29 ",44.314844,-85.602364,Michigan,outpatients
-MI, Detroit," $1,071,389.09 ",968," $1,106.81 ",44.314844,-85.602364,Michigan,outpatients
-MI, Flint," $406,492.83 ",287," $1,416.35 ",44.314844,-85.602364,Michigan,outpatients
-MI, Grand Rapids," $476,201.94 ",510, $933.73 ,44.314844,-85.602364,Michigan,outpatients
-MI, Green Bay," $83,237.48 ",73," $1,140.24 ",44.314844,-85.602364,Michigan,outpatients
-MI, Kalamazoo," $521,412.37 ",455," $1,145.96 ",44.314844,-85.602364,Michigan,outpatients
-MI, Lansing," $510,022.79 ",443," $1,151.29 ",44.314844,-85.602364,Michigan,outpatients
-MI, Marquette," $149,508.08 ",157, $952.28 ,44.314844,-85.602364,Michigan,outpatients
-MI, Muskegon," $246,444.24 ",198," $1,244.67 ",44.314844,-85.602364,Michigan,outpatients
-MI, Petoskey," $193,005.53 ",196, $984.72 ,44.314844,-85.602364,Michigan,outpatients
-MI, Pontiac," $292,904.51 ",244," $1,200.43 ",44.314844,-85.602364,Michigan,outpatients
-MI, Royal Oak," $477,084.50 ",427," $1,117.29 ",44.314844,-85.602364,Michigan,outpatients
-MI, Saginaw," $554,768.93 ",552," $1,005.02 ",44.314844,-85.602364,Michigan,outpatients
-MI, St. Joseph," $124,542.23 ",124," $1,004.37 ",44.314844,-85.602364,Michigan,outpatients
-MI, Toledo," $52,375.64 ",43," $1,218.04 ",44.314844,-85.602364,Michigan,outpatients
-MI, Traverse City," $134,222.11 ",135, $994.24 ,44.314844,-85.602364,Michigan,outpatients
-MN, Duluth," $263,678.83 ",279, $945.09 ,46.729553,-94.6859,Minnesota,outpatients
-MN, Fargo/Moorhead MN," $187,536.84 ",213, $880.45 ,46.729553,-94.6859,Minnesota,outpatients
-MN, La Crosse," $52,750.36 ",66, $799.25 ,46.729553,-94.6859,Minnesota,outpatients
-MN, Minneapolis," $1,993,224.00 ",1741," $1,144.87 ",46.729553,-94.6859,Minnesota,outpatients
-MN, Rochester," $470,781.90 ",477, $986.96 ,46.729553,-94.6859,Minnesota,outpatients
-MN, Sioux Falls," $52,160.83 ",55, $948.38 ,46.729553,-94.6859,Minnesota,outpatients
-MN, St. Cloud," $107,905.36 ",89," $1,212.42 ",46.729553,-94.6859,Minnesota,outpatients
-MN, St. Paul," $631,235.23 ",425," $1,485.26 ",46.729553,-94.6859,Minnesota,outpatients
-MO, Cape Girardeau," $506,653.61 ",295," $1,717.47 ",37.964253,-91.831833,Missouri,outpatients
-MO, Columbia," $927,933.80 ",741," $1,252.27 ",37.964253,-91.831833,Missouri,outpatients
-MO, Jonesboro," $132,070.83 ",47," $2,810.02 ",37.964253,-91.831833,Missouri,outpatients
-MO, Joplin," $248,849.94 ",185," $1,345.13 ",37.964253,-91.831833,Missouri,outpatients
-MO, Kansas City," $1,843,828.13 ",1263," $1,459.88 ",37.964253,-91.831833,Missouri,outpatients
-MO, Springfield," $754,620.44 ",583," $1,294.37 ",37.964253,-91.831833,Missouri,outpatients
-MO, St. Louis," $2,487,435.30 ",1554," $1,600.67 ",37.964253,-91.831833,Missouri,outpatients
-MS, Birmingham," $36,444.80 ",39, $934.48 ,32.354668,-89.398528,Mississippi,outpatients
-MS, Gulfport," $455,674.01 ",195," $2,336.79 ",32.354668,-89.398528,Mississippi,outpatients
-MS, Hattiesburg," $326,157.85 ",210," $1,553.13 ",32.354668,-89.398528,Mississippi,outpatients
-MS, Jackson," $1,498,745.63 ",830," $1,805.72 ",32.354668,-89.398528,Mississippi,outpatients
-MS, Memphis," $456,063.77 ",298," $1,530.42 ",32.354668,-89.398528,Mississippi,outpatients
-MS, Meridian," $184,849.78 ",155," $1,192.58 ",32.354668,-89.398528,Mississippi,outpatients
-MS, Mobile," $184,694.55 ",107," $1,726.12 ",32.354668,-89.398528,Mississippi,outpatients
-MS, Oxford," $238,309.17 ",173," $1,377.51 ",32.354668,-89.398528,Mississippi,outpatients
-MS, Slidell," $89,639.09 ",67," $1,337.90 ",32.354668,-89.398528,Mississippi,outpatients
-MS, Tupelo," $534,253.13 ",351," $1,522.09 ",32.354668,-89.398528,Mississippi,outpatients
-MT, Billings," $237,097.12 ",341, $695.30 ,46.879682,-110.362566,Montana,outpatients
-MT, Great Falls," $119,116.19 ",143, $832.98 ,46.879682,-110.362566,Montana,outpatients
-MT, Missoula," $249,556.65 ",282, $884.95 ,46.879682,-110.362566,Montana,outpatients
-NC, Asheville," $493,889.36 ",523, $944.34 ,35.759573,-79.0193,North Carolina,outpatients
-NC, Atlanta," $43,389.08 ",41," $1,058.27 ",35.759573,-79.0193,North Carolina,outpatients
-NC, Charlotte," $1,823,896.94 ",1187," $1,536.56 ",35.759573,-79.0193,North Carolina,outpatients
-NC, Durham," $1,042,206.05 ",755," $1,380.41 ",35.759573,-79.0193,North Carolina,outpatients
-NC, Greensboro," $231,232.06 ",214," $1,080.52 ",35.759573,-79.0193,North Carolina,outpatients
-NC, Greenville," $789,511.93 ",517," $1,527.10 ",35.759573,-79.0193,North Carolina,outpatients
-NC, Hickory," $328,512.91 ",263," $1,249.10 ",35.759573,-79.0193,North Carolina,outpatients
-NC, Johnson City," $65,601.37 ",69, $950.74 ,35.759573,-79.0193,North Carolina,outpatients
-NC, Norfolk," $49,550.75 ",57, $869.31 ,35.759573,-79.0193,North Carolina,outpatients
-NC, Raleigh," $1,253,737.32 ",827," $1,516.01 ",35.759573,-79.0193,North Carolina,outpatients
-NC, Wilmington," $287,322.73 ",181," $1,587.42 ",35.759573,-79.0193,North Carolina,outpatients
-NC, Winston-Salem," $751,721.90 ",676," $1,112.01 ",35.759573,-79.0193,North Carolina,outpatients
-ND, Bismarck," $113,439.12 ",178, $637.30 ,47.551493,-101.002012,North Dakota,outpatients
-ND, Fargo/Moorhead MN," $168,933.07 ",206, $820.06 ,47.551493,-101.002012,North Dakota,outpatients
-ND, Grand Forks," $77,617.88 ",93, $834.60 ,47.551493,-101.002012,North Dakota,outpatients
-ND, Minot," $71,558.14 ",87, $822.51 ,47.551493,-101.002012,North Dakota,outpatients
-NE, Denver," $120,512.30 ",68," $1,772.24 ",41.492537,-99.901813,Nebraska,outpatients
-NE, Lincoln," $459,540.49 ",323," $1,422.73 ",41.492537,-99.901813,Nebraska,outpatients
-NE, Omaha," $1,321,327.12 ",822," $1,607.45 ",41.492537,-99.901813,Nebraska,outpatients
-NH, Lebanon," $233,151.03 ",203," $1,148.53 ",43.193852,-71.572395,New Hampshire,outpatients
-NH, Manchester," $903,249.78 ",680," $1,328.31 ",43.193852,-71.572395,New Hampshire,outpatients
-NH, Portland," $196,538.84 ",141," $1,393.89 ",43.193852,-71.572395,New Hampshire,outpatients
-NJ, Allentown," $291,463.76 ",68," $4,286.23 ",40.058324,-74.405661,New Jersey,outpatients
-NJ, Camden," $2,912,469.04 ",1356," $2,147.84 ",40.058324,-74.405661,New Jersey,outpatients
-NJ, Hackensack," $1,077,360.86 ",486," $2,216.79 ",40.058324,-74.405661,New Jersey,outpatients
-NJ, Morristown," $770,587.41 ",387," $1,991.18 ",40.058324,-74.405661,New Jersey,outpatients
-NJ, New Brunswick," $993,704.19 ",405," $2,453.59 ",40.058324,-74.405661,New Jersey,outpatients
-NJ, Newark," $1,501,546.85 ",664," $2,261.37 ",40.058324,-74.405661,New Jersey,outpatients
-NJ, Paterson," $215,239.28 ",159," $1,353.71 ",40.058324,-74.405661,New Jersey,outpatients
-NJ, Philadelphia," $1,278,917.21 ",388," $3,296.18 ",40.058324,-74.405661,New Jersey,outpatients
-NJ, Ridgewood," $138,241.25 ",87," $1,588.98 ",40.058324,-74.405661,New Jersey,outpatients
-NJ, Wilmington," $199,283.88 ",51," $3,907.53 ",40.058324,-74.405661,New Jersey,outpatients
-NM, Albuquerque," $975,105.65 ",679," $1,436.09 ",34.97273,-105.032363,New Mexico,outpatients
-NM, El Paso," $280,609.53 ",182," $1,541.81 ",34.97273,-105.032363,New Mexico,outpatients
-NM, Lubbock," $254,394.52 ",156," $1,630.73 ",34.97273,-105.032363,New Mexico,outpatients
-NV, Las Vegas," $1,565,092.96 ",533," $2,936.38 ",38.80261,-116.419389,Nevada,outpatients
-NV, Reno," $592,074.16 ",335," $1,767.39 ",38.80261,-116.419389,Nevada,outpatients
-NV, Salt Lake City," $79,416.56 ",39," $2,036.32 ",38.80261,-116.419389,Nevada,outpatients
-NY, Albany," $1,385,060.59 ",1222," $1,133.44 ",43.299428,-74.217933,New York,outpatients
-NY, Binghamton," $240,255.17 ",279, $861.13 ,43.299428,-74.217933,New York,outpatients
-NY, Bronx," $375,741.74 ",290," $1,295.66 ",43.299428,-74.217933,New York,outpatients
-NY, Buffalo," $471,109.54 ",746, $631.51 ,43.299428,-74.217933,New York,outpatients
-NY, Burlington," $279,355.67 ",282, $990.62 ,43.299428,-74.217933,New York,outpatients
-NY, East Long Island," $2,681,087.01 ",1497," $1,790.97 ",43.299428,-74.217933,New York,outpatients
-NY, Elmira," $213,525.46 ",229, $932.43 ,43.299428,-74.217933,New York,outpatients
-NY, Erie," $49,433.73 ",76, $650.44 ,43.299428,-74.217933,New York,outpatients
-NY, Hackensack," $151,075.12 ",70," $2,158.22 ",43.299428,-74.217933,New York,outpatients
-NY, Manhattan," $1,967,187.96 ",1339," $1,469.15 ",43.299428,-74.217933,New York,outpatients
-NY, Morristown," $129,746.48 ",50," $2,594.93 ",43.299428,-74.217933,New York,outpatients
-NY, New Haven," $112,611.49 ",63," $1,787.48 ",43.299428,-74.217933,New York,outpatients
-NY, Ridgewood," $367,424.60 ",107," $3,433.87 ",43.299428,-74.217933,New York,outpatients
-NY, Rochester," $590,749.63 ",782, $755.43 ,43.299428,-74.217933,New York,outpatients
-NY, Sayre," $89,399.71 ",53," $1,686.79 ",43.299428,-74.217933,New York,outpatients
-NY, Syracuse," $683,317.56 ",680," $1,004.88 ",43.299428,-74.217933,New York,outpatients
-NY, White Plains," $1,058,292.61 ",599," $1,766.77 ",43.299428,-74.217933,New York,outpatients
-OH, Akron," $888,669.24 ",450," $1,974.82 ",40.417287,-82.907123,Ohio,outpatients
-OH, Canton," $416,438.19 ",462, $901.38 ,40.417287,-82.907123,Ohio,outpatients
-OH, Cincinnati," $1,580,491.35 ",982," $1,609.46 ",40.417287,-82.907123,Ohio,outpatients
-OH, Cleveland," $2,469,092.92 ",1644," $1,501.88 ",40.417287,-82.907123,Ohio,outpatients
-OH, Columbus," $2,113,275.90 ",1754," $1,204.83 ",40.417287,-82.907123,Ohio,outpatients
-OH, Dayton," $1,089,122.64 ",717," $1,519.00 ",40.417287,-82.907123,Ohio,outpatients
-OH, Elyria," $210,347.05 ",154," $1,365.89 ",40.417287,-82.907123,Ohio,outpatients
-OH, Fort Wayne," $136,031.95 ",105," $1,295.54 ",40.417287,-82.907123,Ohio,outpatients
-OH, Huntington," $13,484.37 ",5," $2,696.87 ",40.417287,-82.907123,Ohio,outpatients
-OH, Kettering," $482,267.89 ",244," $1,976.51 ",40.417287,-82.907123,Ohio,outpatients
-OH, Pittsburgh," $203,129.29 ",187," $1,086.25 ",40.417287,-82.907123,Ohio,outpatients
-OH, Toledo," $1,183,612.53 ",810," $1,461.25 ",40.417287,-82.907123,Ohio,outpatients
-OH, Youngstown," $615,544.91 ",398," $1,546.60 ",40.417287,-82.907123,Ohio,outpatients
-OK, Amarillo," $29,856.73 ",21," $1,421.75 ",35.007752,-97.092877,Oklahoma,outpatients
-OK, Dallas," $171,012.00 ",64," $2,672.06 ",35.007752,-97.092877,Oklahoma,outpatients
-OK, Fort Smith," $49,339.54 ",60, $822.33 ,35.007752,-97.092877,Oklahoma,outpatients
-OK, Joplin," $104,359.59 ",69," $1,512.46 ",35.007752,-97.092877,Oklahoma,outpatients
-OK, Lawton," $254,003.99 ",196," $1,295.94 ",35.007752,-97.092877,Oklahoma,outpatients
-OK, Oklahoma City," $2,802,021.87 ",1568," $1,787.00 ",35.007752,-97.092877,Oklahoma,outpatients
-OK, Texarkana," $18,996.36 ",31, $612.79 ,35.007752,-97.092877,Oklahoma,outpatients
-OK, Tulsa," $1,575,269.96 ",1118," $1,409.01 ",35.007752,-97.092877,Oklahoma,outpatients
-OR, Bend," $112,626.99 ",94," $1,198.16 ",43.804133,-120.554201,Oregon,outpatients
-OR, Boise," $66,488.81 ",64," $1,038.89 ",43.804133,-120.554201,Oregon,outpatients
-OR, Eugene," $444,209.05 ",421," $1,055.13 ",43.804133,-120.554201,Oregon,outpatients
-OR, Medford," $367,870.07 ",352," $1,045.09 ",43.804133,-120.554201,Oregon,outpatients
-OR, Portland," $940,610.97 ",919," $1,023.52 ",43.804133,-120.554201,Oregon,outpatients
-OR, Salem," $87,831.31 ",90, $975.90 ,43.804133,-120.554201,Oregon,outpatients
-PA, Allentown," $1,766,648.29 ",858," $2,059.03 ",41.203322,-77.194525,Pennsylvania,outpatients
-PA, Altoona," $242,135.03 ",300, $807.12 ,41.203322,-77.194525,Pennsylvania,outpatients
-PA, Danville," $944,620.99 ",476," $1,984.50 ",41.203322,-77.194525,Pennsylvania,outpatients
-PA, Erie," $779,907.31 ",699," $1,115.75 ",41.203322,-77.194525,Pennsylvania,outpatients
-PA, Harrisburg," $884,993.69 ",641," $1,380.65 ",41.203322,-77.194525,Pennsylvania,outpatients
-PA, Johnstown," $198,086.18 ",206, $961.58 ,41.203322,-77.194525,Pennsylvania,outpatients
-PA, Lancaster," $755,151.18 ",348," $2,169.97 ",41.203322,-77.194525,Pennsylvania,outpatients
-PA, Morgantown," $39,916.27 ",48, $831.59 ,41.203322,-77.194525,Pennsylvania,outpatients
-PA, Philadelphia," $5,202,724.07 ",1875," $2,774.79 ",41.203322,-77.194525,Pennsylvania,outpatients
-PA, Pittsburgh," $2,226,779.21 ",1982," $1,123.50 ",41.203322,-77.194525,Pennsylvania,outpatients
-PA, Reading," $503,258.84 ",318," $1,582.57 ",41.203322,-77.194525,Pennsylvania,outpatients
-PA, Sayre," $324,731.88 ",195," $1,665.29 ",41.203322,-77.194525,Pennsylvania,outpatients
-PA, Scranton," $487,543.32 ",280," $1,741.23 ",41.203322,-77.194525,Pennsylvania,outpatients
-PA, Wilkes-Barre," $383,401.36 ",172," $2,229.08 ",41.203322,-77.194525,Pennsylvania,outpatients
-PA, York," $239,897.57 ",203," $1,181.76 ",41.203322,-77.194525,Pennsylvania,outpatients
-PA, Youngstown," $128,578.24 ",130, $989.06 ,41.203322,-77.194525,Pennsylvania,outpatients
-RI, Providence," $888,999.62 ",728," $1,221.15 ",41.580095,-71.477429,Rhode Island,outpatients
-SC, Augusta," $73,410.01 ",58," $1,265.69 ",33.836081,-81.163725,South Carolina,outpatients
-SC, Charleston," $1,116,976.32 ",729," $1,532.20 ",33.836081,-81.163725,South Carolina,outpatients
-SC, Charlotte," $226,590.97 ",101," $2,243.47 ",33.836081,-81.163725,South Carolina,outpatients
-SC, Columbia," $1,172,441.74 ",766," $1,530.60 ",33.836081,-81.163725,South Carolina,outpatients
-SC, Florence," $795,048.06 ",343," $2,317.92 ",33.836081,-81.163725,South Carolina,outpatients
-SC, Greenville," $1,022,906.95 ",609," $1,679.65 ",33.836081,-81.163725,South Carolina,outpatients
-SC, Savannah," $135,888.94 ",135," $1,006.58 ",33.836081,-81.163725,South Carolina,outpatients
-SC, Spartanburg," $357,294.78 ",240," $1,488.73 ",33.836081,-81.163725,South Carolina,outpatients
-SD, Rapid City," $132,024.73 ",157, $840.92 ,43.969515,-99.901813,South Dakota,outpatients
-SD, Sioux City," $46,877.12 ",22," $2,130.78 ",43.969515,-99.901813,South Dakota,outpatients
-SD, Sioux Falls," $766,881.59 ",642," $1,194.52 ",43.969515,-99.901813,South Dakota,outpatients
-TN, Chattanooga," $651,771.56 ",303," $2,151.06 ",35.517491,-86.580447,Tennessee,outpatients
-TN, Huntsville," $46,736.24 ",35," $1,335.32 ",35.517491,-86.580447,Tennessee,outpatients
-TN, Jackson," $530,107.97 ",311," $1,704.53 ",35.517491,-86.580447,Tennessee,outpatients
-TN, Johnson City," $287,581.49 ",139," $2,068.93 ",35.517491,-86.580447,Tennessee,outpatients
-TN, Kingsport," $270,726.56 ",181," $1,495.73 ",35.517491,-86.580447,Tennessee,outpatients
-TN, Knoxville," $1,472,553.33 ",1019," $1,445.10 ",35.517491,-86.580447,Tennessee,outpatients
-TN, Memphis," $1,121,133.95 ",550," $2,038.43 ",35.517491,-86.580447,Tennessee,outpatients
-TN, Nashville," $2,923,990.60 ",1661," $1,760.38 ",35.517491,-86.580447,Tennessee,outpatients
-TX, Abilene," $449,433.67 ",298," $1,508.17 ",31.968599,-99.901813,Texas,outpatients
-TX, Amarillo," $419,787.03 ",244," $1,720.44 ",31.968599,-99.901813,Texas,outpatients
-TX, Austin," $1,365,973.84 ",733," $1,863.54 ",31.968599,-99.901813,Texas,outpatients
-TX, Beaumont," $551,203.35 ",249," $2,213.67 ",31.968599,-99.901813,Texas,outpatients
-TX, Bryan," $316,331.64 ",137," $2,308.99 ",31.968599,-99.901813,Texas,outpatients
-TX, Corpus Christi," $464,811.85 ",207," $2,245.47 ",31.968599,-99.901813,Texas,outpatients
-TX, Dallas," $4,803,044.71 ",2351," $2,042.98 ",31.968599,-99.901813,Texas,outpatients
-TX, El Paso," $709,814.48 ",319," $2,225.12 ",31.968599,-99.901813,Texas,outpatients
-TX, Fort Worth," $1,887,620.80 ",926," $2,038.47 ",31.968599,-99.901813,Texas,outpatients
-TX, Harlingen," $560,555.89 ",268," $2,091.63 ",31.968599,-99.901813,Texas,outpatients
-TX, Houston," $6,325,422.54 ",2630," $2,405.10 ",31.968599,-99.901813,Texas,outpatients
-TX, Longview," $323,807.63 ",115," $2,815.72 ",31.968599,-99.901813,Texas,outpatients
-TX, Lubbock," $639,209.73 ",318," $2,010.09 ",31.968599,-99.901813,Texas,outpatients
-TX, McAllen," $666,032.03 ",238," $2,798.45 ",31.968599,-99.901813,Texas,outpatients
-TX, Odessa," $270,274.13 ",171," $1,580.55 ",31.968599,-99.901813,Texas,outpatients
-TX, San Angelo," $234,784.89 ",136," $1,726.36 ",31.968599,-99.901813,Texas,outpatients
-TX, San Antonio," $1,988,461.06 ",1064," $1,868.85 ",31.968599,-99.901813,Texas,outpatients
-TX, Shreveport," $209,591.30 ",82," $2,555.99 ",31.968599,-99.901813,Texas,outpatients
-TX, Temple," $261,424.25 ",180," $1,452.36 ",31.968599,-99.901813,Texas,outpatients
-TX, Texarkana," $230,452.68 ",143," $1,611.56 ",31.968599,-99.901813,Texas,outpatients
-TX, Tyler," $1,106,319.42 ",541," $2,044.95 ",31.968599,-99.901813,Texas,outpatients
-TX, Victoria," $254,171.69 ",152," $1,672.18 ",31.968599,-99.901813,Texas,outpatients
-TX, Waco," $421,422.41 ",294," $1,433.41 ",31.968599,-99.901813,Texas,outpatients
-TX, Wichita Falls," $222,860.83 ",168," $1,326.55 ",31.968599,-99.901813,Texas,outpatients
-UT, Ogden," $264,627.86 ",233," $1,135.74 ",39.32098,-111.093731,Utah,outpatients
-UT, Provo," $238,523.35 ",194," $1,229.50 ",39.32098,-111.093731,Utah,outpatients
-UT, Salt Lake City," $1,210,210.53 ",1061," $1,140.63 ",39.32098,-111.093731,Utah,outpatients
-VA, Arlington," $789,454.24 ",573," $1,377.76 ",37.431573,-78.656894,Virginia,outpatients
-VA, Charlottesville," $453,447.71 ",391," $1,159.71 ",37.431573,-78.656894,Virginia,outpatients
-VA, Durham," $214,675.18 ",145," $1,480.52 ",37.431573,-78.656894,Virginia,outpatients
-VA, Kingsport," $653,345.62 ",366," $1,785.10 ",37.431573,-78.656894,Virginia,outpatients
-VA, Lynchburg," $142,769.86 ",129," $1,106.74 ",37.431573,-78.656894,Virginia,outpatients
-VA, Newport News," $513,895.90 ",357," $1,439.48 ",37.431573,-78.656894,Virginia,outpatients
-VA, Norfolk," $1,174,692.36 ",724," $1,622.50 ",37.431573,-78.656894,Virginia,outpatients
-VA, Richmond," $2,510,952.08 ",962," $2,610.14 ",37.431573,-78.656894,Virginia,outpatients
-VA, Roanoke," $723,812.97 ",447," $1,619.27 ",37.431573,-78.656894,Virginia,outpatients
-VA, Winchester," $131,807.02 ",122," $1,080.39 ",37.431573,-78.656894,Virginia,outpatients
-VA, Winston-Salem," $55,110.47 ",44," $1,252.51 ",37.431573,-78.656894,Virginia,outpatients
-VT, Albany," $57,422.25 ",70, $820.32 ,44.558803,-72.577841,Vermont,outpatients
-VT, Burlington," $378,137.83 ",342," $1,105.67 ",44.558803,-72.577841,Vermont,outpatients
-VT, Lebanon," $48,650.60 ",47," $1,035.12 ",44.558803,-72.577841,Vermont,outpatients
-WA, Everett," $318,399.28 ",307," $1,037.13 ",47.751074,-120.740139,Washington,outpatients
-WA, Olympia," $340,249.69 ",184," $1,849.18 ",47.751074,-120.740139,Washington,outpatients
-WA, Portland," $250,681.37 ",246," $1,019.03 ",47.751074,-120.740139,Washington,outpatients
-WA, Seattle," $1,706,011.96 ",1286," $1,326.60 ",47.751074,-120.740139,Washington,outpatients
-WA, Spokane," $879,031.63 ",636," $1,382.13 ",47.751074,-120.740139,Washington,outpatients
-WA, Tacoma," $668,482.08 ",276," $2,422.04 ",47.751074,-120.740139,Washington,outpatients
-WA, Yakima," $155,801.56 ",140," $1,112.87 ",47.751074,-120.740139,Washington,outpatients
-WI, Appleton," $127,640.65 ",146, $874.25 ,43.78444,-88.787868,Wisconsin,outpatients
-WI, Green Bay," $547,473.61 ",462," $1,185.01 ",43.78444,-88.787868,Wisconsin,outpatients
-WI, La Crosse," $151,811.67 ",152, $998.76 ,43.78444,-88.787868,Wisconsin,outpatients
-WI, Madison," $1,135,362.31 ",932," $1,218.20 ",43.78444,-88.787868,Wisconsin,outpatients
-WI, Marshfield," $445,699.21 ",361," $1,234.62 ",43.78444,-88.787868,Wisconsin,outpatients
-WI, Milwaukee," $2,288,641.41 ",1643," $1,392.96 ",43.78444,-88.787868,Wisconsin,outpatients
-WI, Minneapolis," $204,156.79 ",154," $1,325.69 ",43.78444,-88.787868,Wisconsin,outpatients
-WI, Neenah," $200,396.27 ",209, $958.83 ,43.78444,-88.787868,Wisconsin,outpatients
-WI, Wausau," $207,883.38 ",202," $1,029.13 ",43.78444,-88.787868,Wisconsin,outpatients
-WV, Charleston," $824,024.37 ",689," $1,195.97 ",38.597626,-80.454903,West Virginia,outpatients
-WV, Huntington," $259,798.25 ",220," $1,180.90 ",38.597626,-80.454903,West Virginia,outpatients
-WV, Morgantown," $313,057.43 ",330, $948.66 ,38.597626,-80.454903,West Virginia,outpatients
-WV, Pittsburgh," $289,653.98 ",257," $1,127.06 ",38.597626,-80.454903,West Virginia,outpatients
-WV, Roanoke," $155,436.73 ",117," $1,328.52 ",38.597626,-80.454903,West Virginia,outpatients
-WV, Winchester," $64,995.73 ",66, $984.78 ,38.597626,-80.454903,West Virginia,outpatients
-WY, Billings," $101,795.17 ",84," $1,211.85 ",43.075968,-107.290284,Wyoming,outpatients
-WY, Casper," $209,005.88 ",115," $1,817.44 ",43.075968,-107.290284,Wyoming,outpatients
-WY, Fort Collins," $151,578.95 ",106," $1,429.99 ",43.075968,-107.290284,Wyoming,outpatients
-WY, Salt Lake City," $170,262.49 ",120," $1,418.85 ",43.075968,-107.290284,Wyoming,outpatients
+AK,Anchorage,403995.4322,318,1270.425887,63.588753,-154.493062,Alaska,outpatients
+AL,Birmingham,3721993.763,1646,2261.235579,32.318231,-86.902298,Alabama,outpatients
+AL,Columbus,20254.59348,12,1687.88279,32.318231,-86.902298,Alabama,outpatients
+AL,Dothan,575999.2657,298,1932.883442,32.318231,-86.902298,Alabama,outpatients
+AL,Huntsville,679135.5357,275,2469.583766,32.318231,-86.902298,Alabama,outpatients
+AL,Meridian,1563.948864,3,521.3162879,32.318231,-86.902298,Alabama,outpatients
+AL,Mobile,709039.4036,464,1528.102163,32.318231,-86.902298,Alabama,outpatients
+AL,Montgomery,504270.7066,347,1453.229702,32.318231,-86.902298,Alabama,outpatients
+AL,Pensacola,206276.8988,115,1793.712164,32.318231,-86.902298,Alabama,outpatients
+AL,Rome,88626.73507,29,3056.094313,32.318231,-86.902298,Alabama,outpatients
+AL,Tupelo,25197.36858,19,1326.177294,32.318231,-86.902298,Alabama,outpatients
+AL,Tuscaloosa,168033.4617,159,1056.814225,32.318231,-86.902298,Alabama,outpatients
+AR,Fort Smith,354171.4935,234,1513.553391,35.20105,-91.831833,Arkansas,outpatients
+AR,Jonesboro,208293.9282,187,1113.871274,35.20105,-91.831833,Arkansas,outpatients
+AR,Little Rock,1671387.502,1305,1280.756706,35.20105,-91.831833,Arkansas,outpatients
+AR,Memphis,167424.6906,112,1494.863309,35.20105,-91.831833,Arkansas,outpatients
+AR,Springdale,566054.2431,307,1843.824896,35.20105,-91.831833,Arkansas,outpatients
+AR,Springfield,93755.4843,76,1233.624793,35.20105,-91.831833,Arkansas,outpatients
+AR,Texarkana,20292.20477,18,1127.344709,35.20105,-91.831833,Arkansas,outpatients
+AZ,Las Vegas,189498.6218,94,2015.942785,34.048928,-111.093731,Arizona,outpatients
+AZ,Mesa,787175.2392,360,2186.597887,34.048928,-111.093731,Arizona,outpatients
+AZ,Phoenix,2570949.135,1333,1928.694025,34.048928,-111.093731,Arizona,outpatients
+AZ,Sun City,221312.8993,109,2030.393572,34.048928,-111.093731,Arizona,outpatients
+AZ,Tucson,856331.1587,541,1582.867206,34.048928,-111.093731,Arizona,outpatients
+CA,Alameda County,871323.8717,392,2222.764979,36.778261,-119.417932,California,outpatients
+CA,Bakersfield,562663.2516,317,1774.962939,36.778261,-119.417932,California,outpatients
+CA,Chico,438944.2912,233,1883.881078,36.778261,-119.417932,California,outpatients
+CA,Contra Costa County,783840.1454,324,2419.259708,36.778261,-119.417932,California,outpatients
+CA,Fresno,524533.2815,312,1681.196415,36.778261,-119.417932,California,outpatients
+CA,Los Angeles,7060153.527,2655,2659.191535,36.778261,-119.417932,California,outpatients
+CA,Medford,63694.52924,42,1516.53641,36.778261,-119.417932,California,outpatients
+CA,Modesto,854053.0876,334,2557.045173,36.778261,-119.417932,California,outpatients
+CA,Napa,442980.552,180,2461.003067,36.778261,-119.417932,California,outpatients
+CA,Orange County,1821878.73,932,1954.805504,36.778261,-119.417932,California,outpatients
+CA,Palm Springs/Rancho M,285380.1713,166,1719.157658,36.778261,-119.417932,California,outpatients
+CA,Phoenix,20569.41179,13,1582.262446,36.778261,-119.417932,California,outpatients
+CA,Redding,614368.4817,258,2381.273185,36.778261,-119.417932,California,outpatients
+CA,Sacramento,2072768.338,923,2245.686173,36.778261,-119.417932,California,outpatients
+CA,Salinas,338619.1618,199,1701.603828,36.778261,-119.417932,California,outpatients
+CA,San Bernardino,1460046.844,638,2288.474677,36.778261,-119.417932,California,outpatients
+CA,San Diego,2008728.814,1040,1931.470013,36.778261,-119.417932,California,outpatients
+CA,San Francisco,1453525.028,678,2143.842224,36.778261,-119.417932,California,outpatients
+CA,San Jose,1059191.532,402,2634.804807,36.778261,-119.417932,California,outpatients
+CA,San Luis Obispo,325731.7152,125,2605.853722,36.778261,-119.417932,California,outpatients
+CA,San Mateo County,846695.716,330,2565.744594,36.778261,-119.417932,California,outpatients
+CA,Santa Barbara,240353.0216,176,1365.642168,36.778261,-119.417932,California,outpatients
+CA,Santa Cruz,336406.862,99,3398.049111,36.778261,-119.417932,California,outpatients
+CA,Santa Rosa,489310.2057,204,2398.57944,36.778261,-119.417932,California,outpatients
+CA,Stockton,623077.781,203,3069.348675,36.778261,-119.417932,California,outpatients
+CA,Ventura,779350.1875,300,2597.833958,36.778261,-119.417932,California,outpatients
+CO,Albuquerque,111111.7705,59,1883.250348,39.550051,-105.782067,Colorado,outpatients
+CO,Boulder,406887.97,189,2152.846402,39.550051,-105.782067,Colorado,outpatients
+CO,Colorado Springs,410959.6901,291,1412.232612,39.550051,-105.782067,Colorado,outpatients
+CO,Denver,2076286.579,1068,1944.088557,39.550051,-105.782067,Colorado,outpatients
+CO,Fort Collins,116463.4557,78,1493.121227,39.550051,-105.782067,Colorado,outpatients
+CO,Grand Junction,372780.2562,265,1406.717948,39.550051,-105.782067,Colorado,outpatients
+CO,Greeley,430573.3392,293,1469.533581,39.550051,-105.782067,Colorado,outpatients
+CO,Pueblo,222688.9354,135,1649.54767,39.550051,-105.782067,Colorado,outpatients
+CT,Bridgeport,611370.9517,347,1761.875941,41.603221,-73.087749,Connecticut,outpatients
+CT,Hartford,1315820.894,974,1350.945477,41.603221,-73.087749,Connecticut,outpatients
+CT,New Haven,1158884.985,683,1696.756933,41.603221,-73.087749,Connecticut,outpatients
+DC,Washington,742526.8589,484,1534.146403,38.905985,-77.033418,District of Columbia,outpatients
+DE,Salisbury,142893.9904,146,978.7259615,38.910832,-75.52767,Delaware,outpatients
+DE,Wilmington,212237.1352,171,1241.152838,38.910832,-75.52767,Delaware,outpatients
+FL,Bradenton,300713.9395,129,2331.11581,27.664827,-81.515754,Florida,outpatients
+FL,Clearwater,579101.955,310,1868.070823,27.664827,-81.515754,Florida,outpatients
+FL,Dothan,52592.56437,45,1168.723653,27.664827,-81.515754,Florida,outpatients
+FL,Fort Lauderdale,2720185.331,1241,2191.930162,27.664827,-81.515754,Florida,outpatients
+FL,Fort Myers,1145902.777,525,2182.671957,27.664827,-81.515754,Florida,outpatients
+FL,Gainesville,600384.7279,247,2430.7074,27.664827,-81.515754,Florida,outpatients
+FL,Hudson,810155.5639,212,3821.488509,27.664827,-81.515754,Florida,outpatients
+FL,Jacksonville,1603575.853,629,2549.405172,27.664827,-81.515754,Florida,outpatients
+FL,Lakeland,337552.7028,136,2482.005168,27.664827,-81.515754,Florida,outpatients
+FL,Miami,2649085.337,1026,2581.954519,27.664827,-81.515754,Florida,outpatients
+FL,Ocala,480333.25,241,1993.084025,27.664827,-81.515754,Florida,outpatients
+FL,Orlando,3486366.324,1558,2237.719078,27.664827,-81.515754,Florida,outpatients
+FL,Ormond Beach,388572.2442,298,1303.933705,27.664827,-81.515754,Florida,outpatients
+FL,Panama City,278311.1298,128,2174.305701,27.664827,-81.515754,Florida,outpatients
+FL,Pensacola,1691673.21,569,2973.063638,27.664827,-81.515754,Florida,outpatients
+FL,Sarasota,700469.598,303,2311.780852,27.664827,-81.515754,Florida,outpatients
+FL,St. Petersburg,573202.1329,275,2084.371393,27.664827,-81.515754,Florida,outpatients
+FL,Tallahassee,237615.7793,143,1661.648806,27.664827,-81.515754,Florida,outpatients
+FL,Tampa,1457728.897,528,2760.850184,27.664827,-81.515754,Florida,outpatients
+GA,Albany,180834.0265,119,1519.613668,32.157435,-82.907123,Georgia,outpatients
+GA,Atlanta,4856106.756,2623,1851.355988,32.157435,-82.907123,Georgia,outpatients
+GA,Augusta,619221.8439,420,1474.337724,32.157435,-82.907123,Georgia,outpatients
+GA,Chattanooga,62209.60178,52,1196.338496,32.157435,-82.907123,Georgia,outpatients
+GA,Columbus,229895.8808,185,1242.680437,32.157435,-82.907123,Georgia,outpatients
+GA,Dothan,17167.72068,21,817.5105085,32.157435,-82.907123,Georgia,outpatients
+GA,Jacksonville,257619.96,205,1256.682732,32.157435,-82.907123,Georgia,outpatients
+GA,Macon,924478.9865,616,1500.777575,32.157435,-82.907123,Georgia,outpatients
+GA,Rome,316454.0746,183,1729.257238,32.157435,-82.907123,Georgia,outpatients
+GA,Savannah,648468.4386,385,1684.333607,32.157435,-82.907123,Georgia,outpatients
+GA,Tallahassee,429654.1871,372,1154.984374,32.157435,-82.907123,Georgia,outpatients
+HI,Honolulu,562524.503,457,1230.907009,19.898682,-155.665857,Hawaii,outpatients
+IA,Cedar Rapids,279973.5316,177,1581.771365,41.878003,-93.097702,Iowa,outpatients
+IA,Davenport,292519.2435,274,1067.58848,41.878003,-93.097702,Iowa,outpatients
+IA,Des Moines,796266.6873,613,1298.966863,41.878003,-93.097702,Iowa,outpatients
+IA,Dubuque,140401.2024,126,1114.295257,41.878003,-93.097702,Iowa,outpatients
+IA,Iowa City,474093.2735,410,1156.325057,41.878003,-93.097702,Iowa,outpatients
+IA,Mason City,79834.18823,84,950.4070028,41.878003,-93.097702,Iowa,outpatients
+IA,Omaha,190681.4081,116,1643.805242,41.878003,-93.097702,Iowa,outpatients
+IA,Sioux City,125153.1772,119,1051.707372,41.878003,-93.097702,Iowa,outpatients
+IA,Sioux Falls,123276.1544,120,1027.301287,41.878003,-93.097702,Iowa,outpatients
+IA,Waterloo,262315.6214,206,1273.376803,41.878003,-93.097702,Iowa,outpatients
+ID,Boise,368461.8009,392,939.9535738,44.068202,-114.742041,Idaho,outpatients
+ID,Idaho Falls,129619.5269,169,766.9794489,44.068202,-114.742041,Idaho,outpatients
+ID,Salt Lake City,63404.75464,62,1022.657333,44.068202,-114.742041,Idaho,outpatients
+ID,Spokane,144173.1737,174,828.5814583,44.068202,-114.742041,Idaho,outpatients
+IL,Aurora,314249.8537,127,2474.408297,40.633125,-89.398528,Illinois,outpatients
+IL,Bloomington,270341.0851,191,1415.398351,40.633125,-89.398528,Illinois,outpatients
+IL,Blue Island,972160.4488,533,1823.940805,40.633125,-89.398528,Illinois,outpatients
+IL,Chicago,2514498.593,1533,1640.246962,40.633125,-89.398528,Illinois,outpatients
+IL,Davenport,155950.1003,141,1106.02908,40.633125,-89.398528,Illinois,outpatients
+IL,Elgin,573524.322,322,1781.131435,40.633125,-89.398528,Illinois,outpatients
+IL,Evanston,810851.1732,476,1703.468851,40.633125,-89.398528,Illinois,outpatients
+IL,Evansville,133434.9691,87,1533.735277,40.633125,-89.398528,Illinois,outpatients
+IL,Hinsdale,544319.8874,277,1965.053745,40.633125,-89.398528,Illinois,outpatients
+IL,Joliet,659796.9023,349,1890.535537,40.633125,-89.398528,Illinois,outpatients
+IL,Melrose Park,1494633.926,810,1845.227069,40.633125,-89.398528,Illinois,outpatients
+IL,Milwaukee,383251.308,163,2351.235019,40.633125,-89.398528,Illinois,outpatients
+IL,Paducah,169759.9134,51,3328.625754,40.633125,-89.398528,Illinois,outpatients
+IL,Peoria,1217824.125,694,1754.789806,40.633125,-89.398528,Illinois,outpatients
+IL,Rockford,922454.8585,586,1574.155049,40.633125,-89.398528,Illinois,outpatients
+IL,Springfield,1065203.607,635,1677.485996,40.633125,-89.398528,Illinois,outpatients
+IL,St. Louis,1475571.66,803,1837.573674,40.633125,-89.398528,Illinois,outpatients
+IL,Urbana,437047.3273,297,1471.539823,40.633125,-89.398528,Illinois,outpatients
+IN,Cincinnati,69973.21592,60,1166.220265,40.551217,-85.602364,Indiana,outpatients
+IN,Evansville,598041.0602,376,1590.534735,40.551217,-85.602364,Indiana,outpatients
+IN,Fort Wayne,914139.4684,504,1813.768787,40.551217,-85.602364,Indiana,outpatients
+IN,Gary,707905.2671,432,1638.6696,40.551217,-85.602364,Indiana,outpatients
+IN,Indianapolis,3426677.103,2221,1542.853266,40.551217,-85.602364,Indiana,outpatients
+IN,Lafayette,324684.8909,151,2150.231066,40.551217,-85.602364,Indiana,outpatients
+IN,Louisville,350581.0089,262,1338.095454,40.551217,-85.602364,Indiana,outpatients
+IN,Muncie,113765.8022,66,1723.724276,40.551217,-85.602364,Indiana,outpatients
+IN,Munster,518956.2446,299,1735.639614,40.551217,-85.602364,Indiana,outpatients
+IN,South Bend,570728.5226,426,1339.738316,40.551217,-85.602364,Indiana,outpatients
+IN,Terre Haute,304127.0886,134,2269.605139,40.551217,-85.602364,Indiana,outpatients
+KS,Amarillo,15601.33678,31,503.2689283,39.011902,-98.484246,Kansas,outpatients
+KS,Joplin,132832.4627,89,1492.499581,39.011902,-98.484246,Kansas,outpatients
+KS,Kansas City,1359429.926,748,1817.419687,39.011902,-98.484246,Kansas,outpatients
+KS,Topeka,503454.928,394,1277.804386,39.011902,-98.484246,Kansas,outpatients
+KS,Tulsa,43455.6745,51,852.0720491,39.011902,-98.484246,Kansas,outpatients
+KS,Wichita,1227664.559,917,1338.783598,39.011902,-98.484246,Kansas,outpatients
+KY,Covington,207950.177,189,1100.265487,37.839333,-84.270018,Kentucky,outpatients
+KY,Evansville,122976.1924,63,1952.003053,37.839333,-84.270018,Kentucky,outpatients
+KY,Huntington,452515.3781,211,2144.622645,37.839333,-84.270018,Kentucky,outpatients
+KY,Knoxville,77668.97802,79,983.1516205,37.839333,-84.270018,Kentucky,outpatients
+KY,Lexington,2303702.257,1384,1664.524752,37.839333,-84.270018,Kentucky,outpatients
+KY,Louisville,1528994.312,888,1721.840441,37.839333,-84.270018,Kentucky,outpatients
+KY,Nashville,416036.5423,265,1569.949216,37.839333,-84.270018,Kentucky,outpatients
+KY,Owensboro,101573.1847,82,1238.697374,37.839333,-84.270018,Kentucky,outpatients
+KY,Paducah,593855.3888,343,1731.356819,37.839333,-84.270018,Kentucky,outpatients
+LA,Alexandria,494889.6463,245,2019.95774,31.244823,-92.145024,Louisiana,outpatients
+LA,Baton Rouge,540947.3378,362,1494.329662,31.244823,-92.145024,Louisiana,outpatients
+LA,Houma,244527.3519,134,1824.830985,31.244823,-92.145024,Louisiana,outpatients
+LA,Lafayette,729095.3623,479,1522.119754,31.244823,-92.145024,Louisiana,outpatients
+LA,Lake Charles,398960.0517,251,1589.482278,31.244823,-92.145024,Louisiana,outpatients
+LA,Metairie,599644.7425,332,1806.158863,31.244823,-92.145024,Louisiana,outpatients
+LA,Monroe,448918.4475,349,1286.299276,31.244823,-92.145024,Louisiana,outpatients
+LA,New Orleans,517467.9163,405,1277.698559,31.244823,-92.145024,Louisiana,outpatients
+LA,Shreveport,799141.5446,571,1399.547364,31.244823,-92.145024,Louisiana,outpatients
+LA,Slidell,317445.7131,130,2441.890101,31.244823,-92.145024,Louisiana,outpatients
+MA,Albany,116151.9753,98,1185.224237,42.407211,-71.382437,Massachusetts,outpatients
+MA,Boston,3647785.883,3101,1176.325664,42.407211,-71.382437,Massachusetts,outpatients
+MA,Providence,77906.1626,78,998.7969564,42.407211,-71.382437,Massachusetts,outpatients
+MA,Springfield,467361.9056,529,883.4818632,42.407211,-71.382437,Massachusetts,outpatients
+MA,Worcester,501983.173,447,1123.004861,42.407211,-71.382437,Massachusetts,outpatients
+ME,Bangor,347373.8145,452,768.5261382,45.253783,-69.445469,Maine,outpatients
+ME,Portland,819801.9628,1018,805.3064468,45.253783,-69.445469,Maine,outpatients
+MI,Ann Arbor,855245.4531,653,1309.717386,44.314844,-85.602364,Michigan,outpatients
+MI,Dearborn,426232.6844,273,1561.291884,44.314844,-85.602364,Michigan,outpatients
+MI,Detroit,1071389.089,968,1106.80691,44.314844,-85.602364,Michigan,outpatients
+MI,Flint,406492.8306,287,1416.351326,44.314844,-85.602364,Michigan,outpatients
+MI,Grand Rapids,476201.9443,510,933.7293025,44.314844,-85.602364,Michigan,outpatients
+MI,Green Bay,83237.47826,73,1140.239428,44.314844,-85.602364,Michigan,outpatients
+MI,Kalamazoo,521412.3742,455,1145.961262,44.314844,-85.602364,Michigan,outpatients
+MI,Lansing,510022.7891,443,1151.292978,44.314844,-85.602364,Michigan,outpatients
+MI,Marquette,149508.0836,157,952.2807873,44.314844,-85.602364,Michigan,outpatients
+MI,Muskegon,246444.2399,198,1244.667878,44.314844,-85.602364,Michigan,outpatients
+MI,Petoskey,193005.5306,196,984.7220947,44.314844,-85.602364,Michigan,outpatients
+MI,Pontiac,292904.514,244,1200.428336,44.314844,-85.602364,Michigan,outpatients
+MI,Royal Oak,477084.5019,427,1117.293915,44.314844,-85.602364,Michigan,outpatients
+MI,Saginaw,554768.9265,552,1005.016171,44.314844,-85.602364,Michigan,outpatients
+MI,St. Joseph,124542.2306,124,1004.372828,44.314844,-85.602364,Michigan,outpatients
+MI,Toledo,52375.63908,43,1218.038118,44.314844,-85.602364,Michigan,outpatients
+MI,Traverse City,134222.1127,135,994.2378722,44.314844,-85.602364,Michigan,outpatients
+MN,Duluth,263678.8307,279,945.0854147,46.729553,-94.6859,Minnesota,outpatients
+MN,Fargo/Moorhead MN,187536.8444,213,880.4546687,46.729553,-94.6859,Minnesota,outpatients
+MN,La Crosse,52750.36053,66,799.2478868,46.729553,-94.6859,Minnesota,outpatients
+MN,Minneapolis,1993223.996,1741,1144.873059,46.729553,-94.6859,Minnesota,outpatients
+MN,Rochester,470781.902,477,986.9641551,46.729553,-94.6859,Minnesota,outpatients
+MN,Sioux Falls,52160.8337,55,948.3787946,46.729553,-94.6859,Minnesota,outpatients
+MN,St. Cloud,107905.3611,89,1212.419788,46.729553,-94.6859,Minnesota,outpatients
+MN,St. Paul,631235.2304,425,1485.259366,46.729553,-94.6859,Minnesota,outpatients
+MO,Cape Girardeau,506653.6082,295,1717.469858,37.964253,-91.831833,Missouri,outpatients
+MO,Columbia,927933.7959,741,1252.272329,37.964253,-91.831833,Missouri,outpatients
+MO,Jonesboro,132070.8304,47,2810.017669,37.964253,-91.831833,Missouri,outpatients
+MO,Joplin,248849.9384,185,1345.134802,37.964253,-91.831833,Missouri,outpatients
+MO,Kansas City,1843828.13,1263,1459.879755,37.964253,-91.831833,Missouri,outpatients
+MO,Springfield,754620.4448,583,1294.374691,37.964253,-91.831833,Missouri,outpatients
+MO,St. Louis,2487435.303,1554,1600.666218,37.964253,-91.831833,Missouri,outpatients
+MS,Birmingham,36444.80024,39,934.4820574,32.354668,-89.398528,Mississippi,outpatients
+MS,Gulfport,455674.0122,195,2336.789806,32.354668,-89.398528,Mississippi,outpatients
+MS,Hattiesburg,326157.8477,210,1553.132608,32.354668,-89.398528,Mississippi,outpatients
+MS,Jackson,1498745.627,830,1805.717623,32.354668,-89.398528,Mississippi,outpatients
+MS,Memphis,456063.7723,298,1530.415343,32.354668,-89.398528,Mississippi,outpatients
+MS,Meridian,184849.7795,155,1192.579223,32.354668,-89.398528,Mississippi,outpatients
+MS,Mobile,184694.5546,107,1726.117333,32.354668,-89.398528,Mississippi,outpatients
+MS,Oxford,238309.1709,173,1377.509659,32.354668,-89.398528,Mississippi,outpatients
+MS,Slidell,89639.08526,67,1337.896795,32.354668,-89.398528,Mississippi,outpatients
+MS,Tupelo,534253.1336,351,1522.0887,32.354668,-89.398528,Mississippi,outpatients
+MT,Billings,237097.123,341,695.2994808,46.879682,-110.362566,Montana,outpatients
+MT,Great Falls,119116.1863,143,832.9803234,46.879682,-110.362566,Montana,outpatients
+MT,Missoula,249556.6467,282,884.952648,46.879682,-110.362566,Montana,outpatients
+NC,Asheville,493889.3616,523,944.3391235,35.759573,-79.0193,North Carolina,outpatients
+NC,Atlanta,43389.07988,41,1058.270241,35.759573,-79.0193,North Carolina,outpatients
+NC,Charlotte,1823896.943,1187,1536.560188,35.759573,-79.0193,North Carolina,outpatients
+NC,Durham,1042206.046,755,1380.405359,35.759573,-79.0193,North Carolina,outpatients
+NC,Greensboro,231232.0628,214,1080.523658,35.759573,-79.0193,North Carolina,outpatients
+NC,Greenville,789511.9284,517,1527.102376,35.759573,-79.0193,North Carolina,outpatients
+NC,Hickory,328512.9128,263,1249.098528,35.759573,-79.0193,North Carolina,outpatients
+NC,Johnson City,65601.37311,69,950.7445379,35.759573,-79.0193,North Carolina,outpatients
+NC,Norfolk,49550.75199,57,869.3114384,35.759573,-79.0193,North Carolina,outpatients
+NC,Raleigh,1253737.323,827,1516.006436,35.759573,-79.0193,North Carolina,outpatients
+NC,Wilmington,287322.7298,181,1587.418397,35.759573,-79.0193,North Carolina,outpatients
+NC,Winston-Salem,751721.9021,676,1112.014648,35.759573,-79.0193,North Carolina,outpatients
+ND,Bismarck,113439.1193,178,637.2984231,47.551493,-101.002012,North Dakota,outpatients
+ND,Fargo/Moorhead MN,168933.0667,206,820.0634305,47.551493,-101.002012,North Dakota,outpatients
+ND,Grand Forks,77617.87722,93,834.6008304,47.551493,-101.002012,North Dakota,outpatients
+ND,Minot,71558.14107,87,822.5073686,47.551493,-101.002012,North Dakota,outpatients
+NE,Denver,120512.3046,68,1772.239774,41.492537,-99.901813,Nebraska,outpatients
+NE,Lincoln,459540.4882,323,1422.72597,41.492537,-99.901813,Nebraska,outpatients
+NE,Omaha,1321327.123,822,1607.45392,41.492537,-99.901813,Nebraska,outpatients
+NH,Lebanon,233151.0301,203,1148.527242,43.193852,-71.572395,New Hampshire,outpatients
+NH,Manchester,903249.7757,680,1328.308494,43.193852,-71.572395,New Hampshire,outpatients
+NH,Portland,196538.8437,141,1393.892509,43.193852,-71.572395,New Hampshire,outpatients
+NJ,Allentown,291463.7644,68,4286.231829,40.058324,-74.405661,New Jersey,outpatients
+NJ,Camden,2912469.035,1356,2147.838522,40.058324,-74.405661,New Jersey,outpatients
+NJ,Hackensack,1077360.861,486,2216.791894,40.058324,-74.405661,New Jersey,outpatients
+NJ,Morristown,770587.4097,387,1991.181937,40.058324,-74.405661,New Jersey,outpatients
+NJ,New Brunswick,993704.1919,405,2453.590597,40.058324,-74.405661,New Jersey,outpatients
+NJ,Newark,1501546.852,664,2261.365742,40.058324,-74.405661,New Jersey,outpatients
+NJ,Paterson,215239.2803,159,1353.706165,40.058324,-74.405661,New Jersey,outpatients
+NJ,Philadelphia,1278917.213,388,3296.178385,40.058324,-74.405661,New Jersey,outpatients
+NJ,Ridgewood,138241.2538,87,1588.979929,40.058324,-74.405661,New Jersey,outpatients
+NJ,Wilmington,199283.8812,51,3907.527083,40.058324,-74.405661,New Jersey,outpatients
+NM,Albuquerque,975105.6542,679,1436.090801,34.97273,-105.032363,New Mexico,outpatients
+NM,El Paso,280609.5271,182,1541.810589,34.97273,-105.032363,New Mexico,outpatients
+NM,Lubbock,254394.5192,156,1630.734097,34.97273,-105.032363,New Mexico,outpatients
+NV,Las Vegas,1565092.964,533,2936.384548,38.80261,-116.419389,Nevada,outpatients
+NV,Reno,592074.1629,335,1767.385561,38.80261,-116.419389,Nevada,outpatients
+NV,Salt Lake City,79416.55592,39,2036.321947,38.80261,-116.419389,Nevada,outpatients
+NY,Albany,1385060.593,1222,1133.437474,43.299428,-74.217933,New York,outpatients
+NY,Binghamton,240255.1669,279,861.1296305,43.299428,-74.217933,New York,outpatients
+NY,Bronx,375741.7432,290,1295.661183,43.299428,-74.217933,New York,outpatients
+NY,Buffalo,471109.5366,746,631.5141241,43.299428,-74.217933,New York,outpatients
+NY,Burlington,279355.6712,282,990.6229475,43.299428,-74.217933,New York,outpatients
+NY,East Long Island,2681087.009,1497,1790.973286,43.299428,-74.217933,New York,outpatients
+NY,Elmira,213525.4612,229,932.4255945,43.299428,-74.217933,New York,outpatients
+NY,Erie,49433.73401,76,650.4438685,43.299428,-74.217933,New York,outpatients
+NY,Hackensack,151075.1225,70,2158.216036,43.299428,-74.217933,New York,outpatients
+NY,Manhattan,1967187.959,1339,1469.147094,43.299428,-74.217933,New York,outpatients
+NY,Morristown,129746.4827,50,2594.929655,43.299428,-74.217933,New York,outpatients
+NY,New Haven,112611.4938,63,1787.484029,43.299428,-74.217933,New York,outpatients
+NY,Ridgewood,367424.6035,107,3433.874799,43.299428,-74.217933,New York,outpatients
+NY,Rochester,590749.628,782,755.4343069,43.299428,-74.217933,New York,outpatients
+NY,Sayre,89399.70618,53,1686.786909,43.299428,-74.217933,New York,outpatients
+NY,Syracuse,683317.5612,680,1004.878766,43.299428,-74.217933,New York,outpatients
+NY,White Plains,1058292.605,599,1766.765617,43.299428,-74.217933,New York,outpatients
+OH,Akron,888669.2381,450,1974.820529,40.417287,-82.907123,Ohio,outpatients
+OH,Canton,416438.1901,462,901.3813639,40.417287,-82.907123,Ohio,outpatients
+OH,Cincinnati,1580491.351,982,1609.46166,40.417287,-82.907123,Ohio,outpatients
+OH,Cleveland,2469092.918,1644,1501.881337,40.417287,-82.907123,Ohio,outpatients
+OH,Columbus,2113275.902,1754,1204.832327,40.417287,-82.907123,Ohio,outpatients
+OH,Dayton,1089122.642,717,1518.999501,40.417287,-82.907123,Ohio,outpatients
+OH,Elyria,210347.0483,154,1365.889924,40.417287,-82.907123,Ohio,outpatients
+OH,Fort Wayne,136031.9504,105,1295.542384,40.417287,-82.907123,Ohio,outpatients
+OH,Huntington,13484.37298,5,2696.874596,40.417287,-82.907123,Ohio,outpatients
+OH,Kettering,482267.8932,244,1976.507759,40.417287,-82.907123,Ohio,outpatients
+OH,Pittsburgh,203129.2902,187,1086.252889,40.417287,-82.907123,Ohio,outpatients
+OH,Toledo,1183612.533,810,1461.25004,40.417287,-82.907123,Ohio,outpatients
+OH,Youngstown,615544.9072,398,1546.595244,40.417287,-82.907123,Ohio,outpatients
+OK,Amarillo,29856.73033,21,1421.749063,35.007752,-97.092877,Oklahoma,outpatients
+OK,Dallas,171011.9987,64,2672.06248,35.007752,-97.092877,Oklahoma,outpatients
+OK,Fort Smith,49339.5443,60,822.3257383,35.007752,-97.092877,Oklahoma,outpatients
+OK,Joplin,104359.5918,69,1512.457852,35.007752,-97.092877,Oklahoma,outpatients
+OK,Lawton,254003.9893,196,1295.938721,35.007752,-97.092877,Oklahoma,outpatients
+OK,Oklahoma City,2802021.874,1568,1787.003746,35.007752,-97.092877,Oklahoma,outpatients
+OK,Texarkana,18996.35808,31,612.7857445,35.007752,-97.092877,Oklahoma,outpatients
+OK,Tulsa,1575269.958,1118,1409.007118,35.007752,-97.092877,Oklahoma,outpatients
+OR,Bend,112626.9854,94,1198.159419,43.804133,-120.554201,Oregon,outpatients
+OR,Boise,66488.80879,64,1038.887637,43.804133,-120.554201,Oregon,outpatients
+OR,Eugene,444209.0455,421,1055.128374,43.804133,-120.554201,Oregon,outpatients
+OR,Medford,367870.0716,352,1045.085431,43.804133,-120.554201,Oregon,outpatients
+OR,Portland,940610.9687,919,1023.515744,43.804133,-120.554201,Oregon,outpatients
+OR,Salem,87831.31383,90,975.903487,43.804133,-120.554201,Oregon,outpatients
+PA,Allentown,1766648.289,858,2059.03064,41.203322,-77.194525,Pennsylvania,outpatients
+PA,Altoona,242135.0331,300,807.1167771,41.203322,-77.194525,Pennsylvania,outpatients
+PA,Danville,944620.9879,476,1984.497874,41.203322,-77.194525,Pennsylvania,outpatients
+PA,Erie,779907.3112,699,1115.747226,41.203322,-77.194525,Pennsylvania,outpatients
+PA,Harrisburg,884993.6943,641,1380.645389,41.203322,-77.194525,Pennsylvania,outpatients
+PA,Johnstown,198086.1835,206,961.5834153,41.203322,-77.194525,Pennsylvania,outpatients
+PA,Lancaster,755151.1771,348,2169.974647,41.203322,-77.194525,Pennsylvania,outpatients
+PA,Morgantown,39916.27314,48,831.5890238,41.203322,-77.194525,Pennsylvania,outpatients
+PA,Philadelphia,5202724.072,1875,2774.786172,41.203322,-77.194525,Pennsylvania,outpatients
+PA,Pittsburgh,2226779.214,1982,1123.501117,41.203322,-77.194525,Pennsylvania,outpatients
+PA,Reading,503258.8414,318,1582.574973,41.203322,-77.194525,Pennsylvania,outpatients
+PA,Sayre,324731.8762,195,1665.291673,41.203322,-77.194525,Pennsylvania,outpatients
+PA,Scranton,487543.3195,280,1741.226141,41.203322,-77.194525,Pennsylvania,outpatients
+PA,Wilkes-Barre,383401.3625,172,2229.077689,41.203322,-77.194525,Pennsylvania,outpatients
+PA,York,239897.5679,203,1181.761418,41.203322,-77.194525,Pennsylvania,outpatients
+PA,Youngstown,128578.2358,130,989.0633523,41.203322,-77.194525,Pennsylvania,outpatients
+RI,Providence,888999.6204,728,1221.153325,41.580095,-71.477429,Rhode Island,outpatients
+SC,Augusta,73410.01228,58,1265.689867,33.836081,-81.163725,South Carolina,outpatients
+SC,Charleston,1116976.32,729,1532.203457,33.836081,-81.163725,South Carolina,outpatients
+SC,Charlotte,226590.9653,101,2243.474904,33.836081,-81.163725,South Carolina,outpatients
+SC,Columbia,1172441.737,766,1530.60279,33.836081,-81.163725,South Carolina,outpatients
+SC,Florence,795048.0617,343,2317.924378,33.836081,-81.163725,South Carolina,outpatients
+SC,Greenville,1022906.945,609,1679.650156,33.836081,-81.163725,South Carolina,outpatients
+SC,Savannah,135888.9369,135,1006.584717,33.836081,-81.163725,South Carolina,outpatients
+SC,Spartanburg,357294.7773,240,1488.728239,33.836081,-81.163725,South Carolina,outpatients
+SD,Rapid City,132024.729,157,840.9218409,43.969515,-99.901813,South Dakota,outpatients
+SD,Sioux City,46877.11838,22,2130.778108,43.969515,-99.901813,South Dakota,outpatients
+SD,Sioux Falls,766881.5948,642,1194.519618,43.969515,-99.901813,South Dakota,outpatients
+TN,Chattanooga,651771.5646,303,2151.061269,35.517491,-86.580447,Tennessee,outpatients
+TN,Huntsville,46736.23786,35,1335.321082,35.517491,-86.580447,Tennessee,outpatients
+TN,Jackson,530107.9683,311,1704.527229,35.517491,-86.580447,Tennessee,outpatients
+TN,Johnson City,287581.4907,139,2068.931588,35.517491,-86.580447,Tennessee,outpatients
+TN,Kingsport,270726.5557,181,1495.726827,35.517491,-86.580447,Tennessee,outpatients
+TN,Knoxville,1472553.328,1019,1445.096494,35.517491,-86.580447,Tennessee,outpatients
+TN,Memphis,1121133.953,550,2038.42537,35.517491,-86.580447,Tennessee,outpatients
+TN,Nashville,2923990.596,1661,1760.379648,35.517491,-86.580447,Tennessee,outpatients
+TX,Abilene,449433.6697,298,1508.166677,31.968599,-99.901813,Texas,outpatients
+TX,Amarillo,419787.0302,244,1720.438648,31.968599,-99.901813,Texas,outpatients
+TX,Austin,1365973.837,733,1863.538659,31.968599,-99.901813,Texas,outpatients
+TX,Beaumont,551203.3469,249,2213.66806,31.968599,-99.901813,Texas,outpatients
+TX,Bryan,316331.6424,137,2308.99009,31.968599,-99.901813,Texas,outpatients
+TX,Corpus Christi,464811.853,207,2245.467889,31.968599,-99.901813,Texas,outpatients
+TX,Dallas,4803044.714,2351,2042.979462,31.968599,-99.901813,Texas,outpatients
+TX,El Paso,709814.4762,319,2225.12375,31.968599,-99.901813,Texas,outpatients
+TX,Fort Worth,1887620.795,926,2038.467381,31.968599,-99.901813,Texas,outpatients
+TX,Harlingen,560555.8899,268,2091.626455,31.968599,-99.901813,Texas,outpatients
+TX,Houston,6325422.544,2630,2405.103629,31.968599,-99.901813,Texas,outpatients
+TX,Longview,323807.6335,115,2815.718552,31.968599,-99.901813,Texas,outpatients
+TX,Lubbock,639209.7284,318,2010.093486,31.968599,-99.901813,Texas,outpatients
+TX,McAllen,666032.0332,238,2798.453921,31.968599,-99.901813,Texas,outpatients
+TX,Odessa,270274.1295,171,1580.550465,31.968599,-99.901813,Texas,outpatients
+TX,San Angelo,234784.89,136,1726.359486,31.968599,-99.901813,Texas,outpatients
+TX,San Antonio,1988461.064,1064,1868.854384,31.968599,-99.901813,Texas,outpatients
+TX,Shreveport,209591.3015,82,2555.991481,31.968599,-99.901813,Texas,outpatients
+TX,Temple,261424.248,180,1452.356934,31.968599,-99.901813,Texas,outpatients
+TX,Texarkana,230452.6806,143,1611.557207,31.968599,-99.901813,Texas,outpatients
+TX,Tyler,1106319.415,541,2044.952708,31.968599,-99.901813,Texas,outpatients
+TX,Victoria,254171.6868,152,1672.18215,31.968599,-99.901813,Texas,outpatients
+TX,Waco,421422.4078,294,1433.40955,31.968599,-99.901813,Texas,outpatients
+TX,Wichita Falls,222860.8316,168,1326.552569,31.968599,-99.901813,Texas,outpatients
+UT,Ogden,264627.8595,233,1135.741886,39.32098,-111.093731,Utah,outpatients
+UT,Provo,238523.3521,194,1229.501815,39.32098,-111.093731,Utah,outpatients
+UT,Salt Lake City,1210210.526,1061,1140.631976,39.32098,-111.093731,Utah,outpatients
+VA,Arlington,789454.2399,573,1377.756091,37.431573,-78.656894,Virginia,outpatients
+VA,Charlottesville,453447.7109,391,1159.712816,37.431573,-78.656894,Virginia,outpatients
+VA,Durham,214675.1833,145,1480.518506,37.431573,-78.656894,Virginia,outpatients
+VA,Kingsport,653345.62,366,1785.097322,37.431573,-78.656894,Virginia,outpatients
+VA,Lynchburg,142769.8649,129,1106.743138,37.431573,-78.656894,Virginia,outpatients
+VA,Newport News,513895.8961,357,1439.484303,37.431573,-78.656894,Virginia,outpatients
+VA,Norfolk,1174692.356,724,1622.503254,37.431573,-78.656894,Virginia,outpatients
+VA,Richmond,2510952.075,962,2610.137293,37.431573,-78.656894,Virginia,outpatients
+VA,Roanoke,723812.9683,447,1619.268385,37.431573,-78.656894,Virginia,outpatients
+VA,Winchester,131807.0174,122,1080.385388,37.431573,-78.656894,Virginia,outpatients
+VA,Winston-Salem,55110.46712,44,1252.510616,37.431573,-78.656894,Virginia,outpatients
+VT,Albany,57422.24607,70,820.317801,44.558803,-72.577841,Vermont,outpatients
+VT,Burlington,378137.8275,342,1105.666162,44.558803,-72.577841,Vermont,outpatients
+VT,Lebanon,48650.59971,47,1035.119143,44.558803,-72.577841,Vermont,outpatients
+WA,Everett,318399.2845,307,1037.13122,47.751074,-120.740139,Washington,outpatients
+WA,Olympia,340249.6908,184,1849.183102,47.751074,-120.740139,Washington,outpatients
+WA,Portland,250681.3676,246,1019.02995,47.751074,-120.740139,Washington,outpatients
+WA,Seattle,1706011.964,1286,1326.603394,47.751074,-120.740139,Washington,outpatients
+WA,Spokane,879031.6311,636,1382.125206,47.751074,-120.740139,Washington,outpatients
+WA,Tacoma,668482.0789,276,2422.036518,47.751074,-120.740139,Washington,outpatients
+WA,Yakima,155801.559,140,1112.868279,47.751074,-120.740139,Washington,outpatients
+WI,Appleton,127640.654,146,874.2510547,43.78444,-88.787868,Wisconsin,outpatients
+WI,Green Bay,547473.6147,462,1185.007824,43.78444,-88.787868,Wisconsin,outpatients
+WI,La Crosse,151811.6715,152,998.7609968,43.78444,-88.787868,Wisconsin,outpatients
+WI,Madison,1135362.313,932,1218.199906,43.78444,-88.787868,Wisconsin,outpatients
+WI,Marshfield,445699.2139,361,1234.623861,43.78444,-88.787868,Wisconsin,outpatients
+WI,Milwaukee,2288641.408,1643,1392.964947,43.78444,-88.787868,Wisconsin,outpatients
+WI,Minneapolis,204156.7865,154,1325.693419,43.78444,-88.787868,Wisconsin,outpatients
+WI,Neenah,200396.2715,209,958.8338347,43.78444,-88.787868,Wisconsin,outpatients
+WI,Wausau,207883.3769,202,1029.125628,43.78444,-88.787868,Wisconsin,outpatients
+WV,Charleston,824024.369,689,1195.971508,38.597626,-80.454903,West Virginia,outpatients
+WV,Huntington,259798.2541,220,1180.901155,38.597626,-80.454903,West Virginia,outpatients
+WV,Morgantown,313057.4302,330,948.6588793,38.597626,-80.454903,West Virginia,outpatients
+WV,Pittsburgh,289653.9803,257,1127.058289,38.597626,-80.454903,West Virginia,outpatients
+WV,Roanoke,155436.7324,117,1328.519081,38.597626,-80.454903,West Virginia,outpatients
+WV,Winchester,64995.73323,66,984.7838368,38.597626,-80.454903,West Virginia,outpatients
+WY,Billings,101795.1721,84,1211.847287,43.075968,-107.290284,Wyoming,outpatients
+WY,Casper,209005.8769,115,1817.442408,43.075968,-107.290284,Wyoming,outpatients
+WY,Fort Collins,151578.9507,106,1429.990101,43.075968,-107.290284,Wyoming,outpatients
+WY,Salt Lake City,170262.4928,120,1418.854107,43.075968,-107.290284,Wyoming,outpatients
+MD,,,,,39.045755,-76.641271,Maryland,outpatients
+AK,Anchorage,"$403,995.43 ",318,"$1,270.43 ",63.588753,-154.493062,Alaska,outpatients
+AL,Birmingham,"$3,721,993.76 ",1646,"$2,261.24 ",32.318231,-86.902298,Alabama,outpatients
+AL,Columbus,"$20,254.59 ",12,"$1,687.88 ",32.318231,-86.902298,Alabama,outpatients
+AL,Dothan,"$575,999.27 ",298,"$1,932.88 ",32.318231,-86.902298,Alabama,outpatients
+AL,Huntsville,"$679,135.54 ",275,"$2,469.58 ",32.318231,-86.902298,Alabama,outpatients
+AL,Meridian,"$1,563.95 ",3,$521.32 ,32.318231,-86.902298,Alabama,outpatients
+AL,Mobile,"$709,039.40 ",464,"$1,528.10 ",32.318231,-86.902298,Alabama,outpatients
+AL,Montgomery,"$504,270.71 ",347,"$1,453.23 ",32.318231,-86.902298,Alabama,outpatients
+AL,Pensacola,"$206,276.90 ",115,"$1,793.71 ",32.318231,-86.902298,Alabama,outpatients
+AL,Rome,"$88,626.74 ",29,"$3,056.09 ",32.318231,-86.902298,Alabama,outpatients
+AL,Tupelo,"$25,197.37 ",19,"$1,326.18 ",32.318231,-86.902298,Alabama,outpatients
+AL,Tuscaloosa,"$168,033.46 ",159,"$1,056.81 ",32.318231,-86.902298,Alabama,outpatients
+AR,Fort Smith,"$354,171.49 ",234,"$1,513.55 ",35.20105,-91.831833,Arkansas,outpatients
+AR,Jonesboro,"$208,293.93 ",187,"$1,113.87 ",35.20105,-91.831833,Arkansas,outpatients
+AR,Little Rock,"$1,671,387.50 ",1305,"$1,280.76 ",35.20105,-91.831833,Arkansas,outpatients
+AR,Memphis,"$167,424.69 ",112,"$1,494.86 ",35.20105,-91.831833,Arkansas,outpatients
+AR,Springdale,"$566,054.24 ",307,"$1,843.82 ",35.20105,-91.831833,Arkansas,outpatients
+AR,Springfield,"$93,755.48 ",76,"$1,233.62 ",35.20105,-91.831833,Arkansas,outpatients
+AR,Texarkana,"$20,292.20 ",18,"$1,127.34 ",35.20105,-91.831833,Arkansas,outpatients
+AZ,Las Vegas,"$189,498.62 ",94,"$2,015.94 ",34.048928,-111.093731,Arizona,outpatients
+AZ,Mesa,"$787,175.24 ",360,"$2,186.60 ",34.048928,-111.093731,Arizona,outpatients
+AZ,Phoenix,"$2,570,949.14 ",1333,"$1,928.69 ",34.048928,-111.093731,Arizona,outpatients
+AZ,Sun City,"$221,312.90 ",109,"$2,030.39 ",34.048928,-111.093731,Arizona,outpatients
+AZ,Tucson,"$856,331.16 ",541,"$1,582.87 ",34.048928,-111.093731,Arizona,outpatients
+CA,Alameda County,"$871,323.87 ",392,"$2,222.76 ",36.778261,-119.417932,California,outpatients
+CA,Bakersfield,"$562,663.25 ",317,"$1,774.96 ",36.778261,-119.417932,California,outpatients
+CA,Chico,"$438,944.29 ",233,"$1,883.88 ",36.778261,-119.417932,California,outpatients
+CA,Contra Costa County,"$783,840.15 ",324,"$2,419.26 ",36.778261,-119.417932,California,outpatients
+CA,Fresno,"$524,533.28 ",312,"$1,681.20 ",36.778261,-119.417932,California,outpatients
+CA,Los Angeles,"$7,060,153.53 ",2655,"$2,659.19 ",36.778261,-119.417932,California,outpatients
+CA,Medford,"$63,694.53 ",42,"$1,516.54 ",36.778261,-119.417932,California,outpatients
+CA,Modesto,"$854,053.09 ",334,"$2,557.05 ",36.778261,-119.417932,California,outpatients
+CA,Napa,"$442,980.55 ",180,"$2,461.00 ",36.778261,-119.417932,California,outpatients
+CA,Orange County,"$1,821,878.73 ",932,"$1,954.81 ",36.778261,-119.417932,California,outpatients
+CA,Palm Springs/Rancho M,"$285,380.17 ",166,"$1,719.16 ",36.778261,-119.417932,California,outpatients
+CA,Phoenix,"$20,569.41 ",13,"$1,582.26 ",36.778261,-119.417932,California,outpatients
+CA,Redding,"$614,368.48 ",258,"$2,381.27 ",36.778261,-119.417932,California,outpatients
+CA,Sacramento,"$2,072,768.34 ",923,"$2,245.69 ",36.778261,-119.417932,California,outpatients
+CA,Salinas,"$338,619.16 ",199,"$1,701.60 ",36.778261,-119.417932,California,outpatients
+CA,San Bernardino,"$1,460,046.84 ",638,"$2,288.47 ",36.778261,-119.417932,California,outpatients
+CA,San Diego,"$2,008,728.81 ",1040,"$1,931.47 ",36.778261,-119.417932,California,outpatients
+CA,San Francisco,"$1,453,525.03 ",678,"$2,143.84 ",36.778261,-119.417932,California,outpatients
+CA,San Jose,"$1,059,191.53 ",402,"$2,634.80 ",36.778261,-119.417932,California,outpatients
+CA,San Luis Obispo,"$325,731.72 ",125,"$2,605.85 ",36.778261,-119.417932,California,outpatients
+CA,San Mateo County,"$846,695.72 ",330,"$2,565.74 ",36.778261,-119.417932,California,outpatients
+CA,Santa Barbara,"$240,353.02 ",176,"$1,365.64 ",36.778261,-119.417932,California,outpatients
+CA,Santa Cruz,"$336,406.86 ",99,"$3,398.05 ",36.778261,-119.417932,California,outpatients
+CA,Santa Rosa,"$489,310.21 ",204,"$2,398.58 ",36.778261,-119.417932,California,outpatients
+CA,Stockton,"$623,077.78 ",203,"$3,069.35 ",36.778261,-119.417932,California,outpatients
+CA,Ventura,"$779,350.19 ",300,"$2,597.83 ",36.778261,-119.417932,California,outpatients
+CO,Albuquerque,"$111,111.77 ",59,"$1,883.25 ",39.550051,-105.782067,Colorado,outpatients
+CO,Boulder,"$406,887.97 ",189,"$2,152.85 ",39.550051,-105.782067,Colorado,outpatients
+CO,Colorado Springs,"$410,959.69 ",291,"$1,412.23 ",39.550051,-105.782067,Colorado,outpatients
+CO,Denver,"$2,076,286.58 ",1068,"$1,944.09 ",39.550051,-105.782067,Colorado,outpatients
+CO,Fort Collins,"$116,463.46 ",78,"$1,493.12 ",39.550051,-105.782067,Colorado,outpatients
+CO,Grand Junction,"$372,780.26 ",265,"$1,406.72 ",39.550051,-105.782067,Colorado,outpatients
+CO,Greeley,"$430,573.34 ",293,"$1,469.53 ",39.550051,-105.782067,Colorado,outpatients
+CO,Pueblo,"$222,688.94 ",135,"$1,649.55 ",39.550051,-105.782067,Colorado,outpatients
+CT,Bridgeport,"$611,370.95 ",347,"$1,761.88 ",41.603221,-73.087749,Connecticut,outpatients
+CT,Hartford,"$1,315,820.89 ",974,"$1,350.95 ",41.603221,-73.087749,Connecticut,outpatients
+CT,New Haven,"$1,158,884.99 ",683,"$1,696.76 ",41.603221,-73.087749,Connecticut,outpatients
+DC,Washington,"$742,526.86 ",484,"$1,534.15 ",38.905985,-77.033418,District of Columbia,outpatients
+DE,Salisbury,"$142,893.99 ",146,$978.73 ,38.910832,-75.52767,Delaware,outpatients
+DE,Wilmington,"$212,237.14 ",171,"$1,241.15 ",38.910832,-75.52767,Delaware,outpatients
+FL,Bradenton,"$300,713.94 ",129,"$2,331.12 ",27.664827,-81.515754,Florida,outpatients
+FL,Clearwater,"$579,101.96 ",310,"$1,868.07 ",27.664827,-81.515754,Florida,outpatients
+FL,Dothan,"$52,592.56 ",45,"$1,168.72 ",27.664827,-81.515754,Florida,outpatients
+FL,Fort Lauderdale,"$2,720,185.33 ",1241,"$2,191.93 ",27.664827,-81.515754,Florida,outpatients
+FL,Fort Myers,"$1,145,902.78 ",525,"$2,182.67 ",27.664827,-81.515754,Florida,outpatients
+FL,Gainesville,"$600,384.73 ",247,"$2,430.71 ",27.664827,-81.515754,Florida,outpatients
+FL,Hudson,"$810,155.56 ",212,"$3,821.49 ",27.664827,-81.515754,Florida,outpatients
+FL,Jacksonville,"$1,603,575.85 ",629,"$2,549.41 ",27.664827,-81.515754,Florida,outpatients
+FL,Lakeland,"$337,552.70 ",136,"$2,482.01 ",27.664827,-81.515754,Florida,outpatients
+FL,Miami,"$2,649,085.34 ",1026,"$2,581.95 ",27.664827,-81.515754,Florida,outpatients
+FL,Ocala,"$480,333.25 ",241,"$1,993.08 ",27.664827,-81.515754,Florida,outpatients
+FL,Orlando,"$3,486,366.32 ",1558,"$2,237.72 ",27.664827,-81.515754,Florida,outpatients
+FL,Ormond Beach,"$388,572.24 ",298,"$1,303.93 ",27.664827,-81.515754,Florida,outpatients
+FL,Panama City,"$278,311.13 ",128,"$2,174.31 ",27.664827,-81.515754,Florida,outpatients
+FL,Pensacola,"$1,691,673.21 ",569,"$2,973.06 ",27.664827,-81.515754,Florida,outpatients
+FL,Sarasota,"$700,469.60 ",303,"$2,311.78 ",27.664827,-81.515754,Florida,outpatients
+FL,St. Petersburg,"$573,202.13 ",275,"$2,084.37 ",27.664827,-81.515754,Florida,outpatients
+FL,Tallahassee,"$237,615.78 ",143,"$1,661.65 ",27.664827,-81.515754,Florida,outpatients
+FL,Tampa,"$1,457,728.90 ",528,"$2,760.85 ",27.664827,-81.515754,Florida,outpatients
+GA,Albany,"$180,834.03 ",119,"$1,519.61 ",32.157435,-82.907123,Georgia,outpatients
+GA,Atlanta,"$4,856,106.76 ",2623,"$1,851.36 ",32.157435,-82.907123,Georgia,outpatients
+GA,Augusta,"$619,221.84 ",420,"$1,474.34 ",32.157435,-82.907123,Georgia,outpatients
+GA,Chattanooga,"$62,209.60 ",52,"$1,196.34 ",32.157435,-82.907123,Georgia,outpatients
+GA,Columbus,"$229,895.88 ",185,"$1,242.68 ",32.157435,-82.907123,Georgia,outpatients
+GA,Dothan,"$17,167.72 ",21,$817.51 ,32.157435,-82.907123,Georgia,outpatients
+GA,Jacksonville,"$257,619.96 ",205,"$1,256.68 ",32.157435,-82.907123,Georgia,outpatients
+GA,Macon,"$924,478.99 ",616,"$1,500.78 ",32.157435,-82.907123,Georgia,outpatients
+GA,Rome,"$316,454.07 ",183,"$1,729.26 ",32.157435,-82.907123,Georgia,outpatients
+GA,Savannah,"$648,468.44 ",385,"$1,684.33 ",32.157435,-82.907123,Georgia,outpatients
+GA,Tallahassee,"$429,654.19 ",372,"$1,154.98 ",32.157435,-82.907123,Georgia,outpatients
+HI,Honolulu,"$562,524.50 ",457,"$1,230.91 ",19.898682,-155.665857,Hawaii,outpatients
+IA,Cedar Rapids,"$279,973.53 ",177,"$1,581.77 ",41.878003,-93.097702,Iowa,outpatients
+IA,Davenport,"$292,519.24 ",274,"$1,067.59 ",41.878003,-93.097702,Iowa,outpatients
+IA,Des Moines,"$796,266.69 ",613,"$1,298.97 ",41.878003,-93.097702,Iowa,outpatients
+IA,Dubuque,"$140,401.20 ",126,"$1,114.30 ",41.878003,-93.097702,Iowa,outpatients
+IA,Iowa City,"$474,093.27 ",410,"$1,156.33 ",41.878003,-93.097702,Iowa,outpatients
+IA,Mason City,"$79,834.19 ",84,$950.41 ,41.878003,-93.097702,Iowa,outpatients
+IA,Omaha,"$190,681.41 ",116,"$1,643.81 ",41.878003,-93.097702,Iowa,outpatients
+IA,Sioux City,"$125,153.18 ",119,"$1,051.71 ",41.878003,-93.097702,Iowa,outpatients
+IA,Sioux Falls,"$123,276.15 ",120,"$1,027.30 ",41.878003,-93.097702,Iowa,outpatients
+IA,Waterloo,"$262,315.62 ",206,"$1,273.38 ",41.878003,-93.097702,Iowa,outpatients
+ID,Boise,"$368,461.80 ",392,$939.95 ,44.068202,-114.742041,Idaho,outpatients
+ID,Idaho Falls,"$129,619.53 ",169,$766.98 ,44.068202,-114.742041,Idaho,outpatients
+ID,Salt Lake City,"$63,404.75 ",62,"$1,022.66 ",44.068202,-114.742041,Idaho,outpatients
+ID,Spokane,"$144,173.17 ",174,$828.58 ,44.068202,-114.742041,Idaho,outpatients
+IL,Aurora,"$314,249.85 ",127,"$2,474.41 ",40.633125,-89.398528,Illinois,outpatients
+IL,Bloomington,"$270,341.09 ",191,"$1,415.40 ",40.633125,-89.398528,Illinois,outpatients
+IL,Blue Island,"$972,160.45 ",533,"$1,823.94 ",40.633125,-89.398528,Illinois,outpatients
+IL,Chicago,"$2,514,498.59 ",1533,"$1,640.25 ",40.633125,-89.398528,Illinois,outpatients
+IL,Davenport,"$155,950.10 ",141,"$1,106.03 ",40.633125,-89.398528,Illinois,outpatients
+IL,Elgin,"$573,524.32 ",322,"$1,781.13 ",40.633125,-89.398528,Illinois,outpatients
+IL,Evanston,"$810,851.17 ",476,"$1,703.47 ",40.633125,-89.398528,Illinois,outpatients
+IL,Evansville,"$133,434.97 ",87,"$1,533.74 ",40.633125,-89.398528,Illinois,outpatients
+IL,Hinsdale,"$544,319.89 ",277,"$1,965.05 ",40.633125,-89.398528,Illinois,outpatients
+IL,Joliet,"$659,796.90 ",349,"$1,890.54 ",40.633125,-89.398528,Illinois,outpatients
+IL,Melrose Park,"$1,494,633.93 ",810,"$1,845.23 ",40.633125,-89.398528,Illinois,outpatients
+IL,Milwaukee,"$383,251.31 ",163,"$2,351.24 ",40.633125,-89.398528,Illinois,outpatients
+IL,Paducah,"$169,759.91 ",51,"$3,328.63 ",40.633125,-89.398528,Illinois,outpatients
+IL,Peoria,"$1,217,824.13 ",694,"$1,754.79 ",40.633125,-89.398528,Illinois,outpatients
+IL,Rockford,"$922,454.86 ",586,"$1,574.16 ",40.633125,-89.398528,Illinois,outpatients
+IL,Springfield,"$1,065,203.61 ",635,"$1,677.49 ",40.633125,-89.398528,Illinois,outpatients
+IL,St. Louis,"$1,475,571.66 ",803,"$1,837.57 ",40.633125,-89.398528,Illinois,outpatients
+IL,Urbana,"$437,047.33 ",297,"$1,471.54 ",40.633125,-89.398528,Illinois,outpatients
+IN,Cincinnati,"$69,973.22 ",60,"$1,166.22 ",40.551217,-85.602364,Indiana,outpatients
+IN,Evansville,"$598,041.06 ",376,"$1,590.53 ",40.551217,-85.602364,Indiana,outpatients
+IN,Fort Wayne,"$914,139.47 ",504,"$1,813.77 ",40.551217,-85.602364,Indiana,outpatients
+IN,Gary,"$707,905.27 ",432,"$1,638.67 ",40.551217,-85.602364,Indiana,outpatients
+IN,Indianapolis,"$3,426,677.10 ",2221,"$1,542.85 ",40.551217,-85.602364,Indiana,outpatients
+IN,Lafayette,"$324,684.89 ",151,"$2,150.23 ",40.551217,-85.602364,Indiana,outpatients
+IN,Louisville,"$350,581.01 ",262,"$1,338.10 ",40.551217,-85.602364,Indiana,outpatients
+IN,Muncie,"$113,765.80 ",66,"$1,723.72 ",40.551217,-85.602364,Indiana,outpatients
+IN,Munster,"$518,956.24 ",299,"$1,735.64 ",40.551217,-85.602364,Indiana,outpatients
+IN,South Bend,"$570,728.52 ",426,"$1,339.74 ",40.551217,-85.602364,Indiana,outpatients
+IN,Terre Haute,"$304,127.09 ",134,"$2,269.61 ",40.551217,-85.602364,Indiana,outpatients
+KS,Amarillo,"$15,601.34 ",31,$503.27 ,39.011902,-98.484246,Kansas,outpatients
+KS,Joplin,"$132,832.46 ",89,"$1,492.50 ",39.011902,-98.484246,Kansas,outpatients
+KS,Kansas City,"$1,359,429.93 ",748,"$1,817.42 ",39.011902,-98.484246,Kansas,outpatients
+KS,Topeka,"$503,454.93 ",394,"$1,277.80 ",39.011902,-98.484246,Kansas,outpatients
+KS,Tulsa,"$43,455.67 ",51,$852.07 ,39.011902,-98.484246,Kansas,outpatients
+KS,Wichita,"$1,227,664.56 ",917,"$1,338.78 ",39.011902,-98.484246,Kansas,outpatients
+KY,Covington,"$207,950.18 ",189,"$1,100.27 ",37.839333,-84.270018,Kentucky,outpatients
+KY,Evansville,"$122,976.19 ",63,"$1,952.00 ",37.839333,-84.270018,Kentucky,outpatients
+KY,Huntington,"$452,515.38 ",211,"$2,144.62 ",37.839333,-84.270018,Kentucky,outpatients
+KY,Knoxville,"$77,668.98 ",79,$983.15 ,37.839333,-84.270018,Kentucky,outpatients
+KY,Lexington,"$2,303,702.26 ",1384,"$1,664.52 ",37.839333,-84.270018,Kentucky,outpatients
+KY,Louisville,"$1,528,994.31 ",888,"$1,721.84 ",37.839333,-84.270018,Kentucky,outpatients
+KY,Nashville,"$416,036.54 ",265,"$1,569.95 ",37.839333,-84.270018,Kentucky,outpatients
+KY,Owensboro,"$101,573.18 ",82,"$1,238.70 ",37.839333,-84.270018,Kentucky,outpatients
+KY,Paducah,"$593,855.39 ",343,"$1,731.36 ",37.839333,-84.270018,Kentucky,outpatients
+LA,Alexandria,"$494,889.65 ",245,"$2,019.96 ",31.244823,-92.145024,Louisiana,outpatients
+LA,Baton Rouge,"$540,947.34 ",362,"$1,494.33 ",31.244823,-92.145024,Louisiana,outpatients
+LA,Houma,"$244,527.35 ",134,"$1,824.83 ",31.244823,-92.145024,Louisiana,outpatients
+LA,Lafayette,"$729,095.36 ",479,"$1,522.12 ",31.244823,-92.145024,Louisiana,outpatients
+LA,Lake Charles,"$398,960.05 ",251,"$1,589.48 ",31.244823,-92.145024,Louisiana,outpatients
+LA,Metairie,"$599,644.74 ",332,"$1,806.16 ",31.244823,-92.145024,Louisiana,outpatients
+LA,Monroe,"$448,918.45 ",349,"$1,286.30 ",31.244823,-92.145024,Louisiana,outpatients
+LA,New Orleans,"$517,467.92 ",405,"$1,277.70 ",31.244823,-92.145024,Louisiana,outpatients
+LA,Shreveport,"$799,141.54 ",571,"$1,399.55 ",31.244823,-92.145024,Louisiana,outpatients
+LA,Slidell,"$317,445.71 ",130,"$2,441.89 ",31.244823,-92.145024,Louisiana,outpatients
+MA,Albany,"$116,151.98 ",98,"$1,185.22 ",42.407211,-71.382437,Massachusetts,outpatients
+MA,Boston,"$3,647,785.88 ",3101,"$1,176.33 ",42.407211,-71.382437,Massachusetts,outpatients
+MA,Providence,"$77,906.16 ",78,$998.80 ,42.407211,-71.382437,Massachusetts,outpatients
+MA,Springfield,"$467,361.91 ",529,$883.48 ,42.407211,-71.382437,Massachusetts,outpatients
+MA,Worcester,"$501,983.17 ",447,"$1,123.00 ",42.407211,-71.382437,Massachusetts,outpatients
+ME,Bangor,"$347,373.81 ",452,$768.53 ,45.253783,-69.445469,Maine,outpatients
+ME,Portland,"$819,801.96 ",1018,$805.31 ,45.253783,-69.445469,Maine,outpatients
+MI,Ann Arbor,"$855,245.45 ",653,"$1,309.72 ",44.314844,-85.602364,Michigan,outpatients
+MI,Dearborn,"$426,232.68 ",273,"$1,561.29 ",44.314844,-85.602364,Michigan,outpatients
+MI,Detroit,"$1,071,389.09 ",968,"$1,106.81 ",44.314844,-85.602364,Michigan,outpatients
+MI,Flint,"$406,492.83 ",287,"$1,416.35 ",44.314844,-85.602364,Michigan,outpatients
+MI,Grand Rapids,"$476,201.94 ",510,$933.73 ,44.314844,-85.602364,Michigan,outpatients
+MI,Green Bay,"$83,237.48 ",73,"$1,140.24 ",44.314844,-85.602364,Michigan,outpatients
+MI,Kalamazoo,"$521,412.37 ",455,"$1,145.96 ",44.314844,-85.602364,Michigan,outpatients
+MI,Lansing,"$510,022.79 ",443,"$1,151.29 ",44.314844,-85.602364,Michigan,outpatients
+MI,Marquette,"$149,508.08 ",157,$952.28 ,44.314844,-85.602364,Michigan,outpatients
+MI,Muskegon,"$246,444.24 ",198,"$1,244.67 ",44.314844,-85.602364,Michigan,outpatients
+MI,Petoskey,"$193,005.53 ",196,$984.72 ,44.314844,-85.602364,Michigan,outpatients
+MI,Pontiac,"$292,904.51 ",244,"$1,200.43 ",44.314844,-85.602364,Michigan,outpatients
+MI,Royal Oak,"$477,084.50 ",427,"$1,117.29 ",44.314844,-85.602364,Michigan,outpatients
+MI,Saginaw,"$554,768.93 ",552,"$1,005.02 ",44.314844,-85.602364,Michigan,outpatients
+MI,St. Joseph,"$124,542.23 ",124,"$1,004.37 ",44.314844,-85.602364,Michigan,outpatients
+MI,Toledo,"$52,375.64 ",43,"$1,218.04 ",44.314844,-85.602364,Michigan,outpatients
+MI,Traverse City,"$134,222.11 ",135,$994.24 ,44.314844,-85.602364,Michigan,outpatients
+MN,Duluth,"$263,678.83 ",279,$945.09 ,46.729553,-94.6859,Minnesota,outpatients
+MN,Fargo/Moorhead MN,"$187,536.84 ",213,$880.45 ,46.729553,-94.6859,Minnesota,outpatients
+MN,La Crosse,"$52,750.36 ",66,$799.25 ,46.729553,-94.6859,Minnesota,outpatients
+MN,Minneapolis,"$1,993,224.00 ",1741,"$1,144.87 ",46.729553,-94.6859,Minnesota,outpatients
+MN,Rochester,"$470,781.90 ",477,$986.96 ,46.729553,-94.6859,Minnesota,outpatients
+MN,Sioux Falls,"$52,160.83 ",55,$948.38 ,46.729553,-94.6859,Minnesota,outpatients
+MN,St. Cloud,"$107,905.36 ",89,"$1,212.42 ",46.729553,-94.6859,Minnesota,outpatients
+MN,St. Paul,"$631,235.23 ",425,"$1,485.26 ",46.729553,-94.6859,Minnesota,outpatients
+MO,Cape Girardeau,"$506,653.61 ",295,"$1,717.47 ",37.964253,-91.831833,Missouri,outpatients
+MO,Columbia,"$927,933.80 ",741,"$1,252.27 ",37.964253,-91.831833,Missouri,outpatients
+MO,Jonesboro,"$132,070.83 ",47,"$2,810.02 ",37.964253,-91.831833,Missouri,outpatients
+MO,Joplin,"$248,849.94 ",185,"$1,345.13 ",37.964253,-91.831833,Missouri,outpatients
+MO,Kansas City,"$1,843,828.13 ",1263,"$1,459.88 ",37.964253,-91.831833,Missouri,outpatients
+MO,Springfield,"$754,620.44 ",583,"$1,294.37 ",37.964253,-91.831833,Missouri,outpatients
+MO,St. Louis,"$2,487,435.30 ",1554,"$1,600.67 ",37.964253,-91.831833,Missouri,outpatients
+MS,Birmingham,"$36,444.80 ",39,$934.48 ,32.354668,-89.398528,Mississippi,outpatients
+MS,Gulfport,"$455,674.01 ",195,"$2,336.79 ",32.354668,-89.398528,Mississippi,outpatients
+MS,Hattiesburg,"$326,157.85 ",210,"$1,553.13 ",32.354668,-89.398528,Mississippi,outpatients
+MS,Jackson,"$1,498,745.63 ",830,"$1,805.72 ",32.354668,-89.398528,Mississippi,outpatients
+MS,Memphis,"$456,063.77 ",298,"$1,530.42 ",32.354668,-89.398528,Mississippi,outpatients
+MS,Meridian,"$184,849.78 ",155,"$1,192.58 ",32.354668,-89.398528,Mississippi,outpatients
+MS,Mobile,"$184,694.55 ",107,"$1,726.12 ",32.354668,-89.398528,Mississippi,outpatients
+MS,Oxford,"$238,309.17 ",173,"$1,377.51 ",32.354668,-89.398528,Mississippi,outpatients
+MS,Slidell,"$89,639.09 ",67,"$1,337.90 ",32.354668,-89.398528,Mississippi,outpatients
+MS,Tupelo,"$534,253.13 ",351,"$1,522.09 ",32.354668,-89.398528,Mississippi,outpatients
+MT,Billings,"$237,097.12 ",341,$695.30 ,46.879682,-110.362566,Montana,outpatients
+MT,Great Falls,"$119,116.19 ",143,$832.98 ,46.879682,-110.362566,Montana,outpatients
+MT,Missoula,"$249,556.65 ",282,$884.95 ,46.879682,-110.362566,Montana,outpatients
+NC,Asheville,"$493,889.36 ",523,$944.34 ,35.759573,-79.0193,North Carolina,outpatients
+NC,Atlanta,"$43,389.08 ",41,"$1,058.27 ",35.759573,-79.0193,North Carolina,outpatients
+NC,Charlotte,"$1,823,896.94 ",1187,"$1,536.56 ",35.759573,-79.0193,North Carolina,outpatients
+NC,Durham,"$1,042,206.05 ",755,"$1,380.41 ",35.759573,-79.0193,North Carolina,outpatients
+NC,Greensboro,"$231,232.06 ",214,"$1,080.52 ",35.759573,-79.0193,North Carolina,outpatients
+NC,Greenville,"$789,511.93 ",517,"$1,527.10 ",35.759573,-79.0193,North Carolina,outpatients
+NC,Hickory,"$328,512.91 ",263,"$1,249.10 ",35.759573,-79.0193,North Carolina,outpatients
+NC,Johnson City,"$65,601.37 ",69,$950.74 ,35.759573,-79.0193,North Carolina,outpatients
+NC,Norfolk,"$49,550.75 ",57,$869.31 ,35.759573,-79.0193,North Carolina,outpatients
+NC,Raleigh,"$1,253,737.32 ",827,"$1,516.01 ",35.759573,-79.0193,North Carolina,outpatients
+NC,Wilmington,"$287,322.73 ",181,"$1,587.42 ",35.759573,-79.0193,North Carolina,outpatients
+NC,Winston-Salem,"$751,721.90 ",676,"$1,112.01 ",35.759573,-79.0193,North Carolina,outpatients
+ND,Bismarck,"$113,439.12 ",178,$637.30 ,47.551493,-101.002012,North Dakota,outpatients
+ND,Fargo/Moorhead MN,"$168,933.07 ",206,$820.06 ,47.551493,-101.002012,North Dakota,outpatients
+ND,Grand Forks,"$77,617.88 ",93,$834.60 ,47.551493,-101.002012,North Dakota,outpatients
+ND,Minot,"$71,558.14 ",87,$822.51 ,47.551493,-101.002012,North Dakota,outpatients
+NE,Denver,"$120,512.30 ",68,"$1,772.24 ",41.492537,-99.901813,Nebraska,outpatients
+NE,Lincoln,"$459,540.49 ",323,"$1,422.73 ",41.492537,-99.901813,Nebraska,outpatients
+NE,Omaha,"$1,321,327.12 ",822,"$1,607.45 ",41.492537,-99.901813,Nebraska,outpatients
+NH,Lebanon,"$233,151.03 ",203,"$1,148.53 ",43.193852,-71.572395,New Hampshire,outpatients
+NH,Manchester,"$903,249.78 ",680,"$1,328.31 ",43.193852,-71.572395,New Hampshire,outpatients
+NH,Portland,"$196,538.84 ",141,"$1,393.89 ",43.193852,-71.572395,New Hampshire,outpatients
+NJ,Allentown,"$291,463.76 ",68,"$4,286.23 ",40.058324,-74.405661,New Jersey,outpatients
+NJ,Camden,"$2,912,469.04 ",1356,"$2,147.84 ",40.058324,-74.405661,New Jersey,outpatients
+NJ,Hackensack,"$1,077,360.86 ",486,"$2,216.79 ",40.058324,-74.405661,New Jersey,outpatients
+NJ,Morristown,"$770,587.41 ",387,"$1,991.18 ",40.058324,-74.405661,New Jersey,outpatients
+NJ,New Brunswick,"$993,704.19 ",405,"$2,453.59 ",40.058324,-74.405661,New Jersey,outpatients
+NJ,Newark,"$1,501,546.85 ",664,"$2,261.37 ",40.058324,-74.405661,New Jersey,outpatients
+NJ,Paterson,"$215,239.28 ",159,"$1,353.71 ",40.058324,-74.405661,New Jersey,outpatients
+NJ,Philadelphia,"$1,278,917.21 ",388,"$3,296.18 ",40.058324,-74.405661,New Jersey,outpatients
+NJ,Ridgewood,"$138,241.25 ",87,"$1,588.98 ",40.058324,-74.405661,New Jersey,outpatients
+NJ,Wilmington,"$199,283.88 ",51,"$3,907.53 ",40.058324,-74.405661,New Jersey,outpatients
+NM,Albuquerque,"$975,105.65 ",679,"$1,436.09 ",34.97273,-105.032363,New Mexico,outpatients
+NM,El Paso,"$280,609.53 ",182,"$1,541.81 ",34.97273,-105.032363,New Mexico,outpatients
+NM,Lubbock,"$254,394.52 ",156,"$1,630.73 ",34.97273,-105.032363,New Mexico,outpatients
+NV,Las Vegas,"$1,565,092.96 ",533,"$2,936.38 ",38.80261,-116.419389,Nevada,outpatients
+NV,Reno,"$592,074.16 ",335,"$1,767.39 ",38.80261,-116.419389,Nevada,outpatients
+NV,Salt Lake City,"$79,416.56 ",39,"$2,036.32 ",38.80261,-116.419389,Nevada,outpatients
+NY,Albany,"$1,385,060.59 ",1222,"$1,133.44 ",43.299428,-74.217933,New York,outpatients
+NY,Binghamton,"$240,255.17 ",279,$861.13 ,43.299428,-74.217933,New York,outpatients
+NY,Bronx,"$375,741.74 ",290,"$1,295.66 ",43.299428,-74.217933,New York,outpatients
+NY,Buffalo,"$471,109.54 ",746,$631.51 ,43.299428,-74.217933,New York,outpatients
+NY,Burlington,"$279,355.67 ",282,$990.62 ,43.299428,-74.217933,New York,outpatients
+NY,East Long Island,"$2,681,087.01 ",1497,"$1,790.97 ",43.299428,-74.217933,New York,outpatients
+NY,Elmira,"$213,525.46 ",229,$932.43 ,43.299428,-74.217933,New York,outpatients
+NY,Erie,"$49,433.73 ",76,$650.44 ,43.299428,-74.217933,New York,outpatients
+NY,Hackensack,"$151,075.12 ",70,"$2,158.22 ",43.299428,-74.217933,New York,outpatients
+NY,Manhattan,"$1,967,187.96 ",1339,"$1,469.15 ",43.299428,-74.217933,New York,outpatients
+NY,Morristown,"$129,746.48 ",50,"$2,594.93 ",43.299428,-74.217933,New York,outpatients
+NY,New Haven,"$112,611.49 ",63,"$1,787.48 ",43.299428,-74.217933,New York,outpatients
+NY,Ridgewood,"$367,424.60 ",107,"$3,433.87 ",43.299428,-74.217933,New York,outpatients
+NY,Rochester,"$590,749.63 ",782,$755.43 ,43.299428,-74.217933,New York,outpatients
+NY,Sayre,"$89,399.71 ",53,"$1,686.79 ",43.299428,-74.217933,New York,outpatients
+NY,Syracuse,"$683,317.56 ",680,"$1,004.88 ",43.299428,-74.217933,New York,outpatients
+NY,White Plains,"$1,058,292.61 ",599,"$1,766.77 ",43.299428,-74.217933,New York,outpatients
+OH,Akron,"$888,669.24 ",450,"$1,974.82 ",40.417287,-82.907123,Ohio,outpatients
+OH,Canton,"$416,438.19 ",462,$901.38 ,40.417287,-82.907123,Ohio,outpatients
+OH,Cincinnati,"$1,580,491.35 ",982,"$1,609.46 ",40.417287,-82.907123,Ohio,outpatients
+OH,Cleveland,"$2,469,092.92 ",1644,"$1,501.88 ",40.417287,-82.907123,Ohio,outpatients
+OH,Columbus,"$2,113,275.90 ",1754,"$1,204.83 ",40.417287,-82.907123,Ohio,outpatients
+OH,Dayton,"$1,089,122.64 ",717,"$1,519.00 ",40.417287,-82.907123,Ohio,outpatients
+OH,Elyria,"$210,347.05 ",154,"$1,365.89 ",40.417287,-82.907123,Ohio,outpatients
+OH,Fort Wayne,"$136,031.95 ",105,"$1,295.54 ",40.417287,-82.907123,Ohio,outpatients
+OH,Huntington,"$13,484.37 ",5,"$2,696.87 ",40.417287,-82.907123,Ohio,outpatients
+OH,Kettering,"$482,267.89 ",244,"$1,976.51 ",40.417287,-82.907123,Ohio,outpatients
+OH,Pittsburgh,"$203,129.29 ",187,"$1,086.25 ",40.417287,-82.907123,Ohio,outpatients
+OH,Toledo,"$1,183,612.53 ",810,"$1,461.25 ",40.417287,-82.907123,Ohio,outpatients
+OH,Youngstown,"$615,544.91 ",398,"$1,546.60 ",40.417287,-82.907123,Ohio,outpatients
+OK,Amarillo,"$29,856.73 ",21,"$1,421.75 ",35.007752,-97.092877,Oklahoma,outpatients
+OK,Dallas,"$171,012.00 ",64,"$2,672.06 ",35.007752,-97.092877,Oklahoma,outpatients
+OK,Fort Smith,"$49,339.54 ",60,$822.33 ,35.007752,-97.092877,Oklahoma,outpatients
+OK,Joplin,"$104,359.59 ",69,"$1,512.46 ",35.007752,-97.092877,Oklahoma,outpatients
+OK,Lawton,"$254,003.99 ",196,"$1,295.94 ",35.007752,-97.092877,Oklahoma,outpatients
+OK,Oklahoma City,"$2,802,021.87 ",1568,"$1,787.00 ",35.007752,-97.092877,Oklahoma,outpatients
+OK,Texarkana,"$18,996.36 ",31,$612.79 ,35.007752,-97.092877,Oklahoma,outpatients
+OK,Tulsa,"$1,575,269.96 ",1118,"$1,409.01 ",35.007752,-97.092877,Oklahoma,outpatients
+OR,Bend,"$112,626.99 ",94,"$1,198.16 ",43.804133,-120.554201,Oregon,outpatients
+OR,Boise,"$66,488.81 ",64,"$1,038.89 ",43.804133,-120.554201,Oregon,outpatients
+OR,Eugene,"$444,209.05 ",421,"$1,055.13 ",43.804133,-120.554201,Oregon,outpatients
+OR,Medford,"$367,870.07 ",352,"$1,045.09 ",43.804133,-120.554201,Oregon,outpatients
+OR,Portland,"$940,610.97 ",919,"$1,023.52 ",43.804133,-120.554201,Oregon,outpatients
+OR,Salem,"$87,831.31 ",90,$975.90 ,43.804133,-120.554201,Oregon,outpatients
+PA,Allentown,"$1,766,648.29 ",858,"$2,059.03 ",41.203322,-77.194525,Pennsylvania,outpatients
+PA,Altoona,"$242,135.03 ",300,$807.12 ,41.203322,-77.194525,Pennsylvania,outpatients
+PA,Danville,"$944,620.99 ",476,"$1,984.50 ",41.203322,-77.194525,Pennsylvania,outpatients
+PA,Erie,"$779,907.31 ",699,"$1,115.75 ",41.203322,-77.194525,Pennsylvania,outpatients
+PA,Harrisburg,"$884,993.69 ",641,"$1,380.65 ",41.203322,-77.194525,Pennsylvania,outpatients
+PA,Johnstown,"$198,086.18 ",206,$961.58 ,41.203322,-77.194525,Pennsylvania,outpatients
+PA,Lancaster,"$755,151.18 ",348,"$2,169.97 ",41.203322,-77.194525,Pennsylvania,outpatients
+PA,Morgantown,"$39,916.27 ",48,$831.59 ,41.203322,-77.194525,Pennsylvania,outpatients
+PA,Philadelphia,"$5,202,724.07 ",1875,"$2,774.79 ",41.203322,-77.194525,Pennsylvania,outpatients
+PA,Pittsburgh,"$2,226,779.21 ",1982,"$1,123.50 ",41.203322,-77.194525,Pennsylvania,outpatients
+PA,Reading,"$503,258.84 ",318,"$1,582.57 ",41.203322,-77.194525,Pennsylvania,outpatients
+PA,Sayre,"$324,731.88 ",195,"$1,665.29 ",41.203322,-77.194525,Pennsylvania,outpatients
+PA,Scranton,"$487,543.32 ",280,"$1,741.23 ",41.203322,-77.194525,Pennsylvania,outpatients
+PA,Wilkes-Barre,"$383,401.36 ",172,"$2,229.08 ",41.203322,-77.194525,Pennsylvania,outpatients
+PA,York,"$239,897.57 ",203,"$1,181.76 ",41.203322,-77.194525,Pennsylvania,outpatients
+PA,Youngstown,"$128,578.24 ",130,$989.06 ,41.203322,-77.194525,Pennsylvania,outpatients
+RI,Providence,"$888,999.62 ",728,"$1,221.15 ",41.580095,-71.477429,Rhode Island,outpatients
+SC,Augusta,"$73,410.01 ",58,"$1,265.69 ",33.836081,-81.163725,South Carolina,outpatients
+SC,Charleston,"$1,116,976.32 ",729,"$1,532.20 ",33.836081,-81.163725,South Carolina,outpatients
+SC,Charlotte,"$226,590.97 ",101,"$2,243.47 ",33.836081,-81.163725,South Carolina,outpatients
+SC,Columbia,"$1,172,441.74 ",766,"$1,530.60 ",33.836081,-81.163725,South Carolina,outpatients
+SC,Florence,"$795,048.06 ",343,"$2,317.92 ",33.836081,-81.163725,South Carolina,outpatients
+SC,Greenville,"$1,022,906.95 ",609,"$1,679.65 ",33.836081,-81.163725,South Carolina,outpatients
+SC,Savannah,"$135,888.94 ",135,"$1,006.58 ",33.836081,-81.163725,South Carolina,outpatients
+SC,Spartanburg,"$357,294.78 ",240,"$1,488.73 ",33.836081,-81.163725,South Carolina,outpatients
+SD,Rapid City,"$132,024.73 ",157,$840.92 ,43.969515,-99.901813,South Dakota,outpatients
+SD,Sioux City,"$46,877.12 ",22,"$2,130.78 ",43.969515,-99.901813,South Dakota,outpatients
+SD,Sioux Falls,"$766,881.59 ",642,"$1,194.52 ",43.969515,-99.901813,South Dakota,outpatients
+TN,Chattanooga,"$651,771.56 ",303,"$2,151.06 ",35.517491,-86.580447,Tennessee,outpatients
+TN,Huntsville,"$46,736.24 ",35,"$1,335.32 ",35.517491,-86.580447,Tennessee,outpatients
+TN,Jackson,"$530,107.97 ",311,"$1,704.53 ",35.517491,-86.580447,Tennessee,outpatients
+TN,Johnson City,"$287,581.49 ",139,"$2,068.93 ",35.517491,-86.580447,Tennessee,outpatients
+TN,Kingsport,"$270,726.56 ",181,"$1,495.73 ",35.517491,-86.580447,Tennessee,outpatients
+TN,Knoxville,"$1,472,553.33 ",1019,"$1,445.10 ",35.517491,-86.580447,Tennessee,outpatients
+TN,Memphis,"$1,121,133.95 ",550,"$2,038.43 ",35.517491,-86.580447,Tennessee,outpatients
+TN,Nashville,"$2,923,990.60 ",1661,"$1,760.38 ",35.517491,-86.580447,Tennessee,outpatients
+TX,Abilene,"$449,433.67 ",298,"$1,508.17 ",31.968599,-99.901813,Texas,outpatients
+TX,Amarillo,"$419,787.03 ",244,"$1,720.44 ",31.968599,-99.901813,Texas,outpatients
+TX,Austin,"$1,365,973.84 ",733,"$1,863.54 ",31.968599,-99.901813,Texas,outpatients
+TX,Beaumont,"$551,203.35 ",249,"$2,213.67 ",31.968599,-99.901813,Texas,outpatients
+TX,Bryan,"$316,331.64 ",137,"$2,308.99 ",31.968599,-99.901813,Texas,outpatients
+TX,Corpus Christi,"$464,811.85 ",207,"$2,245.47 ",31.968599,-99.901813,Texas,outpatients
+TX,Dallas,"$4,803,044.71 ",2351,"$2,042.98 ",31.968599,-99.901813,Texas,outpatients
+TX,El Paso,"$709,814.48 ",319,"$2,225.12 ",31.968599,-99.901813,Texas,outpatients
+TX,Fort Worth,"$1,887,620.80 ",926,"$2,038.47 ",31.968599,-99.901813,Texas,outpatients
+TX,Harlingen,"$560,555.89 ",268,"$2,091.63 ",31.968599,-99.901813,Texas,outpatients
+TX,Houston,"$6,325,422.54 ",2630,"$2,405.10 ",31.968599,-99.901813,Texas,outpatients
+TX,Longview,"$323,807.63 ",115,"$2,815.72 ",31.968599,-99.901813,Texas,outpatients
+TX,Lubbock,"$639,209.73 ",318,"$2,010.09 ",31.968599,-99.901813,Texas,outpatients
+TX,McAllen,"$666,032.03 ",238,"$2,798.45 ",31.968599,-99.901813,Texas,outpatients
+TX,Odessa,"$270,274.13 ",171,"$1,580.55 ",31.968599,-99.901813,Texas,outpatients
+TX,San Angelo,"$234,784.89 ",136,"$1,726.36 ",31.968599,-99.901813,Texas,outpatients
+TX,San Antonio,"$1,988,461.06 ",1064,"$1,868.85 ",31.968599,-99.901813,Texas,outpatients
+TX,Shreveport,"$209,591.30 ",82,"$2,555.99 ",31.968599,-99.901813,Texas,outpatients
+TX,Temple,"$261,424.25 ",180,"$1,452.36 ",31.968599,-99.901813,Texas,outpatients
+TX,Texarkana,"$230,452.68 ",143,"$1,611.56 ",31.968599,-99.901813,Texas,outpatients
+TX,Tyler,"$1,106,319.42 ",541,"$2,044.95 ",31.968599,-99.901813,Texas,outpatients
+TX,Victoria,"$254,171.69 ",152,"$1,672.18 ",31.968599,-99.901813,Texas,outpatients
+TX,Waco,"$421,422.41 ",294,"$1,433.41 ",31.968599,-99.901813,Texas,outpatients
+TX,Wichita Falls,"$222,860.83 ",168,"$1,326.55 ",31.968599,-99.901813,Texas,outpatients
+UT,Ogden,"$264,627.86 ",233,"$1,135.74 ",39.32098,-111.093731,Utah,outpatients
+UT,Provo,"$238,523.35 ",194,"$1,229.50 ",39.32098,-111.093731,Utah,outpatients
+UT,Salt Lake City,"$1,210,210.53 ",1061,"$1,140.63 ",39.32098,-111.093731,Utah,outpatients
+VA,Arlington,"$789,454.24 ",573,"$1,377.76 ",37.431573,-78.656894,Virginia,outpatients
+VA,Charlottesville,"$453,447.71 ",391,"$1,159.71 ",37.431573,-78.656894,Virginia,outpatients
+VA,Durham,"$214,675.18 ",145,"$1,480.52 ",37.431573,-78.656894,Virginia,outpatients
+VA,Kingsport,"$653,345.62 ",366,"$1,785.10 ",37.431573,-78.656894,Virginia,outpatients
+VA,Lynchburg,"$142,769.86 ",129,"$1,106.74 ",37.431573,-78.656894,Virginia,outpatients
+VA,Newport News,"$513,895.90 ",357,"$1,439.48 ",37.431573,-78.656894,Virginia,outpatients
+VA,Norfolk,"$1,174,692.36 ",724,"$1,622.50 ",37.431573,-78.656894,Virginia,outpatients
+VA,Richmond,"$2,510,952.08 ",962,"$2,610.14 ",37.431573,-78.656894,Virginia,outpatients
+VA,Roanoke,"$723,812.97 ",447,"$1,619.27 ",37.431573,-78.656894,Virginia,outpatients
+VA,Winchester,"$131,807.02 ",122,"$1,080.39 ",37.431573,-78.656894,Virginia,outpatients
+VA,Winston-Salem,"$55,110.47 ",44,"$1,252.51 ",37.431573,-78.656894,Virginia,outpatients
+VT,Albany,"$57,422.25 ",70,$820.32 ,44.558803,-72.577841,Vermont,outpatients
+VT,Burlington,"$378,137.83 ",342,"$1,105.67 ",44.558803,-72.577841,Vermont,outpatients
+VT,Lebanon,"$48,650.60 ",47,"$1,035.12 ",44.558803,-72.577841,Vermont,outpatients
+WA,Everett,"$318,399.28 ",307,"$1,037.13 ",47.751074,-120.740139,Washington,outpatients
+WA,Olympia,"$340,249.69 ",184,"$1,849.18 ",47.751074,-120.740139,Washington,outpatients
+WA,Portland,"$250,681.37 ",246,"$1,019.03 ",47.751074,-120.740139,Washington,outpatients
+WA,Seattle,"$1,706,011.96 ",1286,"$1,326.60 ",47.751074,-120.740139,Washington,outpatients
+WA,Spokane,"$879,031.63 ",636,"$1,382.13 ",47.751074,-120.740139,Washington,outpatients
+WA,Tacoma,"$668,482.08 ",276,"$2,422.04 ",47.751074,-120.740139,Washington,outpatients
+WA,Yakima,"$155,801.56 ",140,"$1,112.87 ",47.751074,-120.740139,Washington,outpatients
+WI,Appleton,"$127,640.65 ",146,$874.25 ,43.78444,-88.787868,Wisconsin,outpatients
+WI,Green Bay,"$547,473.61 ",462,"$1,185.01 ",43.78444,-88.787868,Wisconsin,outpatients
+WI,La Crosse,"$151,811.67 ",152,$998.76 ,43.78444,-88.787868,Wisconsin,outpatients
+WI,Madison,"$1,135,362.31 ",932,"$1,218.20 ",43.78444,-88.787868,Wisconsin,outpatients
+WI,Marshfield,"$445,699.21 ",361,"$1,234.62 ",43.78444,-88.787868,Wisconsin,outpatients
+WI,Milwaukee,"$2,288,641.41 ",1643,"$1,392.96 ",43.78444,-88.787868,Wisconsin,outpatients
+WI,Minneapolis,"$204,156.79 ",154,"$1,325.69 ",43.78444,-88.787868,Wisconsin,outpatients
+WI,Neenah,"$200,396.27 ",209,$958.83 ,43.78444,-88.787868,Wisconsin,outpatients
+WI,Wausau,"$207,883.38 ",202,"$1,029.13 ",43.78444,-88.787868,Wisconsin,outpatients
+WV,Charleston,"$824,024.37 ",689,"$1,195.97 ",38.597626,-80.454903,West Virginia,outpatients
+WV,Huntington,"$259,798.25 ",220,"$1,180.90 ",38.597626,-80.454903,West Virginia,outpatients
+WV,Morgantown,"$313,057.43 ",330,$948.66 ,38.597626,-80.454903,West Virginia,outpatients
+WV,Pittsburgh,"$289,653.98 ",257,"$1,127.06 ",38.597626,-80.454903,West Virginia,outpatients
+WV,Roanoke,"$155,436.73 ",117,"$1,328.52 ",38.597626,-80.454903,West Virginia,outpatients
+WV,Winchester,"$64,995.73 ",66,$984.78 ,38.597626,-80.454903,West Virginia,outpatients
+WY,Billings,"$101,795.17 ",84,"$1,211.85 ",43.075968,-107.290284,Wyoming,outpatients
+WY,Casper,"$209,005.88 ",115,"$1,817.44 ",43.075968,-107.290284,Wyoming,outpatients
+WY,Fort Collins,"$151,578.95 ",106,"$1,429.99 ",43.075968,-107.290284,Wyoming,outpatients
+WY,Salt Lake City,"$170,262.49 ",120,"$1,418.85 ",43.075968,-107.290284,Wyoming,outpatients
 MD,,,,,39.045755,-76.641271,Maryland,outpatients

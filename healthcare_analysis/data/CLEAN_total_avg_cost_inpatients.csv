@@ -1,409 +1,1225 @@
 provider_state,city,avg_charges,msdrg_total_count,cost_per_treatment,latitude,longitude,name,type
-CA, Los Angeles,"$1,145,654,920.00 ",14680,"$78,041.89 ",36.778261,-119.417932,California,inpatients
-MA, Boston,"$320,933,083.80 ",12678,"$25,314.17 ",42.407211,-71.382437,Massachusetts,inpatients
-GA, Atlanta,"$423,546,447.80 ",10694,"$39,605.99 ",32.157435,-82.907123,Georgia,inpatients
-TX, Houston,"$553,867,952.80 ",10538,"$52,559.11 ",31.968599,-99.901813,Texas,inpatients
-TX, Dallas,"$465,362,065.60 ",9751,"$47,724.55 ",31.968599,-99.901813,Texas,inpatients
-NY, East Long Island,"$466,270,916.40 ",9324,"$50,007.61 ",43.299428,-74.217933,New York,inpatients
-PA, Philadelphia,"$680,284,321.20 ",9273,"$73,361.84 ",41.203322,-77.194525,Pennsylvania,inpatients
-FL, Orlando,"$429,810,591.80 ",8777,"$48,970.10 ",27.664827,-81.515754,Florida,inpatients
-MD, Baltimore,"$132,986,738.00 ",8006,"$16,610.88 ",39.045755,-76.641271,Maryland,inpatients
-NY, Manhattan,"$387,283,657.20 ",7977,"$48,550.04 ",43.299428,-74.217933,New York,inpatients
-NJ, Camden,"$542,240,163.10 ",7530,"$72,010.65 ",40.058324,-74.405661,New Jersey,inpatients
-AL, Birmingham,"$322,543,033.00 ",7453,"$43,276.94 ",32.318231,-86.902298,Alabama,inpatients
-FL, Fort Lauderdale,"$389,271,955.80 ",6885,"$56,539.14 ",27.664827,-81.515754,Florida,inpatients
-IN, Indianapolis,"$232,864,773.90 ",6873,"$33,881.10 ",40.551217,-85.602364,Indiana,inpatients
-TN, Nashville,"$239,274,525.20 ",6700,"$35,712.62 ",35.517491,-86.580447,Tennessee,inpatients
-MO, St. Louis,"$242,676,951.20 ",6681,"$36,323.45 ",37.964253,-91.831833,Missouri,inpatients
-OH, Cleveland,"$217,772,468.60 ",6503,"$33,488.00 ",40.417287,-82.907123,Ohio,inpatients
-AZ, Phoenix,"$290,769,634.30 ",6216,"$46,777.61 ",34.048928,-111.093731,Arizona,inpatients
-IL, Chicago,"$289,758,573.50 ",6213,"$46,637.47 ",40.633125,-89.398528,Illinois,inpatients
-PA, Pittsburgh,"$207,082,893.20 ",6092,"$33,992.60 ",41.203322,-77.194525,Pennsylvania,inpatients
-OH, Columbus,"$181,315,029.50 ",6054,"$29,949.62 ",40.417287,-82.907123,Ohio,inpatients
-FL, Miami,"$382,084,047.40 ",6047,"$63,185.72 ",27.664827,-81.515754,Florida,inpatients
-MN, Minneapolis,"$176,064,016.10 ",5331,"$33,026.45 ",46.729553,-94.6859,Minnesota,inpatients
-OK, Oklahoma City,"$219,854,557.30 ",5187,"$42,385.69 ",35.007752,-97.092877,Oklahoma,inpatients
-CA, San Diego,"$341,080,459.50 ",5096,"$66,931.02 ",36.778261,-119.417932,California,inpatients
-KY, Lexington,"$167,759,632.70 ",5083,"$33,004.06 ",37.839333,-84.270018,Kentucky,inpatients
-AR, Little Rock,"$159,021,697.00 ",5031,"$31,608.37 ",35.20105,-91.831833,Arkansas,inpatients
-WI, Milwaukee,"$164,495,547.70 ",5018,"$32,781.10 ",43.78444,-88.787868,Wisconsin,inpatients
-NC, Charlotte,"$158,982,229.00 ",4897,"$32,465.23 ",35.759573,-79.0193,North Carolina,inpatients
-WA, Seattle,"$209,948,641.60 ",4851,"$43,279.46 ",47.751074,-120.740139,Washington,inpatients
-VA, Richmond,"$244,994,652.70 ",4469,"$54,820.91 ",37.431573,-78.656894,Virginia,inpatients
-NY, Albany,"$141,649,435.10 ",4344,"$32,608.07 ",43.299428,-74.217933,New York,inpatients
-MI, Detroit,"$122,044,604.90 ",4263,"$28,628.81 ",44.314844,-85.602364,Michigan,inpatients
-TX, Fort Worth,"$191,491,366.90 ",4037,"$47,434.08 ",31.968599,-99.901813,Texas,inpatients
-MO, Kansas City,"$168,146,146.10 ",4024,"$41,785.82 ",37.964253,-91.831833,Missouri,inpatients
-CA, Orange County,"$274,310,414.10 ",4005,"$68,491.99 ",36.778261,-119.417932,California,inpatients
-CA, Sacramento,"$308,630,490.40 ",3881,"$79,523.45 ",36.778261,-119.417932,California,inpatients
-NC, Raleigh,"$123,970,003.00 ",3842,"$32,267.05 ",35.759573,-79.0193,North Carolina,inpatients
-TX, San Antonio,"$181,598,409.30 ",3823,"$47,501.55 ",31.968599,-99.901813,Texas,inpatients
-OH, Cincinnati,"$129,556,844.60 ",3771,"$34,356.10 ",40.417287,-82.907123,Ohio,inpatients
-MD, Washington,"$47,773,927.75 ",3763,"$12,695.70 ",39.045755,-76.641271,Maryland,inpatients
-TN, Knoxville,"$102,677,666.40 ",3643,"$28,184.92 ",35.517491,-86.580447,Tennessee,inpatients
-FL, Jacksonville,"$194,102,196.40 ",3636,"$53,383.44 ",27.664827,-81.515754,Florida,inpatients
-CT, Hartford,"$110,850,849.20 ",3609,"$30,715.11 ",41.603221,-73.087749,Connecticut,inpatients
-IL, Melrose Park,"$175,703,708.00 ",3596,"$48,860.88 ",40.633125,-89.398528,Illinois,inpatients
-CO, Denver,"$227,289,463.80 ",3589,"$63,329.47 ",39.550051,-105.782067,Colorado,inpatients
-OK, Tulsa,"$105,418,743.60 ",3577,"$29,471.27 ",35.007752,-97.092877,Oklahoma,inpatients
-NV, Las Vegas,"$292,164,652.10 ",3570,"$81,838.84 ",38.80261,-116.419389,Nevada,inpatients
-FL, Fort Myers,"$178,022,842.80 ",3415,"$52,129.68 ",27.664827,-81.515754,Florida,inpatients
-NJ, Newark,"$276,107,277.60 ",3401,"$81,184.15 ",40.058324,-74.405661,New Jersey,inpatients
-NC, Durham,"$114,721,473.90 ",3314,"$34,617.22 ",35.759573,-79.0193,North Carolina,inpatients
-PA, Allentown,"$178,625,332.40 ",3273,"$54,575.41 ",41.203322,-77.194525,Pennsylvania,inpatients
-MS, Jackson,"$123,307,186.70 ",3229,"$38,187.42 ",32.354668,-89.398528,Mississippi,inpatients
-CA, San Bernardino,"$195,981,001.20 ",3213,"$60,996.27 ",36.778261,-119.417932,California,inpatients
-TX, Austin,"$171,769,089.90 ",3189,"$53,862.99 ",31.968599,-99.901813,Texas,inpatients
-KY, Louisville,"$107,265,112.80 ",3175,"$33,784.29 ",37.839333,-84.270018,Kentucky,inpatients
-VA, Arlington,"$86,239,755.74 ",3054,"$28,238.30 ",37.431573,-78.656894,Virginia,inpatients
-SC, Columbia,"$126,157,967.80 ",3046,"$41,417.59 ",33.836081,-81.163725,South Carolina,inpatients
-NY, White Plains,"$137,967,300.10 ",3015,"$45,760.30 ",43.299428,-74.217933,New York,inpatients
-SC, Charleston,"$134,202,250.40 ",3008,"$44,615.11 ",33.836081,-81.163725,South Carolina,inpatients
-CT, New Haven,"$119,122,001.40 ",2999,"$39,720.57 ",41.603221,-73.087749,Connecticut,inpatients
-NE, Omaha,"$114,603,521.30 ",2975,"$38,522.19 ",41.492537,-99.901813,Nebraska,inpatients
-MI, Ann Arbor,"$94,270,645.90 ",2954,"$31,912.88 ",44.314844,-85.602364,Michigan,inpatients
-VA, Norfolk,"$96,991,764.13 ",2917,"$33,250.52 ",37.431573,-78.656894,Virginia,inpatients
-FL, Tampa,"$178,828,059.90 ",2887,"$61,942.52 ",27.664827,-81.515754,Florida,inpatients
-KS, Wichita,"$106,679,316.90 ",2807,"$38,004.74 ",39.011902,-98.484246,Kansas,inpatients
-IL, St. Louis,"$82,715,288.22 ",2796,"$29,583.44 ",40.633125,-89.398528,Illinois,inpatients
-OH, Dayton,"$108,844,008.90 ",2729,"$39,884.21 ",40.417287,-82.907123,Ohio,inpatients
-IL, Blue Island,"$108,971,526.60 ",2718,"$40,092.54 ",40.633125,-89.398528,Illinois,inpatients
-OH, Toledo,"$112,565,513.60 ",2653,"$42,429.52 ",40.417287,-82.907123,Ohio,inpatients
-WV, Charleston,"$63,693,554.57 ",2636,"$24,162.96 ",38.597626,-80.454903,West Virginia,inpatients
-NY, Syracuse,"$64,327,174.69 ",2548,"$25,246.14 ",43.299428,-74.217933,New York,inpatients
-KS, Kansas City,"$111,671,578.50 ",2515,"$44,402.22 ",39.011902,-98.484246,Kansas,inpatients
-ME, Portland,"$59,601,734.66 ",2513,"$23,717.36 ",45.253783,-69.445469,Maine,inpatients
-FL, Pensacola,"$129,021,128.90 ",2503,"$51,546.60 ",27.664827,-81.515754,Florida,inpatients
-NM, Albuquerque,"$86,334,681.23 ",2503,"$34,492.48 ",34.97273,-105.032363,New Mexico,inpatients
-PA, Harrisburg,"$76,487,987.20 ",2501,"$30,582.96 ",41.203322,-77.194525,Pennsylvania,inpatients
-WI, Madison,"$86,612,275.58 ",2479,"$34,938.39 ",43.78444,-88.787868,Wisconsin,inpatients
-OR, Portland,"$76,542,954.92 ",2463,"$31,077.12 ",43.804133,-120.554201,Oregon,inpatients
-IL, Springfield,"$78,161,943.89 ",2422,"$32,271.65 ",40.633125,-89.398528,Illinois,inpatients
-NC, Winston-Salem,"$69,860,923.11 ",2412,"$28,963.90 ",35.759573,-79.0193,North Carolina,inpatients
-MO, Columbia,"$74,121,585.77 ",2409,"$30,768.61 ",37.964253,-91.831833,Missouri,inpatients
-NH, Manchester,"$75,759,304.72 ",2406,"$31,487.66 ",43.193852,-71.572395,New Hampshire,inpatients
-RI, Providence,"$79,146,038.67 ",2386,"$33,171.01 ",41.580095,-71.477429,Rhode Island,inpatients
-NY, Buffalo,"$50,336,707.18 ",2365,"$21,284.02 ",43.299428,-74.217933,New York,inpatients
-NJ, New Brunswick,"$202,614,525.80 ",2364,"$85,708.34 ",40.058324,-74.405661,New Jersey,inpatients
-NC, Greenville,"$65,413,447.67 ",2349,"$27,847.36 ",35.759573,-79.0193,North Carolina,inpatients
-CA, San Francisco,"$217,306,502.20 ",2312,"$93,990.70 ",36.778261,-119.417932,California,inpatients
-WA, Spokane,"$82,122,192.07 ",2294,"$35,798.69 ",47.751074,-120.740139,Washington,inpatients
-MI, Royal Oak,"$72,789,280.86 ",2251,"$32,336.42 ",44.314844,-85.602364,Michigan,inpatients
-TN, Memphis,"$104,639,148.50 ",2237,"$46,776.55 ",35.517491,-86.580447,Tennessee,inpatients
-NY, Rochester,"$42,550,566.56 ",2223,"$19,141.06 ",43.299428,-74.217933,New York,inpatients
-NJ, Hackensack,"$166,166,413.90 ",2213,"$75,086.50 ",40.058324,-74.405661,New Jersey,inpatients
-AZ, Tucson,"$97,453,101.12 ",2199,"$44,317.01 ",34.048928,-111.093731,Arizona,inpatients
-IL, Evanston,"$92,331,805.82 ",2166,"$42,627.80 ",40.633125,-89.398528,Illinois,inpatients
-UT, Salt Lake City,"$66,117,994.26 ",2154,"$30,695.45 ",39.32098,-111.093731,Utah,inpatients
-GA, Macon,"$68,365,667.11 ",2103,"$32,508.64 ",32.157435,-82.907123,Georgia,inpatients
-IL, Rockford,"$81,320,536.80 ",2103,"$38,668.82 ",40.633125,-89.398528,Illinois,inpatients
-MI, Saginaw,"$57,426,854.02 ",2098,"$27,372.19 ",44.314844,-85.602364,Michigan,inpatients
-DC, Washington,"$105,237,116.00 ",2083,"$50,521.90 ",38.905985,-77.033418,District of Columbia,inpatients
-LA, Shreveport,"$64,734,119.70 ",2073,"$31,227.26 ",31.244823,-92.145024,Louisiana,inpatients
-IL, Peoria,"$77,036,181.40 ",2053,"$37,523.71 ",40.633125,-89.398528,Illinois,inpatients
-AZ, Mesa,"$106,541,615.80 ",2041,"$52,200.69 ",34.048928,-111.093731,Arizona,inpatients
-LA, Lafayette,"$67,963,295.09 ",2038,"$33,348.03 ",31.244823,-92.145024,Louisiana,inpatients
-SC, Greenville,"$92,710,182.35 ",2013,"$46,055.73 ",33.836081,-81.163725,South Carolina,inpatients
-CA, Alameda County,"$167,194,927.10 ",1957,"$85,434.30 ",36.778261,-119.417932,California,inpatients
-IA, Des Moines,"$65,211,402.56 ",1954,"$33,373.29 ",41.878003,-93.097702,Iowa,inpatients
-VA, Roanoke,"$63,167,232.30 ",1888,"$33,457.22 ",37.431573,-78.656894,Virginia,inpatients
-CA, Bakersfield,"$107,106,403.80 ",1880,"$56,971.49 ",36.778261,-119.417932,California,inpatients
-PA, Erie,"$60,095,684.95 ",1865,"$32,222.89 ",41.203322,-77.194525,Pennsylvania,inpatients
-AL, Mobile,"$54,578,412.56 ",1844,"$29,597.84 ",32.318231,-86.902298,Alabama,inpatients
-NJ, Morristown,"$113,269,864.30 ",1838,"$61,626.69 ",40.058324,-74.405661,New Jersey,inpatients
-MD, Takoma Park,"$26,292,323.58 ",1821,"$14,438.40 ",39.045755,-76.641271,Maryland,inpatients
-MN, St. Paul,"$66,048,918.96 ",1819,"$36,310.57 ",46.729553,-94.6859,Minnesota,inpatients
-MI, Grand Rapids,"$40,054,421.10 ",1817,"$22,044.26 ",44.314844,-85.602364,Michigan,inpatients
-MA, Springfield,"$35,324,337.79 ",1814,"$19,473.17 ",42.407211,-71.382437,Massachusetts,inpatients
-IN, Gary,"$62,418,088.23 ",1804,"$34,599.83 ",40.551217,-85.602364,Indiana,inpatients
-NY, Bronx,"$67,799,775.81 ",1764,"$38,435.25 ",43.299428,-74.217933,New York,inpatients
-VA, Charlottesville,"$60,534,959.98 ",1755,"$34,492.85 ",37.431573,-78.656894,Virginia,inpatients
-CA, San Jose,"$188,042,476.30 ",1751,"$107,391.48 ",36.778261,-119.417932,California,inpatients
-MI, Dearborn,"$47,683,068.25 ",1741,"$27,388.32 ",44.314844,-85.602364,Michigan,inpatients
-CT, Bridgeport,"$78,150,415.13 ",1734,"$45,069.44 ",41.603221,-73.087749,Connecticut,inpatients
-HI, Honolulu,"$62,473,447.39 ",1723,"$36,258.53 ",19.898682,-155.665857,Hawaii,inpatients
-IL, Elgin,"$76,863,683.49 ",1702,"$45,160.80 ",40.633125,-89.398528,Illinois,inpatients
-MI, Kalamazoo,"$47,047,943.79 ",1679,"$28,021.41 ",44.314844,-85.602364,Michigan,inpatients
-GA, Savannah,"$59,614,827.18 ",1674,"$35,612.20 ",32.157435,-82.907123,Georgia,inpatients
-IL, Joliet,"$68,576,680.33 ",1669,"$41,088.48 ",40.633125,-89.398528,Illinois,inpatients
-MO, Springfield,"$53,983,429.72 ",1654,"$32,638.11 ",37.964253,-91.831833,Missouri,inpatients
-FL, Hudson,"$113,391,657.20 ",1650,"$68,722.22 ",27.664827,-81.515754,Florida,inpatients
-FL, Gainesville,"$82,829,028.50 ",1648,"$50,260.33 ",27.664827,-81.515754,Florida,inpatients
-NJ, Philadelphia,"$136,073,797.20 ",1641,"$82,921.27 ",40.058324,-74.405661,New Jersey,inpatients
-AL, Huntsville,"$62,083,541.17 ",1614,"$38,465.64 ",32.318231,-86.902298,Alabama,inpatients
-SD, Sioux Falls,"$54,392,116.18 ",1614,"$33,700.20 ",43.969515,-99.901813,South Dakota,inpatients
-TN, Chattanooga,"$67,558,433.55 ",1599,"$42,250.43 ",35.517491,-86.580447,Tennessee,inpatients
-FL, Clearwater,"$77,248,494.80 ",1594,"$48,462.04 ",27.664827,-81.515754,Florida,inpatients
-IN, South Bend,"$53,680,969.94 ",1574,"$34,104.81 ",40.551217,-85.602364,Indiana,inpatients
-WA, Tacoma,"$85,726,386.52 ",1565,"$54,777.24 ",47.751074,-120.740139,Washington,inpatients
-CA, Fresno,"$79,853,791.40 ",1563,"$51,090.08 ",36.778261,-119.417932,California,inpatients
-TX, Tyler,"$85,289,595.68 ",1563,"$54,567.88 ",31.968599,-99.901813,Texas,inpatients
-IN, Evansville,"$45,947,177.54 ",1557,"$29,510.07 ",40.551217,-85.602364,Indiana,inpatients
-FL, Ocala,"$75,412,559.20 ",1553,"$48,559.28 ",27.664827,-81.515754,Florida,inpatients
-PA, Danville,"$63,426,524.51 ",1533,"$41,374.12 ",41.203322,-77.194525,Pennsylvania,inpatients
-CA, Modesto,"$146,454,263.60 ",1527,"$95,909.80 ",36.778261,-119.417932,California,inpatients
-LA, Baton Rouge,"$60,583,733.93 ",1521,"$39,831.51 ",31.244823,-92.145024,Louisiana,inpatients
-OH, Youngstown,"$49,210,308.72 ",1500,"$32,806.87 ",40.417287,-82.907123,Ohio,inpatients
-IN, Fort Wayne,"$60,968,691.43 ",1499,"$40,672.91 ",40.551217,-85.602364,Indiana,inpatients
-OH, Akron,"$58,641,383.61 ",1491,"$39,330.24 ",40.417287,-82.907123,Ohio,inpatients
-KY, Paducah,"$38,537,390.74 ",1483,"$25,986.10 ",37.839333,-84.270018,Kentucky,inpatients
-MA, Worcester,"$37,249,401.54 ",1479,"$25,185.53 ",42.407211,-71.382437,Massachusetts,inpatients
-FL, Sarasota,"$73,251,440.45 ",1470,"$49,830.91 ",27.664827,-81.515754,Florida,inpatients
-NC, Asheville,"$33,804,486.07 ",1451,"$23,297.37 ",35.759573,-79.0193,North Carolina,inpatients
-CA, Contra Costa County,"$157,836,722.90 ",1443,"$109,380.96 ",36.778261,-119.417932,California,inpatients
-SC, Florence,"$68,509,854.81 ",1439,"$47,609.35 ",33.836081,-81.163725,South Carolina,inpatients
-MI, Flint,"$48,262,446.03 ",1432,"$33,702.83 ",44.314844,-85.602364,Michigan,inpatients
-MI, Lansing,"$41,404,546.05 ",1431,"$28,933.99 ",44.314844,-85.602364,Michigan,inpatients
-MS, Memphis,"$45,704,574.44 ",1431,"$31,938.91 ",32.354668,-89.398528,Mississippi,inpatients
-CA, Ventura,"$111,778,338.00 ",1430,"$78,166.67 ",36.778261,-119.417932,California,inpatients
-FL, St. Petersburg,"$88,519,636.15 ",1418,"$62,425.70 ",27.664827,-81.515754,Florida,inpatients
-AL, Montgomery,"$40,467,751.49 ",1409,"$28,720.90 ",32.318231,-86.902298,Alabama,inpatients
-VA, Newport News,"$39,699,722.08 ",1406,"$28,235.93 ",37.431573,-78.656894,Virginia,inpatients
-WV, Morgantown,"$35,583,154.40 ",1390,"$25,599.39 ",38.597626,-80.454903,West Virginia,inpatients
-NV, Reno,"$60,348,718.18 ",1385,"$43,573.08 ",38.80261,-116.419389,Nevada,inpatients
-PA, Reading,"$51,257,232.79 ",1382,"$37,089.17 ",41.203322,-77.194525,Pennsylvania,inpatients
-TX, El Paso,"$97,394,700.45 ",1372,"$70,987.39 ",31.968599,-99.901813,Texas,inpatients
-TX, McAllen,"$77,752,473.52 ",1369,"$56,795.09 ",31.968599,-99.901813,Texas,inpatients
-IL, Hinsdale,"$59,509,967.66 ",1347,"$44,179.63 ",40.633125,-89.398528,Illinois,inpatients
-OH, Canton,"$24,890,175.03 ",1347,"$18,478.23 ",40.417287,-82.907123,Ohio,inpatients
-OR, Eugene,"$39,587,392.57 ",1306,"$30,311.94 ",43.804133,-120.554201,Oregon,inpatients
-MS, Tupelo,"$33,940,509.49 ",1298,"$26,148.31 ",32.354668,-89.398528,Mississippi,inpatients
-TX, Lubbock,"$69,088,708.71 ",1270,"$54,400.56 ",31.968599,-99.901813,Texas,inpatients
-GA, Augusta,"$52,523,092.83 ",1256,"$41,817.75 ",32.157435,-82.907123,Georgia,inpatients
-IN, Munster,"$39,820,703.72 ",1255,"$31,729.64 ",40.551217,-85.602364,Indiana,inpatients
-GA, Tallahassee,"$35,717,922.21 ",1252,"$28,528.69 ",32.157435,-82.907123,Georgia,inpatients
-CA, San Mateo County,"$164,794,859.80 ",1242,"$132,685.07 ",36.778261,-119.417932,California,inpatients
-LA, New Orleans,"$60,161,642.66 ",1242,"$48,439.33 ",31.244823,-92.145024,Louisiana,inpatients
-TN, Jackson,"$39,230,776.29 ",1217,"$32,235.64 ",35.517491,-86.580447,Tennessee,inpatients
-DE, Wilmington,"$38,307,705.08 ",1216,"$31,503.05 ",38.910832,-75.52767,Delaware,inpatients
-NE, Lincoln,"$36,521,990.23 ",1216,"$30,034.53 ",41.492537,-99.901813,Nebraska,inpatients
-PA, Lancaster,"$52,227,522.63 ",1203,"$43,414.40 ",41.203322,-77.194525,Pennsylvania,inpatients
-AL, Dothan,"$44,033,830.08 ",1201,"$36,664.30 ",32.318231,-86.902298,Alabama,inpatients
-TX, Harlingen,"$63,451,161.89 ",1192,"$53,230.84 ",31.968599,-99.901813,Texas,inpatients
-FL, Ormond Beach,"$38,862,022.45 ",1188,"$32,712.14 ",27.664827,-81.515754,Florida,inpatients
-ID, Boise,"$34,961,148.75 ",1185,"$29,503.08 ",44.068202,-114.742041,Idaho,inpatients
-AR, Springdale,"$42,403,590.63 ",1182,"$35,874.44 ",35.20105,-91.831833,Arkansas,inpatients
-IL, Urbana,"$43,455,344.04 ",1142,"$38,051.97 ",40.633125,-89.398528,Illinois,inpatients
-TX, Corpus Christi,"$62,028,476.47 ",1129,"$54,941.08 ",31.968599,-99.901813,Texas,inpatients
-TX, Beaumont,"$45,000,526.40 ",1121,"$40,143.20 ",31.968599,-99.901813,Texas,inpatients
-PA, Scranton,"$39,510,329.03 ",1120,"$35,277.08 ",41.203322,-77.194525,Pennsylvania,inpatients
-KS, Topeka,"$36,612,756.77 ",1101,"$33,254.09 ",39.011902,-98.484246,Kansas,inpatients
-NY, Elmira,"$25,821,398.33 ",1098,"$23,516.76 ",43.299428,-74.217933,New York,inpatients
-MS, Hattiesburg,"$36,016,056.18 ",1080,"$33,348.20 ",32.354668,-89.398528,Mississippi,inpatients
-LA, Alexandria,"$48,831,395.35 ",1063,"$45,937.34 ",31.244823,-92.145024,Louisiana,inpatients
-IA, Iowa City,"$34,548,019.34 ",1062,"$32,531.09 ",41.878003,-93.097702,Iowa,inpatients
-LA, Monroe,"$33,147,302.76 ",1052,"$31,508.84 ",31.244823,-92.145024,Louisiana,inpatients
-MN, Rochester,"$33,098,723.62 ",1029,"$32,165.91 ",46.729553,-94.6859,Minnesota,inpatients
-IN, Louisville,"$26,614,590.62 ",1028,"$25,889.68 ",40.551217,-85.602364,Indiana,inpatients
-LA, Metairie,"$41,869,880.85 ",1026,"$40,808.85 ",31.244823,-92.145024,Louisiana,inpatients
-WI, Green Bay,"$26,893,169.13 ",1023,"$26,288.53 ",43.78444,-88.787868,Wisconsin,inpatients
-CO, Colorado Springs,"$42,557,607.23 ",1022,"$41,641.49 ",39.550051,-105.782067,Colorado,inpatients
-CA, Chico,"$67,609,408.91 ",1014,"$66,675.95 ",36.778261,-119.417932,California,inpatients
-ME, Bangor,"$22,932,294.77 ",1013,"$22,638.00 ",45.253783,-69.445469,Maine,inpatients
-OR, Medford,"$36,906,635.47 ",994,"$37,129.41 ",43.804133,-120.554201,Oregon,inpatients
-TX, Abilene,"$42,399,092.92 ",988,"$42,914.06 ",31.968599,-99.901813,Texas,inpatients
-TX, Waco,"$26,352,993.78 ",986,"$26,727.17 ",31.968599,-99.901813,Texas,inpatients
-MO, Cape Girardeau,"$44,085,629.34 ",985,"$44,756.98 ",37.964253,-91.831833,Missouri,inpatients
-VA, Kingsport,"$22,373,135.66 ",973,"$22,993.97 ",37.431573,-78.656894,Virginia,inpatients
-FL, Bradenton,"$50,084,002.59 ",971,"$51,579.82 ",27.664827,-81.515754,Florida,inpatients
-CA, Redding,"$65,255,545.62 ",966,"$67,552.32 ",36.778261,-119.417932,California,inpatients
-IA, Davenport,"$25,052,711.77 ",963,"$26,015.28 ",41.878003,-93.097702,Iowa,inpatients
-VT, Burlington,"$24,934,679.87 ",953,"$26,164.41 ",44.558803,-72.577841,Vermont,inpatients
-MT, Billings,"$24,541,589.23 ",951,"$25,806.09 ",46.879682,-110.362566,Montana,inpatients
-NC, Wilmington,"$25,617,512.08 ",951,"$26,937.45 ",35.759573,-79.0193,North Carolina,inpatients
-OH, Kettering,"$40,093,456.67 ",950,"$42,203.64 ",40.417287,-82.907123,Ohio,inpatients
-KY, Covington,"$27,036,846.29 ",942,"$28,701.54 ",37.839333,-84.270018,Kentucky,inpatients
-AK, Anchorage,"$51,411,844.62 ",939,"$54,751.70 ",63.588753,-154.493062,Alaska,inpatients
-KY, Nashville,"$25,871,134.97 ",938,"$27,581.17 ",37.839333,-84.270018,Kentucky,inpatients
-TX, Amarillo,"$34,049,464.57 ",913,"$37,294.05 ",31.968599,-99.901813,Texas,inpatients
-MI, Pontiac,"$23,178,193.77 ",911,"$25,442.58 ",44.314844,-85.602364,Michigan,inpatients
-TN, Kingsport,"$28,010,579.10 ",898,"$31,192.18 ",35.517491,-86.580447,Tennessee,inpatients
-CO, Greeley,"$34,044,801.62 ",889,"$38,295.61 ",39.550051,-105.782067,Colorado,inpatients
-NY, Binghamton,"$19,091,620.24 ",880,"$21,695.02 ",43.299428,-74.217933,New York,inpatients
-WA, Portland,"$31,591,543.82 ",879,"$35,940.32 ",47.751074,-120.740139,Washington,inpatients
-AR, Jonesboro,"$17,995,184.12 ",863,"$20,851.89 ",35.20105,-91.831833,Arkansas,inpatients
-PA, York,"$20,897,349.40 ",858,"$24,355.89 ",41.203322,-77.194525,Pennsylvania,inpatients
-AR, Fort Smith,"$27,945,345.54 ",855,"$32,684.61 ",35.20105,-91.831833,Arkansas,inpatients
-SC, Spartanburg,"$34,379,080.36 ",850,"$40,445.98 ",33.836081,-81.163725,South Carolina,inpatients
-GA, Rome,"$33,586,250.97 ",840,"$39,983.63 ",32.157435,-82.907123,Georgia,inpatients
-GA, Jacksonville,"$21,109,253.00 ",836,"$25,250.30 ",32.157435,-82.907123,Georgia,inpatients
-LA, Lake Charles,"$30,436,134.84 ",834,"$36,494.17 ",31.244823,-92.145024,Louisiana,inpatients
-CA, Palm Springs/Rancho M,"$72,646,893.81 ",832,"$87,315.98 ",36.778261,-119.417932,California,inpatients
-CA, Stockton,"$69,294,681.94 ",832,"$83,286.88 ",36.778261,-119.417932,California,inpatients
-NC, Greensboro,"$18,360,065.75 ",832,"$22,067.39 ",35.759573,-79.0193,North Carolina,inpatients
-WI, Marshfield,"$19,995,043.97 ",815,"$24,533.80 ",43.78444,-88.787868,Wisconsin,inpatients
-AZ, Sun City,"$37,668,995.98 ",804,"$46,851.99 ",34.048928,-111.093731,Arizona,inpatients
-FL, Lakeland,"$35,495,660.26 ",802,"$44,258.93 ",27.664827,-81.515754,Florida,inpatients
-NJ, Paterson,"$55,511,300.68 ",801,"$69,302.50 ",40.058324,-74.405661,New Jersey,inpatients
-MN, Duluth,"$24,365,563.53 ",799,"$30,495.07 ",46.729553,-94.6859,Minnesota,inpatients
-WV, Huntington,"$23,530,088.72 ",794,"$29,634.87 ",38.597626,-80.454903,West Virginia,inpatients
-TX, Odessa,"$28,463,983.60 ",792,"$35,939.37 ",31.968599,-99.901813,Texas,inpatients
-PA, Wilkes-Barre,"$41,922,978.25 ",780,"$53,747.41 ",41.203322,-77.194525,Pennsylvania,inpatients
-MO, Joplin,"$28,230,109.66 ",778,"$36,285.49 ",37.964253,-91.831833,Missouri,inpatients
-CA, Santa Barbara,"$42,537,294.07 ",777,"$54,745.55 ",36.778261,-119.417932,California,inpatients
-WA, Everett,"$27,785,054.70 ",777,"$35,759.40 ",47.751074,-120.740139,Washington,inpatients
-IL, Milwaukee,"$44,497,997.53 ",773,"$57,565.33 ",40.633125,-89.398528,Illinois,inpatients
-FL, Tallahassee,"$32,775,527.53 ",769,"$42,620.97 ",27.664827,-81.515754,Florida,inpatients
-MT, Missoula,"$21,691,801.74 ",762,"$28,466.93 ",46.879682,-110.362566,Montana,inpatients
-NY, Burlington,"$16,116,326.33 ",760,"$21,205.69 ",43.299428,-74.217933,New York,inpatients
-VA, Durham,"$21,347,617.17 ",756,"$28,237.59 ",37.431573,-78.656894,Virginia,inpatients
-DE, Salisbury,"$23,399,626.11 ",751,"$31,157.96 ",38.910832,-75.52767,Delaware,inpatients
-KY, Huntington,"$21,199,177.37 ",750,"$28,265.57 ",37.839333,-84.270018,Kentucky,inpatients
-LA, Houma,"$23,677,800.85 ",749,"$31,612.55 ",31.244823,-92.145024,Louisiana,inpatients
-TX, Temple,"$27,127,079.71 ",747,"$36,314.70 ",31.968599,-99.901813,Texas,inpatients
-FL, Panama City,"$38,372,606.69 ",742,"$51,715.10 ",27.664827,-81.515754,Florida,inpatients
-NC, Hickory,"$27,727,552.51 ",741,"$37,419.10 ",35.759573,-79.0193,North Carolina,inpatients
-GA, Columbus,"$21,887,095.93 ",736,"$29,737.90 ",32.157435,-82.907123,Georgia,inpatients
-OH, Elyria,"$17,551,457.84 ",733,"$23,944.69 ",40.417287,-82.907123,Ohio,inpatients
-CA, Salinas,"$57,608,315.47 ",722,"$79,789.91 ",36.778261,-119.417932,California,inpatients
-WV, Pittsburgh,"$12,296,669.89 ",710,"$17,319.25 ",38.597626,-80.454903,West Virginia,inpatients
-ND, Fargo/Moorhead MN,"$22,310,411.68 ",707,"$31,556.45 ",47.551493,-101.002012,North Dakota,inpatients
-MS, Gulfport,"$49,669,508.80 ",703,"$70,653.64 ",32.354668,-89.398528,Mississippi,inpatients
-WA, Olympia,"$32,632,669.26 ",695,"$46,953.48 ",47.751074,-120.740139,Washington,inpatients
-TN, Johnson City,"$27,043,676.40 ",694,"$38,967.83 ",35.517491,-86.580447,Tennessee,inpatients
-NM, El Paso,"$24,771,016.01 ",684,"$36,214.94 ",34.97273,-105.032363,New Mexico,inpatients
-AL, Tuscaloosa,"$21,791,078.39 ",682,"$31,951.73 ",32.318231,-86.902298,Alabama,inpatients
-CA, Santa Rosa,"$54,202,421.40 ",682,"$79,475.69 ",36.778261,-119.417932,California,inpatients
-IA, Cedar Rapids,"$20,853,013.65 ",676,"$30,847.65 ",41.878003,-93.097702,Iowa,inpatients
-MS, Meridian,"$17,397,004.79 ",674,"$25,811.58 ",32.354668,-89.398528,Mississippi,inpatients
-MD, Salisbury,"$8,964,673.31 ",669,"$13,400.11 ",39.045755,-76.641271,Maryland,inpatients
-IN, Lafayette,"$25,361,597.03 ",665,"$38,137.74 ",40.551217,-85.602364,Indiana,inpatients
-TX, Texarkana,"$26,217,625.43 ",659,"$39,783.95 ",31.968599,-99.901813,Texas,inpatients
-CO, Grand Junction,"$21,817,585.04 ",655,"$33,309.29 ",39.550051,-105.782067,Colorado,inpatients
-TX, Bryan,"$34,774,590.18 ",651,"$53,417.19 ",31.968599,-99.901813,Texas,inpatients
-IN, Terre Haute,"$24,642,271.00 ",639,"$38,563.80 ",40.551217,-85.602364,Indiana,inpatients
-WI, Minneapolis,"$21,662,231.31 ",631,"$34,330.00 ",43.78444,-88.787868,Wisconsin,inpatients
-TX, Victoria,"$26,576,148.34 ",630,"$42,184.36 ",31.968599,-99.901813,Texas,inpatients
-PA, Altoona,"$13,390,506.34 ",629,"$21,288.56 ",41.203322,-77.194525,Pennsylvania,inpatients
-TX, Longview,"$30,419,350.99 ",620,"$49,063.47 ",31.968599,-99.901813,Texas,inpatients
-OK, Lawton,"$16,729,090.21 ",613,"$27,290.52 ",35.007752,-97.092877,Oklahoma,inpatients
-MI, Traverse City,"$17,067,203.77 ",611,"$27,933.23 ",44.314844,-85.602364,Michigan,inpatients
-SC, Charlotte,"$26,938,911.35 ",609,"$44,234.67 ",33.836081,-81.163725,South Carolina,inpatients
-NH, Lebanon,"$23,144,095.40 ",602,"$38,445.34 ",43.193852,-71.572395,New Hampshire,inpatients
-PA, Sayre,"$15,734,231.44 ",599,"$26,267.50 ",41.203322,-77.194525,Pennsylvania,inpatients
-WA, Yakima,"$19,219,239.84 ",597,"$32,193.03 ",47.751074,-120.740139,Washington,inpatients
-OH, Pittsburgh,"$9,556,326.32 ",578,"$16,533.44 ",40.417287,-82.907123,Ohio,inpatients
-CA, Napa,"$46,172,854.91 ",572,"$80,721.77 ",36.778261,-119.417932,California,inpatients
-IA, Waterloo,"$13,712,089.36 ",572,"$23,972.18 ",41.878003,-93.097702,Iowa,inpatients
-SC, Savannah,"$17,028,477.29 ",572,"$29,770.07 ",33.836081,-81.163725,South Carolina,inpatients
-MI, Muskegon,"$11,490,786.93 ",567,"$20,265.94 ",44.314844,-85.602364,Michigan,inpatients
-VA, Winchester,"$13,894,963.50 ",566,"$24,549.41 ",37.431573,-78.656894,Virginia,inpatients
-WI, Wausau,"$14,810,698.42 ",566,"$26,167.31 ",43.78444,-88.787868,Wisconsin,inpatients
-VA, Lynchburg,"$13,035,716.10 ",561,"$23,236.57 ",37.431573,-78.656894,Virginia,inpatients
-IL, Davenport,"$13,938,895.16 ",560,"$24,890.88 ",40.633125,-89.398528,Illinois,inpatients
-CO, Pueblo,"$26,717,236.46 ",555,"$48,139.16 ",39.550051,-105.782067,Colorado,inpatients
-ND, Bismarck,"$13,688,123.94 ",555,"$24,663.29 ",47.551493,-101.002012,North Dakota,inpatients
-IL, Bloomington,"$17,719,982.60 ",554,"$31,985.53 ",40.633125,-89.398528,Illinois,inpatients
-IL, Aurora,"$31,942,604.45 ",553,"$57,762.40 ",40.633125,-89.398528,Illinois,inpatients
-MS, Oxford,"$12,702,692.31 ",553,"$22,970.51 ",32.354668,-89.398528,Mississippi,inpatients
-CO, Boulder,"$25,573,650.42 ",547,"$46,752.56 ",39.550051,-105.782067,Colorado,inpatients
-GA, Albany,"$17,517,492.66 ",546,"$32,083.32 ",32.157435,-82.907123,Georgia,inpatients
-CA, San Luis Obispo,"$37,885,690.50 ",538,"$70,419.50 ",36.778261,-119.417932,California,inpatients
-UT, Ogden,"$15,642,871.55 ",528,"$29,626.65 ",39.32098,-111.093731,Utah,inpatients
-TX, San Angelo,"$20,891,704.00 ",522,"$40,022.42 ",31.968599,-99.901813,Texas,inpatients
-MI, Petoskey,"$11,095,207.73 ",521,"$21,295.98 ",44.314844,-85.602364,Michigan,inpatients
-IA, Sioux City,"$13,164,407.19 ",511,"$25,762.05 ",41.878003,-93.097702,Iowa,inpatients
-NJ, Ridgewood,"$28,519,515.09 ",511,"$55,811.18 ",40.058324,-74.405661,New Jersey,inpatients
-WI, La Crosse,"$13,774,571.51 ",507,"$27,168.78 ",43.78444,-88.787868,Wisconsin,inpatients
-ID, Spokane,"$14,644,278.45 ",502,"$29,171.87 ",44.068202,-114.742041,Idaho,inpatients
-PA, Johnstown,"$10,471,729.59 ",502,"$20,860.02 ",41.203322,-77.194525,Pennsylvania,inpatients
-MN, St. Cloud,"$18,233,864.80 ",488,"$37,364.48 ",46.729553,-94.6859,Minnesota,inpatients
-TX, Wichita Falls,"$17,252,675.74 ",480,"$35,943.07 ",31.968599,-99.901813,Texas,inpatients
-MS, Mobile,"$23,820,505.99 ",478,"$49,833.69 ",32.354668,-89.398528,Mississippi,inpatients
-IA, Dubuque,"$9,755,709.21 ",466,"$20,935.00 ",41.878003,-93.097702,Iowa,inpatients
-UT, Provo,"$13,942,718.17 ",466,"$29,920.00 ",39.32098,-111.093731,Utah,inpatients
-NY, Ridgewood,"$24,059,096.78 ",462,"$52,075.97 ",43.299428,-74.217933,New York,inpatients
-CA, Santa Cruz,"$41,298,847.58 ",458,"$90,172.16 ",36.778261,-119.417932,California,inpatients
-SD, Rapid City,"$16,964,598.23 ",458,"$37,040.61 ",43.969515,-99.901813,South Dakota,inpatients
-WV, Roanoke,"$7,717,422.89 ",455,"$16,961.37 ",38.597626,-80.454903,West Virginia,inpatients
-WY, Casper,"$15,074,332.29 ",443,"$34,027.84 ",43.075968,-107.290284,Wyoming,inpatients
-IN, Muncie,"$21,308,981.10 ",439,"$48,539.82 ",40.551217,-85.602364,Indiana,inpatients
-LA, Slidell,"$21,165,359.00 ",437,"$48,433.32 ",31.244823,-92.145024,Louisiana,inpatients
-MI, St. Joseph,"$9,475,290.37 ",436,"$21,732.32 ",44.314844,-85.602364,Michigan,inpatients
-PA, Youngstown,"$7,632,935.86 ",427,"$17,875.73 ",41.203322,-77.194525,Pennsylvania,inpatients
-NH, Portland,"$12,413,934.72 ",426,"$29,140.69 ",43.193852,-71.572395,New Hampshire,inpatients
-KY, Owensboro,"$11,690,499.03 ",414,"$28,237.92 ",37.839333,-84.270018,Kentucky,inpatients
-MT, Great Falls,"$10,187,979.95 ",392,"$25,989.74 ",46.879682,-110.362566,Montana,inpatients
-OR, Bend,"$13,651,184.97 ",391,"$34,913.52 ",43.804133,-120.554201,Oregon,inpatients
-MA, Albany,"$7,130,309.72 ",371,"$19,219.16 ",42.407211,-71.382437,Massachusetts,inpatients
-IA, Mason City,"$10,101,290.47 ",367,"$27,523.95 ",41.878003,-93.097702,Iowa,inpatients
-IA, Omaha,"$10,921,087.61 ",366,"$29,839.04 ",41.878003,-93.097702,Iowa,inpatients
-NM, Lubbock,"$11,408,141.16 ",361,"$31,601.50 ",34.97273,-105.032363,New Mexico,inpatients
-AZ, Las Vegas,"$28,842,069.92 ",360,"$80,116.86 ",34.048928,-111.093731,Arizona,inpatients
-OR, Salem,"$10,347,555.07 ",348,"$29,734.35 ",43.804133,-120.554201,Oregon,inpatients
-WY, Fort Collins,"$11,055,010.29 ",344,"$32,136.66 ",43.075968,-107.290284,Wyoming,inpatients
-MI, Marquette,"$7,821,023.14 ",342,"$22,868.49 ",44.314844,-85.602364,Michigan,inpatients
-MN, Fargo/Moorhead MN,"$6,790,811.25 ",341,"$19,914.40 ",46.729553,-94.6859,Minnesota,inpatients
-ID, Idaho Falls,"$12,833,498.77 ",337,"$38,081.60 ",44.068202,-114.742041,Idaho,inpatients
-AR, Springfield,"$6,794,200.73 ",330,"$20,588.49 ",35.20105,-91.831833,Arkansas,inpatients
-ND, Grand Forks,"$9,139,063.96 ",329,"$27,778.31 ",47.551493,-101.002012,North Dakota,inpatients
-NY, Hackensack,"$15,087,256.77 ",325,"$46,422.33 ",43.299428,-74.217933,New York,inpatients
-OK, Dallas,"$14,826,339.14 ",318,"$46,623.71 ",35.007752,-97.092877,Oklahoma,inpatients
-CO, Fort Collins,"$10,422,654.38 ",315,"$33,087.79 ",39.550051,-105.782067,Colorado,inpatients
-WI, Appleton,"$5,742,223.54 ",314,"$18,287.34 ",43.78444,-88.787868,Wisconsin,inpatients
-SC, Augusta,"$12,925,087.76 ",307,"$42,101.26 ",33.836081,-81.163725,South Carolina,inpatients
-WI, Neenah,"$5,370,847.49 ",302,"$17,784.26 ",43.78444,-88.787868,Wisconsin,inpatients
-AL, Pensacola,"$4,824,855.44 ",294,"$16,411.07 ",32.318231,-86.902298,Alabama,inpatients
-AR, Memphis,"$6,492,465.27 ",290,"$22,387.81 ",35.20105,-91.831833,Arkansas,inpatients
-MI, Toledo,"$5,897,946.96 ",288,"$20,478.98 ",44.314844,-85.602364,Michigan,inpatients
-MA, Providence,"$4,372,918.60 ",259,"$16,883.86 ",42.407211,-71.382437,Massachusetts,inpatients
-ND, Minot,"$5,413,278.42 ",248,"$21,827.74 ",47.551493,-101.002012,North Dakota,inpatients
-WV, Winchester,"$4,351,731.21 ",242,"$17,982.36 ",38.597626,-80.454903,West Virginia,inpatients
-NC, Norfolk,"$5,138,355.20 ",228,"$22,536.65 ",35.759573,-79.0193,North Carolina,inpatients
-OK, Joplin,"$4,090,065.57 ",227,"$18,017.91 ",35.007752,-97.092877,Oklahoma,inpatients
-KS, Joplin,"$5,621,057.81 ",223,"$25,206.54 ",39.011902,-98.484246,Kansas,inpatients
-NY, New Haven,"$8,057,410.50 ",221,"$36,458.87 ",43.299428,-74.217933,New York,inpatients
-NJ, Allentown,"$14,645,816.71 ",215,"$68,120.08 ",40.058324,-74.405661,New Jersey,inpatients
-OH, Fort Wayne,"$3,214,797.38 ",214,"$15,022.42 ",40.417287,-82.907123,Ohio,inpatients
-MD, Wilmington,"$2,560,010.28 ",213,"$12,018.83 ",39.045755,-76.641271,Maryland,inpatients
-KY, Knoxville,"$2,867,307.07 ",210,"$13,653.84 ",37.839333,-84.270018,Kentucky,inpatients
-ID, Salt Lake City,"$7,235,367.82 ",209,"$34,618.98 ",44.068202,-114.742041,Idaho,inpatients
-NE, Denver,"$6,469,337.60 ",208,"$31,102.58 ",41.492537,-99.901813,Nebraska,inpatients
-IL, Paducah,"$12,834,397.89 ",198,"$64,820.19 ",40.633125,-89.398528,Illinois,inpatients
-NJ, Wilmington,"$8,826,837.66 ",198,"$44,579.99 ",40.058324,-74.405661,New Jersey,inpatients
-TX, Shreveport,"$5,317,849.63 ",196,"$27,131.89 ",31.968599,-99.901813,Texas,inpatients
-NY, Erie,"$2,491,339.17 ",182,"$13,688.68 ",43.299428,-74.217933,New York,inpatients
-NC, Johnson City,"$3,688,842.04 ",178,"$20,723.83 ",35.759573,-79.0193,North Carolina,inpatients
-IL, Evansville,"$2,990,003.38 ",174,"$17,183.93 ",40.633125,-89.398528,Illinois,inpatients
-IN, Cincinnati,"$3,207,438.14 ",168,"$19,091.89 ",40.551217,-85.602364,Indiana,inpatients
-KY, Evansville,"$4,266,421.22 ",168,"$25,395.36 ",37.839333,-84.270018,Kentucky,inpatients
-NY, Sayre,"$2,480,125.72 ",166,"$14,940.52 ",43.299428,-74.217933,New York,inpatients
-VT, Albany,"$2,675,604.64 ",164,"$16,314.66 ",44.558803,-72.577841,Vermont,inpatients
-MS, Slidell,"$2,984,247.02 ",158,"$18,887.64 ",32.354668,-89.398528,Mississippi,inpatients
-VA, Winston-Salem,"$2,867,934.51 ",156,"$18,384.20 ",37.431573,-78.656894,Virginia,inpatients
-OK, Fort Smith,"$1,733,097.51 ",154,"$11,253.88 ",35.007752,-97.092877,Oklahoma,inpatients
-MI, Green Bay,"$2,564,498.13 ",145,"$17,686.19 ",44.314844,-85.602364,Michigan,inpatients
-NY, Morristown,"$5,038,496.09 ",142,"$35,482.37 ",43.299428,-74.217933,New York,inpatients
-CO, Albuquerque,"$4,618,285.00 ",141,"$32,753.79 ",39.550051,-105.782067,Colorado,inpatients
-WY, Billings,"$2,717,799.43 ",137,"$19,837.95 ",43.075968,-107.290284,Wyoming,inpatients
-FL, Dothan,"$1,962,289.93 ",131,"$14,979.31 ",27.664827,-81.515754,Florida,inpatients
-IA, Sioux Falls,"$2,153,151.89 ",130,"$16,562.71 ",41.878003,-93.097702,Iowa,inpatients
-MN, La Crosse,"$1,704,596.13 ",115,"$14,822.58 ",46.729553,-94.6859,Minnesota,inpatients
-MO, Jonesboro,"$3,651,331.19 ",112,"$32,601.17 ",37.964253,-91.831833,Missouri,inpatients
-KS, Tulsa,"$1,369,025.61 ",104,"$13,163.71 ",39.011902,-98.484246,Kansas,inpatients
-CA, Medford,"$3,265,415.13 ",98,"$33,320.56 ",36.778261,-119.417932,California,inpatients
-OR, Boise,"$1,871,543.43 ",97,"$19,294.26 ",43.804133,-120.554201,Oregon,inpatients
-NC, Atlanta,"$1,514,886.41 ",93,"$16,289.10 ",35.759573,-79.0193,North Carolina,inpatients
-MD, Morgantown,"$883,739.64 ",92,"$9,605.87 ",39.045755,-76.641271,Maryland,inpatients
-GA, Chattanooga,"$2,115,522.47 ",91,"$23,247.50 ",32.157435,-82.907123,Georgia,inpatients
-WY, Salt Lake City,"$2,196,810.17 ",89,"$24,683.26 ",43.075968,-107.290284,Wyoming,inpatients
-OK, Texarkana,"$724,937.40 ",74,"$9,796.45 ",35.007752,-97.092877,Oklahoma,inpatients
-AR, Texarkana,"$1,407,050.68 ",72,"$19,542.37 ",35.20105,-91.831833,Arkansas,inpatients
-NV, Salt Lake City,"$2,205,455.74 ",68,"$32,433.17 ",38.80261,-116.419389,Nevada,inpatients
-PA, Morgantown,"$720,246.34 ",66,"$10,912.82 ",41.203322,-77.194525,Pennsylvania,inpatients
-TN, Huntsville,"$864,914.27 ",64,"$13,514.29 ",35.517491,-86.580447,Tennessee,inpatients
-VT, Lebanon,"$888,580.03 ",55,"$16,156.00 ",44.558803,-72.577841,Vermont,inpatients
-MS, Birmingham,"$716,406.94 ",51,"$14,047.19 ",32.354668,-89.398528,Mississippi,inpatients
-AZ, Albuquerque,"$341,532.00 ",47,"$7,266.64 ",34.048928,-111.093731,Arizona,inpatients
-GA, Dothan,"$487,196.68 ",37,"$13,167.48 ",32.157435,-82.907123,Georgia,inpatients
-AL, Rome,"$691,918.04 ",36,"$19,219.95 ",32.318231,-86.902298,Alabama,inpatients
-AL, Tupelo,"$604,872.35 ",36,"$16,802.01 ",32.318231,-86.902298,Alabama,inpatients
-AL, Columbus,"$1,297,255.38 ",32,"$40,539.23 ",32.318231,-86.902298,Alabama,inpatients
-MN, Sioux Falls,"$413,994.43 ",28,"$14,785.52 ",46.729553,-94.6859,Minnesota,inpatients
-CA, Phoenix,"$690,828.94 ",21,"$32,896.62 ",36.778261,-119.417932,California,inpatients
-KS, Amarillo,"$156,230.69 ",20,"$7,811.53 ",39.011902,-98.484246,Kansas,inpatients
-SD, Sioux City,"$1,202,240.45 ",19,"$63,275.81 ",43.969515,-99.901813,South Dakota,inpatients
-AL, Meridian,"$125,400.69 ",15,"$8,360.05 ",32.318231,-86.902298,Alabama,inpatients
-OK, Amarillo,"$164,158.98 ",12,"$13,679.91 ",35.007752,-97.092877,Oklahoma,inpatients
-OH, Huntington,"$51,811.08 ",2,"$25,905.54 ",40.417287,-82.907123,Ohio,inpatients
+AK,Anchorage,"51,411,844.62",939,"54,751.70",63.588753,-154.493062,Alaska,inpatients
+AL,Birmingham,"322,543,033.00","7,453.00","43,276.94",32.318231,-86.902298,Alabama,inpatients
+AL,Columbus,"1,297,255.38",32,"40,539.23",32.318231,-86.902298,Alabama,inpatients
+AL,Dothan,"44,033,830.08","1,201.00","36,664.30",32.318231,-86.902298,Alabama,inpatients
+AL,Huntsville,"62,083,541.17","1,614.00","38,465.64",32.318231,-86.902298,Alabama,inpatients
+AL,Meridian,"125,400.69",15,"8,360.05",32.318231,-86.902298,Alabama,inpatients
+AL,Mobile,"54,578,412.56","1,844.00","29,597.84",32.318231,-86.902298,Alabama,inpatients
+AL,Montgomery,"40,467,751.49","1,409.00","28,720.90",32.318231,-86.902298,Alabama,inpatients
+AL,Pensacola,"4,824,855.44",294,"16,411.07",32.318231,-86.902298,Alabama,inpatients
+AL,Rome,"691,918.04",36,"19,219.95",32.318231,-86.902298,Alabama,inpatients
+AL,Tupelo,"604,872.35",36,"16,802.01",32.318231,-86.902298,Alabama,inpatients
+AL,Tuscaloosa,"21,791,078.39",682,"31,951.73",32.318231,-86.902298,Alabama,inpatients
+AR,Fort Smith,"27,945,345.54",855,"32,684.61",35.20105,-91.831833,Arkansas,inpatients
+AR,Jonesboro,"17,995,184.12",863,"20,851.89",35.20105,-91.831833,Arkansas,inpatients
+AR,Little Rock,"159,021,697.00","5,031.00","31,608.37",35.20105,-91.831833,Arkansas,inpatients
+AR,Memphis,"6,492,465.27",290,"22,387.81",35.20105,-91.831833,Arkansas,inpatients
+AR,Springdale,"42,403,590.63","1,182.00","35,874.44",35.20105,-91.831833,Arkansas,inpatients
+AR,Springfield,"6,794,200.73",330,"20,588.49",35.20105,-91.831833,Arkansas,inpatients
+AR,Texarkana,"1,407,050.68",72,"19,542.37",35.20105,-91.831833,Arkansas,inpatients
+AZ,Albuquerque,"341,532.00",47,"7,266.64",34.048928,-111.093731,Arizona,inpatients
+AZ,Las Vegas,"28,842,069.92",360,"80,116.86",34.048928,-111.093731,Arizona,inpatients
+AZ,Mesa,"106,541,615.80","2,041.00","52,200.69",34.048928,-111.093731,Arizona,inpatients
+AZ,Phoenix,"290,769,634.30","6,216.00","46,777.61",34.048928,-111.093731,Arizona,inpatients
+AZ,Sun City,"37,668,995.98",804,"46,851.99",34.048928,-111.093731,Arizona,inpatients
+AZ,Tucson,"97,453,101.12","2,199.00","44,317.01",34.048928,-111.093731,Arizona,inpatients
+CA,Alameda County,"167,194,927.10","1,957.00","85,434.30",36.778261,-119.417932,California,inpatients
+CA,Bakersfield,"107,106,403.80","1,880.00","56,971.49",36.778261,-119.417932,California,inpatients
+CA,Chico,"67,609,408.91","1,014.00","66,675.95",36.778261,-119.417932,California,inpatients
+CA,Contra Costa County,"157,836,722.90","1,443.00","109,380.96",36.778261,-119.417932,California,inpatients
+CA,Fresno,"79,853,791.40","1,563.00","51,090.08",36.778261,-119.417932,California,inpatients
+CA,Los Angeles,"1,145,654,920.00","14,680.00","78,041.89",36.778261,-119.417932,California,inpatients
+CA,Medford,"3,265,415.13",98,"33,320.56",36.778261,-119.417932,California,inpatients
+CA,Modesto,"146,454,263.60","1,527.00","95,909.80",36.778261,-119.417932,California,inpatients
+CA,Napa,"46,172,854.91",572,"80,721.77",36.778261,-119.417932,California,inpatients
+CA,Orange County,"274,310,414.10","4,005.00","68,491.99",36.778261,-119.417932,California,inpatients
+CA,Palm Springs/Rancho M,"72,646,893.81",832,"87,315.98",36.778261,-119.417932,California,inpatients
+CA,Phoenix,"690,828.94",21,"32,896.62",36.778261,-119.417932,California,inpatients
+CA,Redding,"65,255,545.62",966,"67,552.32",36.778261,-119.417932,California,inpatients
+CA,Sacramento,"308,630,490.40","3,881.00","79,523.45",36.778261,-119.417932,California,inpatients
+CA,Salinas,"57,608,315.47",722,"79,789.91",36.778261,-119.417932,California,inpatients
+CA,San Bernardino,"195,981,001.20","3,213.00","60,996.27",36.778261,-119.417932,California,inpatients
+CA,San Diego,"341,080,459.50","5,096.00","66,931.02",36.778261,-119.417932,California,inpatients
+CA,San Francisco,"217,306,502.20","2,312.00","93,990.70",36.778261,-119.417932,California,inpatients
+CA,San Jose,"188,042,476.30","1,751.00","107,391.48",36.778261,-119.417932,California,inpatients
+CA,San Luis Obispo,"37,885,690.50",538,"70,419.50",36.778261,-119.417932,California,inpatients
+CA,San Mateo County,"164,794,859.80","1,242.00","132,685.07",36.778261,-119.417932,California,inpatients
+CA,Santa Barbara,"42,537,294.07",777,"54,745.55",36.778261,-119.417932,California,inpatients
+CA,Santa Cruz,"41,298,847.58",458,"90,172.16",36.778261,-119.417932,California,inpatients
+CA,Santa Rosa,"54,202,421.40",682,"79,475.69",36.778261,-119.417932,California,inpatients
+CA,Stockton,"69,294,681.94",832,"83,286.88",36.778261,-119.417932,California,inpatients
+CA,Ventura,"111,778,338.00","1,430.00","78,166.67",36.778261,-119.417932,California,inpatients
+CO,Albuquerque,"4,618,285.00",141,"32,753.79",39.550051,-105.782067,Colorado,inpatients
+CO,Boulder,"25,573,650.42",547,"46,752.56",39.550051,-105.782067,Colorado,inpatients
+CO,Colorado Springs,"42,557,607.23","1,022.00","41,641.49",39.550051,-105.782067,Colorado,inpatients
+CO,Denver,"227,289,463.80","3,589.00","63,329.47",39.550051,-105.782067,Colorado,inpatients
+CO,Fort Collins,"10,422,654.38",315,"33,087.79",39.550051,-105.782067,Colorado,inpatients
+CO,Grand Junction,"21,817,585.04",655,"33,309.29",39.550051,-105.782067,Colorado,inpatients
+CO,Greeley,"34,044,801.62",889,"38,295.61",39.550051,-105.782067,Colorado,inpatients
+CO,Pueblo,"26,717,236.46",555,"48,139.16",39.550051,-105.782067,Colorado,inpatients
+CT,Bridgeport,"78,150,415.13","1,734.00","45,069.44",41.603221,-73.087749,Connecticut,inpatients
+CT,Hartford,"110,850,849.20","3,609.00","30,715.11",41.603221,-73.087749,Connecticut,inpatients
+CT,New Haven,"119,122,001.40","2,999.00","39,720.57",41.603221,-73.087749,Connecticut,inpatients
+DC,Washington,"105,237,116.00","2,083.00","50,521.90",38.905985,-77.033418,District of Columbia,inpatients
+DE,Salisbury,"23,399,626.11",751,"31,157.96",38.910832,-75.52767,Delaware,inpatients
+DE,Wilmington,"38,307,705.08","1,216.00","31,503.05",38.910832,-75.52767,Delaware,inpatients
+FL,Bradenton,"50,084,002.59",971,"51,579.82",27.664827,-81.515754,Florida,inpatients
+FL,Clearwater,"77,248,494.80","1,594.00","48,462.04",27.664827,-81.515754,Florida,inpatients
+FL,Dothan,"1,962,289.93",131,"14,979.31",27.664827,-81.515754,Florida,inpatients
+FL,Fort Lauderdale,"389,271,955.80","6,885.00","56,539.14",27.664827,-81.515754,Florida,inpatients
+FL,Fort Myers,"178,022,842.80","3,415.00","52,129.68",27.664827,-81.515754,Florida,inpatients
+FL,Gainesville,"82,829,028.50","1,648.00","50,260.33",27.664827,-81.515754,Florida,inpatients
+FL,Hudson,"113,391,657.20","1,650.00","68,722.22",27.664827,-81.515754,Florida,inpatients
+FL,Jacksonville,"194,102,196.40","3,636.00","53,383.44",27.664827,-81.515754,Florida,inpatients
+FL,Lakeland,"35,495,660.26",802,"44,258.93",27.664827,-81.515754,Florida,inpatients
+FL,Miami,"382,084,047.40","6,047.00","63,185.72",27.664827,-81.515754,Florida,inpatients
+FL,Ocala,"75,412,559.20","1,553.00","48,559.28",27.664827,-81.515754,Florida,inpatients
+FL,Orlando,"429,810,591.80","8,777.00","48,970.10",27.664827,-81.515754,Florida,inpatients
+FL,Ormond Beach,"38,862,022.45","1,188.00","32,712.14",27.664827,-81.515754,Florida,inpatients
+FL,Panama City,"38,372,606.69",742,"51,715.10",27.664827,-81.515754,Florida,inpatients
+FL,Pensacola,"129,021,128.90","2,503.00","51,546.60",27.664827,-81.515754,Florida,inpatients
+FL,Sarasota,"73,251,440.45","1,470.00","49,830.91",27.664827,-81.515754,Florida,inpatients
+FL,St. Petersburg,"88,519,636.15","1,418.00","62,425.70",27.664827,-81.515754,Florida,inpatients
+FL,Tallahassee,"32,775,527.53",769,"42,620.97",27.664827,-81.515754,Florida,inpatients
+FL,Tampa,"178,828,059.90","2,887.00","61,942.52",27.664827,-81.515754,Florida,inpatients
+GA,Albany,"17,517,492.66",546,"32,083.32",32.157435,-82.907123,Georgia,inpatients
+GA,Atlanta,"423,546,447.80","10,694.00","39,605.99",32.157435,-82.907123,Georgia,inpatients
+GA,Augusta,"52,523,092.83","1,256.00","41,817.75",32.157435,-82.907123,Georgia,inpatients
+GA,Chattanooga,"2,115,522.47",91,"23,247.50",32.157435,-82.907123,Georgia,inpatients
+GA,Columbus,"21,887,095.93",736,"29,737.90",32.157435,-82.907123,Georgia,inpatients
+GA,Dothan,"487,196.68",37,"13,167.48",32.157435,-82.907123,Georgia,inpatients
+GA,Jacksonville,"21,109,253.00",836,"25,250.30",32.157435,-82.907123,Georgia,inpatients
+GA,Macon,"68,365,667.11","2,103.00","32,508.64",32.157435,-82.907123,Georgia,inpatients
+GA,Rome,"33,586,250.97",840,"39,983.63",32.157435,-82.907123,Georgia,inpatients
+GA,Savannah,"59,614,827.18","1,674.00","35,612.20",32.157435,-82.907123,Georgia,inpatients
+GA,Tallahassee,"35,717,922.21","1,252.00","28,528.69",32.157435,-82.907123,Georgia,inpatients
+HI,Honolulu,"62,473,447.39","1,723.00","36,258.53",19.898682,-155.665857,Hawaii,inpatients
+IA,Cedar Rapids,"20,853,013.65",676,"30,847.65",41.878003,-93.097702,Iowa,inpatients
+IA,Davenport,"25,052,711.77",963,"26,015.28",41.878003,-93.097702,Iowa,inpatients
+IA,Des Moines,"65,211,402.56","1,954.00","33,373.29",41.878003,-93.097702,Iowa,inpatients
+IA,Dubuque,"9,755,709.21",466,"20,935.00",41.878003,-93.097702,Iowa,inpatients
+IA,Iowa City,"34,548,019.34","1,062.00","32,531.09",41.878003,-93.097702,Iowa,inpatients
+IA,Mason City,"10,101,290.47",367,"27,523.95",41.878003,-93.097702,Iowa,inpatients
+IA,Omaha,"10,921,087.61",366,"29,839.04",41.878003,-93.097702,Iowa,inpatients
+IA,Sioux City,"13,164,407.19",511,"25,762.05",41.878003,-93.097702,Iowa,inpatients
+IA,Sioux Falls,"2,153,151.89",130,"16,562.71",41.878003,-93.097702,Iowa,inpatients
+IA,Waterloo,"13,712,089.36",572,"23,972.18",41.878003,-93.097702,Iowa,inpatients
+ID,Boise,"34,961,148.75","1,185.00","29,503.08",44.068202,-114.742041,Idaho,inpatients
+ID,Idaho Falls,"12,833,498.77",337,"38,081.60",44.068202,-114.742041,Idaho,inpatients
+ID,Salt Lake City,"7,235,367.82",209,"34,618.98",44.068202,-114.742041,Idaho,inpatients
+ID,Spokane,"14,644,278.45",502,"29,171.87",44.068202,-114.742041,Idaho,inpatients
+IL,Aurora,"31,942,604.45",553,"57,762.40",40.633125,-89.398528,Illinois,inpatients
+IL,Bloomington,"17,719,982.60",554,"31,985.53",40.633125,-89.398528,Illinois,inpatients
+IL,Blue Island,"108,971,526.60","2,718.00","40,092.54",40.633125,-89.398528,Illinois,inpatients
+IL,Chicago,"289,758,573.50","6,213.00","46,637.47",40.633125,-89.398528,Illinois,inpatients
+IL,Davenport,"13,938,895.16",560,"24,890.88",40.633125,-89.398528,Illinois,inpatients
+IL,Elgin,"76,863,683.49","1,702.00","45,160.80",40.633125,-89.398528,Illinois,inpatients
+IL,Evanston,"92,331,805.82","2,166.00","42,627.80",40.633125,-89.398528,Illinois,inpatients
+IL,Evansville,"2,990,003.38",174,"17,183.93",40.633125,-89.398528,Illinois,inpatients
+IL,Hinsdale,"59,509,967.66","1,347.00","44,179.63",40.633125,-89.398528,Illinois,inpatients
+IL,Joliet,"68,576,680.33","1,669.00","41,088.48",40.633125,-89.398528,Illinois,inpatients
+IL,Melrose Park,"175,703,708.00","3,596.00","48,860.88",40.633125,-89.398528,Illinois,inpatients
+IL,Milwaukee,"44,497,997.53",773,"57,565.33",40.633125,-89.398528,Illinois,inpatients
+IL,Paducah,"12,834,397.89",198,"64,820.19",40.633125,-89.398528,Illinois,inpatients
+IL,Peoria,"77,036,181.40","2,053.00","37,523.71",40.633125,-89.398528,Illinois,inpatients
+IL,Rockford,"81,320,536.80","2,103.00","38,668.82",40.633125,-89.398528,Illinois,inpatients
+IL,Springfield,"78,161,943.89","2,422.00","32,271.65",40.633125,-89.398528,Illinois,inpatients
+IL,St. Louis,"82,715,288.22","2,796.00","29,583.44",40.633125,-89.398528,Illinois,inpatients
+IL,Urbana,"43,455,344.04","1,142.00","38,051.97",40.633125,-89.398528,Illinois,inpatients
+IN,Cincinnati,"3,207,438.14",168,"19,091.89",40.551217,-85.602364,Indiana,inpatients
+IN,Evansville,"45,947,177.54","1,557.00","29,510.07",40.551217,-85.602364,Indiana,inpatients
+IN,Fort Wayne,"60,968,691.43","1,499.00","40,672.91",40.551217,-85.602364,Indiana,inpatients
+IN,Gary,"62,418,088.23","1,804.00","34,599.83",40.551217,-85.602364,Indiana,inpatients
+IN,Indianapolis,"232,864,773.90","6,873.00","33,881.10",40.551217,-85.602364,Indiana,inpatients
+IN,Lafayette,"25,361,597.03",665,"38,137.74",40.551217,-85.602364,Indiana,inpatients
+IN,Louisville,"26,614,590.62","1,028.00","25,889.68",40.551217,-85.602364,Indiana,inpatients
+IN,Muncie,"21,308,981.10",439,"48,539.82",40.551217,-85.602364,Indiana,inpatients
+IN,Munster,"39,820,703.72","1,255.00","31,729.64",40.551217,-85.602364,Indiana,inpatients
+IN,South Bend,"53,680,969.94","1,574.00","34,104.81",40.551217,-85.602364,Indiana,inpatients
+IN,Terre Haute,"24,642,271.00",639,"38,563.80",40.551217,-85.602364,Indiana,inpatients
+KS,Amarillo,"156,230.69",20,"7,811.53",39.011902,-98.484246,Kansas,inpatients
+KS,Joplin,"5,621,057.81",223,"25,206.54",39.011902,-98.484246,Kansas,inpatients
+KS,Kansas City,"111,671,578.50","2,515.00","44,402.22",39.011902,-98.484246,Kansas,inpatients
+KS,Topeka,"36,612,756.77","1,101.00","33,254.09",39.011902,-98.484246,Kansas,inpatients
+KS,Tulsa,"1,369,025.61",104,"13,163.71",39.011902,-98.484246,Kansas,inpatients
+KS,Wichita,"106,679,316.90","2,807.00","38,004.74",39.011902,-98.484246,Kansas,inpatients
+KY,Covington,"27,036,846.29",942,"28,701.54",37.839333,-84.270018,Kentucky,inpatients
+KY,Evansville,"4,266,421.22",168,"25,395.36",37.839333,-84.270018,Kentucky,inpatients
+KY,Huntington,"21,199,177.37",750,"28,265.57",37.839333,-84.270018,Kentucky,inpatients
+KY,Knoxville,"2,867,307.07",210,"13,653.84",37.839333,-84.270018,Kentucky,inpatients
+KY,Lexington,"167,759,632.70","5,083.00","33,004.06",37.839333,-84.270018,Kentucky,inpatients
+KY,Louisville,"107,265,112.80","3,175.00","33,784.29",37.839333,-84.270018,Kentucky,inpatients
+KY,Nashville,"25,871,134.97",938,"27,581.17",37.839333,-84.270018,Kentucky,inpatients
+KY,Owensboro,"11,690,499.03",414,"28,237.92",37.839333,-84.270018,Kentucky,inpatients
+KY,Paducah,"38,537,390.74","1,483.00","25,986.10",37.839333,-84.270018,Kentucky,inpatients
+LA,Alexandria,"48,831,395.35","1,063.00","45,937.34",31.244823,-92.145024,Louisiana,inpatients
+LA,Baton Rouge,"60,583,733.93","1,521.00","39,831.51",31.244823,-92.145024,Louisiana,inpatients
+LA,Houma,"23,677,800.85",749,"31,612.55",31.244823,-92.145024,Louisiana,inpatients
+LA,Lafayette,"67,963,295.09","2,038.00","33,348.03",31.244823,-92.145024,Louisiana,inpatients
+LA,Lake Charles,"30,436,134.84",834,"36,494.17",31.244823,-92.145024,Louisiana,inpatients
+LA,Metairie,"41,869,880.85","1,026.00","40,808.85",31.244823,-92.145024,Louisiana,inpatients
+LA,Monroe,"33,147,302.76","1,052.00","31,508.84",31.244823,-92.145024,Louisiana,inpatients
+LA,New Orleans,"60,161,642.66","1,242.00","48,439.33",31.244823,-92.145024,Louisiana,inpatients
+LA,Shreveport,"64,734,119.70","2,073.00","31,227.26",31.244823,-92.145024,Louisiana,inpatients
+LA,Slidell,"21,165,359.00",437,"48,433.32",31.244823,-92.145024,Louisiana,inpatients
+MA,Albany,"7,130,309.72",371,"19,219.16",42.407211,-71.382437,Massachusetts,inpatients
+MA,Boston,"320,933,083.80","12,678.00","25,314.17",42.407211,-71.382437,Massachusetts,inpatients
+MA,Providence,"4,372,918.60",259,"16,883.86",42.407211,-71.382437,Massachusetts,inpatients
+MA,Springfield,"35,324,337.79","1,814.00","19,473.17",42.407211,-71.382437,Massachusetts,inpatients
+MA,Worcester,"37,249,401.54","1,479.00","25,185.53",42.407211,-71.382437,Massachusetts,inpatients
+MD,Baltimore,"132,986,738.00","8,006.00","16,610.88",39.045755,-76.641271,Maryland,inpatients
+MD,Morgantown,"883,739.64",92,"9,605.87",39.045755,-76.641271,Maryland,inpatients
+MD,Salisbury,"8,964,673.31",669,"13,400.11",39.045755,-76.641271,Maryland,inpatients
+MD,Takoma Park,"26,292,323.58","1,821.00","14,438.40",39.045755,-76.641271,Maryland,inpatients
+MD,Washington,"47,773,927.75","3,763.00","12,695.70",39.045755,-76.641271,Maryland,inpatients
+MD,Wilmington,"2,560,010.28",213,"12,018.83",39.045755,-76.641271,Maryland,inpatients
+ME,Bangor,"22,932,294.77","1,013.00","22,638.00",45.253783,-69.445469,Maine,inpatients
+ME,Portland,"59,601,734.66","2,513.00","23,717.36",45.253783,-69.445469,Maine,inpatients
+MI,Ann Arbor,"94,270,645.90","2,954.00","31,912.88",44.314844,-85.602364,Michigan,inpatients
+MI,Dearborn,"47,683,068.25","1,741.00","27,388.32",44.314844,-85.602364,Michigan,inpatients
+MI,Detroit,"122,044,604.90","4,263.00","28,628.81",44.314844,-85.602364,Michigan,inpatients
+MI,Flint,"48,262,446.03","1,432.00","33,702.83",44.314844,-85.602364,Michigan,inpatients
+MI,Grand Rapids,"40,054,421.10","1,817.00","22,044.26",44.314844,-85.602364,Michigan,inpatients
+MI,Green Bay,"2,564,498.13",145,"17,686.19",44.314844,-85.602364,Michigan,inpatients
+MI,Kalamazoo,"47,047,943.79","1,679.00","28,021.41",44.314844,-85.602364,Michigan,inpatients
+MI,Lansing,"41,404,546.05","1,431.00","28,933.99",44.314844,-85.602364,Michigan,inpatients
+MI,Marquette,"7,821,023.14",342,"22,868.49",44.314844,-85.602364,Michigan,inpatients
+MI,Muskegon,"11,490,786.93",567,"20,265.94",44.314844,-85.602364,Michigan,inpatients
+MI,Petoskey,"11,095,207.73",521,"21,295.98",44.314844,-85.602364,Michigan,inpatients
+MI,Pontiac,"23,178,193.77",911,"25,442.58",44.314844,-85.602364,Michigan,inpatients
+MI,Royal Oak,"72,789,280.86","2,251.00","32,336.42",44.314844,-85.602364,Michigan,inpatients
+MI,Saginaw,"57,426,854.02","2,098.00","27,372.19",44.314844,-85.602364,Michigan,inpatients
+MI,St. Joseph,"9,475,290.37",436,"21,732.32",44.314844,-85.602364,Michigan,inpatients
+MI,Toledo,"5,897,946.96",288,"20,478.98",44.314844,-85.602364,Michigan,inpatients
+MI,Traverse City,"17,067,203.77",611,"27,933.23",44.314844,-85.602364,Michigan,inpatients
+MN,Duluth,"24,365,563.53",799,"30,495.07",46.729553,-94.6859,Minnesota,inpatients
+MN,Fargo/Moorhead MN,"6,790,811.25",341,"19,914.40",46.729553,-94.6859,Minnesota,inpatients
+MN,La Crosse,"1,704,596.13",115,"14,822.58",46.729553,-94.6859,Minnesota,inpatients
+MN,Minneapolis,"176,064,016.10","5,331.00","33,026.45",46.729553,-94.6859,Minnesota,inpatients
+MN,Rochester,"33,098,723.62","1,029.00","32,165.91",46.729553,-94.6859,Minnesota,inpatients
+MN,Sioux Falls,"413,994.43",28,"14,785.52",46.729553,-94.6859,Minnesota,inpatients
+MN,St. Cloud,"18,233,864.80",488,"37,364.48",46.729553,-94.6859,Minnesota,inpatients
+MN,St. Paul,"66,048,918.96","1,819.00","36,310.57",46.729553,-94.6859,Minnesota,inpatients
+MO,Cape Girardeau,"44,085,629.34",985,"44,756.98",37.964253,-91.831833,Missouri,inpatients
+MO,Columbia,"74,121,585.77","2,409.00","30,768.61",37.964253,-91.831833,Missouri,inpatients
+MO,Jonesboro,"3,651,331.19",112,"32,601.17",37.964253,-91.831833,Missouri,inpatients
+MO,Joplin,"28,230,109.66",778,"36,285.49",37.964253,-91.831833,Missouri,inpatients
+MO,Kansas City,"168,146,146.10","4,024.00","41,785.82",37.964253,-91.831833,Missouri,inpatients
+MO,Springfield,"53,983,429.72","1,654.00","32,638.11",37.964253,-91.831833,Missouri,inpatients
+MO,St. Louis,"242,676,951.20","6,681.00","36,323.45",37.964253,-91.831833,Missouri,inpatients
+MS,Birmingham,"716,406.94",51,"14,047.19",32.354668,-89.398528,Mississippi,inpatients
+MS,Gulfport,"49,669,508.80",703,"70,653.64",32.354668,-89.398528,Mississippi,inpatients
+MS,Hattiesburg,"36,016,056.18","1,080.00","33,348.20",32.354668,-89.398528,Mississippi,inpatients
+MS,Jackson,"123,307,186.70","3,229.00","38,187.42",32.354668,-89.398528,Mississippi,inpatients
+MS,Memphis,"45,704,574.44","1,431.00","31,938.91",32.354668,-89.398528,Mississippi,inpatients
+MS,Meridian,"17,397,004.79",674,"25,811.58",32.354668,-89.398528,Mississippi,inpatients
+MS,Mobile,"23,820,505.99",478,"49,833.69",32.354668,-89.398528,Mississippi,inpatients
+MS,Oxford,"12,702,692.31",553,"22,970.51",32.354668,-89.398528,Mississippi,inpatients
+MS,Slidell,"2,984,247.02",158,"18,887.64",32.354668,-89.398528,Mississippi,inpatients
+MS,Tupelo,"33,940,509.49","1,298.00","26,148.31",32.354668,-89.398528,Mississippi,inpatients
+MT,Billings,"24,541,589.23",951,"25,806.09",46.879682,-110.362566,Montana,inpatients
+MT,Great Falls,"10,187,979.95",392,"25,989.74",46.879682,-110.362566,Montana,inpatients
+MT,Missoula,"21,691,801.74",762,"28,466.93",46.879682,-110.362566,Montana,inpatients
+NC,Asheville,"33,804,486.07","1,451.00","23,297.37",35.759573,-79.0193,North Carolina,inpatients
+NC,Atlanta,"1,514,886.41",93,"16,289.10",35.759573,-79.0193,North Carolina,inpatients
+NC,Charlotte,"158,982,229.00","4,897.00","32,465.23",35.759573,-79.0193,North Carolina,inpatients
+NC,Durham,"114,721,473.90","3,314.00","34,617.22",35.759573,-79.0193,North Carolina,inpatients
+NC,Greensboro,"18,360,065.75",832,"22,067.39",35.759573,-79.0193,North Carolina,inpatients
+NC,Greenville,"65,413,447.67","2,349.00","27,847.36",35.759573,-79.0193,North Carolina,inpatients
+NC,Hickory,"27,727,552.51",741,"37,419.10",35.759573,-79.0193,North Carolina,inpatients
+NC,Johnson City,"3,688,842.04",178,"20,723.83",35.759573,-79.0193,North Carolina,inpatients
+NC,Norfolk,"5,138,355.20",228,"22,536.65",35.759573,-79.0193,North Carolina,inpatients
+NC,Raleigh,"123,970,003.00","3,842.00","32,267.05",35.759573,-79.0193,North Carolina,inpatients
+NC,Wilmington,"25,617,512.08",951,"26,937.45",35.759573,-79.0193,North Carolina,inpatients
+NC,Winston-Salem,"69,860,923.11","2,412.00","28,963.90",35.759573,-79.0193,North Carolina,inpatients
+ND,Bismarck,"13,688,123.94",555,"24,663.29",47.551493,-101.002012,North Dakota,inpatients
+ND,Fargo/Moorhead MN,"22,310,411.68",707,"31,556.45",47.551493,-101.002012,North Dakota,inpatients
+ND,Grand Forks,"9,139,063.96",329,"27,778.31",47.551493,-101.002012,North Dakota,inpatients
+ND,Minot,"5,413,278.42",248,"21,827.74",47.551493,-101.002012,North Dakota,inpatients
+NE,Denver,"6,469,337.60",208,"31,102.58",41.492537,-99.901813,Nebraska,inpatients
+NE,Lincoln,"36,521,990.23","1,216.00","30,034.53",41.492537,-99.901813,Nebraska,inpatients
+NE,Omaha,"114,603,521.30","2,975.00","38,522.19",41.492537,-99.901813,Nebraska,inpatients
+NH,Lebanon,"23,144,095.40",602,"38,445.34",43.193852,-71.572395,New Hampshire,inpatients
+NH,Manchester,"75,759,304.72","2,406.00","31,487.66",43.193852,-71.572395,New Hampshire,inpatients
+NH,Portland,"12,413,934.72",426,"29,140.69",43.193852,-71.572395,New Hampshire,inpatients
+NJ,Allentown,"14,645,816.71",215,"68,120.08",40.058324,-74.405661,New Jersey,inpatients
+NJ,Camden,"542,240,163.10","7,530.00","72,010.65",40.058324,-74.405661,New Jersey,inpatients
+NJ,Hackensack,"166,166,413.90","2,213.00","75,086.50",40.058324,-74.405661,New Jersey,inpatients
+NJ,Morristown,"113,269,864.30","1,838.00","61,626.69",40.058324,-74.405661,New Jersey,inpatients
+NJ,New Brunswick,"202,614,525.80","2,364.00","85,708.34",40.058324,-74.405661,New Jersey,inpatients
+NJ,Newark,"276,107,277.60","3,401.00","81,184.15",40.058324,-74.405661,New Jersey,inpatients
+NJ,Paterson,"55,511,300.68",801,"69,302.50",40.058324,-74.405661,New Jersey,inpatients
+NJ,Philadelphia,"136,073,797.20","1,641.00","82,921.27",40.058324,-74.405661,New Jersey,inpatients
+NJ,Ridgewood,"28,519,515.09",511,"55,811.18",40.058324,-74.405661,New Jersey,inpatients
+NJ,Wilmington,"8,826,837.66",198,"44,579.99",40.058324,-74.405661,New Jersey,inpatients
+NM,Albuquerque,"86,334,681.23","2,503.00","34,492.48",34.97273,-105.032363,New Mexico,inpatients
+NM,El Paso,"24,771,016.01",684,"36,214.94",34.97273,-105.032363,New Mexico,inpatients
+NM,Lubbock,"11,408,141.16",361,"31,601.50",34.97273,-105.032363,New Mexico,inpatients
+NV,Las Vegas,"292,164,652.10","3,570.00","81,838.84",38.80261,-116.419389,Nevada,inpatients
+NV,Reno,"60,348,718.18","1,385.00","43,573.08",38.80261,-116.419389,Nevada,inpatients
+NV,Salt Lake City,"2,205,455.74",68,"32,433.17",38.80261,-116.419389,Nevada,inpatients
+NY,Albany,"141,649,435.10","4,344.00","32,608.07",43.299428,-74.217933,New York,inpatients
+NY,Binghamton,"19,091,620.24",880,"21,695.02",43.299428,-74.217933,New York,inpatients
+NY,Bronx,"67,799,775.81","1,764.00","38,435.25",43.299428,-74.217933,New York,inpatients
+NY,Buffalo,"50,336,707.18","2,365.00","21,284.02",43.299428,-74.217933,New York,inpatients
+NY,Burlington,"16,116,326.33",760,"21,205.69",43.299428,-74.217933,New York,inpatients
+NY,East Long Island,"466,270,916.40","9,324.00","50,007.61",43.299428,-74.217933,New York,inpatients
+NY,Elmira,"25,821,398.33","1,098.00","23,516.76",43.299428,-74.217933,New York,inpatients
+NY,Erie,"2,491,339.17",182,"13,688.68",43.299428,-74.217933,New York,inpatients
+NY,Hackensack,"15,087,256.77",325,"46,422.33",43.299428,-74.217933,New York,inpatients
+NY,Manhattan,"387,283,657.20","7,977.00","48,550.04",43.299428,-74.217933,New York,inpatients
+NY,Morristown,"5,038,496.09",142,"35,482.37",43.299428,-74.217933,New York,inpatients
+NY,New Haven,"8,057,410.50",221,"36,458.87",43.299428,-74.217933,New York,inpatients
+NY,Ridgewood,"24,059,096.78",462,"52,075.97",43.299428,-74.217933,New York,inpatients
+NY,Rochester,"42,550,566.56","2,223.00","19,141.06",43.299428,-74.217933,New York,inpatients
+NY,Sayre,"2,480,125.72",166,"14,940.52",43.299428,-74.217933,New York,inpatients
+NY,Syracuse,"64,327,174.69","2,548.00","25,246.14",43.299428,-74.217933,New York,inpatients
+NY,White Plains,"137,967,300.10","3,015.00","45,760.30",43.299428,-74.217933,New York,inpatients
+OH,Akron,"58,641,383.61","1,491.00","39,330.24",40.417287,-82.907123,Ohio,inpatients
+OH,Canton,"24,890,175.03","1,347.00","18,478.23",40.417287,-82.907123,Ohio,inpatients
+OH,Cincinnati,"129,556,844.60","3,771.00","34,356.10",40.417287,-82.907123,Ohio,inpatients
+OH,Cleveland,"217,772,468.60","6,503.00","33,488.00",40.417287,-82.907123,Ohio,inpatients
+OH,Columbus,"181,315,029.50","6,054.00","29,949.62",40.417287,-82.907123,Ohio,inpatients
+OH,Dayton,"108,844,008.90","2,729.00","39,884.21",40.417287,-82.907123,Ohio,inpatients
+OH,Elyria,"17,551,457.84",733,"23,944.69",40.417287,-82.907123,Ohio,inpatients
+OH,Fort Wayne,"3,214,797.38",214,"15,022.42",40.417287,-82.907123,Ohio,inpatients
+OH,Huntington,"51,811.08",2,"25,905.54",40.417287,-82.907123,Ohio,inpatients
+OH,Kettering,"40,093,456.67",950,"42,203.64",40.417287,-82.907123,Ohio,inpatients
+OH,Pittsburgh,"9,556,326.32",578,"16,533.44",40.417287,-82.907123,Ohio,inpatients
+OH,Toledo,"112,565,513.60","2,653.00","42,429.52",40.417287,-82.907123,Ohio,inpatients
+OH,Youngstown,"49,210,308.72","1,500.00","32,806.87",40.417287,-82.907123,Ohio,inpatients
+OK,Amarillo,"164,158.98",12,"13,679.91",35.007752,-97.092877,Oklahoma,inpatients
+OK,Dallas,"14,826,339.14",318,"46,623.71",35.007752,-97.092877,Oklahoma,inpatients
+OK,Fort Smith,"1,733,097.51",154,"11,253.88",35.007752,-97.092877,Oklahoma,inpatients
+OK,Joplin,"4,090,065.57",227,"18,017.91",35.007752,-97.092877,Oklahoma,inpatients
+OK,Lawton,"16,729,090.21",613,"27,290.52",35.007752,-97.092877,Oklahoma,inpatients
+OK,Oklahoma City,"219,854,557.30","5,187.00","42,385.69",35.007752,-97.092877,Oklahoma,inpatients
+OK,Texarkana,"724,937.40",74,"9,796.45",35.007752,-97.092877,Oklahoma,inpatients
+OK,Tulsa,"105,418,743.60","3,577.00","29,471.27",35.007752,-97.092877,Oklahoma,inpatients
+OR,Bend,"13,651,184.97",391,"34,913.52",43.804133,-120.554201,Oregon,inpatients
+OR,Boise,"1,871,543.43",97,"19,294.26",43.804133,-120.554201,Oregon,inpatients
+OR,Eugene,"39,587,392.57","1,306.00","30,311.94",43.804133,-120.554201,Oregon,inpatients
+OR,Medford,"36,906,635.47",994,"37,129.41",43.804133,-120.554201,Oregon,inpatients
+OR,Portland,"76,542,954.92","2,463.00","31,077.12",43.804133,-120.554201,Oregon,inpatients
+OR,Salem,"10,347,555.07",348,"29,734.35",43.804133,-120.554201,Oregon,inpatients
+PA,Allentown,"178,625,332.40","3,273.00","54,575.41",41.203322,-77.194525,Pennsylvania,inpatients
+PA,Altoona,"13,390,506.34",629,"21,288.56",41.203322,-77.194525,Pennsylvania,inpatients
+PA,Danville,"63,426,524.51","1,533.00","41,374.12",41.203322,-77.194525,Pennsylvania,inpatients
+PA,Erie,"60,095,684.95","1,865.00","32,222.89",41.203322,-77.194525,Pennsylvania,inpatients
+PA,Harrisburg,"76,487,987.20","2,501.00","30,582.96",41.203322,-77.194525,Pennsylvania,inpatients
+PA,Johnstown,"10,471,729.59",502,"20,860.02",41.203322,-77.194525,Pennsylvania,inpatients
+PA,Lancaster,"52,227,522.63","1,203.00","43,414.40",41.203322,-77.194525,Pennsylvania,inpatients
+PA,Morgantown,"720,246.34",66,"10,912.82",41.203322,-77.194525,Pennsylvania,inpatients
+PA,Philadelphia,"680,284,321.20","9,273.00","73,361.84",41.203322,-77.194525,Pennsylvania,inpatients
+PA,Pittsburgh,"207,082,893.20","6,092.00","33,992.60",41.203322,-77.194525,Pennsylvania,inpatients
+PA,Reading,"51,257,232.79","1,382.00","37,089.17",41.203322,-77.194525,Pennsylvania,inpatients
+PA,Sayre,"15,734,231.44",599,"26,267.50",41.203322,-77.194525,Pennsylvania,inpatients
+PA,Scranton,"39,510,329.03","1,120.00","35,277.08",41.203322,-77.194525,Pennsylvania,inpatients
+PA,Wilkes-Barre,"41,922,978.25",780,"53,747.41",41.203322,-77.194525,Pennsylvania,inpatients
+PA,York,"20,897,349.40",858,"24,355.89",41.203322,-77.194525,Pennsylvania,inpatients
+PA,Youngstown,"7,632,935.86",427,"17,875.73",41.203322,-77.194525,Pennsylvania,inpatients
+RI,Providence,"79,146,038.67","2,386.00","33,171.01",41.580095,-71.477429,Rhode Island,inpatients
+SC,Augusta,"12,925,087.76",307,"42,101.26",33.836081,-81.163725,South Carolina,inpatients
+SC,Charleston,"134,202,250.40","3,008.00","44,615.11",33.836081,-81.163725,South Carolina,inpatients
+SC,Charlotte,"26,938,911.35",609,"44,234.67",33.836081,-81.163725,South Carolina,inpatients
+SC,Columbia,"126,157,967.80","3,046.00","41,417.59",33.836081,-81.163725,South Carolina,inpatients
+SC,Florence,"68,509,854.81","1,439.00","47,609.35",33.836081,-81.163725,South Carolina,inpatients
+SC,Greenville,"92,710,182.35","2,013.00","46,055.73",33.836081,-81.163725,South Carolina,inpatients
+SC,Savannah,"17,028,477.29",572,"29,770.07",33.836081,-81.163725,South Carolina,inpatients
+SC,Spartanburg,"34,379,080.36",850,"40,445.98",33.836081,-81.163725,South Carolina,inpatients
+SD,Rapid City,"16,964,598.23",458,"37,040.61",43.969515,-99.901813,South Dakota,inpatients
+SD,Sioux City,"1,202,240.45",19,"63,275.81",43.969515,-99.901813,South Dakota,inpatients
+SD,Sioux Falls,"54,392,116.18","1,614.00","33,700.20",43.969515,-99.901813,South Dakota,inpatients
+TN,Chattanooga,"67,558,433.55","1,599.00","42,250.43",35.517491,-86.580447,Tennessee,inpatients
+TN,Huntsville,"864,914.27",64,"13,514.29",35.517491,-86.580447,Tennessee,inpatients
+TN,Jackson,"39,230,776.29","1,217.00","32,235.64",35.517491,-86.580447,Tennessee,inpatients
+TN,Johnson City,"27,043,676.40",694,"38,967.83",35.517491,-86.580447,Tennessee,inpatients
+TN,Kingsport,"28,010,579.10",898,"31,192.18",35.517491,-86.580447,Tennessee,inpatients
+TN,Knoxville,"102,677,666.40","3,643.00","28,184.92",35.517491,-86.580447,Tennessee,inpatients
+TN,Memphis,"104,639,148.50","2,237.00","46,776.55",35.517491,-86.580447,Tennessee,inpatients
+TN,Nashville,"239,274,525.20","6,700.00","35,712.62",35.517491,-86.580447,Tennessee,inpatients
+TX,Abilene,"42,399,092.92",988,"42,914.06",31.968599,-99.901813,Texas,inpatients
+TX,Amarillo,"34,049,464.57",913,"37,294.05",31.968599,-99.901813,Texas,inpatients
+TX,Austin,"171,769,089.90","3,189.00","53,862.99",31.968599,-99.901813,Texas,inpatients
+TX,Beaumont,"45,000,526.40","1,121.00","40,143.20",31.968599,-99.901813,Texas,inpatients
+TX,Bryan,"34,774,590.18",651,"53,417.19",31.968599,-99.901813,Texas,inpatients
+TX,Corpus Christi,"62,028,476.47","1,129.00","54,941.08",31.968599,-99.901813,Texas,inpatients
+TX,Dallas,"465,362,065.60","9,751.00","47,724.55",31.968599,-99.901813,Texas,inpatients
+TX,El Paso,"97,394,700.45","1,372.00","70,987.39",31.968599,-99.901813,Texas,inpatients
+TX,Fort Worth,"191,491,366.90","4,037.00","47,434.08",31.968599,-99.901813,Texas,inpatients
+TX,Harlingen,"63,451,161.89","1,192.00","53,230.84",31.968599,-99.901813,Texas,inpatients
+TX,Houston,"553,867,952.80","10,538.00","52,559.11",31.968599,-99.901813,Texas,inpatients
+TX,Longview,"30,419,350.99",620,"49,063.47",31.968599,-99.901813,Texas,inpatients
+TX,Lubbock,"69,088,708.71","1,270.00","54,400.56",31.968599,-99.901813,Texas,inpatients
+TX,McAllen,"77,752,473.52","1,369.00","56,795.09",31.968599,-99.901813,Texas,inpatients
+TX,Odessa,"28,463,983.60",792,"35,939.37",31.968599,-99.901813,Texas,inpatients
+TX,San Angelo,"20,891,704.00",522,"40,022.42",31.968599,-99.901813,Texas,inpatients
+TX,San Antonio,"181,598,409.30","3,823.00","47,501.55",31.968599,-99.901813,Texas,inpatients
+TX,Shreveport,"5,317,849.63",196,"27,131.89",31.968599,-99.901813,Texas,inpatients
+TX,Temple,"27,127,079.71",747,"36,314.70",31.968599,-99.901813,Texas,inpatients
+TX,Texarkana,"26,217,625.43",659,"39,783.95",31.968599,-99.901813,Texas,inpatients
+TX,Tyler,"85,289,595.68","1,563.00","54,567.88",31.968599,-99.901813,Texas,inpatients
+TX,Victoria,"26,576,148.34",630,"42,184.36",31.968599,-99.901813,Texas,inpatients
+TX,Waco,"26,352,993.78",986,"26,727.17",31.968599,-99.901813,Texas,inpatients
+TX,Wichita Falls,"17,252,675.74",480,"35,943.07",31.968599,-99.901813,Texas,inpatients
+UT,Ogden,"15,642,871.55",528,"29,626.65",39.32098,-111.093731,Utah,inpatients
+UT,Provo,"13,942,718.17",466,"29,920.00",39.32098,-111.093731,Utah,inpatients
+UT,Salt Lake City,"66,117,994.26","2,154.00","30,695.45",39.32098,-111.093731,Utah,inpatients
+VA,Arlington,"86,239,755.74","3,054.00","28,238.30",37.431573,-78.656894,Virginia,inpatients
+VA,Charlottesville,"60,534,959.98","1,755.00","34,492.85",37.431573,-78.656894,Virginia,inpatients
+VA,Durham,"21,347,617.17",756,"28,237.59",37.431573,-78.656894,Virginia,inpatients
+VA,Kingsport,"22,373,135.66",973,"22,993.97",37.431573,-78.656894,Virginia,inpatients
+VA,Lynchburg,"13,035,716.10",561,"23,236.57",37.431573,-78.656894,Virginia,inpatients
+VA,Newport News,"39,699,722.08","1,406.00","28,235.93",37.431573,-78.656894,Virginia,inpatients
+VA,Norfolk,"96,991,764.13","2,917.00","33,250.52",37.431573,-78.656894,Virginia,inpatients
+VA,Richmond,"244,994,652.70","4,469.00","54,820.91",37.431573,-78.656894,Virginia,inpatients
+VA,Roanoke,"63,167,232.30","1,888.00","33,457.22",37.431573,-78.656894,Virginia,inpatients
+VA,Winchester,"13,894,963.50",566,"24,549.41",37.431573,-78.656894,Virginia,inpatients
+VA,Winston-Salem,"2,867,934.51",156,"18,384.20",37.431573,-78.656894,Virginia,inpatients
+VT,Albany,"2,675,604.64",164,"16,314.66",44.558803,-72.577841,Vermont,inpatients
+VT,Burlington,"24,934,679.87",953,"26,164.41",44.558803,-72.577841,Vermont,inpatients
+VT,Lebanon,"888,580.03",55,"16,156.00",44.558803,-72.577841,Vermont,inpatients
+WA,Everett,"27,785,054.70",777,"35,759.40",47.751074,-120.740139,Washington,inpatients
+WA,Olympia,"32,632,669.26",695,"46,953.48",47.751074,-120.740139,Washington,inpatients
+WA,Portland,"31,591,543.82",879,"35,940.32",47.751074,-120.740139,Washington,inpatients
+WA,Seattle,"209,948,641.60","4,851.00","43,279.46",47.751074,-120.740139,Washington,inpatients
+WA,Spokane,"82,122,192.07","2,294.00","35,798.69",47.751074,-120.740139,Washington,inpatients
+WA,Tacoma,"85,726,386.52","1,565.00","54,777.24",47.751074,-120.740139,Washington,inpatients
+WA,Yakima,"19,219,239.84",597,"32,193.03",47.751074,-120.740139,Washington,inpatients
+WI,Appleton,"5,742,223.54",314,"18,287.34",43.78444,-88.787868,Wisconsin,inpatients
+WI,Green Bay,"26,893,169.13","1,023.00","26,288.53",43.78444,-88.787868,Wisconsin,inpatients
+WI,La Crosse,"13,774,571.51",507,"27,168.78",43.78444,-88.787868,Wisconsin,inpatients
+WI,Madison,"86,612,275.58","2,479.00","34,938.39",43.78444,-88.787868,Wisconsin,inpatients
+WI,Marshfield,"19,995,043.97",815,"24,533.80",43.78444,-88.787868,Wisconsin,inpatients
+WI,Milwaukee,"164,495,547.70","5,018.00","32,781.10",43.78444,-88.787868,Wisconsin,inpatients
+WI,Minneapolis,"21,662,231.31",631,"34,330.00",43.78444,-88.787868,Wisconsin,inpatients
+WI,Neenah,"5,370,847.49",302,"17,784.26",43.78444,-88.787868,Wisconsin,inpatients
+WI,Wausau,"14,810,698.42",566,"26,167.31",43.78444,-88.787868,Wisconsin,inpatients
+WV,Charleston,"63,693,554.57","2,636.00","24,162.96",38.597626,-80.454903,West Virginia,inpatients
+WV,Huntington,"23,530,088.72",794,"29,634.87",38.597626,-80.454903,West Virginia,inpatients
+WV,Morgantown,"35,583,154.40","1,390.00","25,599.39",38.597626,-80.454903,West Virginia,inpatients
+WV,Pittsburgh,"12,296,669.89",710,"17,319.25",38.597626,-80.454903,West Virginia,inpatients
+WV,Roanoke,"7,717,422.89",455,"16,961.37",38.597626,-80.454903,West Virginia,inpatients
+WV,Winchester,"4,351,731.21",242,"17,982.36",38.597626,-80.454903,West Virginia,inpatients
+WY,Billings,"2,717,799.43",137,"19,837.95",43.075968,-107.290284,Wyoming,inpatients
+WY,Casper,"15,074,332.29",443,"34,027.84",43.075968,-107.290284,Wyoming,inpatients
+WY,Fort Collins,"11,055,010.29",344,"32,136.66",43.075968,-107.290284,Wyoming,inpatients
+WY,Salt Lake City,"2,196,810.17",89,"24,683.26",43.075968,-107.290284,Wyoming,inpatients
 PR,,,,,18.220833,-66.590149,Puerto Rico,inpatients
+AK,Anchorage,"$51,411,844.62 ",939,"$54,751.70 ",63.588753,-154.493062,Alaska,inpatients
+AL,Birmingham,"$322,543,033.00 ",7453,"$43,276.94 ",32.318231,-86.902298,Alabama,inpatients
+AL,Columbus,"$1,297,255.38 ",32,"$40,539.23 ",32.318231,-86.902298,Alabama,inpatients
+AL,Dothan,"$44,033,830.08 ",1201,"$36,664.30 ",32.318231,-86.902298,Alabama,inpatients
+AL,Huntsville,"$62,083,541.17 ",1614,"$38,465.64 ",32.318231,-86.902298,Alabama,inpatients
+AL,Meridian,"$125,400.69 ",15,"$8,360.05 ",32.318231,-86.902298,Alabama,inpatients
+AL,Mobile,"$54,578,412.56 ",1844,"$29,597.84 ",32.318231,-86.902298,Alabama,inpatients
+AL,Montgomery,"$40,467,751.49 ",1409,"$28,720.90 ",32.318231,-86.902298,Alabama,inpatients
+AL,Pensacola,"$4,824,855.44 ",294,"$16,411.07 ",32.318231,-86.902298,Alabama,inpatients
+AL,Rome,"$691,918.04 ",36,"$19,219.95 ",32.318231,-86.902298,Alabama,inpatients
+AL,Tupelo,"$604,872.35 ",36,"$16,802.01 ",32.318231,-86.902298,Alabama,inpatients
+AL,Tuscaloosa,"$21,791,078.39 ",682,"$31,951.73 ",32.318231,-86.902298,Alabama,inpatients
+AR,Fort Smith,"$27,945,345.54 ",855,"$32,684.61 ",35.20105,-91.831833,Arkansas,inpatients
+AR,Jonesboro,"$17,995,184.12 ",863,"$20,851.89 ",35.20105,-91.831833,Arkansas,inpatients
+AR,Little Rock,"$159,021,697.00 ",5031,"$31,608.37 ",35.20105,-91.831833,Arkansas,inpatients
+AR,Memphis,"$6,492,465.27 ",290,"$22,387.81 ",35.20105,-91.831833,Arkansas,inpatients
+AR,Springdale,"$42,403,590.63 ",1182,"$35,874.44 ",35.20105,-91.831833,Arkansas,inpatients
+AR,Springfield,"$6,794,200.73 ",330,"$20,588.49 ",35.20105,-91.831833,Arkansas,inpatients
+AR,Texarkana,"$1,407,050.68 ",72,"$19,542.37 ",35.20105,-91.831833,Arkansas,inpatients
+AZ,Albuquerque,"$341,532.00 ",47,"$7,266.64 ",34.048928,-111.093731,Arizona,inpatients
+AZ,Las Vegas,"$28,842,069.92 ",360,"$80,116.86 ",34.048928,-111.093731,Arizona,inpatients
+AZ,Mesa,"$106,541,615.80 ",2041,"$52,200.69 ",34.048928,-111.093731,Arizona,inpatients
+AZ,Phoenix,"$290,769,634.30 ",6216,"$46,777.61 ",34.048928,-111.093731,Arizona,inpatients
+AZ,Sun City,"$37,668,995.98 ",804,"$46,851.99 ",34.048928,-111.093731,Arizona,inpatients
+AZ,Tucson,"$97,453,101.12 ",2199,"$44,317.01 ",34.048928,-111.093731,Arizona,inpatients
+CA,Alameda County,"$167,194,927.10 ",1957,"$85,434.30 ",36.778261,-119.417932,California,inpatients
+CA,Bakersfield,"$107,106,403.80 ",1880,"$56,971.49 ",36.778261,-119.417932,California,inpatients
+CA,Chico,"$67,609,408.91 ",1014,"$66,675.95 ",36.778261,-119.417932,California,inpatients
+CA,Contra Costa County,"$157,836,722.90 ",1443,"$109,380.96 ",36.778261,-119.417932,California,inpatients
+CA,Fresno,"$79,853,791.40 ",1563,"$51,090.08 ",36.778261,-119.417932,California,inpatients
+CA,Los Angeles,"$1,145,654,920.00 ",14680,"$78,041.89 ",36.778261,-119.417932,California,inpatients
+CA,Medford,"$3,265,415.13 ",98,"$33,320.56 ",36.778261,-119.417932,California,inpatients
+CA,Modesto,"$146,454,263.60 ",1527,"$95,909.80 ",36.778261,-119.417932,California,inpatients
+CA,Napa,"$46,172,854.91 ",572,"$80,721.77 ",36.778261,-119.417932,California,inpatients
+CA,Orange County,"$274,310,414.10 ",4005,"$68,491.99 ",36.778261,-119.417932,California,inpatients
+CA,Palm Springs/Rancho M,"$72,646,893.81 ",832,"$87,315.98 ",36.778261,-119.417932,California,inpatients
+CA,Phoenix,"$690,828.94 ",21,"$32,896.62 ",36.778261,-119.417932,California,inpatients
+CA,Redding,"$65,255,545.62 ",966,"$67,552.32 ",36.778261,-119.417932,California,inpatients
+CA,Sacramento,"$308,630,490.40 ",3881,"$79,523.45 ",36.778261,-119.417932,California,inpatients
+CA,Salinas,"$57,608,315.47 ",722,"$79,789.91 ",36.778261,-119.417932,California,inpatients
+CA,San Bernardino,"$195,981,001.20 ",3213,"$60,996.27 ",36.778261,-119.417932,California,inpatients
+CA,San Diego,"$341,080,459.50 ",5096,"$66,931.02 ",36.778261,-119.417932,California,inpatients
+CA,San Francisco,"$217,306,502.20 ",2312,"$93,990.70 ",36.778261,-119.417932,California,inpatients
+CA,San Jose,"$188,042,476.30 ",1751,"$107,391.48 ",36.778261,-119.417932,California,inpatients
+CA,San Luis Obispo,"$37,885,690.50 ",538,"$70,419.50 ",36.778261,-119.417932,California,inpatients
+CA,San Mateo County,"$164,794,859.80 ",1242,"$132,685.07 ",36.778261,-119.417932,California,inpatients
+CA,Santa Barbara,"$42,537,294.07 ",777,"$54,745.55 ",36.778261,-119.417932,California,inpatients
+CA,Santa Cruz,"$41,298,847.58 ",458,"$90,172.16 ",36.778261,-119.417932,California,inpatients
+CA,Santa Rosa,"$54,202,421.40 ",682,"$79,475.69 ",36.778261,-119.417932,California,inpatients
+CA,Stockton,"$69,294,681.94 ",832,"$83,286.88 ",36.778261,-119.417932,California,inpatients
+CA,Ventura,"$111,778,338.00 ",1430,"$78,166.67 ",36.778261,-119.417932,California,inpatients
+CO,Albuquerque,"$4,618,285.00 ",141,"$32,753.79 ",39.550051,-105.782067,Colorado,inpatients
+CO,Boulder,"$25,573,650.42 ",547,"$46,752.56 ",39.550051,-105.782067,Colorado,inpatients
+CO,Colorado Springs,"$42,557,607.23 ",1022,"$41,641.49 ",39.550051,-105.782067,Colorado,inpatients
+CO,Denver,"$227,289,463.80 ",3589,"$63,329.47 ",39.550051,-105.782067,Colorado,inpatients
+CO,Fort Collins,"$10,422,654.38 ",315,"$33,087.79 ",39.550051,-105.782067,Colorado,inpatients
+CO,Grand Junction,"$21,817,585.04 ",655,"$33,309.29 ",39.550051,-105.782067,Colorado,inpatients
+CO,Greeley,"$34,044,801.62 ",889,"$38,295.61 ",39.550051,-105.782067,Colorado,inpatients
+CO,Pueblo,"$26,717,236.46 ",555,"$48,139.16 ",39.550051,-105.782067,Colorado,inpatients
+CT,Bridgeport,"$78,150,415.13 ",1734,"$45,069.44 ",41.603221,-73.087749,Connecticut,inpatients
+CT,Hartford,"$110,850,849.20 ",3609,"$30,715.11 ",41.603221,-73.087749,Connecticut,inpatients
+CT,New Haven,"$119,122,001.40 ",2999,"$39,720.57 ",41.603221,-73.087749,Connecticut,inpatients
+DC,Washington,"$105,237,116.00 ",2083,"$50,521.90 ",38.905985,-77.033418,District of Columbia,inpatients
+DE,Salisbury,"$23,399,626.11 ",751,"$31,157.96 ",38.910832,-75.52767,Delaware,inpatients
+DE,Wilmington,"$38,307,705.08 ",1216,"$31,503.05 ",38.910832,-75.52767,Delaware,inpatients
+FL,Bradenton,"$50,084,002.59 ",971,"$51,579.82 ",27.664827,-81.515754,Florida,inpatients
+FL,Clearwater,"$77,248,494.80 ",1594,"$48,462.04 ",27.664827,-81.515754,Florida,inpatients
+FL,Dothan,"$1,962,289.93 ",131,"$14,979.31 ",27.664827,-81.515754,Florida,inpatients
+FL,Fort Lauderdale,"$389,271,955.80 ",6885,"$56,539.14 ",27.664827,-81.515754,Florida,inpatients
+FL,Fort Myers,"$178,022,842.80 ",3415,"$52,129.68 ",27.664827,-81.515754,Florida,inpatients
+FL,Gainesville,"$82,829,028.50 ",1648,"$50,260.33 ",27.664827,-81.515754,Florida,inpatients
+FL,Hudson,"$113,391,657.20 ",1650,"$68,722.22 ",27.664827,-81.515754,Florida,inpatients
+FL,Jacksonville,"$194,102,196.40 ",3636,"$53,383.44 ",27.664827,-81.515754,Florida,inpatients
+FL,Lakeland,"$35,495,660.26 ",802,"$44,258.93 ",27.664827,-81.515754,Florida,inpatients
+FL,Miami,"$382,084,047.40 ",6047,"$63,185.72 ",27.664827,-81.515754,Florida,inpatients
+FL,Ocala,"$75,412,559.20 ",1553,"$48,559.28 ",27.664827,-81.515754,Florida,inpatients
+FL,Orlando,"$429,810,591.80 ",8777,"$48,970.10 ",27.664827,-81.515754,Florida,inpatients
+FL,Ormond Beach,"$38,862,022.45 ",1188,"$32,712.14 ",27.664827,-81.515754,Florida,inpatients
+FL,Panama City,"$38,372,606.69 ",742,"$51,715.10 ",27.664827,-81.515754,Florida,inpatients
+FL,Pensacola,"$129,021,128.90 ",2503,"$51,546.60 ",27.664827,-81.515754,Florida,inpatients
+FL,Sarasota,"$73,251,440.45 ",1470,"$49,830.91 ",27.664827,-81.515754,Florida,inpatients
+FL,St. Petersburg,"$88,519,636.15 ",1418,"$62,425.70 ",27.664827,-81.515754,Florida,inpatients
+FL,Tallahassee,"$32,775,527.53 ",769,"$42,620.97 ",27.664827,-81.515754,Florida,inpatients
+FL,Tampa,"$178,828,059.90 ",2887,"$61,942.52 ",27.664827,-81.515754,Florida,inpatients
+GA,Albany,"$17,517,492.66 ",546,"$32,083.32 ",32.157435,-82.907123,Georgia,inpatients
+GA,Atlanta,"$423,546,447.80 ",10694,"$39,605.99 ",32.157435,-82.907123,Georgia,inpatients
+GA,Augusta,"$52,523,092.83 ",1256,"$41,817.75 ",32.157435,-82.907123,Georgia,inpatients
+GA,Chattanooga,"$2,115,522.47 ",91,"$23,247.50 ",32.157435,-82.907123,Georgia,inpatients
+GA,Columbus,"$21,887,095.93 ",736,"$29,737.90 ",32.157435,-82.907123,Georgia,inpatients
+GA,Dothan,"$487,196.68 ",37,"$13,167.48 ",32.157435,-82.907123,Georgia,inpatients
+GA,Jacksonville,"$21,109,253.00 ",836,"$25,250.30 ",32.157435,-82.907123,Georgia,inpatients
+GA,Macon,"$68,365,667.11 ",2103,"$32,508.64 ",32.157435,-82.907123,Georgia,inpatients
+GA,Rome,"$33,586,250.97 ",840,"$39,983.63 ",32.157435,-82.907123,Georgia,inpatients
+GA,Savannah,"$59,614,827.18 ",1674,"$35,612.20 ",32.157435,-82.907123,Georgia,inpatients
+GA,Tallahassee,"$35,717,922.21 ",1252,"$28,528.69 ",32.157435,-82.907123,Georgia,inpatients
+HI,Honolulu,"$62,473,447.39 ",1723,"$36,258.53 ",19.898682,-155.665857,Hawaii,inpatients
+IA,Cedar Rapids,"$20,853,013.65 ",676,"$30,847.65 ",41.878003,-93.097702,Iowa,inpatients
+IA,Davenport,"$25,052,711.77 ",963,"$26,015.28 ",41.878003,-93.097702,Iowa,inpatients
+IA,Des Moines,"$65,211,402.56 ",1954,"$33,373.29 ",41.878003,-93.097702,Iowa,inpatients
+IA,Dubuque,"$9,755,709.21 ",466,"$20,935.00 ",41.878003,-93.097702,Iowa,inpatients
+IA,Iowa City,"$34,548,019.34 ",1062,"$32,531.09 ",41.878003,-93.097702,Iowa,inpatients
+IA,Mason City,"$10,101,290.47 ",367,"$27,523.95 ",41.878003,-93.097702,Iowa,inpatients
+IA,Omaha,"$10,921,087.61 ",366,"$29,839.04 ",41.878003,-93.097702,Iowa,inpatients
+IA,Sioux City,"$13,164,407.19 ",511,"$25,762.05 ",41.878003,-93.097702,Iowa,inpatients
+IA,Sioux Falls,"$2,153,151.89 ",130,"$16,562.71 ",41.878003,-93.097702,Iowa,inpatients
+IA,Waterloo,"$13,712,089.36 ",572,"$23,972.18 ",41.878003,-93.097702,Iowa,inpatients
+ID,Boise,"$34,961,148.75 ",1185,"$29,503.08 ",44.068202,-114.742041,Idaho,inpatients
+ID,Idaho Falls,"$12,833,498.77 ",337,"$38,081.60 ",44.068202,-114.742041,Idaho,inpatients
+ID,Salt Lake City,"$7,235,367.82 ",209,"$34,618.98 ",44.068202,-114.742041,Idaho,inpatients
+ID,Spokane,"$14,644,278.45 ",502,"$29,171.87 ",44.068202,-114.742041,Idaho,inpatients
+IL,Aurora,"$31,942,604.45 ",553,"$57,762.40 ",40.633125,-89.398528,Illinois,inpatients
+IL,Bloomington,"$17,719,982.60 ",554,"$31,985.53 ",40.633125,-89.398528,Illinois,inpatients
+IL,Blue Island,"$108,971,526.60 ",2718,"$40,092.54 ",40.633125,-89.398528,Illinois,inpatients
+IL,Chicago,"$289,758,573.50 ",6213,"$46,637.47 ",40.633125,-89.398528,Illinois,inpatients
+IL,Davenport,"$13,938,895.16 ",560,"$24,890.88 ",40.633125,-89.398528,Illinois,inpatients
+IL,Elgin,"$76,863,683.49 ",1702,"$45,160.80 ",40.633125,-89.398528,Illinois,inpatients
+IL,Evanston,"$92,331,805.82 ",2166,"$42,627.80 ",40.633125,-89.398528,Illinois,inpatients
+IL,Evansville,"$2,990,003.38 ",174,"$17,183.93 ",40.633125,-89.398528,Illinois,inpatients
+IL,Hinsdale,"$59,509,967.66 ",1347,"$44,179.63 ",40.633125,-89.398528,Illinois,inpatients
+IL,Joliet,"$68,576,680.33 ",1669,"$41,088.48 ",40.633125,-89.398528,Illinois,inpatients
+IL,Melrose Park,"$175,703,708.00 ",3596,"$48,860.88 ",40.633125,-89.398528,Illinois,inpatients
+IL,Milwaukee,"$44,497,997.53 ",773,"$57,565.33 ",40.633125,-89.398528,Illinois,inpatients
+IL,Paducah,"$12,834,397.89 ",198,"$64,820.19 ",40.633125,-89.398528,Illinois,inpatients
+IL,Peoria,"$77,036,181.40 ",2053,"$37,523.71 ",40.633125,-89.398528,Illinois,inpatients
+IL,Rockford,"$81,320,536.80 ",2103,"$38,668.82 ",40.633125,-89.398528,Illinois,inpatients
+IL,Springfield,"$78,161,943.89 ",2422,"$32,271.65 ",40.633125,-89.398528,Illinois,inpatients
+IL,St. Louis,"$82,715,288.22 ",2796,"$29,583.44 ",40.633125,-89.398528,Illinois,inpatients
+IL,Urbana,"$43,455,344.04 ",1142,"$38,051.97 ",40.633125,-89.398528,Illinois,inpatients
+IN,Cincinnati,"$3,207,438.14 ",168,"$19,091.89 ",40.551217,-85.602364,Indiana,inpatients
+IN,Evansville,"$45,947,177.54 ",1557,"$29,510.07 ",40.551217,-85.602364,Indiana,inpatients
+IN,Fort Wayne,"$60,968,691.43 ",1499,"$40,672.91 ",40.551217,-85.602364,Indiana,inpatients
+IN,Gary,"$62,418,088.23 ",1804,"$34,599.83 ",40.551217,-85.602364,Indiana,inpatients
+IN,Indianapolis,"$232,864,773.90 ",6873,"$33,881.10 ",40.551217,-85.602364,Indiana,inpatients
+IN,Lafayette,"$25,361,597.03 ",665,"$38,137.74 ",40.551217,-85.602364,Indiana,inpatients
+IN,Louisville,"$26,614,590.62 ",1028,"$25,889.68 ",40.551217,-85.602364,Indiana,inpatients
+IN,Muncie,"$21,308,981.10 ",439,"$48,539.82 ",40.551217,-85.602364,Indiana,inpatients
+IN,Munster,"$39,820,703.72 ",1255,"$31,729.64 ",40.551217,-85.602364,Indiana,inpatients
+IN,South Bend,"$53,680,969.94 ",1574,"$34,104.81 ",40.551217,-85.602364,Indiana,inpatients
+IN,Terre Haute,"$24,642,271.00 ",639,"$38,563.80 ",40.551217,-85.602364,Indiana,inpatients
+KS,Amarillo,"$156,230.69 ",20,"$7,811.53 ",39.011902,-98.484246,Kansas,inpatients
+KS,Joplin,"$5,621,057.81 ",223,"$25,206.54 ",39.011902,-98.484246,Kansas,inpatients
+KS,Kansas City,"$111,671,578.50 ",2515,"$44,402.22 ",39.011902,-98.484246,Kansas,inpatients
+KS,Topeka,"$36,612,756.77 ",1101,"$33,254.09 ",39.011902,-98.484246,Kansas,inpatients
+KS,Tulsa,"$1,369,025.61 ",104,"$13,163.71 ",39.011902,-98.484246,Kansas,inpatients
+KS,Wichita,"$106,679,316.90 ",2807,"$38,004.74 ",39.011902,-98.484246,Kansas,inpatients
+KY,Covington,"$27,036,846.29 ",942,"$28,701.54 ",37.839333,-84.270018,Kentucky,inpatients
+KY,Evansville,"$4,266,421.22 ",168,"$25,395.36 ",37.839333,-84.270018,Kentucky,inpatients
+KY,Huntington,"$21,199,177.37 ",750,"$28,265.57 ",37.839333,-84.270018,Kentucky,inpatients
+KY,Knoxville,"$2,867,307.07 ",210,"$13,653.84 ",37.839333,-84.270018,Kentucky,inpatients
+KY,Lexington,"$167,759,632.70 ",5083,"$33,004.06 ",37.839333,-84.270018,Kentucky,inpatients
+KY,Louisville,"$107,265,112.80 ",3175,"$33,784.29 ",37.839333,-84.270018,Kentucky,inpatients
+KY,Nashville,"$25,871,134.97 ",938,"$27,581.17 ",37.839333,-84.270018,Kentucky,inpatients
+KY,Owensboro,"$11,690,499.03 ",414,"$28,237.92 ",37.839333,-84.270018,Kentucky,inpatients
+KY,Paducah,"$38,537,390.74 ",1483,"$25,986.10 ",37.839333,-84.270018,Kentucky,inpatients
+LA,Alexandria,"$48,831,395.35 ",1063,"$45,937.34 ",31.244823,-92.145024,Louisiana,inpatients
+LA,Baton Rouge,"$60,583,733.93 ",1521,"$39,831.51 ",31.244823,-92.145024,Louisiana,inpatients
+LA,Houma,"$23,677,800.85 ",749,"$31,612.55 ",31.244823,-92.145024,Louisiana,inpatients
+LA,Lafayette,"$67,963,295.09 ",2038,"$33,348.03 ",31.244823,-92.145024,Louisiana,inpatients
+LA,Lake Charles,"$30,436,134.84 ",834,"$36,494.17 ",31.244823,-92.145024,Louisiana,inpatients
+LA,Metairie,"$41,869,880.85 ",1026,"$40,808.85 ",31.244823,-92.145024,Louisiana,inpatients
+LA,Monroe,"$33,147,302.76 ",1052,"$31,508.84 ",31.244823,-92.145024,Louisiana,inpatients
+LA,New Orleans,"$60,161,642.66 ",1242,"$48,439.33 ",31.244823,-92.145024,Louisiana,inpatients
+LA,Shreveport,"$64,734,119.70 ",2073,"$31,227.26 ",31.244823,-92.145024,Louisiana,inpatients
+LA,Slidell,"$21,165,359.00 ",437,"$48,433.32 ",31.244823,-92.145024,Louisiana,inpatients
+MA,Albany,"$7,130,309.72 ",371,"$19,219.16 ",42.407211,-71.382437,Massachusetts,inpatients
+MA,Boston,"$320,933,083.80 ",12678,"$25,314.17 ",42.407211,-71.382437,Massachusetts,inpatients
+MA,Providence,"$4,372,918.60 ",259,"$16,883.86 ",42.407211,-71.382437,Massachusetts,inpatients
+MA,Springfield,"$35,324,337.79 ",1814,"$19,473.17 ",42.407211,-71.382437,Massachusetts,inpatients
+MA,Worcester,"$37,249,401.54 ",1479,"$25,185.53 ",42.407211,-71.382437,Massachusetts,inpatients
+MD,Baltimore,"$132,986,738.00 ",8006,"$16,610.88 ",39.045755,-76.641271,Maryland,inpatients
+MD,Morgantown,"$883,739.64 ",92,"$9,605.87 ",39.045755,-76.641271,Maryland,inpatients
+MD,Salisbury,"$8,964,673.31 ",669,"$13,400.11 ",39.045755,-76.641271,Maryland,inpatients
+MD,Takoma Park,"$26,292,323.58 ",1821,"$14,438.40 ",39.045755,-76.641271,Maryland,inpatients
+MD,Washington,"$47,773,927.75 ",3763,"$12,695.70 ",39.045755,-76.641271,Maryland,inpatients
+MD,Wilmington,"$2,560,010.28 ",213,"$12,018.83 ",39.045755,-76.641271,Maryland,inpatients
+ME,Bangor,"$22,932,294.77 ",1013,"$22,638.00 ",45.253783,-69.445469,Maine,inpatients
+ME,Portland,"$59,601,734.66 ",2513,"$23,717.36 ",45.253783,-69.445469,Maine,inpatients
+MI,Ann Arbor,"$94,270,645.90 ",2954,"$31,912.88 ",44.314844,-85.602364,Michigan,inpatients
+MI,Dearborn,"$47,683,068.25 ",1741,"$27,388.32 ",44.314844,-85.602364,Michigan,inpatients
+MI,Detroit,"$122,044,604.90 ",4263,"$28,628.81 ",44.314844,-85.602364,Michigan,inpatients
+MI,Flint,"$48,262,446.03 ",1432,"$33,702.83 ",44.314844,-85.602364,Michigan,inpatients
+MI,Grand Rapids,"$40,054,421.10 ",1817,"$22,044.26 ",44.314844,-85.602364,Michigan,inpatients
+MI,Green Bay,"$2,564,498.13 ",145,"$17,686.19 ",44.314844,-85.602364,Michigan,inpatients
+MI,Kalamazoo,"$47,047,943.79 ",1679,"$28,021.41 ",44.314844,-85.602364,Michigan,inpatients
+MI,Lansing,"$41,404,546.05 ",1431,"$28,933.99 ",44.314844,-85.602364,Michigan,inpatients
+MI,Marquette,"$7,821,023.14 ",342,"$22,868.49 ",44.314844,-85.602364,Michigan,inpatients
+MI,Muskegon,"$11,490,786.93 ",567,"$20,265.94 ",44.314844,-85.602364,Michigan,inpatients
+MI,Petoskey,"$11,095,207.73 ",521,"$21,295.98 ",44.314844,-85.602364,Michigan,inpatients
+MI,Pontiac,"$23,178,193.77 ",911,"$25,442.58 ",44.314844,-85.602364,Michigan,inpatients
+MI,Royal Oak,"$72,789,280.86 ",2251,"$32,336.42 ",44.314844,-85.602364,Michigan,inpatients
+MI,Saginaw,"$57,426,854.02 ",2098,"$27,372.19 ",44.314844,-85.602364,Michigan,inpatients
+MI,St. Joseph,"$9,475,290.37 ",436,"$21,732.32 ",44.314844,-85.602364,Michigan,inpatients
+MI,Toledo,"$5,897,946.96 ",288,"$20,478.98 ",44.314844,-85.602364,Michigan,inpatients
+MI,Traverse City,"$17,067,203.77 ",611,"$27,933.23 ",44.314844,-85.602364,Michigan,inpatients
+MN,Duluth,"$24,365,563.53 ",799,"$30,495.07 ",46.729553,-94.6859,Minnesota,inpatients
+MN,Fargo/Moorhead MN,"$6,790,811.25 ",341,"$19,914.40 ",46.729553,-94.6859,Minnesota,inpatients
+MN,La Crosse,"$1,704,596.13 ",115,"$14,822.58 ",46.729553,-94.6859,Minnesota,inpatients
+MN,Minneapolis,"$176,064,016.10 ",5331,"$33,026.45 ",46.729553,-94.6859,Minnesota,inpatients
+MN,Rochester,"$33,098,723.62 ",1029,"$32,165.91 ",46.729553,-94.6859,Minnesota,inpatients
+MN,Sioux Falls,"$413,994.43 ",28,"$14,785.52 ",46.729553,-94.6859,Minnesota,inpatients
+MN,St. Cloud,"$18,233,864.80 ",488,"$37,364.48 ",46.729553,-94.6859,Minnesota,inpatients
+MN,St. Paul,"$66,048,918.96 ",1819,"$36,310.57 ",46.729553,-94.6859,Minnesota,inpatients
+MO,Cape Girardeau,"$44,085,629.34 ",985,"$44,756.98 ",37.964253,-91.831833,Missouri,inpatients
+MO,Columbia,"$74,121,585.77 ",2409,"$30,768.61 ",37.964253,-91.831833,Missouri,inpatients
+MO,Jonesboro,"$3,651,331.19 ",112,"$32,601.17 ",37.964253,-91.831833,Missouri,inpatients
+MO,Joplin,"$28,230,109.66 ",778,"$36,285.49 ",37.964253,-91.831833,Missouri,inpatients
+MO,Kansas City,"$168,146,146.10 ",4024,"$41,785.82 ",37.964253,-91.831833,Missouri,inpatients
+MO,Springfield,"$53,983,429.72 ",1654,"$32,638.11 ",37.964253,-91.831833,Missouri,inpatients
+MO,St. Louis,"$242,676,951.20 ",6681,"$36,323.45 ",37.964253,-91.831833,Missouri,inpatients
+MS,Birmingham,"$716,406.94 ",51,"$14,047.19 ",32.354668,-89.398528,Mississippi,inpatients
+MS,Gulfport,"$49,669,508.80 ",703,"$70,653.64 ",32.354668,-89.398528,Mississippi,inpatients
+MS,Hattiesburg,"$36,016,056.18 ",1080,"$33,348.20 ",32.354668,-89.398528,Mississippi,inpatients
+MS,Jackson,"$123,307,186.70 ",3229,"$38,187.42 ",32.354668,-89.398528,Mississippi,inpatients
+MS,Memphis,"$45,704,574.44 ",1431,"$31,938.91 ",32.354668,-89.398528,Mississippi,inpatients
+MS,Meridian,"$17,397,004.79 ",674,"$25,811.58 ",32.354668,-89.398528,Mississippi,inpatients
+MS,Mobile,"$23,820,505.99 ",478,"$49,833.69 ",32.354668,-89.398528,Mississippi,inpatients
+MS,Oxford,"$12,702,692.31 ",553,"$22,970.51 ",32.354668,-89.398528,Mississippi,inpatients
+MS,Slidell,"$2,984,247.02 ",158,"$18,887.64 ",32.354668,-89.398528,Mississippi,inpatients
+MS,Tupelo,"$33,940,509.49 ",1298,"$26,148.31 ",32.354668,-89.398528,Mississippi,inpatients
+MT,Billings,"$24,541,589.23 ",951,"$25,806.09 ",46.879682,-110.362566,Montana,inpatients
+MT,Great Falls,"$10,187,979.95 ",392,"$25,989.74 ",46.879682,-110.362566,Montana,inpatients
+MT,Missoula,"$21,691,801.74 ",762,"$28,466.93 ",46.879682,-110.362566,Montana,inpatients
+NC,Asheville,"$33,804,486.07 ",1451,"$23,297.37 ",35.759573,-79.0193,North Carolina,inpatients
+NC,Atlanta,"$1,514,886.41 ",93,"$16,289.10 ",35.759573,-79.0193,North Carolina,inpatients
+NC,Charlotte,"$158,982,229.00 ",4897,"$32,465.23 ",35.759573,-79.0193,North Carolina,inpatients
+NC,Durham,"$114,721,473.90 ",3314,"$34,617.22 ",35.759573,-79.0193,North Carolina,inpatients
+NC,Greensboro,"$18,360,065.75 ",832,"$22,067.39 ",35.759573,-79.0193,North Carolina,inpatients
+NC,Greenville,"$65,413,447.67 ",2349,"$27,847.36 ",35.759573,-79.0193,North Carolina,inpatients
+NC,Hickory,"$27,727,552.51 ",741,"$37,419.10 ",35.759573,-79.0193,North Carolina,inpatients
+NC,Johnson City,"$3,688,842.04 ",178,"$20,723.83 ",35.759573,-79.0193,North Carolina,inpatients
+NC,Norfolk,"$5,138,355.20 ",228,"$22,536.65 ",35.759573,-79.0193,North Carolina,inpatients
+NC,Raleigh,"$123,970,003.00 ",3842,"$32,267.05 ",35.759573,-79.0193,North Carolina,inpatients
+NC,Wilmington,"$25,617,512.08 ",951,"$26,937.45 ",35.759573,-79.0193,North Carolina,inpatients
+NC,Winston-Salem,"$69,860,923.11 ",2412,"$28,963.90 ",35.759573,-79.0193,North Carolina,inpatients
+ND,Bismarck,"$13,688,123.94 ",555,"$24,663.29 ",47.551493,-101.002012,North Dakota,inpatients
+ND,Fargo/Moorhead MN,"$22,310,411.68 ",707,"$31,556.45 ",47.551493,-101.002012,North Dakota,inpatients
+ND,Grand Forks,"$9,139,063.96 ",329,"$27,778.31 ",47.551493,-101.002012,North Dakota,inpatients
+ND,Minot,"$5,413,278.42 ",248,"$21,827.74 ",47.551493,-101.002012,North Dakota,inpatients
+NE,Denver,"$6,469,337.60 ",208,"$31,102.58 ",41.492537,-99.901813,Nebraska,inpatients
+NE,Lincoln,"$36,521,990.23 ",1216,"$30,034.53 ",41.492537,-99.901813,Nebraska,inpatients
+NE,Omaha,"$114,603,521.30 ",2975,"$38,522.19 ",41.492537,-99.901813,Nebraska,inpatients
+NH,Lebanon,"$23,144,095.40 ",602,"$38,445.34 ",43.193852,-71.572395,New Hampshire,inpatients
+NH,Manchester,"$75,759,304.72 ",2406,"$31,487.66 ",43.193852,-71.572395,New Hampshire,inpatients
+NH,Portland,"$12,413,934.72 ",426,"$29,140.69 ",43.193852,-71.572395,New Hampshire,inpatients
+NJ,Allentown,"$14,645,816.71 ",215,"$68,120.08 ",40.058324,-74.405661,New Jersey,inpatients
+NJ,Camden,"$542,240,163.10 ",7530,"$72,010.65 ",40.058324,-74.405661,New Jersey,inpatients
+NJ,Hackensack,"$166,166,413.90 ",2213,"$75,086.50 ",40.058324,-74.405661,New Jersey,inpatients
+NJ,Morristown,"$113,269,864.30 ",1838,"$61,626.69 ",40.058324,-74.405661,New Jersey,inpatients
+NJ,New Brunswick,"$202,614,525.80 ",2364,"$85,708.34 ",40.058324,-74.405661,New Jersey,inpatients
+NJ,Newark,"$276,107,277.60 ",3401,"$81,184.15 ",40.058324,-74.405661,New Jersey,inpatients
+NJ,Paterson,"$55,511,300.68 ",801,"$69,302.50 ",40.058324,-74.405661,New Jersey,inpatients
+NJ,Philadelphia,"$136,073,797.20 ",1641,"$82,921.27 ",40.058324,-74.405661,New Jersey,inpatients
+NJ,Ridgewood,"$28,519,515.09 ",511,"$55,811.18 ",40.058324,-74.405661,New Jersey,inpatients
+NJ,Wilmington,"$8,826,837.66 ",198,"$44,579.99 ",40.058324,-74.405661,New Jersey,inpatients
+NM,Albuquerque,"$86,334,681.23 ",2503,"$34,492.48 ",34.97273,-105.032363,New Mexico,inpatients
+NM,El Paso,"$24,771,016.01 ",684,"$36,214.94 ",34.97273,-105.032363,New Mexico,inpatients
+NM,Lubbock,"$11,408,141.16 ",361,"$31,601.50 ",34.97273,-105.032363,New Mexico,inpatients
+NV,Las Vegas,"$292,164,652.10 ",3570,"$81,838.84 ",38.80261,-116.419389,Nevada,inpatients
+NV,Reno,"$60,348,718.18 ",1385,"$43,573.08 ",38.80261,-116.419389,Nevada,inpatients
+NV,Salt Lake City,"$2,205,455.74 ",68,"$32,433.17 ",38.80261,-116.419389,Nevada,inpatients
+NY,Albany,"$141,649,435.10 ",4344,"$32,608.07 ",43.299428,-74.217933,New York,inpatients
+NY,Binghamton,"$19,091,620.24 ",880,"$21,695.02 ",43.299428,-74.217933,New York,inpatients
+NY,Bronx,"$67,799,775.81 ",1764,"$38,435.25 ",43.299428,-74.217933,New York,inpatients
+NY,Buffalo,"$50,336,707.18 ",2365,"$21,284.02 ",43.299428,-74.217933,New York,inpatients
+NY,Burlington,"$16,116,326.33 ",760,"$21,205.69 ",43.299428,-74.217933,New York,inpatients
+NY,East Long Island,"$466,270,916.40 ",9324,"$50,007.61 ",43.299428,-74.217933,New York,inpatients
+NY,Elmira,"$25,821,398.33 ",1098,"$23,516.76 ",43.299428,-74.217933,New York,inpatients
+NY,Erie,"$2,491,339.17 ",182,"$13,688.68 ",43.299428,-74.217933,New York,inpatients
+NY,Hackensack,"$15,087,256.77 ",325,"$46,422.33 ",43.299428,-74.217933,New York,inpatients
+NY,Manhattan,"$387,283,657.20 ",7977,"$48,550.04 ",43.299428,-74.217933,New York,inpatients
+NY,Morristown,"$5,038,496.09 ",142,"$35,482.37 ",43.299428,-74.217933,New York,inpatients
+NY,New Haven,"$8,057,410.50 ",221,"$36,458.87 ",43.299428,-74.217933,New York,inpatients
+NY,Ridgewood,"$24,059,096.78 ",462,"$52,075.97 ",43.299428,-74.217933,New York,inpatients
+NY,Rochester,"$42,550,566.56 ",2223,"$19,141.06 ",43.299428,-74.217933,New York,inpatients
+NY,Sayre,"$2,480,125.72 ",166,"$14,940.52 ",43.299428,-74.217933,New York,inpatients
+NY,Syracuse,"$64,327,174.69 ",2548,"$25,246.14 ",43.299428,-74.217933,New York,inpatients
+NY,White Plains,"$137,967,300.10 ",3015,"$45,760.30 ",43.299428,-74.217933,New York,inpatients
+OH,Akron,"$58,641,383.61 ",1491,"$39,330.24 ",40.417287,-82.907123,Ohio,inpatients
+OH,Canton,"$24,890,175.03 ",1347,"$18,478.23 ",40.417287,-82.907123,Ohio,inpatients
+OH,Cincinnati,"$129,556,844.60 ",3771,"$34,356.10 ",40.417287,-82.907123,Ohio,inpatients
+OH,Cleveland,"$217,772,468.60 ",6503,"$33,488.00 ",40.417287,-82.907123,Ohio,inpatients
+OH,Columbus,"$181,315,029.50 ",6054,"$29,949.62 ",40.417287,-82.907123,Ohio,inpatients
+OH,Dayton,"$108,844,008.90 ",2729,"$39,884.21 ",40.417287,-82.907123,Ohio,inpatients
+OH,Elyria,"$17,551,457.84 ",733,"$23,944.69 ",40.417287,-82.907123,Ohio,inpatients
+OH,Fort Wayne,"$3,214,797.38 ",214,"$15,022.42 ",40.417287,-82.907123,Ohio,inpatients
+OH,Huntington,"$51,811.08 ",2,"$25,905.54 ",40.417287,-82.907123,Ohio,inpatients
+OH,Kettering,"$40,093,456.67 ",950,"$42,203.64 ",40.417287,-82.907123,Ohio,inpatients
+OH,Pittsburgh,"$9,556,326.32 ",578,"$16,533.44 ",40.417287,-82.907123,Ohio,inpatients
+OH,Toledo,"$112,565,513.60 ",2653,"$42,429.52 ",40.417287,-82.907123,Ohio,inpatients
+OH,Youngstown,"$49,210,308.72 ",1500,"$32,806.87 ",40.417287,-82.907123,Ohio,inpatients
+OK,Amarillo,"$164,158.98 ",12,"$13,679.91 ",35.007752,-97.092877,Oklahoma,inpatients
+OK,Dallas,"$14,826,339.14 ",318,"$46,623.71 ",35.007752,-97.092877,Oklahoma,inpatients
+OK,Fort Smith,"$1,733,097.51 ",154,"$11,253.88 ",35.007752,-97.092877,Oklahoma,inpatients
+OK,Joplin,"$4,090,065.57 ",227,"$18,017.91 ",35.007752,-97.092877,Oklahoma,inpatients
+OK,Lawton,"$16,729,090.21 ",613,"$27,290.52 ",35.007752,-97.092877,Oklahoma,inpatients
+OK,Oklahoma City,"$219,854,557.30 ",5187,"$42,385.69 ",35.007752,-97.092877,Oklahoma,inpatients
+OK,Texarkana,"$724,937.40 ",74,"$9,796.45 ",35.007752,-97.092877,Oklahoma,inpatients
+OK,Tulsa,"$105,418,743.60 ",3577,"$29,471.27 ",35.007752,-97.092877,Oklahoma,inpatients
+OR,Bend,"$13,651,184.97 ",391,"$34,913.52 ",43.804133,-120.554201,Oregon,inpatients
+OR,Boise,"$1,871,543.43 ",97,"$19,294.26 ",43.804133,-120.554201,Oregon,inpatients
+OR,Eugene,"$39,587,392.57 ",1306,"$30,311.94 ",43.804133,-120.554201,Oregon,inpatients
+OR,Medford,"$36,906,635.47 ",994,"$37,129.41 ",43.804133,-120.554201,Oregon,inpatients
+OR,Portland,"$76,542,954.92 ",2463,"$31,077.12 ",43.804133,-120.554201,Oregon,inpatients
+OR,Salem,"$10,347,555.07 ",348,"$29,734.35 ",43.804133,-120.554201,Oregon,inpatients
+PA,Allentown,"$178,625,332.40 ",3273,"$54,575.41 ",41.203322,-77.194525,Pennsylvania,inpatients
+PA,Altoona,"$13,390,506.34 ",629,"$21,288.56 ",41.203322,-77.194525,Pennsylvania,inpatients
+PA,Danville,"$63,426,524.51 ",1533,"$41,374.12 ",41.203322,-77.194525,Pennsylvania,inpatients
+PA,Erie,"$60,095,684.95 ",1865,"$32,222.89 ",41.203322,-77.194525,Pennsylvania,inpatients
+PA,Harrisburg,"$76,487,987.20 ",2501,"$30,582.96 ",41.203322,-77.194525,Pennsylvania,inpatients
+PA,Johnstown,"$10,471,729.59 ",502,"$20,860.02 ",41.203322,-77.194525,Pennsylvania,inpatients
+PA,Lancaster,"$52,227,522.63 ",1203,"$43,414.40 ",41.203322,-77.194525,Pennsylvania,inpatients
+PA,Morgantown,"$720,246.34 ",66,"$10,912.82 ",41.203322,-77.194525,Pennsylvania,inpatients
+PA,Philadelphia,"$680,284,321.20 ",9273,"$73,361.84 ",41.203322,-77.194525,Pennsylvania,inpatients
+PA,Pittsburgh,"$207,082,893.20 ",6092,"$33,992.60 ",41.203322,-77.194525,Pennsylvania,inpatients
+PA,Reading,"$51,257,232.79 ",1382,"$37,089.17 ",41.203322,-77.194525,Pennsylvania,inpatients
+PA,Sayre,"$15,734,231.44 ",599,"$26,267.50 ",41.203322,-77.194525,Pennsylvania,inpatients
+PA,Scranton,"$39,510,329.03 ",1120,"$35,277.08 ",41.203322,-77.194525,Pennsylvania,inpatients
+PA,Wilkes-Barre,"$41,922,978.25 ",780,"$53,747.41 ",41.203322,-77.194525,Pennsylvania,inpatients
+PA,York,"$20,897,349.40 ",858,"$24,355.89 ",41.203322,-77.194525,Pennsylvania,inpatients
+PA,Youngstown,"$7,632,935.86 ",427,"$17,875.73 ",41.203322,-77.194525,Pennsylvania,inpatients
+RI,Providence,"$79,146,038.67 ",2386,"$33,171.01 ",41.580095,-71.477429,Rhode Island,inpatients
+SC,Augusta,"$12,925,087.76 ",307,"$42,101.26 ",33.836081,-81.163725,South Carolina,inpatients
+SC,Charleston,"$134,202,250.40 ",3008,"$44,615.11 ",33.836081,-81.163725,South Carolina,inpatients
+SC,Charlotte,"$26,938,911.35 ",609,"$44,234.67 ",33.836081,-81.163725,South Carolina,inpatients
+SC,Columbia,"$126,157,967.80 ",3046,"$41,417.59 ",33.836081,-81.163725,South Carolina,inpatients
+SC,Florence,"$68,509,854.81 ",1439,"$47,609.35 ",33.836081,-81.163725,South Carolina,inpatients
+SC,Greenville,"$92,710,182.35 ",2013,"$46,055.73 ",33.836081,-81.163725,South Carolina,inpatients
+SC,Savannah,"$17,028,477.29 ",572,"$29,770.07 ",33.836081,-81.163725,South Carolina,inpatients
+SC,Spartanburg,"$34,379,080.36 ",850,"$40,445.98 ",33.836081,-81.163725,South Carolina,inpatients
+SD,Rapid City,"$16,964,598.23 ",458,"$37,040.61 ",43.969515,-99.901813,South Dakota,inpatients
+SD,Sioux City,"$1,202,240.45 ",19,"$63,275.81 ",43.969515,-99.901813,South Dakota,inpatients
+SD,Sioux Falls,"$54,392,116.18 ",1614,"$33,700.20 ",43.969515,-99.901813,South Dakota,inpatients
+TN,Chattanooga,"$67,558,433.55 ",1599,"$42,250.43 ",35.517491,-86.580447,Tennessee,inpatients
+TN,Huntsville,"$864,914.27 ",64,"$13,514.29 ",35.517491,-86.580447,Tennessee,inpatients
+TN,Jackson,"$39,230,776.29 ",1217,"$32,235.64 ",35.517491,-86.580447,Tennessee,inpatients
+TN,Johnson City,"$27,043,676.40 ",694,"$38,967.83 ",35.517491,-86.580447,Tennessee,inpatients
+TN,Kingsport,"$28,010,579.10 ",898,"$31,192.18 ",35.517491,-86.580447,Tennessee,inpatients
+TN,Knoxville,"$102,677,666.40 ",3643,"$28,184.92 ",35.517491,-86.580447,Tennessee,inpatients
+TN,Memphis,"$104,639,148.50 ",2237,"$46,776.55 ",35.517491,-86.580447,Tennessee,inpatients
+TN,Nashville,"$239,274,525.20 ",6700,"$35,712.62 ",35.517491,-86.580447,Tennessee,inpatients
+TX,Abilene,"$42,399,092.92 ",988,"$42,914.06 ",31.968599,-99.901813,Texas,inpatients
+TX,Amarillo,"$34,049,464.57 ",913,"$37,294.05 ",31.968599,-99.901813,Texas,inpatients
+TX,Austin,"$171,769,089.90 ",3189,"$53,862.99 ",31.968599,-99.901813,Texas,inpatients
+TX,Beaumont,"$45,000,526.40 ",1121,"$40,143.20 ",31.968599,-99.901813,Texas,inpatients
+TX,Bryan,"$34,774,590.18 ",651,"$53,417.19 ",31.968599,-99.901813,Texas,inpatients
+TX,Corpus Christi,"$62,028,476.47 ",1129,"$54,941.08 ",31.968599,-99.901813,Texas,inpatients
+TX,Dallas,"$465,362,065.60 ",9751,"$47,724.55 ",31.968599,-99.901813,Texas,inpatients
+TX,El Paso,"$97,394,700.45 ",1372,"$70,987.39 ",31.968599,-99.901813,Texas,inpatients
+TX,Fort Worth,"$191,491,366.90 ",4037,"$47,434.08 ",31.968599,-99.901813,Texas,inpatients
+TX,Harlingen,"$63,451,161.89 ",1192,"$53,230.84 ",31.968599,-99.901813,Texas,inpatients
+TX,Houston,"$553,867,952.80 ",10538,"$52,559.11 ",31.968599,-99.901813,Texas,inpatients
+TX,Longview,"$30,419,350.99 ",620,"$49,063.47 ",31.968599,-99.901813,Texas,inpatients
+TX,Lubbock,"$69,088,708.71 ",1270,"$54,400.56 ",31.968599,-99.901813,Texas,inpatients
+TX,McAllen,"$77,752,473.52 ",1369,"$56,795.09 ",31.968599,-99.901813,Texas,inpatients
+TX,Odessa,"$28,463,983.60 ",792,"$35,939.37 ",31.968599,-99.901813,Texas,inpatients
+TX,San Angelo,"$20,891,704.00 ",522,"$40,022.42 ",31.968599,-99.901813,Texas,inpatients
+TX,San Antonio,"$181,598,409.30 ",3823,"$47,501.55 ",31.968599,-99.901813,Texas,inpatients
+TX,Shreveport,"$5,317,849.63 ",196,"$27,131.89 ",31.968599,-99.901813,Texas,inpatients
+TX,Temple,"$27,127,079.71 ",747,"$36,314.70 ",31.968599,-99.901813,Texas,inpatients
+TX,Texarkana,"$26,217,625.43 ",659,"$39,783.95 ",31.968599,-99.901813,Texas,inpatients
+TX,Tyler,"$85,289,595.68 ",1563,"$54,567.88 ",31.968599,-99.901813,Texas,inpatients
+TX,Victoria,"$26,576,148.34 ",630,"$42,184.36 ",31.968599,-99.901813,Texas,inpatients
+TX,Waco,"$26,352,993.78 ",986,"$26,727.17 ",31.968599,-99.901813,Texas,inpatients
+TX,Wichita Falls,"$17,252,675.74 ",480,"$35,943.07 ",31.968599,-99.901813,Texas,inpatients
+UT,Ogden,"$15,642,871.55 ",528,"$29,626.65 ",39.32098,-111.093731,Utah,inpatients
+UT,Provo,"$13,942,718.17 ",466,"$29,920.00 ",39.32098,-111.093731,Utah,inpatients
+UT,Salt Lake City,"$66,117,994.26 ",2154,"$30,695.45 ",39.32098,-111.093731,Utah,inpatients
+VA,Arlington,"$86,239,755.74 ",3054,"$28,238.30 ",37.431573,-78.656894,Virginia,inpatients
+VA,Charlottesville,"$60,534,959.98 ",1755,"$34,492.85 ",37.431573,-78.656894,Virginia,inpatients
+VA,Durham,"$21,347,617.17 ",756,"$28,237.59 ",37.431573,-78.656894,Virginia,inpatients
+VA,Kingsport,"$22,373,135.66 ",973,"$22,993.97 ",37.431573,-78.656894,Virginia,inpatients
+VA,Lynchburg,"$13,035,716.10 ",561,"$23,236.57 ",37.431573,-78.656894,Virginia,inpatients
+VA,Newport News,"$39,699,722.08 ",1406,"$28,235.93 ",37.431573,-78.656894,Virginia,inpatients
+VA,Norfolk,"$96,991,764.13 ",2917,"$33,250.52 ",37.431573,-78.656894,Virginia,inpatients
+VA,Richmond,"$244,994,652.70 ",4469,"$54,820.91 ",37.431573,-78.656894,Virginia,inpatients
+VA,Roanoke,"$63,167,232.30 ",1888,"$33,457.22 ",37.431573,-78.656894,Virginia,inpatients
+VA,Winchester,"$13,894,963.50 ",566,"$24,549.41 ",37.431573,-78.656894,Virginia,inpatients
+VA,Winston-Salem,"$2,867,934.51 ",156,"$18,384.20 ",37.431573,-78.656894,Virginia,inpatients
+VT,Albany,"$2,675,604.64 ",164,"$16,314.66 ",44.558803,-72.577841,Vermont,inpatients
+VT,Burlington,"$24,934,679.87 ",953,"$26,164.41 ",44.558803,-72.577841,Vermont,inpatients
+VT,Lebanon,"$888,580.03 ",55,"$16,156.00 ",44.558803,-72.577841,Vermont,inpatients
+WA,Everett,"$27,785,054.70 ",777,"$35,759.40 ",47.751074,-120.740139,Washington,inpatients
+WA,Olympia,"$32,632,669.26 ",695,"$46,953.48 ",47.751074,-120.740139,Washington,inpatients
+WA,Portland,"$31,591,543.82 ",879,"$35,940.32 ",47.751074,-120.740139,Washington,inpatients
+WA,Seattle,"$209,948,641.60 ",4851,"$43,279.46 ",47.751074,-120.740139,Washington,inpatients
+WA,Spokane,"$82,122,192.07 ",2294,"$35,798.69 ",47.751074,-120.740139,Washington,inpatients
+WA,Tacoma,"$85,726,386.52 ",1565,"$54,777.24 ",47.751074,-120.740139,Washington,inpatients
+WA,Yakima,"$19,219,239.84 ",597,"$32,193.03 ",47.751074,-120.740139,Washington,inpatients
+WI,Appleton,"$5,742,223.54 ",314,"$18,287.34 ",43.78444,-88.787868,Wisconsin,inpatients
+WI,Green Bay,"$26,893,169.13 ",1023,"$26,288.53 ",43.78444,-88.787868,Wisconsin,inpatients
+WI,La Crosse,"$13,774,571.51 ",507,"$27,168.78 ",43.78444,-88.787868,Wisconsin,inpatients
+WI,Madison,"$86,612,275.58 ",2479,"$34,938.39 ",43.78444,-88.787868,Wisconsin,inpatients
+WI,Marshfield,"$19,995,043.97 ",815,"$24,533.80 ",43.78444,-88.787868,Wisconsin,inpatients
+WI,Milwaukee,"$164,495,547.70 ",5018,"$32,781.10 ",43.78444,-88.787868,Wisconsin,inpatients
+WI,Minneapolis,"$21,662,231.31 ",631,"$34,330.00 ",43.78444,-88.787868,Wisconsin,inpatients
+WI,Neenah,"$5,370,847.49 ",302,"$17,784.26 ",43.78444,-88.787868,Wisconsin,inpatients
+WI,Wausau,"$14,810,698.42 ",566,"$26,167.31 ",43.78444,-88.787868,Wisconsin,inpatients
+WV,Charleston,"$63,693,554.57 ",2636,"$24,162.96 ",38.597626,-80.454903,West Virginia,inpatients
+WV,Huntington,"$23,530,088.72 ",794,"$29,634.87 ",38.597626,-80.454903,West Virginia,inpatients
+WV,Morgantown,"$35,583,154.40 ",1390,"$25,599.39 ",38.597626,-80.454903,West Virginia,inpatients
+WV,Pittsburgh,"$12,296,669.89 ",710,"$17,319.25 ",38.597626,-80.454903,West Virginia,inpatients
+WV,Roanoke,"$7,717,422.89 ",455,"$16,961.37 ",38.597626,-80.454903,West Virginia,inpatients
+WV,Winchester,"$4,351,731.21 ",242,"$17,982.36 ",38.597626,-80.454903,West Virginia,inpatients
+WY,Billings,"$2,717,799.43 ",137,"$19,837.95 ",43.075968,-107.290284,Wyoming,inpatients
+WY,Casper,"$15,074,332.29 ",443,"$34,027.84 ",43.075968,-107.290284,Wyoming,inpatients
+WY,Fort Collins,"$11,055,010.29 ",344,"$32,136.66 ",43.075968,-107.290284,Wyoming,inpatients
+WY,Salt Lake City,"$2,196,810.17 ",89,"$24,683.26 ",43.075968,-107.290284,Wyoming,inpatients
+PR,,,,,18.220833,-66.590149,Puerto Rico,inpatients
+AK,Anchorage,"$51,411,844.62 ",939,"$54,751.70 ",63.588753,-154.493062,Alaska,inpatients
+AL,Birmingham,"$322,543,033.00 ",7453,"$43,276.94 ",32.318231,-86.902298,Alabama,inpatients
+AL,Columbus,"$1,297,255.38 ",32,"$40,539.23 ",32.318231,-86.902298,Alabama,inpatients
+AL,Dothan,"$44,033,830.08 ",1201,"$36,664.30 ",32.318231,-86.902298,Alabama,inpatients
+AL,Huntsville,"$62,083,541.17 ",1614,"$38,465.64 ",32.318231,-86.902298,Alabama,inpatients
+AL,Meridian,"$125,400.69 ",15,"$8,360.05 ",32.318231,-86.902298,Alabama,inpatients
+AL,Mobile,"$54,578,412.56 ",1844,"$29,597.84 ",32.318231,-86.902298,Alabama,inpatients
+AL,Montgomery,"$40,467,751.49 ",1409,"$28,720.90 ",32.318231,-86.902298,Alabama,inpatients
+AL,Pensacola,"$4,824,855.44 ",294,"$16,411.07 ",32.318231,-86.902298,Alabama,inpatients
+AL,Rome,"$691,918.04 ",36,"$19,219.95 ",32.318231,-86.902298,Alabama,inpatients
+AL,Tupelo,"$604,872.35 ",36,"$16,802.01 ",32.318231,-86.902298,Alabama,inpatients
+AL,Tuscaloosa,"$21,791,078.39 ",682,"$31,951.73 ",32.318231,-86.902298,Alabama,inpatients
+AR,Fort Smith,"$27,945,345.54 ",855,"$32,684.61 ",35.20105,-91.831833,Arkansas,inpatients
+AR,Jonesboro,"$17,995,184.12 ",863,"$20,851.89 ",35.20105,-91.831833,Arkansas,inpatients
+AR,Little Rock,"$159,021,697.00 ",5031,"$31,608.37 ",35.20105,-91.831833,Arkansas,inpatients
+AR,Memphis,"$6,492,465.27 ",290,"$22,387.81 ",35.20105,-91.831833,Arkansas,inpatients
+AR,Springdale,"$42,403,590.63 ",1182,"$35,874.44 ",35.20105,-91.831833,Arkansas,inpatients
+AR,Springfield,"$6,794,200.73 ",330,"$20,588.49 ",35.20105,-91.831833,Arkansas,inpatients
+AR,Texarkana,"$1,407,050.68 ",72,"$19,542.37 ",35.20105,-91.831833,Arkansas,inpatients
+AZ,Albuquerque,"$341,532.00 ",47,"$7,266.64 ",34.048928,-111.093731,Arizona,inpatients
+AZ,Las Vegas,"$28,842,069.92 ",360,"$80,116.86 ",34.048928,-111.093731,Arizona,inpatients
+AZ,Mesa,"$106,541,615.80 ",2041,"$52,200.69 ",34.048928,-111.093731,Arizona,inpatients
+AZ,Phoenix,"$290,769,634.30 ",6216,"$46,777.61 ",34.048928,-111.093731,Arizona,inpatients
+AZ,Sun City,"$37,668,995.98 ",804,"$46,851.99 ",34.048928,-111.093731,Arizona,inpatients
+AZ,Tucson,"$97,453,101.12 ",2199,"$44,317.01 ",34.048928,-111.093731,Arizona,inpatients
+CA,Alameda County,"$167,194,927.10 ",1957,"$85,434.30 ",36.778261,-119.417932,California,inpatients
+CA,Bakersfield,"$107,106,403.80 ",1880,"$56,971.49 ",36.778261,-119.417932,California,inpatients
+CA,Chico,"$67,609,408.91 ",1014,"$66,675.95 ",36.778261,-119.417932,California,inpatients
+CA,Contra Costa County,"$157,836,722.90 ",1443,"$109,380.96 ",36.778261,-119.417932,California,inpatients
+CA,Fresno,"$79,853,791.40 ",1563,"$51,090.08 ",36.778261,-119.417932,California,inpatients
+CA,Los Angeles,"$1,145,654,920.00 ",14680,"$78,041.89 ",36.778261,-119.417932,California,inpatients
+CA,Medford,"$3,265,415.13 ",98,"$33,320.56 ",36.778261,-119.417932,California,inpatients
+CA,Modesto,"$146,454,263.60 ",1527,"$95,909.80 ",36.778261,-119.417932,California,inpatients
+CA,Napa,"$46,172,854.91 ",572,"$80,721.77 ",36.778261,-119.417932,California,inpatients
+CA,Orange County,"$274,310,414.10 ",4005,"$68,491.99 ",36.778261,-119.417932,California,inpatients
+CA,Palm Springs/Rancho M,"$72,646,893.81 ",832,"$87,315.98 ",36.778261,-119.417932,California,inpatients
+CA,Phoenix,"$690,828.94 ",21,"$32,896.62 ",36.778261,-119.417932,California,inpatients
+CA,Redding,"$65,255,545.62 ",966,"$67,552.32 ",36.778261,-119.417932,California,inpatients
+CA,Sacramento,"$308,630,490.40 ",3881,"$79,523.45 ",36.778261,-119.417932,California,inpatients
+CA,Salinas,"$57,608,315.47 ",722,"$79,789.91 ",36.778261,-119.417932,California,inpatients
+CA,San Bernardino,"$195,981,001.20 ",3213,"$60,996.27 ",36.778261,-119.417932,California,inpatients
+CA,San Diego,"$341,080,459.50 ",5096,"$66,931.02 ",36.778261,-119.417932,California,inpatients
+CA,San Francisco,"$217,306,502.20 ",2312,"$93,990.70 ",36.778261,-119.417932,California,inpatients
+CA,San Jose,"$188,042,476.30 ",1751,"$107,391.48 ",36.778261,-119.417932,California,inpatients
+CA,San Luis Obispo,"$37,885,690.50 ",538,"$70,419.50 ",36.778261,-119.417932,California,inpatients
+CA,San Mateo County,"$164,794,859.80 ",1242,"$132,685.07 ",36.778261,-119.417932,California,inpatients
+CA,Santa Barbara,"$42,537,294.07 ",777,"$54,745.55 ",36.778261,-119.417932,California,inpatients
+CA,Santa Cruz,"$41,298,847.58 ",458,"$90,172.16 ",36.778261,-119.417932,California,inpatients
+CA,Santa Rosa,"$54,202,421.40 ",682,"$79,475.69 ",36.778261,-119.417932,California,inpatients
+CA,Stockton,"$69,294,681.94 ",832,"$83,286.88 ",36.778261,-119.417932,California,inpatients
+CA,Ventura,"$111,778,338.00 ",1430,"$78,166.67 ",36.778261,-119.417932,California,inpatients
+CO,Albuquerque,"$4,618,285.00 ",141,"$32,753.79 ",39.550051,-105.782067,Colorado,inpatients
+CO,Boulder,"$25,573,650.42 ",547,"$46,752.56 ",39.550051,-105.782067,Colorado,inpatients
+CO,Colorado Springs,"$42,557,607.23 ",1022,"$41,641.49 ",39.550051,-105.782067,Colorado,inpatients
+CO,Denver,"$227,289,463.80 ",3589,"$63,329.47 ",39.550051,-105.782067,Colorado,inpatients
+CO,Fort Collins,"$10,422,654.38 ",315,"$33,087.79 ",39.550051,-105.782067,Colorado,inpatients
+CO,Grand Junction,"$21,817,585.04 ",655,"$33,309.29 ",39.550051,-105.782067,Colorado,inpatients
+CO,Greeley,"$34,044,801.62 ",889,"$38,295.61 ",39.550051,-105.782067,Colorado,inpatients
+CO,Pueblo,"$26,717,236.46 ",555,"$48,139.16 ",39.550051,-105.782067,Colorado,inpatients
+CT,Bridgeport,"$78,150,415.13 ",1734,"$45,069.44 ",41.603221,-73.087749,Connecticut,inpatients
+CT,Hartford,"$110,850,849.20 ",3609,"$30,715.11 ",41.603221,-73.087749,Connecticut,inpatients
+CT,New Haven,"$119,122,001.40 ",2999,"$39,720.57 ",41.603221,-73.087749,Connecticut,inpatients
+DC,Washington,"$105,237,116.00 ",2083,"$50,521.90 ",38.905985,-77.033418,District of Columbia,inpatients
+DE,Salisbury,"$23,399,626.11 ",751,"$31,157.96 ",38.910832,-75.52767,Delaware,inpatients
+DE,Wilmington,"$38,307,705.08 ",1216,"$31,503.05 ",38.910832,-75.52767,Delaware,inpatients
+FL,Bradenton,"$50,084,002.59 ",971,"$51,579.82 ",27.664827,-81.515754,Florida,inpatients
+FL,Clearwater,"$77,248,494.80 ",1594,"$48,462.04 ",27.664827,-81.515754,Florida,inpatients
+FL,Dothan,"$1,962,289.93 ",131,"$14,979.31 ",27.664827,-81.515754,Florida,inpatients
+FL,Fort Lauderdale,"$389,271,955.80 ",6885,"$56,539.14 ",27.664827,-81.515754,Florida,inpatients
+FL,Fort Myers,"$178,022,842.80 ",3415,"$52,129.68 ",27.664827,-81.515754,Florida,inpatients
+FL,Gainesville,"$82,829,028.50 ",1648,"$50,260.33 ",27.664827,-81.515754,Florida,inpatients
+FL,Hudson,"$113,391,657.20 ",1650,"$68,722.22 ",27.664827,-81.515754,Florida,inpatients
+FL,Jacksonville,"$194,102,196.40 ",3636,"$53,383.44 ",27.664827,-81.515754,Florida,inpatients
+FL,Lakeland,"$35,495,660.26 ",802,"$44,258.93 ",27.664827,-81.515754,Florida,inpatients
+FL,Miami,"$382,084,047.40 ",6047,"$63,185.72 ",27.664827,-81.515754,Florida,inpatients
+FL,Ocala,"$75,412,559.20 ",1553,"$48,559.28 ",27.664827,-81.515754,Florida,inpatients
+FL,Orlando,"$429,810,591.80 ",8777,"$48,970.10 ",27.664827,-81.515754,Florida,inpatients
+FL,Ormond Beach,"$38,862,022.45 ",1188,"$32,712.14 ",27.664827,-81.515754,Florida,inpatients
+FL,Panama City,"$38,372,606.69 ",742,"$51,715.10 ",27.664827,-81.515754,Florida,inpatients
+FL,Pensacola,"$129,021,128.90 ",2503,"$51,546.60 ",27.664827,-81.515754,Florida,inpatients
+FL,Sarasota,"$73,251,440.45 ",1470,"$49,830.91 ",27.664827,-81.515754,Florida,inpatients
+FL,St. Petersburg,"$88,519,636.15 ",1418,"$62,425.70 ",27.664827,-81.515754,Florida,inpatients
+FL,Tallahassee,"$32,775,527.53 ",769,"$42,620.97 ",27.664827,-81.515754,Florida,inpatients
+FL,Tampa,"$178,828,059.90 ",2887,"$61,942.52 ",27.664827,-81.515754,Florida,inpatients
+GA,Albany,"$17,517,492.66 ",546,"$32,083.32 ",32.157435,-82.907123,Georgia,inpatients
+GA,Atlanta,"$423,546,447.80 ",10694,"$39,605.99 ",32.157435,-82.907123,Georgia,inpatients
+GA,Augusta,"$52,523,092.83 ",1256,"$41,817.75 ",32.157435,-82.907123,Georgia,inpatients
+GA,Chattanooga,"$2,115,522.47 ",91,"$23,247.50 ",32.157435,-82.907123,Georgia,inpatients
+GA,Columbus,"$21,887,095.93 ",736,"$29,737.90 ",32.157435,-82.907123,Georgia,inpatients
+GA,Dothan,"$487,196.68 ",37,"$13,167.48 ",32.157435,-82.907123,Georgia,inpatients
+GA,Jacksonville,"$21,109,253.00 ",836,"$25,250.30 ",32.157435,-82.907123,Georgia,inpatients
+GA,Macon,"$68,365,667.11 ",2103,"$32,508.64 ",32.157435,-82.907123,Georgia,inpatients
+GA,Rome,"$33,586,250.97 ",840,"$39,983.63 ",32.157435,-82.907123,Georgia,inpatients
+GA,Savannah,"$59,614,827.18 ",1674,"$35,612.20 ",32.157435,-82.907123,Georgia,inpatients
+GA,Tallahassee,"$35,717,922.21 ",1252,"$28,528.69 ",32.157435,-82.907123,Georgia,inpatients
+HI,Honolulu,"$62,473,447.39 ",1723,"$36,258.53 ",19.898682,-155.665857,Hawaii,inpatients
+IA,Cedar Rapids,"$20,853,013.65 ",676,"$30,847.65 ",41.878003,-93.097702,Iowa,inpatients
+IA,Davenport,"$25,052,711.77 ",963,"$26,015.28 ",41.878003,-93.097702,Iowa,inpatients
+IA,Des Moines,"$65,211,402.56 ",1954,"$33,373.29 ",41.878003,-93.097702,Iowa,inpatients
+IA,Dubuque,"$9,755,709.21 ",466,"$20,935.00 ",41.878003,-93.097702,Iowa,inpatients
+IA,Iowa City,"$34,548,019.34 ",1062,"$32,531.09 ",41.878003,-93.097702,Iowa,inpatients
+IA,Mason City,"$10,101,290.47 ",367,"$27,523.95 ",41.878003,-93.097702,Iowa,inpatients
+IA,Omaha,"$10,921,087.61 ",366,"$29,839.04 ",41.878003,-93.097702,Iowa,inpatients
+IA,Sioux City,"$13,164,407.19 ",511,"$25,762.05 ",41.878003,-93.097702,Iowa,inpatients
+IA,Sioux Falls,"$2,153,151.89 ",130,"$16,562.71 ",41.878003,-93.097702,Iowa,inpatients
+IA,Waterloo,"$13,712,089.36 ",572,"$23,972.18 ",41.878003,-93.097702,Iowa,inpatients
+ID,Boise,"$34,961,148.75 ",1185,"$29,503.08 ",44.068202,-114.742041,Idaho,inpatients
+ID,Idaho Falls,"$12,833,498.77 ",337,"$38,081.60 ",44.068202,-114.742041,Idaho,inpatients
+ID,Salt Lake City,"$7,235,367.82 ",209,"$34,618.98 ",44.068202,-114.742041,Idaho,inpatients
+ID,Spokane,"$14,644,278.45 ",502,"$29,171.87 ",44.068202,-114.742041,Idaho,inpatients
+IL,Aurora,"$31,942,604.45 ",553,"$57,762.40 ",40.633125,-89.398528,Illinois,inpatients
+IL,Bloomington,"$17,719,982.60 ",554,"$31,985.53 ",40.633125,-89.398528,Illinois,inpatients
+IL,Blue Island,"$108,971,526.60 ",2718,"$40,092.54 ",40.633125,-89.398528,Illinois,inpatients
+IL,Chicago,"$289,758,573.50 ",6213,"$46,637.47 ",40.633125,-89.398528,Illinois,inpatients
+IL,Davenport,"$13,938,895.16 ",560,"$24,890.88 ",40.633125,-89.398528,Illinois,inpatients
+IL,Elgin,"$76,863,683.49 ",1702,"$45,160.80 ",40.633125,-89.398528,Illinois,inpatients
+IL,Evanston,"$92,331,805.82 ",2166,"$42,627.80 ",40.633125,-89.398528,Illinois,inpatients
+IL,Evansville,"$2,990,003.38 ",174,"$17,183.93 ",40.633125,-89.398528,Illinois,inpatients
+IL,Hinsdale,"$59,509,967.66 ",1347,"$44,179.63 ",40.633125,-89.398528,Illinois,inpatients
+IL,Joliet,"$68,576,680.33 ",1669,"$41,088.48 ",40.633125,-89.398528,Illinois,inpatients
+IL,Melrose Park,"$175,703,708.00 ",3596,"$48,860.88 ",40.633125,-89.398528,Illinois,inpatients
+IL,Milwaukee,"$44,497,997.53 ",773,"$57,565.33 ",40.633125,-89.398528,Illinois,inpatients
+IL,Paducah,"$12,834,397.89 ",198,"$64,820.19 ",40.633125,-89.398528,Illinois,inpatients
+IL,Peoria,"$77,036,181.40 ",2053,"$37,523.71 ",40.633125,-89.398528,Illinois,inpatients
+IL,Rockford,"$81,320,536.80 ",2103,"$38,668.82 ",40.633125,-89.398528,Illinois,inpatients
+IL,Springfield,"$78,161,943.89 ",2422,"$32,271.65 ",40.633125,-89.398528,Illinois,inpatients
+IL,St. Louis,"$82,715,288.22 ",2796,"$29,583.44 ",40.633125,-89.398528,Illinois,inpatients
+IL,Urbana,"$43,455,344.04 ",1142,"$38,051.97 ",40.633125,-89.398528,Illinois,inpatients
+IN,Cincinnati,"$3,207,438.14 ",168,"$19,091.89 ",40.551217,-85.602364,Indiana,inpatients
+IN,Evansville,"$45,947,177.54 ",1557,"$29,510.07 ",40.551217,-85.602364,Indiana,inpatients
+IN,Fort Wayne,"$60,968,691.43 ",1499,"$40,672.91 ",40.551217,-85.602364,Indiana,inpatients
+IN,Gary,"$62,418,088.23 ",1804,"$34,599.83 ",40.551217,-85.602364,Indiana,inpatients
+IN,Indianapolis,"$232,864,773.90 ",6873,"$33,881.10 ",40.551217,-85.602364,Indiana,inpatients
+IN,Lafayette,"$25,361,597.03 ",665,"$38,137.74 ",40.551217,-85.602364,Indiana,inpatients
+IN,Louisville,"$26,614,590.62 ",1028,"$25,889.68 ",40.551217,-85.602364,Indiana,inpatients
+IN,Muncie,"$21,308,981.10 ",439,"$48,539.82 ",40.551217,-85.602364,Indiana,inpatients
+IN,Munster,"$39,820,703.72 ",1255,"$31,729.64 ",40.551217,-85.602364,Indiana,inpatients
+IN,South Bend,"$53,680,969.94 ",1574,"$34,104.81 ",40.551217,-85.602364,Indiana,inpatients
+IN,Terre Haute,"$24,642,271.00 ",639,"$38,563.80 ",40.551217,-85.602364,Indiana,inpatients
+KS,Amarillo,"$156,230.69 ",20,"$7,811.53 ",39.011902,-98.484246,Kansas,inpatients
+KS,Joplin,"$5,621,057.81 ",223,"$25,206.54 ",39.011902,-98.484246,Kansas,inpatients
+KS,Kansas City,"$111,671,578.50 ",2515,"$44,402.22 ",39.011902,-98.484246,Kansas,inpatients
+KS,Topeka,"$36,612,756.77 ",1101,"$33,254.09 ",39.011902,-98.484246,Kansas,inpatients
+KS,Tulsa,"$1,369,025.61 ",104,"$13,163.71 ",39.011902,-98.484246,Kansas,inpatients
+KS,Wichita,"$106,679,316.90 ",2807,"$38,004.74 ",39.011902,-98.484246,Kansas,inpatients
+KY,Covington,"$27,036,846.29 ",942,"$28,701.54 ",37.839333,-84.270018,Kentucky,inpatients
+KY,Evansville,"$4,266,421.22 ",168,"$25,395.36 ",37.839333,-84.270018,Kentucky,inpatients
+KY,Huntington,"$21,199,177.37 ",750,"$28,265.57 ",37.839333,-84.270018,Kentucky,inpatients
+KY,Knoxville,"$2,867,307.07 ",210,"$13,653.84 ",37.839333,-84.270018,Kentucky,inpatients
+KY,Lexington,"$167,759,632.70 ",5083,"$33,004.06 ",37.839333,-84.270018,Kentucky,inpatients
+KY,Louisville,"$107,265,112.80 ",3175,"$33,784.29 ",37.839333,-84.270018,Kentucky,inpatients
+KY,Nashville,"$25,871,134.97 ",938,"$27,581.17 ",37.839333,-84.270018,Kentucky,inpatients
+KY,Owensboro,"$11,690,499.03 ",414,"$28,237.92 ",37.839333,-84.270018,Kentucky,inpatients
+KY,Paducah,"$38,537,390.74 ",1483,"$25,986.10 ",37.839333,-84.270018,Kentucky,inpatients
+LA,Alexandria,"$48,831,395.35 ",1063,"$45,937.34 ",31.244823,-92.145024,Louisiana,inpatients
+LA,Baton Rouge,"$60,583,733.93 ",1521,"$39,831.51 ",31.244823,-92.145024,Louisiana,inpatients
+LA,Houma,"$23,677,800.85 ",749,"$31,612.55 ",31.244823,-92.145024,Louisiana,inpatients
+LA,Lafayette,"$67,963,295.09 ",2038,"$33,348.03 ",31.244823,-92.145024,Louisiana,inpatients
+LA,Lake Charles,"$30,436,134.84 ",834,"$36,494.17 ",31.244823,-92.145024,Louisiana,inpatients
+LA,Metairie,"$41,869,880.85 ",1026,"$40,808.85 ",31.244823,-92.145024,Louisiana,inpatients
+LA,Monroe,"$33,147,302.76 ",1052,"$31,508.84 ",31.244823,-92.145024,Louisiana,inpatients
+LA,New Orleans,"$60,161,642.66 ",1242,"$48,439.33 ",31.244823,-92.145024,Louisiana,inpatients
+LA,Shreveport,"$64,734,119.70 ",2073,"$31,227.26 ",31.244823,-92.145024,Louisiana,inpatients
+LA,Slidell,"$21,165,359.00 ",437,"$48,433.32 ",31.244823,-92.145024,Louisiana,inpatients
+MA,Albany,"$7,130,309.72 ",371,"$19,219.16 ",42.407211,-71.382437,Massachusetts,inpatients
+MA,Boston,"$320,933,083.80 ",12678,"$25,314.17 ",42.407211,-71.382437,Massachusetts,inpatients
+MA,Providence,"$4,372,918.60 ",259,"$16,883.86 ",42.407211,-71.382437,Massachusetts,inpatients
+MA,Springfield,"$35,324,337.79 ",1814,"$19,473.17 ",42.407211,-71.382437,Massachusetts,inpatients
+MA,Worcester,"$37,249,401.54 ",1479,"$25,185.53 ",42.407211,-71.382437,Massachusetts,inpatients
+MD,Baltimore,"$132,986,738.00 ",8006,"$16,610.88 ",39.045755,-76.641271,Maryland,inpatients
+MD,Morgantown,"$883,739.64 ",92,"$9,605.87 ",39.045755,-76.641271,Maryland,inpatients
+MD,Salisbury,"$8,964,673.31 ",669,"$13,400.11 ",39.045755,-76.641271,Maryland,inpatients
+MD,Takoma Park,"$26,292,323.58 ",1821,"$14,438.40 ",39.045755,-76.641271,Maryland,inpatients
+MD,Washington,"$47,773,927.75 ",3763,"$12,695.70 ",39.045755,-76.641271,Maryland,inpatients
+MD,Wilmington,"$2,560,010.28 ",213,"$12,018.83 ",39.045755,-76.641271,Maryland,inpatients
+ME,Bangor,"$22,932,294.77 ",1013,"$22,638.00 ",45.253783,-69.445469,Maine,inpatients
+ME,Portland,"$59,601,734.66 ",2513,"$23,717.36 ",45.253783,-69.445469,Maine,inpatients
+MI,Ann Arbor,"$94,270,645.90 ",2954,"$31,912.88 ",44.314844,-85.602364,Michigan,inpatients
+MI,Dearborn,"$47,683,068.25 ",1741,"$27,388.32 ",44.314844,-85.602364,Michigan,inpatients
+MI,Detroit,"$122,044,604.90 ",4263,"$28,628.81 ",44.314844,-85.602364,Michigan,inpatients
+MI,Flint,"$48,262,446.03 ",1432,"$33,702.83 ",44.314844,-85.602364,Michigan,inpatients
+MI,Grand Rapids,"$40,054,421.10 ",1817,"$22,044.26 ",44.314844,-85.602364,Michigan,inpatients
+MI,Green Bay,"$2,564,498.13 ",145,"$17,686.19 ",44.314844,-85.602364,Michigan,inpatients
+MI,Kalamazoo,"$47,047,943.79 ",1679,"$28,021.41 ",44.314844,-85.602364,Michigan,inpatients
+MI,Lansing,"$41,404,546.05 ",1431,"$28,933.99 ",44.314844,-85.602364,Michigan,inpatients
+MI,Marquette,"$7,821,023.14 ",342,"$22,868.49 ",44.314844,-85.602364,Michigan,inpatients
+MI,Muskegon,"$11,490,786.93 ",567,"$20,265.94 ",44.314844,-85.602364,Michigan,inpatients
+MI,Petoskey,"$11,095,207.73 ",521,"$21,295.98 ",44.314844,-85.602364,Michigan,inpatients
+MI,Pontiac,"$23,178,193.77 ",911,"$25,442.58 ",44.314844,-85.602364,Michigan,inpatients
+MI,Royal Oak,"$72,789,280.86 ",2251,"$32,336.42 ",44.314844,-85.602364,Michigan,inpatients
+MI,Saginaw,"$57,426,854.02 ",2098,"$27,372.19 ",44.314844,-85.602364,Michigan,inpatients
+MI,St. Joseph,"$9,475,290.37 ",436,"$21,732.32 ",44.314844,-85.602364,Michigan,inpatients
+MI,Toledo,"$5,897,946.96 ",288,"$20,478.98 ",44.314844,-85.602364,Michigan,inpatients
+MI,Traverse City,"$17,067,203.77 ",611,"$27,933.23 ",44.314844,-85.602364,Michigan,inpatients
+MN,Duluth,"$24,365,563.53 ",799,"$30,495.07 ",46.729553,-94.6859,Minnesota,inpatients
+MN,Fargo/Moorhead MN,"$6,790,811.25 ",341,"$19,914.40 ",46.729553,-94.6859,Minnesota,inpatients
+MN,La Crosse,"$1,704,596.13 ",115,"$14,822.58 ",46.729553,-94.6859,Minnesota,inpatients
+MN,Minneapolis,"$176,064,016.10 ",5331,"$33,026.45 ",46.729553,-94.6859,Minnesota,inpatients
+MN,Rochester,"$33,098,723.62 ",1029,"$32,165.91 ",46.729553,-94.6859,Minnesota,inpatients
+MN,Sioux Falls,"$413,994.43 ",28,"$14,785.52 ",46.729553,-94.6859,Minnesota,inpatients
+MN,St. Cloud,"$18,233,864.80 ",488,"$37,364.48 ",46.729553,-94.6859,Minnesota,inpatients
+MN,St. Paul,"$66,048,918.96 ",1819,"$36,310.57 ",46.729553,-94.6859,Minnesota,inpatients
+MO,Cape Girardeau,"$44,085,629.34 ",985,"$44,756.98 ",37.964253,-91.831833,Missouri,inpatients
+MO,Columbia,"$74,121,585.77 ",2409,"$30,768.61 ",37.964253,-91.831833,Missouri,inpatients
+MO,Jonesboro,"$3,651,331.19 ",112,"$32,601.17 ",37.964253,-91.831833,Missouri,inpatients
+MO,Joplin,"$28,230,109.66 ",778,"$36,285.49 ",37.964253,-91.831833,Missouri,inpatients
+MO,Kansas City,"$168,146,146.10 ",4024,"$41,785.82 ",37.964253,-91.831833,Missouri,inpatients
+MO,Springfield,"$53,983,429.72 ",1654,"$32,638.11 ",37.964253,-91.831833,Missouri,inpatients
+MO,St. Louis,"$242,676,951.20 ",6681,"$36,323.45 ",37.964253,-91.831833,Missouri,inpatients
+MS,Birmingham,"$716,406.94 ",51,"$14,047.19 ",32.354668,-89.398528,Mississippi,inpatients
+MS,Gulfport,"$49,669,508.80 ",703,"$70,653.64 ",32.354668,-89.398528,Mississippi,inpatients
+MS,Hattiesburg,"$36,016,056.18 ",1080,"$33,348.20 ",32.354668,-89.398528,Mississippi,inpatients
+MS,Jackson,"$123,307,186.70 ",3229,"$38,187.42 ",32.354668,-89.398528,Mississippi,inpatients
+MS,Memphis,"$45,704,574.44 ",1431,"$31,938.91 ",32.354668,-89.398528,Mississippi,inpatients
+MS,Meridian,"$17,397,004.79 ",674,"$25,811.58 ",32.354668,-89.398528,Mississippi,inpatients
+MS,Mobile,"$23,820,505.99 ",478,"$49,833.69 ",32.354668,-89.398528,Mississippi,inpatients
+MS,Oxford,"$12,702,692.31 ",553,"$22,970.51 ",32.354668,-89.398528,Mississippi,inpatients
+MS,Slidell,"$2,984,247.02 ",158,"$18,887.64 ",32.354668,-89.398528,Mississippi,inpatients
+MS,Tupelo,"$33,940,509.49 ",1298,"$26,148.31 ",32.354668,-89.398528,Mississippi,inpatients
+MT,Billings,"$24,541,589.23 ",951,"$25,806.09 ",46.879682,-110.362566,Montana,inpatients
+MT,Great Falls,"$10,187,979.95 ",392,"$25,989.74 ",46.879682,-110.362566,Montana,inpatients
+MT,Missoula,"$21,691,801.74 ",762,"$28,466.93 ",46.879682,-110.362566,Montana,inpatients
+NC,Asheville,"$33,804,486.07 ",1451,"$23,297.37 ",35.759573,-79.0193,North Carolina,inpatients
+NC,Atlanta,"$1,514,886.41 ",93,"$16,289.10 ",35.759573,-79.0193,North Carolina,inpatients
+NC,Charlotte,"$158,982,229.00 ",4897,"$32,465.23 ",35.759573,-79.0193,North Carolina,inpatients
+NC,Durham,"$114,721,473.90 ",3314,"$34,617.22 ",35.759573,-79.0193,North Carolina,inpatients
+NC,Greensboro,"$18,360,065.75 ",832,"$22,067.39 ",35.759573,-79.0193,North Carolina,inpatients
+NC,Greenville,"$65,413,447.67 ",2349,"$27,847.36 ",35.759573,-79.0193,North Carolina,inpatients
+NC,Hickory,"$27,727,552.51 ",741,"$37,419.10 ",35.759573,-79.0193,North Carolina,inpatients
+NC,Johnson City,"$3,688,842.04 ",178,"$20,723.83 ",35.759573,-79.0193,North Carolina,inpatients
+NC,Norfolk,"$5,138,355.20 ",228,"$22,536.65 ",35.759573,-79.0193,North Carolina,inpatients
+NC,Raleigh,"$123,970,003.00 ",3842,"$32,267.05 ",35.759573,-79.0193,North Carolina,inpatients
+NC,Wilmington,"$25,617,512.08 ",951,"$26,937.45 ",35.759573,-79.0193,North Carolina,inpatients
+NC,Winston-Salem,"$69,860,923.11 ",2412,"$28,963.90 ",35.759573,-79.0193,North Carolina,inpatients
+ND,Bismarck,"$13,688,123.94 ",555,"$24,663.29 ",47.551493,-101.002012,North Dakota,inpatients
+ND,Fargo/Moorhead MN,"$22,310,411.68 ",707,"$31,556.45 ",47.551493,-101.002012,North Dakota,inpatients
+ND,Grand Forks,"$9,139,063.96 ",329,"$27,778.31 ",47.551493,-101.002012,North Dakota,inpatients
+ND,Minot,"$5,413,278.42 ",248,"$21,827.74 ",47.551493,-101.002012,North Dakota,inpatients
+NE,Denver,"$6,469,337.60 ",208,"$31,102.58 ",41.492537,-99.901813,Nebraska,inpatients
+NE,Lincoln,"$36,521,990.23 ",1216,"$30,034.53 ",41.492537,-99.901813,Nebraska,inpatients
+NE,Omaha,"$114,603,521.30 ",2975,"$38,522.19 ",41.492537,-99.901813,Nebraska,inpatients
+NH,Lebanon,"$23,144,095.40 ",602,"$38,445.34 ",43.193852,-71.572395,New Hampshire,inpatients
+NH,Manchester,"$75,759,304.72 ",2406,"$31,487.66 ",43.193852,-71.572395,New Hampshire,inpatients
+NH,Portland,"$12,413,934.72 ",426,"$29,140.69 ",43.193852,-71.572395,New Hampshire,inpatients
+NJ,Allentown,"$14,645,816.71 ",215,"$68,120.08 ",40.058324,-74.405661,New Jersey,inpatients
+NJ,Camden,"$542,240,163.10 ",7530,"$72,010.65 ",40.058324,-74.405661,New Jersey,inpatients
+NJ,Hackensack,"$166,166,413.90 ",2213,"$75,086.50 ",40.058324,-74.405661,New Jersey,inpatients
+NJ,Morristown,"$113,269,864.30 ",1838,"$61,626.69 ",40.058324,-74.405661,New Jersey,inpatients
+NJ,New Brunswick,"$202,614,525.80 ",2364,"$85,708.34 ",40.058324,-74.405661,New Jersey,inpatients
+NJ,Newark,"$276,107,277.60 ",3401,"$81,184.15 ",40.058324,-74.405661,New Jersey,inpatients
+NJ,Paterson,"$55,511,300.68 ",801,"$69,302.50 ",40.058324,-74.405661,New Jersey,inpatients
+NJ,Philadelphia,"$136,073,797.20 ",1641,"$82,921.27 ",40.058324,-74.405661,New Jersey,inpatients
+NJ,Ridgewood,"$28,519,515.09 ",511,"$55,811.18 ",40.058324,-74.405661,New Jersey,inpatients
+NJ,Wilmington,"$8,826,837.66 ",198,"$44,579.99 ",40.058324,-74.405661,New Jersey,inpatients
+NM,Albuquerque,"$86,334,681.23 ",2503,"$34,492.48 ",34.97273,-105.032363,New Mexico,inpatients
+NM,El Paso,"$24,771,016.01 ",684,"$36,214.94 ",34.97273,-105.032363,New Mexico,inpatients
+NM,Lubbock,"$11,408,141.16 ",361,"$31,601.50 ",34.97273,-105.032363,New Mexico,inpatients
+NV,Las Vegas,"$292,164,652.10 ",3570,"$81,838.84 ",38.80261,-116.419389,Nevada,inpatients
+NV,Reno,"$60,348,718.18 ",1385,"$43,573.08 ",38.80261,-116.419389,Nevada,inpatients
+NV,Salt Lake City,"$2,205,455.74 ",68,"$32,433.17 ",38.80261,-116.419389,Nevada,inpatients
+NY,Albany,"$141,649,435.10 ",4344,"$32,608.07 ",43.299428,-74.217933,New York,inpatients
+NY,Binghamton,"$19,091,620.24 ",880,"$21,695.02 ",43.299428,-74.217933,New York,inpatients
+NY,Bronx,"$67,799,775.81 ",1764,"$38,435.25 ",43.299428,-74.217933,New York,inpatients
+NY,Buffalo,"$50,336,707.18 ",2365,"$21,284.02 ",43.299428,-74.217933,New York,inpatients
+NY,Burlington,"$16,116,326.33 ",760,"$21,205.69 ",43.299428,-74.217933,New York,inpatients
+NY,East Long Island,"$466,270,916.40 ",9324,"$50,007.61 ",43.299428,-74.217933,New York,inpatients
+NY,Elmira,"$25,821,398.33 ",1098,"$23,516.76 ",43.299428,-74.217933,New York,inpatients
+NY,Erie,"$2,491,339.17 ",182,"$13,688.68 ",43.299428,-74.217933,New York,inpatients
+NY,Hackensack,"$15,087,256.77 ",325,"$46,422.33 ",43.299428,-74.217933,New York,inpatients
+NY,Manhattan,"$387,283,657.20 ",7977,"$48,550.04 ",43.299428,-74.217933,New York,inpatients
+NY,Morristown,"$5,038,496.09 ",142,"$35,482.37 ",43.299428,-74.217933,New York,inpatients
+NY,New Haven,"$8,057,410.50 ",221,"$36,458.87 ",43.299428,-74.217933,New York,inpatients
+NY,Ridgewood,"$24,059,096.78 ",462,"$52,075.97 ",43.299428,-74.217933,New York,inpatients
+NY,Rochester,"$42,550,566.56 ",2223,"$19,141.06 ",43.299428,-74.217933,New York,inpatients
+NY,Sayre,"$2,480,125.72 ",166,"$14,940.52 ",43.299428,-74.217933,New York,inpatients
+NY,Syracuse,"$64,327,174.69 ",2548,"$25,246.14 ",43.299428,-74.217933,New York,inpatients
+NY,White Plains,"$137,967,300.10 ",3015,"$45,760.30 ",43.299428,-74.217933,New York,inpatients
+OH,Akron,"$58,641,383.61 ",1491,"$39,330.24 ",40.417287,-82.907123,Ohio,inpatients
+OH,Canton,"$24,890,175.03 ",1347,"$18,478.23 ",40.417287,-82.907123,Ohio,inpatients
+OH,Cincinnati,"$129,556,844.60 ",3771,"$34,356.10 ",40.417287,-82.907123,Ohio,inpatients
+OH,Cleveland,"$217,772,468.60 ",6503,"$33,488.00 ",40.417287,-82.907123,Ohio,inpatients
+OH,Columbus,"$181,315,029.50 ",6054,"$29,949.62 ",40.417287,-82.907123,Ohio,inpatients
+OH,Dayton,"$108,844,008.90 ",2729,"$39,884.21 ",40.417287,-82.907123,Ohio,inpatients
+OH,Elyria,"$17,551,457.84 ",733,"$23,944.69 ",40.417287,-82.907123,Ohio,inpatients
+OH,Fort Wayne,"$3,214,797.38 ",214,"$15,022.42 ",40.417287,-82.907123,Ohio,inpatients
+OH,Huntington,"$51,811.08 ",2,"$25,905.54 ",40.417287,-82.907123,Ohio,inpatients
+OH,Kettering,"$40,093,456.67 ",950,"$42,203.64 ",40.417287,-82.907123,Ohio,inpatients
+OH,Pittsburgh,"$9,556,326.32 ",578,"$16,533.44 ",40.417287,-82.907123,Ohio,inpatients
+OH,Toledo,"$112,565,513.60 ",2653,"$42,429.52 ",40.417287,-82.907123,Ohio,inpatients
+OH,Youngstown,"$49,210,308.72 ",1500,"$32,806.87 ",40.417287,-82.907123,Ohio,inpatients
+OK,Amarillo,"$164,158.98 ",12,"$13,679.91 ",35.007752,-97.092877,Oklahoma,inpatients
+OK,Dallas,"$14,826,339.14 ",318,"$46,623.71 ",35.007752,-97.092877,Oklahoma,inpatients
+OK,Fort Smith,"$1,733,097.51 ",154,"$11,253.88 ",35.007752,-97.092877,Oklahoma,inpatients
+OK,Joplin,"$4,090,065.57 ",227,"$18,017.91 ",35.007752,-97.092877,Oklahoma,inpatients
+OK,Lawton,"$16,729,090.21 ",613,"$27,290.52 ",35.007752,-97.092877,Oklahoma,inpatients
+OK,Oklahoma City,"$219,854,557.30 ",5187,"$42,385.69 ",35.007752,-97.092877,Oklahoma,inpatients
+OK,Texarkana,"$724,937.40 ",74,"$9,796.45 ",35.007752,-97.092877,Oklahoma,inpatients
+OK,Tulsa,"$105,418,743.60 ",3577,"$29,471.27 ",35.007752,-97.092877,Oklahoma,inpatients
+OR,Bend,"$13,651,184.97 ",391,"$34,913.52 ",43.804133,-120.554201,Oregon,inpatients
+OR,Boise,"$1,871,543.43 ",97,"$19,294.26 ",43.804133,-120.554201,Oregon,inpatients
+OR,Eugene,"$39,587,392.57 ",1306,"$30,311.94 ",43.804133,-120.554201,Oregon,inpatients
+OR,Medford,"$36,906,635.47 ",994,"$37,129.41 ",43.804133,-120.554201,Oregon,inpatients
+OR,Portland,"$76,542,954.92 ",2463,"$31,077.12 ",43.804133,-120.554201,Oregon,inpatients
+OR,Salem,"$10,347,555.07 ",348,"$29,734.35 ",43.804133,-120.554201,Oregon,inpatients
+PA,Allentown,"$178,625,332.40 ",3273,"$54,575.41 ",41.203322,-77.194525,Pennsylvania,inpatients
+PA,Altoona,"$13,390,506.34 ",629,"$21,288.56 ",41.203322,-77.194525,Pennsylvania,inpatients
+PA,Danville,"$63,426,524.51 ",1533,"$41,374.12 ",41.203322,-77.194525,Pennsylvania,inpatients
+PA,Erie,"$60,095,684.95 ",1865,"$32,222.89 ",41.203322,-77.194525,Pennsylvania,inpatients
+PA,Harrisburg,"$76,487,987.20 ",2501,"$30,582.96 ",41.203322,-77.194525,Pennsylvania,inpatients
+PA,Johnstown,"$10,471,729.59 ",502,"$20,860.02 ",41.203322,-77.194525,Pennsylvania,inpatients
+PA,Lancaster,"$52,227,522.63 ",1203,"$43,414.40 ",41.203322,-77.194525,Pennsylvania,inpatients
+PA,Morgantown,"$720,246.34 ",66,"$10,912.82 ",41.203322,-77.194525,Pennsylvania,inpatients
+PA,Philadelphia,"$680,284,321.20 ",9273,"$73,361.84 ",41.203322,-77.194525,Pennsylvania,inpatients
+PA,Pittsburgh,"$207,082,893.20 ",6092,"$33,992.60 ",41.203322,-77.194525,Pennsylvania,inpatients
+PA,Reading,"$51,257,232.79 ",1382,"$37,089.17 ",41.203322,-77.194525,Pennsylvania,inpatients
+PA,Sayre,"$15,734,231.44 ",599,"$26,267.50 ",41.203322,-77.194525,Pennsylvania,inpatients
+PA,Scranton,"$39,510,329.03 ",1120,"$35,277.08 ",41.203322,-77.194525,Pennsylvania,inpatients
+PA,Wilkes-Barre,"$41,922,978.25 ",780,"$53,747.41 ",41.203322,-77.194525,Pennsylvania,inpatients
+PA,York,"$20,897,349.40 ",858,"$24,355.89 ",41.203322,-77.194525,Pennsylvania,inpatients
+PA,Youngstown,"$7,632,935.86 ",427,"$17,875.73 ",41.203322,-77.194525,Pennsylvania,inpatients
+RI,Providence,"$79,146,038.67 ",2386,"$33,171.01 ",41.580095,-71.477429,Rhode Island,inpatients
+SC,Augusta,"$12,925,087.76 ",307,"$42,101.26 ",33.836081,-81.163725,South Carolina,inpatients
+SC,Charleston,"$134,202,250.40 ",3008,"$44,615.11 ",33.836081,-81.163725,South Carolina,inpatients
+SC,Charlotte,"$26,938,911.35 ",609,"$44,234.67 ",33.836081,-81.163725,South Carolina,inpatients
+SC,Columbia,"$126,157,967.80 ",3046,"$41,417.59 ",33.836081,-81.163725,South Carolina,inpatients
+SC,Florence,"$68,509,854.81 ",1439,"$47,609.35 ",33.836081,-81.163725,South Carolina,inpatients
+SC,Greenville,"$92,710,182.35 ",2013,"$46,055.73 ",33.836081,-81.163725,South Carolina,inpatients
+SC,Savannah,"$17,028,477.29 ",572,"$29,770.07 ",33.836081,-81.163725,South Carolina,inpatients
+SC,Spartanburg,"$34,379,080.36 ",850,"$40,445.98 ",33.836081,-81.163725,South Carolina,inpatients
+SD,Rapid City,"$16,964,598.23 ",458,"$37,040.61 ",43.969515,-99.901813,South Dakota,inpatients
+SD,Sioux City,"$1,202,240.45 ",19,"$63,275.81 ",43.969515,-99.901813,South Dakota,inpatients
+SD,Sioux Falls,"$54,392,116.18 ",1614,"$33,700.20 ",43.969515,-99.901813,South Dakota,inpatients
+TN,Chattanooga,"$67,558,433.55 ",1599,"$42,250.43 ",35.517491,-86.580447,Tennessee,inpatients
+TN,Huntsville,"$864,914.27 ",64,"$13,514.29 ",35.517491,-86.580447,Tennessee,inpatients
+TN,Jackson,"$39,230,776.29 ",1217,"$32,235.64 ",35.517491,-86.580447,Tennessee,inpatients
+TN,Johnson City,"$27,043,676.40 ",694,"$38,967.83 ",35.517491,-86.580447,Tennessee,inpatients
+TN,Kingsport,"$28,010,579.10 ",898,"$31,192.18 ",35.517491,-86.580447,Tennessee,inpatients
+TN,Knoxville,"$102,677,666.40 ",3643,"$28,184.92 ",35.517491,-86.580447,Tennessee,inpatients
+TN,Memphis,"$104,639,148.50 ",2237,"$46,776.55 ",35.517491,-86.580447,Tennessee,inpatients
+TN,Nashville,"$239,274,525.20 ",6700,"$35,712.62 ",35.517491,-86.580447,Tennessee,inpatients
+TX,Abilene,"$42,399,092.92 ",988,"$42,914.06 ",31.968599,-99.901813,Texas,inpatients
+TX,Amarillo,"$34,049,464.57 ",913,"$37,294.05 ",31.968599,-99.901813,Texas,inpatients
+TX,Austin,"$171,769,089.90 ",3189,"$53,862.99 ",31.968599,-99.901813,Texas,inpatients
+TX,Beaumont,"$45,000,526.40 ",1121,"$40,143.20 ",31.968599,-99.901813,Texas,inpatients
+TX,Bryan,"$34,774,590.18 ",651,"$53,417.19 ",31.968599,-99.901813,Texas,inpatients
+TX,Corpus Christi,"$62,028,476.47 ",1129,"$54,941.08 ",31.968599,-99.901813,Texas,inpatients
+TX,Dallas,"$465,362,065.60 ",9751,"$47,724.55 ",31.968599,-99.901813,Texas,inpatients
+TX,El Paso,"$97,394,700.45 ",1372,"$70,987.39 ",31.968599,-99.901813,Texas,inpatients
+TX,Fort Worth,"$191,491,366.90 ",4037,"$47,434.08 ",31.968599,-99.901813,Texas,inpatients
+TX,Harlingen,"$63,451,161.89 ",1192,"$53,230.84 ",31.968599,-99.901813,Texas,inpatients
+TX,Houston,"$553,867,952.80 ",10538,"$52,559.11 ",31.968599,-99.901813,Texas,inpatients
+TX,Longview,"$30,419,350.99 ",620,"$49,063.47 ",31.968599,-99.901813,Texas,inpatients
+TX,Lubbock,"$69,088,708.71 ",1270,"$54,400.56 ",31.968599,-99.901813,Texas,inpatients
+TX,McAllen,"$77,752,473.52 ",1369,"$56,795.09 ",31.968599,-99.901813,Texas,inpatients
+TX,Odessa,"$28,463,983.60 ",792,"$35,939.37 ",31.968599,-99.901813,Texas,inpatients
+TX,San Angelo,"$20,891,704.00 ",522,"$40,022.42 ",31.968599,-99.901813,Texas,inpatients
+TX,San Antonio,"$181,598,409.30 ",3823,"$47,501.55 ",31.968599,-99.901813,Texas,inpatients
+TX,Shreveport,"$5,317,849.63 ",196,"$27,131.89 ",31.968599,-99.901813,Texas,inpatients
+TX,Temple,"$27,127,079.71 ",747,"$36,314.70 ",31.968599,-99.901813,Texas,inpatients
+TX,Texarkana,"$26,217,625.43 ",659,"$39,783.95 ",31.968599,-99.901813,Texas,inpatients
+TX,Tyler,"$85,289,595.68 ",1563,"$54,567.88 ",31.968599,-99.901813,Texas,inpatients
+TX,Victoria,"$26,576,148.34 ",630,"$42,184.36 ",31.968599,-99.901813,Texas,inpatients
+TX,Waco,"$26,352,993.78 ",986,"$26,727.17 ",31.968599,-99.901813,Texas,inpatients
+TX,Wichita Falls,"$17,252,675.74 ",480,"$35,943.07 ",31.968599,-99.901813,Texas,inpatients
+UT,Ogden,"$15,642,871.55 ",528,"$29,626.65 ",39.32098,-111.093731,Utah,inpatients
+UT,Provo,"$13,942,718.17 ",466,"$29,920.00 ",39.32098,-111.093731,Utah,inpatients
+UT,Salt Lake City,"$66,117,994.26 ",2154,"$30,695.45 ",39.32098,-111.093731,Utah,inpatients
+VA,Arlington,"$86,239,755.74 ",3054,"$28,238.30 ",37.431573,-78.656894,Virginia,inpatients
+VA,Charlottesville,"$60,534,959.98 ",1755,"$34,492.85 ",37.431573,-78.656894,Virginia,inpatients
+VA,Durham,"$21,347,617.17 ",756,"$28,237.59 ",37.431573,-78.656894,Virginia,inpatients
+VA,Kingsport,"$22,373,135.66 ",973,"$22,993.97 ",37.431573,-78.656894,Virginia,inpatients
+VA,Lynchburg,"$13,035,716.10 ",561,"$23,236.57 ",37.431573,-78.656894,Virginia,inpatients
+VA,Newport News,"$39,699,722.08 ",1406,"$28,235.93 ",37.431573,-78.656894,Virginia,inpatients
+VA,Norfolk,"$96,991,764.13 ",2917,"$33,250.52 ",37.431573,-78.656894,Virginia,inpatients
+VA,Richmond,"$244,994,652.70 ",4469,"$54,820.91 ",37.431573,-78.656894,Virginia,inpatients
+VA,Roanoke,"$63,167,232.30 ",1888,"$33,457.22 ",37.431573,-78.656894,Virginia,inpatients
+VA,Winchester,"$13,894,963.50 ",566,"$24,549.41 ",37.431573,-78.656894,Virginia,inpatients
+VA,Winston-Salem,"$2,867,934.51 ",156,"$18,384.20 ",37.431573,-78.656894,Virginia,inpatients
+VT,Albany,"$2,675,604.64 ",164,"$16,314.66 ",44.558803,-72.577841,Vermont,inpatients
+VT,Burlington,"$24,934,679.87 ",953,"$26,164.41 ",44.558803,-72.577841,Vermont,inpatients
+VT,Lebanon,"$888,580.03 ",55,"$16,156.00 ",44.558803,-72.577841,Vermont,inpatients
+WA,Everett,"$27,785,054.70 ",777,"$35,759.40 ",47.751074,-120.740139,Washington,inpatients
+WA,Olympia,"$32,632,669.26 ",695,"$46,953.48 ",47.751074,-120.740139,Washington,inpatients
+WA,Portland,"$31,591,543.82 ",879,"$35,940.32 ",47.751074,-120.740139,Washington,inpatients
+WA,Seattle,"$209,948,641.60 ",4851,"$43,279.46 ",47.751074,-120.740139,Washington,inpatients
+WA,Spokane,"$82,122,192.07 ",2294,"$35,798.69 ",47.751074,-120.740139,Washington,inpatients
+WA,Tacoma,"$85,726,386.52 ",1565,"$54,777.24 ",47.751074,-120.740139,Washington,inpatients
+WA,Yakima,"$19,219,239.84 ",597,"$32,193.03 ",47.751074,-120.740139,Washington,inpatients
+WI,Appleton,"$5,742,223.54 ",314,"$18,287.34 ",43.78444,-88.787868,Wisconsin,inpatients
+WI,Green Bay,"$26,893,169.13 ",1023,"$26,288.53 ",43.78444,-88.787868,Wisconsin,inpatients
+WI,La Crosse,"$13,774,571.51 ",507,"$27,168.78 ",43.78444,-88.787868,Wisconsin,inpatients
+WI,Madison,"$86,612,275.58 ",2479,"$34,938.39 ",43.78444,-88.787868,Wisconsin,inpatients
+WI,Marshfield,"$19,995,043.97 ",815,"$24,533.80 ",43.78444,-88.787868,Wisconsin,inpatients
+WI,Milwaukee,"$164,495,547.70 ",5018,"$32,781.10 ",43.78444,-88.787868,Wisconsin,inpatients
+WI,Minneapolis,"$21,662,231.31 ",631,"$34,330.00 ",43.78444,-88.787868,Wisconsin,inpatients
+WI,Neenah,"$5,370,847.49 ",302,"$17,784.26 ",43.78444,-88.787868,Wisconsin,inpatients
+WI,Wausau,"$14,810,698.42 ",566,"$26,167.31 ",43.78444,-88.787868,Wisconsin,inpatients
+WV,Charleston,"$63,693,554.57 ",2636,"$24,162.96 ",38.597626,-80.454903,West Virginia,inpatients
+WV,Huntington,"$23,530,088.72 ",794,"$29,634.87 ",38.597626,-80.454903,West Virginia,inpatients
+WV,Morgantown,"$35,583,154.40 ",1390,"$25,599.39 ",38.597626,-80.454903,West Virginia,inpatients
+WV,Pittsburgh,"$12,296,669.89 ",710,"$17,319.25 ",38.597626,-80.454903,West Virginia,inpatients
+WV,Roanoke,"$7,717,422.89 ",455,"$16,961.37 ",38.597626,-80.454903,West Virginia,inpatients
+WV,Winchester,"$4,351,731.21 ",242,"$17,982.36 ",38.597626,-80.454903,West Virginia,inpatients
+WY,Billings,"$2,717,799.43 ",137,"$19,837.95 ",43.075968,-107.290284,Wyoming,inpatients
+WY,Casper,"$15,074,332.29 ",443,"$34,027.84 ",43.075968,-107.290284,Wyoming,inpatients
+WY,Fort Collins,"$11,055,010.29 ",344,"$32,136.66 ",43.075968,-107.290284,Wyoming,inpatients
+WY,Salt Lake City,"$2,196,810.17 ",89,"$24,683.26 ",43.075968,-107.290284,Wyoming,inpatients
+PR,San Juan,$0.00 ,0,$0.00 ,18.220833,-66.590149,Puerto Rico,inpatients
