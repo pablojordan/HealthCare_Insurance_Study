@@ -22,134 +22,266 @@
     integrity="sha512-tAGcCfR4Sc5ZP5ZoVz0quoZDYX5aCtEm/eu1KhSLj2c9eFrylXZknQYmxUssFaVJKvvc0dJQixhGjG2yXWiV9Q=="
     crossorigin=""></script>
     <!-- <link rel="stylesheet" href="static/css/style.css"> -->
-    <link rel="stylesheet" href="static/css/style.css">
+    <!-- <link rel="stylesheet" href="../static/css/style.css"> -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.min.js"></script>
        <!-- Plotly -->
     <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
     <!-- API KEY
     <script type="text/javascript" src="static/js/config.js"></script>    -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="../static/css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css">
+    <link rel="stylesheet" href="http://cdn.datatables.net/1.10.20/css/jquery.dataTables.min.css">
    </head>
 <body>
-   <div class=container>
-
-      <div class = "navigation">
-          <nav class="navbar navbar-expand-lg navbar-light">
-              <a class = "navbar-brand"  href="index.html">Federal Healthcare Analysis
-                  <div id="logoContainer">
-                  </div>
-              </a>
-              <div class="collapse navbar-collapse" id="navbarMenuDropdown">
-                  <ul class="navbar-nav ml-auto">
-                      <li class="nav-item dropdown">
-                          <a class="nav-link dropdown-toggle" href="#" id = "navbarDropdownMenuLink" data-toggle = "dropdown" aria-haspopup="true" aria-expanded="false">
-                          Affordable Care Act (ACA)
-                          </a>
-                          <div class= "dropdown-menu" aria-labelledby = "navbarDropdownMenuLink" style="text-align:right">
-                              <a class="dropdown-item" href = "02changes_last_version.html">Enrollment Change</a>
-                              <a class="dropdown-item" href = "03a_top10_uninsure_graph.html">Decreasing Cities</a>
-                              <a class="dropdown-item" href = "03b.html">Increasing Cities</a>
-                              <a class="dropdown-item" href = "03d_correlation.html">Correlation</a>
-                              <!-- <a class="dropdown-item" href = "indexpic.html">Uninsured Table</a> -->
-                            </div>
-                      </li>
-                      <!-- <li class="nav-item">
-                          <a class="nav-link" href = "indexpic.html">Uninsured Table</a>
-                      </li> -->
-                      <!-- <li class="nav-item">
-                          <a class="nav-link" href = "03c_top20.png">Venn Diagram</a>
-                      </li> -->
-                  </ul>
-              </div>
-        </nav>
-  </div>
-   </div>
+<!-- Navigation Bar -->
+    <nav class="navbar navbar-light navbar-expand-md navigation-clean" style="background-color: black;">
+        <div class="container"><a class="navbar-brand" href="index.html">Federal Healthcare Study</a>
+            <div class="collapse navbar-collapse"
+                id="navcol-1">
+                <ul class="nav navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a href= "02changes_last_version.html">Affordable Care Act - Enrollment Change</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="03a_top10_uninsure_graph.html">Affordable Care Act- Decreasing Cities</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="03b.html">Affordable Care Act - Increasing Cities</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="03d_correlation.html">Affordable Care Act - Correlation</a>
+                    </li>
+                    
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <br>
+  </br>
+   <!-- Main Body -->
     <div class = "container">
-        <div class=col>
+      <div class="row">
+        <div class=col-lg-6>
             <h5>Select First State</h5>
             <select name="BarChart" id="state1"></select>
             <br>
             <h5>Select Second State</h5>
             <select name="BarChart2" id="state2"></select>
             <button id=stateIn>Display Inpatients Data
-            
+          </div>
+          <div class=col-lg-6>
+              <h5>Select First State</h5>
+              <select name="BarChart3" id="stateOut1"></select>
+              <br>
+              <h5>Select Second State</h5>
+              <select name="BarChart4" id="stateOut2"></select>
+              <button id=stateOut>Display Outpatients Data 
+              </button>
             </div>
-            <div id="bar" style="width: 800px; height:600px" >
-              
+      </div>
+      <div class="row">
+          <div class=col-lg-6 >
+              <h1 class="display-4">Inpatient Care</h1>
+              <p class="lead">Inpatient care means you are admitted to the hospital on doctpr's order. You are classified as an inpatient as soon as you are formally admitted. </p>
+              <p class="lead">Medicare Part A covers hospital services while you are receiving inpatient care. These services include semi-private rooms (usually two or three patients per room), meals, general nursing, medications necessary for your inpatient care, and any other supplies and treatments necessary to treat your condition. For an inpatient stay, you pay your Part A deductible amount for all hospital services received during the first 60 days of your stay.</p>
+              <div id="bar" style="width: 600px; height:400px"></div>
             </div>
-          
-        </div>
+            <div class=col-lg-6>
+                <h1 class="display-4">Outpatient Care</h1>
+                <p class="lead">Outpatient care means that the procedure does not require hospital admission and may also be performed outside the premises of a hospital. For example, if you visit the Emergency Room (ER), you are initiallly considered an outpatient. However, if your visit results in a doctor's results in a doctor's oder to be formally admitted to the hospital, then your status is transitioned to inpatient care.</p> 
+                <p class="lead">Outpatient services are covered under Medicare Part B. You pay a copayment for every outpatient service received, and that amount may vary depending on the service you receive. Part B also covers outpatient doctor’s services. You are responsible for paying 20% of the Medicare-approved amount for these services after paying your Part B deductible.</p>
+                <div id="bar2"style="width: 600px; height:400px"></div>
+              </div>
+      </div>    
+    </div>
         <div class = "container">
-            <div class=col>
-                <h5>Select First State</h5>
-                <select name="BarChart3" id="stateOut1"></select>
-                <br>
-                <h5>Select Second State</h5>
-                <select name="BarChart4" id="stateOut2"></select>
-                <button id=stateOut>Display Outpatients Data 
-                </button>
-                </div>
-                <div id="bar2"style="width: 800px; height:600px">
-                  
-                </div>
-              
+          <div class="row">
+            <div class=col-lg-12>
+                <h1 class="display-4">Medicare Severity Diagnosis</h1>
+                <p class="lead">A Medicare Severity-Diagnosis Related Group (MS-DRG) is a system of classifying a Medicare patient’s hospital stay into various groups in order to facilitate payment of services. Patients who have similar clinical characteristics and similar treatment costs are assigned to an MS-DRG. The MS-DRG is linked to a fixed payment amount based on the average treatment cost of patients in the group. Patients can be assigned to an MS-DRG based on their diagnosis, surgical procedures, age, and other information. Hospitals provide this information on their Medicare claim, and Medicare uses this information to decide how much the hospitals should be paid. </p>
+              <div id="bubblePlot" style="width: 800px; height:600px"></div>
             </div>
-      
-    
-      <div id="bubblePlot" style="width: 800px; height:600px">
-        
-  
-      </div>
-  
-  
-      <h5>Inpatient Diagnosis Table</h5>
-      <div class="container">
-              <!-- Search form -->
-                <div class="col-md-12 input-group md-form form-sm form-1 pl-0">
-                    <div class="input-group-prepend">
-                      <span class="input-group-text cyan lighten-2" id="basic-text1"><i class="fas fa-search text-white"
-                          aria-hidden="true"></i></span>
+            <h1 class="display-4">Medicare Severity Diagnosis - Table</h1>
+            <!-- <p class="lead">Filter any diagnosis represented by the bubble plot for more details. </p> -->
+                <!-- Search form -->
+                  <div class="col-md-12 input-group md-form form-sm form-1 pl-0">
+                      <div class="input-group-prepend">
+                        <span class="input-group-text cyan lighten-2" id="basic-text1"><i class="fas fa-search text-white"
+                            aria-hidden="true"></i></span>
+                      </div>
+                      <input class="form-control my-0 py-1" id="myInput" onkeyup="myFunction()" type="text" placeholder="Filter Table" aria-label="Search">
                     </div>
-                    <input class="form-control my-0 py-1" id="myInput" onkeyup="myFunction()" type="text" placeholder="Filter Table" aria-label="Search">
-                  </div>
-              <hr>
-              <div id="table-responsive" style="overflow-x: auto; overflow-y: auto; max-height:470px; max-width: auto;">
-                <table id="diagnosis-table" class="table table-striped">
-                  <thead>
-                    <tr>
-                      <th class="table-head">Number of Diagnosis</th>
-                      <th class="table-head">Diagnosis Definition</th>
-                      <th class="table-head">Diagnosis Code</th>
-                      <th class="table-head">State Name</th>
-                      <th class="table-head">State Code</th>
-                      <th class="table-head">City</th>
-                      <th class="table-head">Total Payments to Provider</th>
-                      <th class="table-head">Average Diagnosis Payment</th>
-                      
-                    </tr>
-                  </thead>
-                  <tbody></tbody>
-                </table>
-              </div>
-      </div>
-      <div class=container>
-          
-        
-            <div id="map" style="width: 800px; height: 600px">
-      
-         
-              </div>
-
+                <hr>
+                <div id="table-responsive" style="overflow-x: auto; overflow-y: auto; max-height:470px; max-width: auto;">
+                  <table id="diagnosis-table" class="table table-striped">
+                    <thead>
+                      <tr>
+                        <th class="table-head">Number of Diagnosis</th>
+                        <th class="table-head">Diagnosis Definition</th>
+                        <th class="table-head">Diagnosis Code</th>
+                        <th class="table-head">State Name</th>
+                        <th class="table-head">State Code</th>
+                        <th class="table-head">City</th>
+                        <th class="table-head">Total Payments to Provider</th>
+                        <th class="table-head">Average Diagnosis Payment</th>
+                        
+                      </tr>
+                    </thead>
+                    <tbody></tbody>
+                  </table>
+                </div>
+                <br>
+                
+              </br>
+            <div class=col-lg-12>
+                <h1 class="display-4">Part D - Prescription</h1>
+                <p class="lead">Medicare Part D is simply insurance for your medication needs. You pay a monthly premium to an insurance carrier for your Part D plan. In return, you use the insurance carrier’s network of pharmacies to purchase your prescription medications. Instead of paying full price, you will pay a copay or percentage of the drug’s cost. The insurance company will pay the rest. </p>
+                <p class="lead">The map below represent the average drug cost per state in USA.</p>
+                <div id="map" style="width: 800px; height: 600px"></div>
             </div>
+          </div>
+        </div>
+ 
+<!--Staff Section -->
+<section id="meet-head-section" class="my-5 text-center">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12" style="background:rgb(69, 69, 70); color:rgb(3, 3, 3); padding-bottom: 4px;" >
+          <div class="info-header mb-5">
+            <h1 class="text-light pb-3" >
+             THE TEAM
+            </h1>
+            <!-- <p class="lead">
+                There are our staff who work on this project. 
+            </p> -->
+          </div>
+        </div>
+      </div>
+      
+      <div class="row" style="padding-top:30px">
+        <div class="col-lg-6 col-md-6">
+          <div class="card">
+            <div class="card-body">
+              <img src="../static/images/pablo.jpg" alt="" class="img-fluid rounded-circle w-50 mb-3">
+              <h3>
+                Pablo Jordan
+              </h3>
+              <!-- <h5 class="text-muted">-->
+              <p>Master in Business Administration <br> Management Consultant  <br>Analytics & Technology Initiatives</p>
+              <div class="d-flex justify-content-cent">
+                <div class="p-4">
+                  <a href="https://www.facebook.com/jordan.pablo" >
+                    <i class="fab fa-facebook"  style="font-size:30px"></i>
+                  </a>
+                </div>
+  
+                <div class="p-4">
+                  <a href="https://www.linkedin.com/in/pablojordanmba/">
+                    <i class="fab fa-linkedin" style="font-size:30px"></i>
+                  </a>
+                </div>
+                <div class="p-4">
+                  <a href="https://github.com/pablojordan/HealthCare_Insurance_Study">
+                    <i class="fab fa-github" style="font-size:30px"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+  
+          </div>
+        </div>
+  
+        <div class="col-lg-6 col-md-6">
+            <div class="card">
+                <div class="card-body">
+                  <img src="../static/images/meng.jpg" alt="" class="img-fluid rounded-circle w-50 mb-3">
+                  <h3>
+                    Meng Chen
+                  </h3>
+                  <p> M.S. in Bioinformatics <br>Computational Biology <br> Data Visualization Initiatives </p>
+                  <div class="d-flex justify-content-cent">
+                    <div class="p-4">
+                      <a href="http://facebook.com" >
+                        <i class="fab fa-facebook" style="font-size:30px"></i>
+                      </a>
+                    </div>
+      
+                    <div class="p-4">
+                      <a href="https://www.linkedin.com/in/meng-chen-86405749/" >
+                        <i class="fab fa-linkedin" style="font-size:30px"></i>
+                      </a>
+                    </div>
+                   <div class="p-4">
+                      <a href="https://github.com/pablojordan/HealthCare_Insurance_Study" >
+                        <i class="fab fa-github" style="font-size:30px"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+            </div>
+        </div>
+        </div>
+      </div>
+  
+  </section>
+  
+<!--footer-->
+<footer id="main-footer" class="bg-dark">
+<div class="container">
+    <div class="row">
+        <div class="col text-center py-4">
+            <h3>Health Care Study</h3>
+            <p>Copyright &copy; <span id="year"></span></p>
+        </div>
+    </div>
+</div>
+</footer>
 
+<a class="gotopbtn gotopbtn-bottom" href="#"> <i class="fas fa-arrow-up"></i> </a>   
 
+<script>
+    // Get the current year for the copyright
+    $('#year').text(new Date().getFullYear())
 
+    // Init Scrollspy
+    $('body').scrollspy({ target: '#main-nav' });
 
-   
+    // Smooth Scrolling
+    $("#main-nav a").on('click', function (event) {
+    if (this.hash !== "") {
+        event.preventDefault();
+
+        const hash = this.hash;
+
+        $('html, body').animate({
+        scrollTop: $(hash).offset().top
+        }, 800, function () {
+
+        window.location.hash = hash;
+        });
+    }
+    });
+</script>
+<script>
+    $('#year').text(new Date().getFullYear())
+</script>
+
     <script src="{{ url_for('static', filename='js/partDmap.js') }}"></script>
     <script src="{{ url_for('static', filename='js/appInpatients.js') }}"></script> 
     <script src="{{ url_for('static', filename='js/appOutpatients.js') }}"></script> 
     <script src="{{ url_for('static', filename='js/appBubble.js') }}"></script>
     <script src="{{ url_for('static', filename='js/diagnosisData.js') }}"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.min.js"></script>
+
+    <!-- Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
 </body>
 </html>
