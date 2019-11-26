@@ -64,7 +64,7 @@ function barChart2(state1,state2){
             let barChartOut = [lineOut1, lineOut2, barOut1, barOut2];
             let layoutBarOut = {
             barmode: 'group',
-            title: "<b><b> Oupatients - Treatment Cost Analysis </b>",
+            title: "<b><b> Outpatients - Treatment Cost Analysis </b>",
             showlegend: true,
             xaxis: {
                 tickangle:-45
