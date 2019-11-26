@@ -51,7 +51,7 @@ Base.prepare(db.engine, reflect=True)
 @app.route("/")
 def index():
     """Return the homepage."""
-    return render_template("index1.html")
+    return render_template("index.html")
 
 
 @app.route("/03a_top10_uninsure_graph.html")
