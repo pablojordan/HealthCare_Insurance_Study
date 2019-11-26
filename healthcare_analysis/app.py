@@ -51,7 +51,7 @@ Base.prepare(db.engine, reflect=True)
 @app.route("/")
 def index():
     """Return the homepage."""
-    return render_template("index.html")
+    return render_template("index1.html")
 
 
 @app.route("/03a_top10_uninsure_graph.html")
@@ -240,4 +240,4 @@ def diagnosisTable():
 
 
 if __name__ == '__main__':
-    app.run(debug = True, port = 5021)  #
+    app.run(debug = True, port = 5022)  #
